@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>响应式播放器</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <script src="static/js/hls.js"></script>
+    <script src="static/js/m3u8Links.js"></script>
+</head>
+
+<body>
+
+    <div class="player">
+        <video id="video" controls="" playsinline="">
+    Your browser does not support the video tag.
+</video>
+        <div class="controls">
+            <button onclick="prevEpisode()">上一集</button> 
+           <!-- <button onclick="playPause()">播放/暂停</button>
+            <button onclick="muteUnmute()">静音/取消静音</button>
+            <button onclick="rewind()">快退</button>
+            <button onclick="fastForward()">快进</button>!-->
+					       <button onclick="window.location.href='https://t.me/kkovokk'">加入TG频道</button>
+           <button onclick="nextEpisode()">下一集</button>
+
+        </div>
+    </div>
+    <script>
+        var video = document.getElementById('video');
+        var currentEpisode = 0; // 默认播放第一个链接
+
+       function loadEpisode(episodeIndex) {
+    var videoSrc = m3u8Links[episodeIndex];
+    if(Hls.isSupported()) {
+        var hls = new Hls();
+        hls.loadSource(videoSrc);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED, function() {
+            video.play();
+        });
+    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = videoSrc;
+        video.addEventListener('loadedmetadata', function() {
+            video.play();
+        });
+    }
+
+    // 添加一个事件监听器来监听fullscreenchange事件
+    video.addEventListener('fullscreenchange', function() {
+        if (document.fullscreenElement) {
+            document.exitFullscreen();
+        }
+    });
+}
+        function nextEpisode() {
+            if (currentEpisode < m3u8Links.length - 1) {
+                currentEpisode++;
+                loadEpisode(currentEpisode);
+            }
+        }
+
+        function prevEpisode() {
+            if (currentEpisode > 0) {
+                currentEpisode--;
+                loadEpisode(currentEpisode);
+            }
+        }
+
+        // 初始化并加载第一个链接
+        loadEpisode(currentEpisode);
+    </script>
+    <script src="static/js/scripts.js"></script>
+</body>
+</html>
