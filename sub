@@ -1,8 +1,8 @@
 ####################################
-# 创建者：v2rayse.com
+# 创建者：TG@kkovokk
 # 客户端：Clash
-# 创建时间：2023-11-03 13:54:09
-# 使用模版：V2RaySE 默认模版
+# 创建时间：2023-11-03 14:03:04
+# 使用模版：默认模版
 # 节点数量：33
 ####################################
 mixed-port: 7890
@@ -85,39 +85,39 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"TG频道@kkovokk-香港_1","type":"vmess","server":"tg_kkovokk_d4.52vpn.eu.org","port":11002,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-香港_2","type":"vmess","server":"tg_kkovokk_d4.52vpn.eu.org","port":11003,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-香港_3","type":"vmess","server":"tg_kkovokk_d4.52vpn.eu.org","port":11004,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-香港_4","type":"vmess","server":"tg_kkovokk_d4.52vpn.eu.org","port":11005,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-台湾_1","type":"vmess","server":"tg_kkovokk_d4.52vpn.eu.org","port":11011,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-台湾_2","type":"vmess","server":"tg_kkovokk_d4.52vpn.eu.org","port":11012,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-台湾_3","type":"vmess","server":"tg_kkovokk_d4.52vpn.eu.org","port":11013,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-台湾_4","type":"vmess","server":"tg_kkovokk_d4.52vpn.eu.org","port":11014,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-日本_1","type":"vmess","server":"tg_kkovokk_d5.52vpn.eu.org","port":11019,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-日本_2","type":"vmess","server":"tg_kkovokk_d5.52vpn.eu.org","port":11020,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-日本_3","type":"vmess","server":"tg_kkovokk_d5.52vpn.eu.org","port":11021,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-日本_4","type":"vmess","server":"tg_kkovokk_d5.52vpn.eu.org","port":11022,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-美国_1","type":"vmess","server":"tg_kkovokk_d5.52vpn.eu.org","port":11027,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-美国_2","type":"vmess","server":"tg_kkovokk_d5.52vpn.eu.org","port":11028,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-美国_3","type":"vmess","server":"tg_kkovokk_d5.52vpn.eu.org","port":11029,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-美国_4","type":"vmess","server":"tg_kkovokk_d5.52vpn.eu.org","port":11030,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-香港_5","type":"trojan","server":"tg_kkovokk_d4.52vpn.eu.org","port":11006,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-香港_6","type":"trojan","server":"tg_kkovokk_d4.52vpn.eu.org","port":11007,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-香港_7","type":"trojan","server":"tg_kkovokk_d4.52vpn.eu.org","port":11008,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-香港_8","type":"trojan","server":"tg_kkovokk_d4.52vpn.eu.org","port":11009,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-香港_9","type":"trojan","server":"tg_kkovokk_d4.52vpn.eu.org","port":11010,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-台湾_5","type":"trojan","server":"tg_kkovokk_d4.52vpn.eu.org","port":11015,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-台湾_6","type":"trojan","server":"tg_kkovokk_d4.52vpn.eu.org","port":11016,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-台湾_7","type":"trojan","server":"tg_kkovokk_d4.52vpn.eu.org","port":11017,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-台湾_8","type":"trojan","server":"tg_kkovokk_d4.52vpn.eu.org","port":11018,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-日本_5","type":"trojan","server":"tg_kkovokk_d5.52vpn.eu.org","port":11023,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-日本_6","type":"trojan","server":"tg_kkovokk_d5.52vpn.eu.org","port":11024,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-日本_7","type":"trojan","server":"tg_kkovokk_d5.52vpn.eu.org","port":11025,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-日本_8","type":"trojan","server":"tg_kkovokk_d5.52vpn.eu.org","port":11026,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-美国_5","type":"trojan","server":"tg_kkovokk_d5.52vpn.eu.org","port":11031,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-美国_6","type":"trojan","server":"tg_kkovokk_d5.52vpn.eu.org","port":11032,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-美国_7","type":"trojan","server":"tg_kkovokk_d5.52vpn.eu.org","port":11033,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道@kkovokk-美国_8","type":"trojan","server":"tg_kkovokk_d5.52vpn.eu.org","port":11034,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-香港_1","type":"vmess","server":"tg_mfbpn_d4.52vpn.eu.org","port":11002,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-香港_2","type":"vmess","server":"tg_mfbpn_d4.52vpn.eu.org","port":11003,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-香港_3","type":"vmess","server":"tg_mfbpn_d4.52vpn.eu.org","port":11004,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-香港_4","type":"vmess","server":"tg_mfbpn_d4.52vpn.eu.org","port":11005,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-台湾_1","type":"vmess","server":"tg_mfbpn_d4.52vpn.eu.org","port":11011,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-台湾_2","type":"vmess","server":"tg_mfbpn_d4.52vpn.eu.org","port":11012,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-台湾_3","type":"vmess","server":"tg_mfbpn_d4.52vpn.eu.org","port":11013,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-台湾_4","type":"vmess","server":"tg_mfbpn_d4.52vpn.eu.org","port":11014,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-日本_1","type":"vmess","server":"tg_mfbpn_d5.52vpn.eu.org","port":11019,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-日本_2","type":"vmess","server":"tg_mfbpn_d5.52vpn.eu.org","port":11020,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-日本_3","type":"vmess","server":"tg_mfbpn_d5.52vpn.eu.org","port":11021,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-日本_4","type":"vmess","server":"tg_mfbpn_d5.52vpn.eu.org","port":11022,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-美国_1","type":"vmess","server":"tg_mfbpn_d5.52vpn.eu.org","port":11027,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-美国_2","type":"vmess","server":"tg_mfbpn_d5.52vpn.eu.org","port":11028,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-美国_3","type":"vmess","server":"tg_mfbpn_d5.52vpn.eu.org","port":11029,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-美国_4","type":"vmess","server":"tg_mfbpn_d5.52vpn.eu.org","port":11030,"cipher":"auto","uuid":"85db6652-a747-3a0a-a170-422736076410","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-香港_5","type":"trojan","server":"tg_mfbpn_d4.52vpn.eu.org","port":11006,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-香港_6","type":"trojan","server":"tg_mfbpn_d4.52vpn.eu.org","port":11007,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-香港_7","type":"trojan","server":"tg_mfbpn_d4.52vpn.eu.org","port":11008,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-香港_8","type":"trojan","server":"tg_mfbpn_d4.52vpn.eu.org","port":11009,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-香港_9","type":"trojan","server":"tg_mfbpn_d4.52vpn.eu.org","port":11010,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-台湾_5","type":"trojan","server":"tg_mfbpn_d4.52vpn.eu.org","port":11015,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-台湾_6","type":"trojan","server":"tg_mfbpn_d4.52vpn.eu.org","port":11016,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-台湾_7","type":"trojan","server":"tg_mfbpn_d4.52vpn.eu.org","port":11017,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-台湾_8","type":"trojan","server":"tg_mfbpn_d4.52vpn.eu.org","port":11018,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-日本_5","type":"trojan","server":"tg_mfbpn_d5.52vpn.eu.org","port":11023,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-日本_6","type":"trojan","server":"tg_mfbpn_d5.52vpn.eu.org","port":11024,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-日本_7","type":"trojan","server":"tg_mfbpn_d5.52vpn.eu.org","port":11025,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-日本_8","type":"trojan","server":"tg_mfbpn_d5.52vpn.eu.org","port":11026,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-美国_5","type":"trojan","server":"tg_mfbpn_d5.52vpn.eu.org","port":11031,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-美国_6","type":"trojan","server":"tg_mfbpn_d5.52vpn.eu.org","port":11032,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-美国_7","type":"trojan","server":"tg_mfbpn_d5.52vpn.eu.org","port":11033,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG频道@kkovokk-美国_8","type":"trojan","server":"tg_mfbpn_d5.52vpn.eu.org","port":11034,"udp":true,"password":"85db6652-a747-3a0a-a170-422736076410","sni":"alibaba-node.cn","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
