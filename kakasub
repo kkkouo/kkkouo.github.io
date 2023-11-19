@@ -1,9 +1,9 @@
 ####################################
 # 创建者：TG@kkovokk
 # 客户端：Clash
-# 创建时间：2023-11-19 14:26:12
-# 使用模版：V2默认模版
-# 节点数量：126
+# 创建时间：2023-11-19 14:35:03
+# 使用模版：默认模版
+# 节点数量：58
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,921 +85,445 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇨🇳TW·TG@kkovokk·1_1","type":"ss","server":"125.227.83.21","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_2","type":"ss","server":"125.227.83.22","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_3","type":"ss","server":"125.227.83.24","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_4","type":"ss","server":"125.227.83.25","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_5","type":"ss","server":"125.227.83.26","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_6","type":"ss","server":"110.72.100.46","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_7","type":"ss","server":"110.72.100.82","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_8","type":"ss","server":"211.72.35.152","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_9","type":"ss","server":"211.72.35.154","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_10","type":"ss","server":"211.72.35.155","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_11","type":"ss","server":"211.72.35.157","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_12","type":"ss","server":"211.72.35.158","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_13","type":"ss","server":"211.75.220.14","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_14","type":"ss","server":"211.75.220.15","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_15","type":"ss","server":"211.75.220.16","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_16","type":"ss","server":"211.75.220.17","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_17","type":"ss","server":"60.248.114.183","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_18","type":"ss","server":"60.248.114.184","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_19","type":"ss","server":"60.248.114.185","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_20","type":"ss","server":"60.248.114.186","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳TW·TG@kkovokk·1_21","type":"ss","server":"60.248.114.187","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇭🇰HK·TG@kkovokk·1_1","type":"ss","server":"103.152.221.89","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇭🇰HK·TG@kkovokk·1_2","type":"ss","server":"103.152.221.90","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇭🇰HK·TG@kkovokk·1_3","type":"ss","server":"45.11.104.59","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇭🇰HK·TG@kkovokk·1_4","type":"ss","server":"45.11.104.94","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_1","type":"ss","server":"103.172.116.113","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_2","type":"ss","server":"103.172.116.220","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_3","type":"ss","server":"103.172.116.221","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_4","type":"ss","server":"103.172.116.251","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_5","type":"ss","server":"103.172.116.252","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_6","type":"ss","server":"185.230.245.210","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_7","type":"ss","server":"185.230.245.211","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_8","type":"ss","server":"185.230.245.212","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_9","type":"ss","server":"185.230.245.213","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_10","type":"ss","server":"5.44.249.42","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_11","type":"ss","server":"5.44.249.43","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_12","type":"ss","server":"5.44.249.44","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_13","type":"ss","server":"5.44.249.45","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_14","type":"ss","server":"5.44.249.50","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_15","type":"ss","server":"5.44.249.52","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬SG·TG@kkovokk·1_16","type":"ss","server":"5.44.249.53","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_1","type":"ss","server":"103.168.155.60","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_2","type":"ss","server":"103.168.155.69","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_3","type":"ss","server":"103.168.155.73","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_4","type":"ss","server":"103.168.155.74","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_5","type":"ss","server":"103.168.155.108","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_6","type":"ss","server":"103.168.155.123","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_7","type":"ss","server":"106.75.240.227","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_8","type":"ss","server":"117.50.106.86","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_9","type":"ss","server":"120.132.21.219","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_10","type":"ss","server":"18.177.142.32","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_11","type":"ss","server":"18.179.16.135","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_12","type":"ss","server":"18.179.37.79","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_13","type":"ss","server":"18.179.58.237","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_14","type":"ss","server":"221.215.48.68","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_15","type":"ss","server":"221.215.48.69","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_16","type":"ss","server":"221.215.48.116","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_17","type":"ss","server":"221.215.48.117","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_18","type":"ss","server":"221.215.48.118","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_19","type":"ss","server":"42.240.132.42","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_20","type":"ss","server":"42.240.132.83","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_21","type":"ss","server":"52.199.249.206","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_22","type":"ss","server":"54.178.26.105","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_23","type":"ss","server":"54.249.220.208","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_24","type":"ss","server":"54.250.34.221","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP·TG@kkovokk·1_25","type":"ss","server":"221.215.48.114","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵日本-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":29223,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵日本-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":59090,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵日本-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":34948,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵日本-06 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":55718,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵日本-07 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":28397,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵日本-08 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":53958,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰香港-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":45955,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰香港-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":33487,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰香港-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":64654,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰香港-07 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":59584,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰香港-08 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":37639,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰香港-09 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":63897,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇭🇰香港-13 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":13290,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰香港-14 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":10884,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰香港-15 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":53271,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰香港-19 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":63279,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰香港-20 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":65407,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰香港-21 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":33310,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳台湾-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":22225,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳台湾-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":46957,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳台湾-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":24007,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳台湾-06 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":29574,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳台湾-07 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":64759,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳台湾-08 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":26065,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬新加坡-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":30139,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬新加坡-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":59211,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬新加坡-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":41972,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬新加坡-06 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":30641,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇬新加坡-07 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":20014,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇲🇾马来西亚-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":53991,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰香港-07 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":59584,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬新加坡-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":41972,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰香港-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":45955,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬新加坡-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":59211,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇬新加坡-08 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":44773,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":20887,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":41342,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":40171,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国-06 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":39211,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国-07 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":35387,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国-08 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":23310,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国-11 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":43441,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国-12 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":41868,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国-13 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":13793,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇻🇳越南-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":24291,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇻🇳越南-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":33534,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇻🇳越南-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":23761,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇳印度-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":37169,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰香港-15 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":53271,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰香港-14 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":10884,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇲🇾马来西亚-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":10515,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰香港-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":64654,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰香港-19 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":63279,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇮🇳印度-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":25997,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇲🇾马来西亚-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":45175,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰香港-09 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":63897,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇮🇳印度-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":19975,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇺澳大利亚-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":23319,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰香港-08 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":37639,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰香港-21 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":33310,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇳印度-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":37169,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇺澳大利亚-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":61163,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇺澳大利亚-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":20922,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇷土耳其-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":37115,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇺澳大利亚-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":23319,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵日本-08 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":53958,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵日本-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":59090,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇻🇳越南-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":33534,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪德国-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":14562,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵日本-06 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":55718,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪德国-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":33912,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵日本-07 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":28397,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国-07 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":35387,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":40171,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国-13 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":13793,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国-12 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":41868,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国-11 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":43441,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇷土耳其-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":27048,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇷土耳其-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":22254,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪德国-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":14562,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬新加坡-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":30139,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":41342,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪德国-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":62506,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪德国-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":33912,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧英国-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":21781,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬新加坡-06 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":30641,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":20887,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇷土耳其-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":37115,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳台湾-06 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":29574,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳台湾-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":22225,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇻🇳越南-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":24291,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳台湾-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":24007,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳台湾-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":46957,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧英国-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":40788,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰香港-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":33487,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇻🇳越南-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":23761,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵日本-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":29223,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳台湾-07 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":64759,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧英国-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":65117,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇲🇾马来西亚-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":45175,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇲🇾马来西亚-02 ·TG@kkovokk·1","type":"ss","server":"gdct003.jcnode.top","port":10515,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇲🇾马来西亚-03 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":53991,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国-06 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":39211,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸美国-08 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":23310,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧英国-01 ·TG@kkovokk·1","type":"ss","server":"gdct001.jcnode.top","port":21781,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳台湾-08 ·TG@kkovokk·1","type":"ss","server":"gdct002.jcnode.top","port":26065,"password":"c20470c9-5875-4c66-97f5-ef55c742e848","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳TW·TG@kkovokk·1_1
-      - 🇨🇳TW·TG@kkovokk·1_2
-      - 🇨🇳TW·TG@kkovokk·1_3
-      - 🇨🇳TW·TG@kkovokk·1_4
-      - 🇨🇳TW·TG@kkovokk·1_5
-      - 🇨🇳TW·TG@kkovokk·1_6
-      - 🇨🇳TW·TG@kkovokk·1_7
-      - 🇨🇳TW·TG@kkovokk·1_8
-      - 🇨🇳TW·TG@kkovokk·1_9
-      - 🇨🇳TW·TG@kkovokk·1_10
-      - 🇨🇳TW·TG@kkovokk·1_11
-      - 🇨🇳TW·TG@kkovokk·1_12
-      - 🇨🇳TW·TG@kkovokk·1_13
-      - 🇨🇳TW·TG@kkovokk·1_14
-      - 🇨🇳TW·TG@kkovokk·1_15
-      - 🇨🇳TW·TG@kkovokk·1_16
-      - 🇨🇳TW·TG@kkovokk·1_17
-      - 🇨🇳TW·TG@kkovokk·1_18
-      - 🇨🇳TW·TG@kkovokk·1_19
-      - 🇨🇳TW·TG@kkovokk·1_20
-      - 🇨🇳TW·TG@kkovokk·1_21
-      - 🇭🇰HK·TG@kkovokk·1_1
-      - 🇭🇰HK·TG@kkovokk·1_2
-      - 🇭🇰HK·TG@kkovokk·1_3
-      - 🇭🇰HK·TG@kkovokk·1_4
-      - 🇸🇬SG·TG@kkovokk·1_1
-      - 🇸🇬SG·TG@kkovokk·1_2
-      - 🇸🇬SG·TG@kkovokk·1_3
-      - 🇸🇬SG·TG@kkovokk·1_4
-      - 🇸🇬SG·TG@kkovokk·1_5
-      - 🇸🇬SG·TG@kkovokk·1_6
-      - 🇸🇬SG·TG@kkovokk·1_7
-      - 🇸🇬SG·TG@kkovokk·1_8
-      - 🇸🇬SG·TG@kkovokk·1_9
-      - 🇸🇬SG·TG@kkovokk·1_10
-      - 🇸🇬SG·TG@kkovokk·1_11
-      - 🇸🇬SG·TG@kkovokk·1_12
-      - 🇸🇬SG·TG@kkovokk·1_13
-      - 🇸🇬SG·TG@kkovokk·1_14
-      - 🇸🇬SG·TG@kkovokk·1_15
-      - 🇸🇬SG·TG@kkovokk·1_16
-      - 🇯🇵JP·TG@kkovokk·1_1
-      - 🇯🇵JP·TG@kkovokk·1_2
-      - 🇯🇵JP·TG@kkovokk·1_3
-      - 🇯🇵JP·TG@kkovokk·1_4
-      - 🇯🇵JP·TG@kkovokk·1_5
-      - 🇯🇵JP·TG@kkovokk·1_6
-      - 🇯🇵JP·TG@kkovokk·1_7
-      - 🇯🇵JP·TG@kkovokk·1_8
-      - 🇯🇵JP·TG@kkovokk·1_9
-      - 🇯🇵JP·TG@kkovokk·1_10
-      - 🇯🇵JP·TG@kkovokk·1_11
-      - 🇯🇵JP·TG@kkovokk·1_12
-      - 🇯🇵JP·TG@kkovokk·1_13
-      - 🇯🇵JP·TG@kkovokk·1_14
-      - 🇯🇵JP·TG@kkovokk·1_15
-      - 🇯🇵JP·TG@kkovokk·1_16
-      - 🇯🇵JP·TG@kkovokk·1_17
-      - 🇯🇵JP·TG@kkovokk·1_18
-      - 🇯🇵JP·TG@kkovokk·1_19
-      - 🇯🇵JP·TG@kkovokk·1_20
-      - 🇯🇵JP·TG@kkovokk·1_21
-      - 🇯🇵JP·TG@kkovokk·1_22
-      - 🇯🇵JP·TG@kkovokk·1_23
-      - 🇯🇵JP·TG@kkovokk·1_24
-      - 🇯🇵JP·TG@kkovokk·1_25
-      - 🇯🇵日本-01 ·TG@kkovokk·1
-      - 🇯🇵日本-02 ·TG@kkovokk·1
-      - 🇯🇵日本-03 ·TG@kkovokk·1
-      - 🇯🇵日本-06 ·TG@kkovokk·1
-      - 🇯🇵日本-07 ·TG@kkovokk·1
-      - 🇯🇵日本-08 ·TG@kkovokk·1
-      - 🇭🇰香港-01 ·TG@kkovokk·1
-      - 🇭🇰香港-02 ·TG@kkovokk·1
-      - 🇭🇰香港-03 ·TG@kkovokk·1
-      - 🇭🇰香港-07 ·TG@kkovokk·1
-      - 🇭🇰香港-08 ·TG@kkovokk·1
-      - 🇭🇰香港-09 ·TG@kkovokk·1
       - 🇭🇰香港-13 ·TG@kkovokk·1
-      - 🇭🇰香港-14 ·TG@kkovokk·1
-      - 🇭🇰香港-15 ·TG@kkovokk·1
-      - 🇭🇰香港-19 ·TG@kkovokk·1
-      - 🇭🇰香港-20 ·TG@kkovokk·1
-      - 🇭🇰香港-21 ·TG@kkovokk·1
-      - 🇨🇳台湾-01 ·TG@kkovokk·1
-      - 🇨🇳台湾-02 ·TG@kkovokk·1
-      - 🇨🇳台湾-03 ·TG@kkovokk·1
-      - 🇨🇳台湾-06 ·TG@kkovokk·1
-      - 🇨🇳台湾-07 ·TG@kkovokk·1
-      - 🇨🇳台湾-08 ·TG@kkovokk·1
-      - 🇸🇬新加坡-01 ·TG@kkovokk·1
-      - 🇸🇬新加坡-02 ·TG@kkovokk·1
-      - 🇸🇬新加坡-03 ·TG@kkovokk·1
-      - 🇸🇬新加坡-06 ·TG@kkovokk·1
       - 🇸🇬新加坡-07 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-03 ·TG@kkovokk·1
+      - 🇭🇰香港-07 ·TG@kkovokk·1
+      - 🇸🇬新加坡-03 ·TG@kkovokk·1
+      - 🇭🇰香港-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-02 ·TG@kkovokk·1
       - 🇸🇬新加坡-08 ·TG@kkovokk·1
-      - 🇺🇸美国-01 ·TG@kkovokk·1
-      - 🇺🇸美国-02 ·TG@kkovokk·1
-      - 🇺🇸美国-03 ·TG@kkovokk·1
-      - 🇺🇸美国-06 ·TG@kkovokk·1
-      - 🇺🇸美国-07 ·TG@kkovokk·1
-      - 🇺🇸美国-08 ·TG@kkovokk·1
-      - 🇺🇸美国-11 ·TG@kkovokk·1
-      - 🇺🇸美国-12 ·TG@kkovokk·1
-      - 🇺🇸美国-13 ·TG@kkovokk·1
-      - 🇻🇳越南-01 ·TG@kkovokk·1
-      - 🇻🇳越南-02 ·TG@kkovokk·1
-      - 🇻🇳越南-03 ·TG@kkovokk·1
-      - 🇮🇳印度-01 ·TG@kkovokk·1
+      - 🇭🇰香港-15 ·TG@kkovokk·1
+      - 🇭🇰香港-14 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-02 ·TG@kkovokk·1
+      - 🇭🇰香港-03 ·TG@kkovokk·1
+      - 🇭🇰香港-19 ·TG@kkovokk·1
       - 🇮🇳印度-02 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-01 ·TG@kkovokk·1
+      - 🇭🇰香港-09 ·TG@kkovokk·1
       - 🇮🇳印度-03 ·TG@kkovokk·1
-      - 🇦🇺澳大利亚-01 ·TG@kkovokk·1
+      - 🇭🇰香港-08 ·TG@kkovokk·1
+      - 🇭🇰香港-21 ·TG@kkovokk·1
+      - 🇮🇳印度-01 ·TG@kkovokk·1
       - 🇦🇺澳大利亚-02 ·TG@kkovokk·1
       - 🇦🇺澳大利亚-03 ·TG@kkovokk·1
-      - 🇹🇷土耳其-01 ·TG@kkovokk·1
+      - 🇦🇺澳大利亚-01 ·TG@kkovokk·1
+      - 🇯🇵日本-08 ·TG@kkovokk·1
+      - 🇯🇵日本-02 ·TG@kkovokk·1
+      - 🇻🇳越南-02 ·TG@kkovokk·1
+      - 🇩🇪德国-01 ·TG@kkovokk·1
+      - 🇯🇵日本-06 ·TG@kkovokk·1
+      - 🇩🇪德国-03 ·TG@kkovokk·1
+      - 🇯🇵日本-07 ·TG@kkovokk·1
+      - 🇺🇸美国-07 ·TG@kkovokk·1
+      - 🇺🇸美国-03 ·TG@kkovokk·1
+      - 🇺🇸美国-13 ·TG@kkovokk·1
+      - 🇺🇸美国-12 ·TG@kkovokk·1
+      - 🇺🇸美国-11 ·TG@kkovokk·1
       - 🇹🇷土耳其-02 ·TG@kkovokk·1
       - 🇹🇷土耳其-03 ·TG@kkovokk·1
-      - 🇩🇪德国-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-01 ·TG@kkovokk·1
+      - 🇺🇸美国-02 ·TG@kkovokk·1
       - 🇩🇪德国-02 ·TG@kkovokk·1
-      - 🇩🇪德国-03 ·TG@kkovokk·1
-      - 🇬🇧英国-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-06 ·TG@kkovokk·1
+      - 🇺🇸美国-01 ·TG@kkovokk·1
+      - 🇹🇷土耳其-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-06 ·TG@kkovokk·1
+      - 🇨🇳台湾-01 ·TG@kkovokk·1
+      - 🇻🇳越南-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-03 ·TG@kkovokk·1
+      - 🇨🇳台湾-02 ·TG@kkovokk·1
       - 🇬🇧英国-02 ·TG@kkovokk·1
+      - 🇭🇰香港-02 ·TG@kkovokk·1
+      - 🇻🇳越南-03 ·TG@kkovokk·1
+      - 🇯🇵日本-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-07 ·TG@kkovokk·1
       - 🇬🇧英国-03 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-01 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-02 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-03 ·TG@kkovokk·1
+      - 🇺🇸美国-06 ·TG@kkovokk·1
+      - 🇺🇸美国-08 ·TG@kkovokk·1
+      - 🇬🇧英国-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-08 ·TG@kkovokk·1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳TW·TG@kkovokk·1_1
-      - 🇨🇳TW·TG@kkovokk·1_2
-      - 🇨🇳TW·TG@kkovokk·1_3
-      - 🇨🇳TW·TG@kkovokk·1_4
-      - 🇨🇳TW·TG@kkovokk·1_5
-      - 🇨🇳TW·TG@kkovokk·1_6
-      - 🇨🇳TW·TG@kkovokk·1_7
-      - 🇨🇳TW·TG@kkovokk·1_8
-      - 🇨🇳TW·TG@kkovokk·1_9
-      - 🇨🇳TW·TG@kkovokk·1_10
-      - 🇨🇳TW·TG@kkovokk·1_11
-      - 🇨🇳TW·TG@kkovokk·1_12
-      - 🇨🇳TW·TG@kkovokk·1_13
-      - 🇨🇳TW·TG@kkovokk·1_14
-      - 🇨🇳TW·TG@kkovokk·1_15
-      - 🇨🇳TW·TG@kkovokk·1_16
-      - 🇨🇳TW·TG@kkovokk·1_17
-      - 🇨🇳TW·TG@kkovokk·1_18
-      - 🇨🇳TW·TG@kkovokk·1_19
-      - 🇨🇳TW·TG@kkovokk·1_20
-      - 🇨🇳TW·TG@kkovokk·1_21
-      - 🇭🇰HK·TG@kkovokk·1_1
-      - 🇭🇰HK·TG@kkovokk·1_2
-      - 🇭🇰HK·TG@kkovokk·1_3
-      - 🇭🇰HK·TG@kkovokk·1_4
-      - 🇸🇬SG·TG@kkovokk·1_1
-      - 🇸🇬SG·TG@kkovokk·1_2
-      - 🇸🇬SG·TG@kkovokk·1_3
-      - 🇸🇬SG·TG@kkovokk·1_4
-      - 🇸🇬SG·TG@kkovokk·1_5
-      - 🇸🇬SG·TG@kkovokk·1_6
-      - 🇸🇬SG·TG@kkovokk·1_7
-      - 🇸🇬SG·TG@kkovokk·1_8
-      - 🇸🇬SG·TG@kkovokk·1_9
-      - 🇸🇬SG·TG@kkovokk·1_10
-      - 🇸🇬SG·TG@kkovokk·1_11
-      - 🇸🇬SG·TG@kkovokk·1_12
-      - 🇸🇬SG·TG@kkovokk·1_13
-      - 🇸🇬SG·TG@kkovokk·1_14
-      - 🇸🇬SG·TG@kkovokk·1_15
-      - 🇸🇬SG·TG@kkovokk·1_16
-      - 🇯🇵JP·TG@kkovokk·1_1
-      - 🇯🇵JP·TG@kkovokk·1_2
-      - 🇯🇵JP·TG@kkovokk·1_3
-      - 🇯🇵JP·TG@kkovokk·1_4
-      - 🇯🇵JP·TG@kkovokk·1_5
-      - 🇯🇵JP·TG@kkovokk·1_6
-      - 🇯🇵JP·TG@kkovokk·1_7
-      - 🇯🇵JP·TG@kkovokk·1_8
-      - 🇯🇵JP·TG@kkovokk·1_9
-      - 🇯🇵JP·TG@kkovokk·1_10
-      - 🇯🇵JP·TG@kkovokk·1_11
-      - 🇯🇵JP·TG@kkovokk·1_12
-      - 🇯🇵JP·TG@kkovokk·1_13
-      - 🇯🇵JP·TG@kkovokk·1_14
-      - 🇯🇵JP·TG@kkovokk·1_15
-      - 🇯🇵JP·TG@kkovokk·1_16
-      - 🇯🇵JP·TG@kkovokk·1_17
-      - 🇯🇵JP·TG@kkovokk·1_18
-      - 🇯🇵JP·TG@kkovokk·1_19
-      - 🇯🇵JP·TG@kkovokk·1_20
-      - 🇯🇵JP·TG@kkovokk·1_21
-      - 🇯🇵JP·TG@kkovokk·1_22
-      - 🇯🇵JP·TG@kkovokk·1_23
-      - 🇯🇵JP·TG@kkovokk·1_24
-      - 🇯🇵JP·TG@kkovokk·1_25
-      - 🇯🇵日本-01 ·TG@kkovokk·1
-      - 🇯🇵日本-02 ·TG@kkovokk·1
-      - 🇯🇵日本-03 ·TG@kkovokk·1
-      - 🇯🇵日本-06 ·TG@kkovokk·1
-      - 🇯🇵日本-07 ·TG@kkovokk·1
-      - 🇯🇵日本-08 ·TG@kkovokk·1
-      - 🇭🇰香港-01 ·TG@kkovokk·1
-      - 🇭🇰香港-02 ·TG@kkovokk·1
-      - 🇭🇰香港-03 ·TG@kkovokk·1
-      - 🇭🇰香港-07 ·TG@kkovokk·1
-      - 🇭🇰香港-08 ·TG@kkovokk·1
-      - 🇭🇰香港-09 ·TG@kkovokk·1
       - 🇭🇰香港-13 ·TG@kkovokk·1
-      - 🇭🇰香港-14 ·TG@kkovokk·1
-      - 🇭🇰香港-15 ·TG@kkovokk·1
-      - 🇭🇰香港-19 ·TG@kkovokk·1
-      - 🇭🇰香港-20 ·TG@kkovokk·1
-      - 🇭🇰香港-21 ·TG@kkovokk·1
-      - 🇨🇳台湾-01 ·TG@kkovokk·1
-      - 🇨🇳台湾-02 ·TG@kkovokk·1
-      - 🇨🇳台湾-03 ·TG@kkovokk·1
-      - 🇨🇳台湾-06 ·TG@kkovokk·1
-      - 🇨🇳台湾-07 ·TG@kkovokk·1
-      - 🇨🇳台湾-08 ·TG@kkovokk·1
-      - 🇸🇬新加坡-01 ·TG@kkovokk·1
-      - 🇸🇬新加坡-02 ·TG@kkovokk·1
-      - 🇸🇬新加坡-03 ·TG@kkovokk·1
-      - 🇸🇬新加坡-06 ·TG@kkovokk·1
       - 🇸🇬新加坡-07 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-03 ·TG@kkovokk·1
+      - 🇭🇰香港-07 ·TG@kkovokk·1
+      - 🇸🇬新加坡-03 ·TG@kkovokk·1
+      - 🇭🇰香港-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-02 ·TG@kkovokk·1
       - 🇸🇬新加坡-08 ·TG@kkovokk·1
-      - 🇺🇸美国-01 ·TG@kkovokk·1
-      - 🇺🇸美国-02 ·TG@kkovokk·1
-      - 🇺🇸美国-03 ·TG@kkovokk·1
-      - 🇺🇸美国-06 ·TG@kkovokk·1
-      - 🇺🇸美国-07 ·TG@kkovokk·1
-      - 🇺🇸美国-08 ·TG@kkovokk·1
-      - 🇺🇸美国-11 ·TG@kkovokk·1
-      - 🇺🇸美国-12 ·TG@kkovokk·1
-      - 🇺🇸美国-13 ·TG@kkovokk·1
-      - 🇻🇳越南-01 ·TG@kkovokk·1
-      - 🇻🇳越南-02 ·TG@kkovokk·1
-      - 🇻🇳越南-03 ·TG@kkovokk·1
-      - 🇮🇳印度-01 ·TG@kkovokk·1
+      - 🇭🇰香港-15 ·TG@kkovokk·1
+      - 🇭🇰香港-14 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-02 ·TG@kkovokk·1
+      - 🇭🇰香港-03 ·TG@kkovokk·1
+      - 🇭🇰香港-19 ·TG@kkovokk·1
       - 🇮🇳印度-02 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-01 ·TG@kkovokk·1
+      - 🇭🇰香港-09 ·TG@kkovokk·1
       - 🇮🇳印度-03 ·TG@kkovokk·1
-      - 🇦🇺澳大利亚-01 ·TG@kkovokk·1
+      - 🇭🇰香港-08 ·TG@kkovokk·1
+      - 🇭🇰香港-21 ·TG@kkovokk·1
+      - 🇮🇳印度-01 ·TG@kkovokk·1
       - 🇦🇺澳大利亚-02 ·TG@kkovokk·1
       - 🇦🇺澳大利亚-03 ·TG@kkovokk·1
-      - 🇹🇷土耳其-01 ·TG@kkovokk·1
+      - 🇦🇺澳大利亚-01 ·TG@kkovokk·1
+      - 🇯🇵日本-08 ·TG@kkovokk·1
+      - 🇯🇵日本-02 ·TG@kkovokk·1
+      - 🇻🇳越南-02 ·TG@kkovokk·1
+      - 🇩🇪德国-01 ·TG@kkovokk·1
+      - 🇯🇵日本-06 ·TG@kkovokk·1
+      - 🇩🇪德国-03 ·TG@kkovokk·1
+      - 🇯🇵日本-07 ·TG@kkovokk·1
+      - 🇺🇸美国-07 ·TG@kkovokk·1
+      - 🇺🇸美国-03 ·TG@kkovokk·1
+      - 🇺🇸美国-13 ·TG@kkovokk·1
+      - 🇺🇸美国-12 ·TG@kkovokk·1
+      - 🇺🇸美国-11 ·TG@kkovokk·1
       - 🇹🇷土耳其-02 ·TG@kkovokk·1
       - 🇹🇷土耳其-03 ·TG@kkovokk·1
-      - 🇩🇪德国-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-01 ·TG@kkovokk·1
+      - 🇺🇸美国-02 ·TG@kkovokk·1
       - 🇩🇪德国-02 ·TG@kkovokk·1
-      - 🇩🇪德国-03 ·TG@kkovokk·1
-      - 🇬🇧英国-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-06 ·TG@kkovokk·1
+      - 🇺🇸美国-01 ·TG@kkovokk·1
+      - 🇹🇷土耳其-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-06 ·TG@kkovokk·1
+      - 🇨🇳台湾-01 ·TG@kkovokk·1
+      - 🇻🇳越南-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-03 ·TG@kkovokk·1
+      - 🇨🇳台湾-02 ·TG@kkovokk·1
       - 🇬🇧英国-02 ·TG@kkovokk·1
+      - 🇭🇰香港-02 ·TG@kkovokk·1
+      - 🇻🇳越南-03 ·TG@kkovokk·1
+      - 🇯🇵日本-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-07 ·TG@kkovokk·1
       - 🇬🇧英国-03 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-01 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-02 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-03 ·TG@kkovokk·1
+      - 🇺🇸美国-06 ·TG@kkovokk·1
+      - 🇺🇸美国-08 ·TG@kkovokk·1
+      - 🇬🇧英国-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-08 ·TG@kkovokk·1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳TW·TG@kkovokk·1_1
-      - 🇨🇳TW·TG@kkovokk·1_2
-      - 🇨🇳TW·TG@kkovokk·1_3
-      - 🇨🇳TW·TG@kkovokk·1_4
-      - 🇨🇳TW·TG@kkovokk·1_5
-      - 🇨🇳TW·TG@kkovokk·1_6
-      - 🇨🇳TW·TG@kkovokk·1_7
-      - 🇨🇳TW·TG@kkovokk·1_8
-      - 🇨🇳TW·TG@kkovokk·1_9
-      - 🇨🇳TW·TG@kkovokk·1_10
-      - 🇨🇳TW·TG@kkovokk·1_11
-      - 🇨🇳TW·TG@kkovokk·1_12
-      - 🇨🇳TW·TG@kkovokk·1_13
-      - 🇨🇳TW·TG@kkovokk·1_14
-      - 🇨🇳TW·TG@kkovokk·1_15
-      - 🇨🇳TW·TG@kkovokk·1_16
-      - 🇨🇳TW·TG@kkovokk·1_17
-      - 🇨🇳TW·TG@kkovokk·1_18
-      - 🇨🇳TW·TG@kkovokk·1_19
-      - 🇨🇳TW·TG@kkovokk·1_20
-      - 🇨🇳TW·TG@kkovokk·1_21
-      - 🇭🇰HK·TG@kkovokk·1_1
-      - 🇭🇰HK·TG@kkovokk·1_2
-      - 🇭🇰HK·TG@kkovokk·1_3
-      - 🇭🇰HK·TG@kkovokk·1_4
-      - 🇸🇬SG·TG@kkovokk·1_1
-      - 🇸🇬SG·TG@kkovokk·1_2
-      - 🇸🇬SG·TG@kkovokk·1_3
-      - 🇸🇬SG·TG@kkovokk·1_4
-      - 🇸🇬SG·TG@kkovokk·1_5
-      - 🇸🇬SG·TG@kkovokk·1_6
-      - 🇸🇬SG·TG@kkovokk·1_7
-      - 🇸🇬SG·TG@kkovokk·1_8
-      - 🇸🇬SG·TG@kkovokk·1_9
-      - 🇸🇬SG·TG@kkovokk·1_10
-      - 🇸🇬SG·TG@kkovokk·1_11
-      - 🇸🇬SG·TG@kkovokk·1_12
-      - 🇸🇬SG·TG@kkovokk·1_13
-      - 🇸🇬SG·TG@kkovokk·1_14
-      - 🇸🇬SG·TG@kkovokk·1_15
-      - 🇸🇬SG·TG@kkovokk·1_16
-      - 🇯🇵JP·TG@kkovokk·1_1
-      - 🇯🇵JP·TG@kkovokk·1_2
-      - 🇯🇵JP·TG@kkovokk·1_3
-      - 🇯🇵JP·TG@kkovokk·1_4
-      - 🇯🇵JP·TG@kkovokk·1_5
-      - 🇯🇵JP·TG@kkovokk·1_6
-      - 🇯🇵JP·TG@kkovokk·1_7
-      - 🇯🇵JP·TG@kkovokk·1_8
-      - 🇯🇵JP·TG@kkovokk·1_9
-      - 🇯🇵JP·TG@kkovokk·1_10
-      - 🇯🇵JP·TG@kkovokk·1_11
-      - 🇯🇵JP·TG@kkovokk·1_12
-      - 🇯🇵JP·TG@kkovokk·1_13
-      - 🇯🇵JP·TG@kkovokk·1_14
-      - 🇯🇵JP·TG@kkovokk·1_15
-      - 🇯🇵JP·TG@kkovokk·1_16
-      - 🇯🇵JP·TG@kkovokk·1_17
-      - 🇯🇵JP·TG@kkovokk·1_18
-      - 🇯🇵JP·TG@kkovokk·1_19
-      - 🇯🇵JP·TG@kkovokk·1_20
-      - 🇯🇵JP·TG@kkovokk·1_21
-      - 🇯🇵JP·TG@kkovokk·1_22
-      - 🇯🇵JP·TG@kkovokk·1_23
-      - 🇯🇵JP·TG@kkovokk·1_24
-      - 🇯🇵JP·TG@kkovokk·1_25
-      - 🇯🇵日本-01 ·TG@kkovokk·1
-      - 🇯🇵日本-02 ·TG@kkovokk·1
-      - 🇯🇵日本-03 ·TG@kkovokk·1
-      - 🇯🇵日本-06 ·TG@kkovokk·1
-      - 🇯🇵日本-07 ·TG@kkovokk·1
-      - 🇯🇵日本-08 ·TG@kkovokk·1
-      - 🇭🇰香港-01 ·TG@kkovokk·1
-      - 🇭🇰香港-02 ·TG@kkovokk·1
-      - 🇭🇰香港-03 ·TG@kkovokk·1
-      - 🇭🇰香港-07 ·TG@kkovokk·1
-      - 🇭🇰香港-08 ·TG@kkovokk·1
-      - 🇭🇰香港-09 ·TG@kkovokk·1
       - 🇭🇰香港-13 ·TG@kkovokk·1
-      - 🇭🇰香港-14 ·TG@kkovokk·1
-      - 🇭🇰香港-15 ·TG@kkovokk·1
-      - 🇭🇰香港-19 ·TG@kkovokk·1
-      - 🇭🇰香港-20 ·TG@kkovokk·1
-      - 🇭🇰香港-21 ·TG@kkovokk·1
-      - 🇨🇳台湾-01 ·TG@kkovokk·1
-      - 🇨🇳台湾-02 ·TG@kkovokk·1
-      - 🇨🇳台湾-03 ·TG@kkovokk·1
-      - 🇨🇳台湾-06 ·TG@kkovokk·1
-      - 🇨🇳台湾-07 ·TG@kkovokk·1
-      - 🇨🇳台湾-08 ·TG@kkovokk·1
-      - 🇸🇬新加坡-01 ·TG@kkovokk·1
-      - 🇸🇬新加坡-02 ·TG@kkovokk·1
-      - 🇸🇬新加坡-03 ·TG@kkovokk·1
-      - 🇸🇬新加坡-06 ·TG@kkovokk·1
       - 🇸🇬新加坡-07 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-03 ·TG@kkovokk·1
+      - 🇭🇰香港-07 ·TG@kkovokk·1
+      - 🇸🇬新加坡-03 ·TG@kkovokk·1
+      - 🇭🇰香港-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-02 ·TG@kkovokk·1
       - 🇸🇬新加坡-08 ·TG@kkovokk·1
-      - 🇺🇸美国-01 ·TG@kkovokk·1
-      - 🇺🇸美国-02 ·TG@kkovokk·1
-      - 🇺🇸美国-03 ·TG@kkovokk·1
-      - 🇺🇸美国-06 ·TG@kkovokk·1
-      - 🇺🇸美国-07 ·TG@kkovokk·1
-      - 🇺🇸美国-08 ·TG@kkovokk·1
-      - 🇺🇸美国-11 ·TG@kkovokk·1
-      - 🇺🇸美国-12 ·TG@kkovokk·1
-      - 🇺🇸美国-13 ·TG@kkovokk·1
-      - 🇻🇳越南-01 ·TG@kkovokk·1
-      - 🇻🇳越南-02 ·TG@kkovokk·1
-      - 🇻🇳越南-03 ·TG@kkovokk·1
-      - 🇮🇳印度-01 ·TG@kkovokk·1
+      - 🇭🇰香港-15 ·TG@kkovokk·1
+      - 🇭🇰香港-14 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-02 ·TG@kkovokk·1
+      - 🇭🇰香港-03 ·TG@kkovokk·1
+      - 🇭🇰香港-19 ·TG@kkovokk·1
       - 🇮🇳印度-02 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-01 ·TG@kkovokk·1
+      - 🇭🇰香港-09 ·TG@kkovokk·1
       - 🇮🇳印度-03 ·TG@kkovokk·1
-      - 🇦🇺澳大利亚-01 ·TG@kkovokk·1
+      - 🇭🇰香港-08 ·TG@kkovokk·1
+      - 🇭🇰香港-21 ·TG@kkovokk·1
+      - 🇮🇳印度-01 ·TG@kkovokk·1
       - 🇦🇺澳大利亚-02 ·TG@kkovokk·1
       - 🇦🇺澳大利亚-03 ·TG@kkovokk·1
-      - 🇹🇷土耳其-01 ·TG@kkovokk·1
+      - 🇦🇺澳大利亚-01 ·TG@kkovokk·1
+      - 🇯🇵日本-08 ·TG@kkovokk·1
+      - 🇯🇵日本-02 ·TG@kkovokk·1
+      - 🇻🇳越南-02 ·TG@kkovokk·1
+      - 🇩🇪德国-01 ·TG@kkovokk·1
+      - 🇯🇵日本-06 ·TG@kkovokk·1
+      - 🇩🇪德国-03 ·TG@kkovokk·1
+      - 🇯🇵日本-07 ·TG@kkovokk·1
+      - 🇺🇸美国-07 ·TG@kkovokk·1
+      - 🇺🇸美国-03 ·TG@kkovokk·1
+      - 🇺🇸美国-13 ·TG@kkovokk·1
+      - 🇺🇸美国-12 ·TG@kkovokk·1
+      - 🇺🇸美国-11 ·TG@kkovokk·1
       - 🇹🇷土耳其-02 ·TG@kkovokk·1
       - 🇹🇷土耳其-03 ·TG@kkovokk·1
-      - 🇩🇪德国-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-01 ·TG@kkovokk·1
+      - 🇺🇸美国-02 ·TG@kkovokk·1
       - 🇩🇪德国-02 ·TG@kkovokk·1
-      - 🇩🇪德国-03 ·TG@kkovokk·1
-      - 🇬🇧英国-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-06 ·TG@kkovokk·1
+      - 🇺🇸美国-01 ·TG@kkovokk·1
+      - 🇹🇷土耳其-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-06 ·TG@kkovokk·1
+      - 🇨🇳台湾-01 ·TG@kkovokk·1
+      - 🇻🇳越南-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-03 ·TG@kkovokk·1
+      - 🇨🇳台湾-02 ·TG@kkovokk·1
       - 🇬🇧英国-02 ·TG@kkovokk·1
+      - 🇭🇰香港-02 ·TG@kkovokk·1
+      - 🇻🇳越南-03 ·TG@kkovokk·1
+      - 🇯🇵日本-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-07 ·TG@kkovokk·1
       - 🇬🇧英国-03 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-01 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-02 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-03 ·TG@kkovokk·1
+      - 🇺🇸美国-06 ·TG@kkovokk·1
+      - 🇺🇸美国-08 ·TG@kkovokk·1
+      - 🇬🇧英国-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-08 ·TG@kkovokk·1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳TW·TG@kkovokk·1_1
-      - 🇨🇳TW·TG@kkovokk·1_2
-      - 🇨🇳TW·TG@kkovokk·1_3
-      - 🇨🇳TW·TG@kkovokk·1_4
-      - 🇨🇳TW·TG@kkovokk·1_5
-      - 🇨🇳TW·TG@kkovokk·1_6
-      - 🇨🇳TW·TG@kkovokk·1_7
-      - 🇨🇳TW·TG@kkovokk·1_8
-      - 🇨🇳TW·TG@kkovokk·1_9
-      - 🇨🇳TW·TG@kkovokk·1_10
-      - 🇨🇳TW·TG@kkovokk·1_11
-      - 🇨🇳TW·TG@kkovokk·1_12
-      - 🇨🇳TW·TG@kkovokk·1_13
-      - 🇨🇳TW·TG@kkovokk·1_14
-      - 🇨🇳TW·TG@kkovokk·1_15
-      - 🇨🇳TW·TG@kkovokk·1_16
-      - 🇨🇳TW·TG@kkovokk·1_17
-      - 🇨🇳TW·TG@kkovokk·1_18
-      - 🇨🇳TW·TG@kkovokk·1_19
-      - 🇨🇳TW·TG@kkovokk·1_20
-      - 🇨🇳TW·TG@kkovokk·1_21
-      - 🇭🇰HK·TG@kkovokk·1_1
-      - 🇭🇰HK·TG@kkovokk·1_2
-      - 🇭🇰HK·TG@kkovokk·1_3
-      - 🇭🇰HK·TG@kkovokk·1_4
-      - 🇸🇬SG·TG@kkovokk·1_1
-      - 🇸🇬SG·TG@kkovokk·1_2
-      - 🇸🇬SG·TG@kkovokk·1_3
-      - 🇸🇬SG·TG@kkovokk·1_4
-      - 🇸🇬SG·TG@kkovokk·1_5
-      - 🇸🇬SG·TG@kkovokk·1_6
-      - 🇸🇬SG·TG@kkovokk·1_7
-      - 🇸🇬SG·TG@kkovokk·1_8
-      - 🇸🇬SG·TG@kkovokk·1_9
-      - 🇸🇬SG·TG@kkovokk·1_10
-      - 🇸🇬SG·TG@kkovokk·1_11
-      - 🇸🇬SG·TG@kkovokk·1_12
-      - 🇸🇬SG·TG@kkovokk·1_13
-      - 🇸🇬SG·TG@kkovokk·1_14
-      - 🇸🇬SG·TG@kkovokk·1_15
-      - 🇸🇬SG·TG@kkovokk·1_16
-      - 🇯🇵JP·TG@kkovokk·1_1
-      - 🇯🇵JP·TG@kkovokk·1_2
-      - 🇯🇵JP·TG@kkovokk·1_3
-      - 🇯🇵JP·TG@kkovokk·1_4
-      - 🇯🇵JP·TG@kkovokk·1_5
-      - 🇯🇵JP·TG@kkovokk·1_6
-      - 🇯🇵JP·TG@kkovokk·1_7
-      - 🇯🇵JP·TG@kkovokk·1_8
-      - 🇯🇵JP·TG@kkovokk·1_9
-      - 🇯🇵JP·TG@kkovokk·1_10
-      - 🇯🇵JP·TG@kkovokk·1_11
-      - 🇯🇵JP·TG@kkovokk·1_12
-      - 🇯🇵JP·TG@kkovokk·1_13
-      - 🇯🇵JP·TG@kkovokk·1_14
-      - 🇯🇵JP·TG@kkovokk·1_15
-      - 🇯🇵JP·TG@kkovokk·1_16
-      - 🇯🇵JP·TG@kkovokk·1_17
-      - 🇯🇵JP·TG@kkovokk·1_18
-      - 🇯🇵JP·TG@kkovokk·1_19
-      - 🇯🇵JP·TG@kkovokk·1_20
-      - 🇯🇵JP·TG@kkovokk·1_21
-      - 🇯🇵JP·TG@kkovokk·1_22
-      - 🇯🇵JP·TG@kkovokk·1_23
-      - 🇯🇵JP·TG@kkovokk·1_24
-      - 🇯🇵JP·TG@kkovokk·1_25
-      - 🇯🇵日本-01 ·TG@kkovokk·1
-      - 🇯🇵日本-02 ·TG@kkovokk·1
-      - 🇯🇵日本-03 ·TG@kkovokk·1
-      - 🇯🇵日本-06 ·TG@kkovokk·1
-      - 🇯🇵日本-07 ·TG@kkovokk·1
-      - 🇯🇵日本-08 ·TG@kkovokk·1
-      - 🇭🇰香港-01 ·TG@kkovokk·1
-      - 🇭🇰香港-02 ·TG@kkovokk·1
-      - 🇭🇰香港-03 ·TG@kkovokk·1
-      - 🇭🇰香港-07 ·TG@kkovokk·1
-      - 🇭🇰香港-08 ·TG@kkovokk·1
-      - 🇭🇰香港-09 ·TG@kkovokk·1
       - 🇭🇰香港-13 ·TG@kkovokk·1
-      - 🇭🇰香港-14 ·TG@kkovokk·1
-      - 🇭🇰香港-15 ·TG@kkovokk·1
-      - 🇭🇰香港-19 ·TG@kkovokk·1
-      - 🇭🇰香港-20 ·TG@kkovokk·1
-      - 🇭🇰香港-21 ·TG@kkovokk·1
-      - 🇨🇳台湾-01 ·TG@kkovokk·1
-      - 🇨🇳台湾-02 ·TG@kkovokk·1
-      - 🇨🇳台湾-03 ·TG@kkovokk·1
-      - 🇨🇳台湾-06 ·TG@kkovokk·1
-      - 🇨🇳台湾-07 ·TG@kkovokk·1
-      - 🇨🇳台湾-08 ·TG@kkovokk·1
-      - 🇸🇬新加坡-01 ·TG@kkovokk·1
-      - 🇸🇬新加坡-02 ·TG@kkovokk·1
-      - 🇸🇬新加坡-03 ·TG@kkovokk·1
-      - 🇸🇬新加坡-06 ·TG@kkovokk·1
       - 🇸🇬新加坡-07 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-03 ·TG@kkovokk·1
+      - 🇭🇰香港-07 ·TG@kkovokk·1
+      - 🇸🇬新加坡-03 ·TG@kkovokk·1
+      - 🇭🇰香港-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-02 ·TG@kkovokk·1
       - 🇸🇬新加坡-08 ·TG@kkovokk·1
-      - 🇺🇸美国-01 ·TG@kkovokk·1
-      - 🇺🇸美国-02 ·TG@kkovokk·1
-      - 🇺🇸美国-03 ·TG@kkovokk·1
-      - 🇺🇸美国-06 ·TG@kkovokk·1
-      - 🇺🇸美国-07 ·TG@kkovokk·1
-      - 🇺🇸美国-08 ·TG@kkovokk·1
-      - 🇺🇸美国-11 ·TG@kkovokk·1
-      - 🇺🇸美国-12 ·TG@kkovokk·1
-      - 🇺🇸美国-13 ·TG@kkovokk·1
-      - 🇻🇳越南-01 ·TG@kkovokk·1
-      - 🇻🇳越南-02 ·TG@kkovokk·1
-      - 🇻🇳越南-03 ·TG@kkovokk·1
-      - 🇮🇳印度-01 ·TG@kkovokk·1
+      - 🇭🇰香港-15 ·TG@kkovokk·1
+      - 🇭🇰香港-14 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-02 ·TG@kkovokk·1
+      - 🇭🇰香港-03 ·TG@kkovokk·1
+      - 🇭🇰香港-19 ·TG@kkovokk·1
       - 🇮🇳印度-02 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-01 ·TG@kkovokk·1
+      - 🇭🇰香港-09 ·TG@kkovokk·1
       - 🇮🇳印度-03 ·TG@kkovokk·1
-      - 🇦🇺澳大利亚-01 ·TG@kkovokk·1
+      - 🇭🇰香港-08 ·TG@kkovokk·1
+      - 🇭🇰香港-21 ·TG@kkovokk·1
+      - 🇮🇳印度-01 ·TG@kkovokk·1
       - 🇦🇺澳大利亚-02 ·TG@kkovokk·1
       - 🇦🇺澳大利亚-03 ·TG@kkovokk·1
-      - 🇹🇷土耳其-01 ·TG@kkovokk·1
+      - 🇦🇺澳大利亚-01 ·TG@kkovokk·1
+      - 🇯🇵日本-08 ·TG@kkovokk·1
+      - 🇯🇵日本-02 ·TG@kkovokk·1
+      - 🇻🇳越南-02 ·TG@kkovokk·1
+      - 🇩🇪德国-01 ·TG@kkovokk·1
+      - 🇯🇵日本-06 ·TG@kkovokk·1
+      - 🇩🇪德国-03 ·TG@kkovokk·1
+      - 🇯🇵日本-07 ·TG@kkovokk·1
+      - 🇺🇸美国-07 ·TG@kkovokk·1
+      - 🇺🇸美国-03 ·TG@kkovokk·1
+      - 🇺🇸美国-13 ·TG@kkovokk·1
+      - 🇺🇸美国-12 ·TG@kkovokk·1
+      - 🇺🇸美国-11 ·TG@kkovokk·1
       - 🇹🇷土耳其-02 ·TG@kkovokk·1
       - 🇹🇷土耳其-03 ·TG@kkovokk·1
-      - 🇩🇪德国-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-01 ·TG@kkovokk·1
+      - 🇺🇸美国-02 ·TG@kkovokk·1
       - 🇩🇪德国-02 ·TG@kkovokk·1
-      - 🇩🇪德国-03 ·TG@kkovokk·1
-      - 🇬🇧英国-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-06 ·TG@kkovokk·1
+      - 🇺🇸美国-01 ·TG@kkovokk·1
+      - 🇹🇷土耳其-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-06 ·TG@kkovokk·1
+      - 🇨🇳台湾-01 ·TG@kkovokk·1
+      - 🇻🇳越南-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-03 ·TG@kkovokk·1
+      - 🇨🇳台湾-02 ·TG@kkovokk·1
       - 🇬🇧英国-02 ·TG@kkovokk·1
+      - 🇭🇰香港-02 ·TG@kkovokk·1
+      - 🇻🇳越南-03 ·TG@kkovokk·1
+      - 🇯🇵日本-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-07 ·TG@kkovokk·1
       - 🇬🇧英国-03 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-01 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-02 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-03 ·TG@kkovokk·1
+      - 🇺🇸美国-06 ·TG@kkovokk·1
+      - 🇺🇸美国-08 ·TG@kkovokk·1
+      - 🇬🇧英国-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-08 ·TG@kkovokk·1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳TW·TG@kkovokk·1_1
-      - 🇨🇳TW·TG@kkovokk·1_2
-      - 🇨🇳TW·TG@kkovokk·1_3
-      - 🇨🇳TW·TG@kkovokk·1_4
-      - 🇨🇳TW·TG@kkovokk·1_5
-      - 🇨🇳TW·TG@kkovokk·1_6
-      - 🇨🇳TW·TG@kkovokk·1_7
-      - 🇨🇳TW·TG@kkovokk·1_8
-      - 🇨🇳TW·TG@kkovokk·1_9
-      - 🇨🇳TW·TG@kkovokk·1_10
-      - 🇨🇳TW·TG@kkovokk·1_11
-      - 🇨🇳TW·TG@kkovokk·1_12
-      - 🇨🇳TW·TG@kkovokk·1_13
-      - 🇨🇳TW·TG@kkovokk·1_14
-      - 🇨🇳TW·TG@kkovokk·1_15
-      - 🇨🇳TW·TG@kkovokk·1_16
-      - 🇨🇳TW·TG@kkovokk·1_17
-      - 🇨🇳TW·TG@kkovokk·1_18
-      - 🇨🇳TW·TG@kkovokk·1_19
-      - 🇨🇳TW·TG@kkovokk·1_20
-      - 🇨🇳TW·TG@kkovokk·1_21
-      - 🇭🇰HK·TG@kkovokk·1_1
-      - 🇭🇰HK·TG@kkovokk·1_2
-      - 🇭🇰HK·TG@kkovokk·1_3
-      - 🇭🇰HK·TG@kkovokk·1_4
-      - 🇸🇬SG·TG@kkovokk·1_1
-      - 🇸🇬SG·TG@kkovokk·1_2
-      - 🇸🇬SG·TG@kkovokk·1_3
-      - 🇸🇬SG·TG@kkovokk·1_4
-      - 🇸🇬SG·TG@kkovokk·1_5
-      - 🇸🇬SG·TG@kkovokk·1_6
-      - 🇸🇬SG·TG@kkovokk·1_7
-      - 🇸🇬SG·TG@kkovokk·1_8
-      - 🇸🇬SG·TG@kkovokk·1_9
-      - 🇸🇬SG·TG@kkovokk·1_10
-      - 🇸🇬SG·TG@kkovokk·1_11
-      - 🇸🇬SG·TG@kkovokk·1_12
-      - 🇸🇬SG·TG@kkovokk·1_13
-      - 🇸🇬SG·TG@kkovokk·1_14
-      - 🇸🇬SG·TG@kkovokk·1_15
-      - 🇸🇬SG·TG@kkovokk·1_16
-      - 🇯🇵JP·TG@kkovokk·1_1
-      - 🇯🇵JP·TG@kkovokk·1_2
-      - 🇯🇵JP·TG@kkovokk·1_3
-      - 🇯🇵JP·TG@kkovokk·1_4
-      - 🇯🇵JP·TG@kkovokk·1_5
-      - 🇯🇵JP·TG@kkovokk·1_6
-      - 🇯🇵JP·TG@kkovokk·1_7
-      - 🇯🇵JP·TG@kkovokk·1_8
-      - 🇯🇵JP·TG@kkovokk·1_9
-      - 🇯🇵JP·TG@kkovokk·1_10
-      - 🇯🇵JP·TG@kkovokk·1_11
-      - 🇯🇵JP·TG@kkovokk·1_12
-      - 🇯🇵JP·TG@kkovokk·1_13
-      - 🇯🇵JP·TG@kkovokk·1_14
-      - 🇯🇵JP·TG@kkovokk·1_15
-      - 🇯🇵JP·TG@kkovokk·1_16
-      - 🇯🇵JP·TG@kkovokk·1_17
-      - 🇯🇵JP·TG@kkovokk·1_18
-      - 🇯🇵JP·TG@kkovokk·1_19
-      - 🇯🇵JP·TG@kkovokk·1_20
-      - 🇯🇵JP·TG@kkovokk·1_21
-      - 🇯🇵JP·TG@kkovokk·1_22
-      - 🇯🇵JP·TG@kkovokk·1_23
-      - 🇯🇵JP·TG@kkovokk·1_24
-      - 🇯🇵JP·TG@kkovokk·1_25
-      - 🇯🇵日本-01 ·TG@kkovokk·1
-      - 🇯🇵日本-02 ·TG@kkovokk·1
-      - 🇯🇵日本-03 ·TG@kkovokk·1
-      - 🇯🇵日本-06 ·TG@kkovokk·1
-      - 🇯🇵日本-07 ·TG@kkovokk·1
-      - 🇯🇵日本-08 ·TG@kkovokk·1
-      - 🇭🇰香港-01 ·TG@kkovokk·1
-      - 🇭🇰香港-02 ·TG@kkovokk·1
-      - 🇭🇰香港-03 ·TG@kkovokk·1
-      - 🇭🇰香港-07 ·TG@kkovokk·1
-      - 🇭🇰香港-08 ·TG@kkovokk·1
-      - 🇭🇰香港-09 ·TG@kkovokk·1
       - 🇭🇰香港-13 ·TG@kkovokk·1
-      - 🇭🇰香港-14 ·TG@kkovokk·1
-      - 🇭🇰香港-15 ·TG@kkovokk·1
-      - 🇭🇰香港-19 ·TG@kkovokk·1
-      - 🇭🇰香港-20 ·TG@kkovokk·1
-      - 🇭🇰香港-21 ·TG@kkovokk·1
-      - 🇨🇳台湾-01 ·TG@kkovokk·1
-      - 🇨🇳台湾-02 ·TG@kkovokk·1
-      - 🇨🇳台湾-03 ·TG@kkovokk·1
-      - 🇨🇳台湾-06 ·TG@kkovokk·1
-      - 🇨🇳台湾-07 ·TG@kkovokk·1
-      - 🇨🇳台湾-08 ·TG@kkovokk·1
-      - 🇸🇬新加坡-01 ·TG@kkovokk·1
-      - 🇸🇬新加坡-02 ·TG@kkovokk·1
-      - 🇸🇬新加坡-03 ·TG@kkovokk·1
-      - 🇸🇬新加坡-06 ·TG@kkovokk·1
       - 🇸🇬新加坡-07 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-03 ·TG@kkovokk·1
+      - 🇭🇰香港-07 ·TG@kkovokk·1
+      - 🇸🇬新加坡-03 ·TG@kkovokk·1
+      - 🇭🇰香港-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-02 ·TG@kkovokk·1
       - 🇸🇬新加坡-08 ·TG@kkovokk·1
-      - 🇺🇸美国-01 ·TG@kkovokk·1
-      - 🇺🇸美国-02 ·TG@kkovokk·1
-      - 🇺🇸美国-03 ·TG@kkovokk·1
-      - 🇺🇸美国-06 ·TG@kkovokk·1
-      - 🇺🇸美国-07 ·TG@kkovokk·1
-      - 🇺🇸美国-08 ·TG@kkovokk·1
-      - 🇺🇸美国-11 ·TG@kkovokk·1
-      - 🇺🇸美国-12 ·TG@kkovokk·1
-      - 🇺🇸美国-13 ·TG@kkovokk·1
-      - 🇻🇳越南-01 ·TG@kkovokk·1
-      - 🇻🇳越南-02 ·TG@kkovokk·1
-      - 🇻🇳越南-03 ·TG@kkovokk·1
-      - 🇮🇳印度-01 ·TG@kkovokk·1
+      - 🇭🇰香港-15 ·TG@kkovokk·1
+      - 🇭🇰香港-14 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-02 ·TG@kkovokk·1
+      - 🇭🇰香港-03 ·TG@kkovokk·1
+      - 🇭🇰香港-19 ·TG@kkovokk·1
       - 🇮🇳印度-02 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-01 ·TG@kkovokk·1
+      - 🇭🇰香港-09 ·TG@kkovokk·1
       - 🇮🇳印度-03 ·TG@kkovokk·1
-      - 🇦🇺澳大利亚-01 ·TG@kkovokk·1
+      - 🇭🇰香港-08 ·TG@kkovokk·1
+      - 🇭🇰香港-21 ·TG@kkovokk·1
+      - 🇮🇳印度-01 ·TG@kkovokk·1
       - 🇦🇺澳大利亚-02 ·TG@kkovokk·1
       - 🇦🇺澳大利亚-03 ·TG@kkovokk·1
-      - 🇹🇷土耳其-01 ·TG@kkovokk·1
+      - 🇦🇺澳大利亚-01 ·TG@kkovokk·1
+      - 🇯🇵日本-08 ·TG@kkovokk·1
+      - 🇯🇵日本-02 ·TG@kkovokk·1
+      - 🇻🇳越南-02 ·TG@kkovokk·1
+      - 🇩🇪德国-01 ·TG@kkovokk·1
+      - 🇯🇵日本-06 ·TG@kkovokk·1
+      - 🇩🇪德国-03 ·TG@kkovokk·1
+      - 🇯🇵日本-07 ·TG@kkovokk·1
+      - 🇺🇸美国-07 ·TG@kkovokk·1
+      - 🇺🇸美国-03 ·TG@kkovokk·1
+      - 🇺🇸美国-13 ·TG@kkovokk·1
+      - 🇺🇸美国-12 ·TG@kkovokk·1
+      - 🇺🇸美国-11 ·TG@kkovokk·1
       - 🇹🇷土耳其-02 ·TG@kkovokk·1
       - 🇹🇷土耳其-03 ·TG@kkovokk·1
-      - 🇩🇪德国-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-01 ·TG@kkovokk·1
+      - 🇺🇸美国-02 ·TG@kkovokk·1
       - 🇩🇪德国-02 ·TG@kkovokk·1
-      - 🇩🇪德国-03 ·TG@kkovokk·1
-      - 🇬🇧英国-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-06 ·TG@kkovokk·1
+      - 🇺🇸美国-01 ·TG@kkovokk·1
+      - 🇹🇷土耳其-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-06 ·TG@kkovokk·1
+      - 🇨🇳台湾-01 ·TG@kkovokk·1
+      - 🇻🇳越南-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-03 ·TG@kkovokk·1
+      - 🇨🇳台湾-02 ·TG@kkovokk·1
       - 🇬🇧英国-02 ·TG@kkovokk·1
+      - 🇭🇰香港-02 ·TG@kkovokk·1
+      - 🇻🇳越南-03 ·TG@kkovokk·1
+      - 🇯🇵日本-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-07 ·TG@kkovokk·1
       - 🇬🇧英国-03 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-01 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-02 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-03 ·TG@kkovokk·1
+      - 🇺🇸美国-06 ·TG@kkovokk·1
+      - 🇺🇸美国-08 ·TG@kkovokk·1
+      - 🇬🇧英国-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-08 ·TG@kkovokk·1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳TW·TG@kkovokk·1_1
-      - 🇨🇳TW·TG@kkovokk·1_2
-      - 🇨🇳TW·TG@kkovokk·1_3
-      - 🇨🇳TW·TG@kkovokk·1_4
-      - 🇨🇳TW·TG@kkovokk·1_5
-      - 🇨🇳TW·TG@kkovokk·1_6
-      - 🇨🇳TW·TG@kkovokk·1_7
-      - 🇨🇳TW·TG@kkovokk·1_8
-      - 🇨🇳TW·TG@kkovokk·1_9
-      - 🇨🇳TW·TG@kkovokk·1_10
-      - 🇨🇳TW·TG@kkovokk·1_11
-      - 🇨🇳TW·TG@kkovokk·1_12
-      - 🇨🇳TW·TG@kkovokk·1_13
-      - 🇨🇳TW·TG@kkovokk·1_14
-      - 🇨🇳TW·TG@kkovokk·1_15
-      - 🇨🇳TW·TG@kkovokk·1_16
-      - 🇨🇳TW·TG@kkovokk·1_17
-      - 🇨🇳TW·TG@kkovokk·1_18
-      - 🇨🇳TW·TG@kkovokk·1_19
-      - 🇨🇳TW·TG@kkovokk·1_20
-      - 🇨🇳TW·TG@kkovokk·1_21
-      - 🇭🇰HK·TG@kkovokk·1_1
-      - 🇭🇰HK·TG@kkovokk·1_2
-      - 🇭🇰HK·TG@kkovokk·1_3
-      - 🇭🇰HK·TG@kkovokk·1_4
-      - 🇸🇬SG·TG@kkovokk·1_1
-      - 🇸🇬SG·TG@kkovokk·1_2
-      - 🇸🇬SG·TG@kkovokk·1_3
-      - 🇸🇬SG·TG@kkovokk·1_4
-      - 🇸🇬SG·TG@kkovokk·1_5
-      - 🇸🇬SG·TG@kkovokk·1_6
-      - 🇸🇬SG·TG@kkovokk·1_7
-      - 🇸🇬SG·TG@kkovokk·1_8
-      - 🇸🇬SG·TG@kkovokk·1_9
-      - 🇸🇬SG·TG@kkovokk·1_10
-      - 🇸🇬SG·TG@kkovokk·1_11
-      - 🇸🇬SG·TG@kkovokk·1_12
-      - 🇸🇬SG·TG@kkovokk·1_13
-      - 🇸🇬SG·TG@kkovokk·1_14
-      - 🇸🇬SG·TG@kkovokk·1_15
-      - 🇸🇬SG·TG@kkovokk·1_16
-      - 🇯🇵JP·TG@kkovokk·1_1
-      - 🇯🇵JP·TG@kkovokk·1_2
-      - 🇯🇵JP·TG@kkovokk·1_3
-      - 🇯🇵JP·TG@kkovokk·1_4
-      - 🇯🇵JP·TG@kkovokk·1_5
-      - 🇯🇵JP·TG@kkovokk·1_6
-      - 🇯🇵JP·TG@kkovokk·1_7
-      - 🇯🇵JP·TG@kkovokk·1_8
-      - 🇯🇵JP·TG@kkovokk·1_9
-      - 🇯🇵JP·TG@kkovokk·1_10
-      - 🇯🇵JP·TG@kkovokk·1_11
-      - 🇯🇵JP·TG@kkovokk·1_12
-      - 🇯🇵JP·TG@kkovokk·1_13
-      - 🇯🇵JP·TG@kkovokk·1_14
-      - 🇯🇵JP·TG@kkovokk·1_15
-      - 🇯🇵JP·TG@kkovokk·1_16
-      - 🇯🇵JP·TG@kkovokk·1_17
-      - 🇯🇵JP·TG@kkovokk·1_18
-      - 🇯🇵JP·TG@kkovokk·1_19
-      - 🇯🇵JP·TG@kkovokk·1_20
-      - 🇯🇵JP·TG@kkovokk·1_21
-      - 🇯🇵JP·TG@kkovokk·1_22
-      - 🇯🇵JP·TG@kkovokk·1_23
-      - 🇯🇵JP·TG@kkovokk·1_24
-      - 🇯🇵JP·TG@kkovokk·1_25
-      - 🇯🇵日本-01 ·TG@kkovokk·1
-      - 🇯🇵日本-02 ·TG@kkovokk·1
-      - 🇯🇵日本-03 ·TG@kkovokk·1
-      - 🇯🇵日本-06 ·TG@kkovokk·1
-      - 🇯🇵日本-07 ·TG@kkovokk·1
-      - 🇯🇵日本-08 ·TG@kkovokk·1
-      - 🇭🇰香港-01 ·TG@kkovokk·1
-      - 🇭🇰香港-02 ·TG@kkovokk·1
-      - 🇭🇰香港-03 ·TG@kkovokk·1
-      - 🇭🇰香港-07 ·TG@kkovokk·1
-      - 🇭🇰香港-08 ·TG@kkovokk·1
-      - 🇭🇰香港-09 ·TG@kkovokk·1
       - 🇭🇰香港-13 ·TG@kkovokk·1
-      - 🇭🇰香港-14 ·TG@kkovokk·1
-      - 🇭🇰香港-15 ·TG@kkovokk·1
-      - 🇭🇰香港-19 ·TG@kkovokk·1
-      - 🇭🇰香港-20 ·TG@kkovokk·1
-      - 🇭🇰香港-21 ·TG@kkovokk·1
-      - 🇨🇳台湾-01 ·TG@kkovokk·1
-      - 🇨🇳台湾-02 ·TG@kkovokk·1
-      - 🇨🇳台湾-03 ·TG@kkovokk·1
-      - 🇨🇳台湾-06 ·TG@kkovokk·1
-      - 🇨🇳台湾-07 ·TG@kkovokk·1
-      - 🇨🇳台湾-08 ·TG@kkovokk·1
-      - 🇸🇬新加坡-01 ·TG@kkovokk·1
-      - 🇸🇬新加坡-02 ·TG@kkovokk·1
-      - 🇸🇬新加坡-03 ·TG@kkovokk·1
-      - 🇸🇬新加坡-06 ·TG@kkovokk·1
       - 🇸🇬新加坡-07 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-03 ·TG@kkovokk·1
+      - 🇭🇰香港-07 ·TG@kkovokk·1
+      - 🇸🇬新加坡-03 ·TG@kkovokk·1
+      - 🇭🇰香港-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-02 ·TG@kkovokk·1
       - 🇸🇬新加坡-08 ·TG@kkovokk·1
-      - 🇺🇸美国-01 ·TG@kkovokk·1
-      - 🇺🇸美国-02 ·TG@kkovokk·1
-      - 🇺🇸美国-03 ·TG@kkovokk·1
-      - 🇺🇸美国-06 ·TG@kkovokk·1
-      - 🇺🇸美国-07 ·TG@kkovokk·1
-      - 🇺🇸美国-08 ·TG@kkovokk·1
-      - 🇺🇸美国-11 ·TG@kkovokk·1
-      - 🇺🇸美国-12 ·TG@kkovokk·1
-      - 🇺🇸美国-13 ·TG@kkovokk·1
-      - 🇻🇳越南-01 ·TG@kkovokk·1
-      - 🇻🇳越南-02 ·TG@kkovokk·1
-      - 🇻🇳越南-03 ·TG@kkovokk·1
-      - 🇮🇳印度-01 ·TG@kkovokk·1
+      - 🇭🇰香港-15 ·TG@kkovokk·1
+      - 🇭🇰香港-14 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-02 ·TG@kkovokk·1
+      - 🇭🇰香港-03 ·TG@kkovokk·1
+      - 🇭🇰香港-19 ·TG@kkovokk·1
       - 🇮🇳印度-02 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-01 ·TG@kkovokk·1
+      - 🇭🇰香港-09 ·TG@kkovokk·1
       - 🇮🇳印度-03 ·TG@kkovokk·1
-      - 🇦🇺澳大利亚-01 ·TG@kkovokk·1
+      - 🇭🇰香港-08 ·TG@kkovokk·1
+      - 🇭🇰香港-21 ·TG@kkovokk·1
+      - 🇮🇳印度-01 ·TG@kkovokk·1
       - 🇦🇺澳大利亚-02 ·TG@kkovokk·1
       - 🇦🇺澳大利亚-03 ·TG@kkovokk·1
-      - 🇹🇷土耳其-01 ·TG@kkovokk·1
+      - 🇦🇺澳大利亚-01 ·TG@kkovokk·1
+      - 🇯🇵日本-08 ·TG@kkovokk·1
+      - 🇯🇵日本-02 ·TG@kkovokk·1
+      - 🇻🇳越南-02 ·TG@kkovokk·1
+      - 🇩🇪德国-01 ·TG@kkovokk·1
+      - 🇯🇵日本-06 ·TG@kkovokk·1
+      - 🇩🇪德国-03 ·TG@kkovokk·1
+      - 🇯🇵日本-07 ·TG@kkovokk·1
+      - 🇺🇸美国-07 ·TG@kkovokk·1
+      - 🇺🇸美国-03 ·TG@kkovokk·1
+      - 🇺🇸美国-13 ·TG@kkovokk·1
+      - 🇺🇸美国-12 ·TG@kkovokk·1
+      - 🇺🇸美国-11 ·TG@kkovokk·1
       - 🇹🇷土耳其-02 ·TG@kkovokk·1
       - 🇹🇷土耳其-03 ·TG@kkovokk·1
-      - 🇩🇪德国-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-01 ·TG@kkovokk·1
+      - 🇺🇸美国-02 ·TG@kkovokk·1
       - 🇩🇪德国-02 ·TG@kkovokk·1
-      - 🇩🇪德国-03 ·TG@kkovokk·1
-      - 🇬🇧英国-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-06 ·TG@kkovokk·1
+      - 🇺🇸美国-01 ·TG@kkovokk·1
+      - 🇹🇷土耳其-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-06 ·TG@kkovokk·1
+      - 🇨🇳台湾-01 ·TG@kkovokk·1
+      - 🇻🇳越南-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-03 ·TG@kkovokk·1
+      - 🇨🇳台湾-02 ·TG@kkovokk·1
       - 🇬🇧英国-02 ·TG@kkovokk·1
+      - 🇭🇰香港-02 ·TG@kkovokk·1
+      - 🇻🇳越南-03 ·TG@kkovokk·1
+      - 🇯🇵日本-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-07 ·TG@kkovokk·1
       - 🇬🇧英国-03 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-01 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-02 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-03 ·TG@kkovokk·1
+      - 🇺🇸美国-06 ·TG@kkovokk·1
+      - 🇺🇸美国-08 ·TG@kkovokk·1
+      - 🇬🇧英国-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-08 ·TG@kkovokk·1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1022,132 +546,64 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳TW·TG@kkovokk·1_1
-      - 🇨🇳TW·TG@kkovokk·1_2
-      - 🇨🇳TW·TG@kkovokk·1_3
-      - 🇨🇳TW·TG@kkovokk·1_4
-      - 🇨🇳TW·TG@kkovokk·1_5
-      - 🇨🇳TW·TG@kkovokk·1_6
-      - 🇨🇳TW·TG@kkovokk·1_7
-      - 🇨🇳TW·TG@kkovokk·1_8
-      - 🇨🇳TW·TG@kkovokk·1_9
-      - 🇨🇳TW·TG@kkovokk·1_10
-      - 🇨🇳TW·TG@kkovokk·1_11
-      - 🇨🇳TW·TG@kkovokk·1_12
-      - 🇨🇳TW·TG@kkovokk·1_13
-      - 🇨🇳TW·TG@kkovokk·1_14
-      - 🇨🇳TW·TG@kkovokk·1_15
-      - 🇨🇳TW·TG@kkovokk·1_16
-      - 🇨🇳TW·TG@kkovokk·1_17
-      - 🇨🇳TW·TG@kkovokk·1_18
-      - 🇨🇳TW·TG@kkovokk·1_19
-      - 🇨🇳TW·TG@kkovokk·1_20
-      - 🇨🇳TW·TG@kkovokk·1_21
-      - 🇭🇰HK·TG@kkovokk·1_1
-      - 🇭🇰HK·TG@kkovokk·1_2
-      - 🇭🇰HK·TG@kkovokk·1_3
-      - 🇭🇰HK·TG@kkovokk·1_4
-      - 🇸🇬SG·TG@kkovokk·1_1
-      - 🇸🇬SG·TG@kkovokk·1_2
-      - 🇸🇬SG·TG@kkovokk·1_3
-      - 🇸🇬SG·TG@kkovokk·1_4
-      - 🇸🇬SG·TG@kkovokk·1_5
-      - 🇸🇬SG·TG@kkovokk·1_6
-      - 🇸🇬SG·TG@kkovokk·1_7
-      - 🇸🇬SG·TG@kkovokk·1_8
-      - 🇸🇬SG·TG@kkovokk·1_9
-      - 🇸🇬SG·TG@kkovokk·1_10
-      - 🇸🇬SG·TG@kkovokk·1_11
-      - 🇸🇬SG·TG@kkovokk·1_12
-      - 🇸🇬SG·TG@kkovokk·1_13
-      - 🇸🇬SG·TG@kkovokk·1_14
-      - 🇸🇬SG·TG@kkovokk·1_15
-      - 🇸🇬SG·TG@kkovokk·1_16
-      - 🇯🇵JP·TG@kkovokk·1_1
-      - 🇯🇵JP·TG@kkovokk·1_2
-      - 🇯🇵JP·TG@kkovokk·1_3
-      - 🇯🇵JP·TG@kkovokk·1_4
-      - 🇯🇵JP·TG@kkovokk·1_5
-      - 🇯🇵JP·TG@kkovokk·1_6
-      - 🇯🇵JP·TG@kkovokk·1_7
-      - 🇯🇵JP·TG@kkovokk·1_8
-      - 🇯🇵JP·TG@kkovokk·1_9
-      - 🇯🇵JP·TG@kkovokk·1_10
-      - 🇯🇵JP·TG@kkovokk·1_11
-      - 🇯🇵JP·TG@kkovokk·1_12
-      - 🇯🇵JP·TG@kkovokk·1_13
-      - 🇯🇵JP·TG@kkovokk·1_14
-      - 🇯🇵JP·TG@kkovokk·1_15
-      - 🇯🇵JP·TG@kkovokk·1_16
-      - 🇯🇵JP·TG@kkovokk·1_17
-      - 🇯🇵JP·TG@kkovokk·1_18
-      - 🇯🇵JP·TG@kkovokk·1_19
-      - 🇯🇵JP·TG@kkovokk·1_20
-      - 🇯🇵JP·TG@kkovokk·1_21
-      - 🇯🇵JP·TG@kkovokk·1_22
-      - 🇯🇵JP·TG@kkovokk·1_23
-      - 🇯🇵JP·TG@kkovokk·1_24
-      - 🇯🇵JP·TG@kkovokk·1_25
-      - 🇯🇵日本-01 ·TG@kkovokk·1
-      - 🇯🇵日本-02 ·TG@kkovokk·1
-      - 🇯🇵日本-03 ·TG@kkovokk·1
-      - 🇯🇵日本-06 ·TG@kkovokk·1
-      - 🇯🇵日本-07 ·TG@kkovokk·1
-      - 🇯🇵日本-08 ·TG@kkovokk·1
-      - 🇭🇰香港-01 ·TG@kkovokk·1
-      - 🇭🇰香港-02 ·TG@kkovokk·1
-      - 🇭🇰香港-03 ·TG@kkovokk·1
-      - 🇭🇰香港-07 ·TG@kkovokk·1
-      - 🇭🇰香港-08 ·TG@kkovokk·1
-      - 🇭🇰香港-09 ·TG@kkovokk·1
       - 🇭🇰香港-13 ·TG@kkovokk·1
-      - 🇭🇰香港-14 ·TG@kkovokk·1
-      - 🇭🇰香港-15 ·TG@kkovokk·1
-      - 🇭🇰香港-19 ·TG@kkovokk·1
-      - 🇭🇰香港-20 ·TG@kkovokk·1
-      - 🇭🇰香港-21 ·TG@kkovokk·1
-      - 🇨🇳台湾-01 ·TG@kkovokk·1
-      - 🇨🇳台湾-02 ·TG@kkovokk·1
-      - 🇨🇳台湾-03 ·TG@kkovokk·1
-      - 🇨🇳台湾-06 ·TG@kkovokk·1
-      - 🇨🇳台湾-07 ·TG@kkovokk·1
-      - 🇨🇳台湾-08 ·TG@kkovokk·1
-      - 🇸🇬新加坡-01 ·TG@kkovokk·1
-      - 🇸🇬新加坡-02 ·TG@kkovokk·1
-      - 🇸🇬新加坡-03 ·TG@kkovokk·1
-      - 🇸🇬新加坡-06 ·TG@kkovokk·1
       - 🇸🇬新加坡-07 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-03 ·TG@kkovokk·1
+      - 🇭🇰香港-07 ·TG@kkovokk·1
+      - 🇸🇬新加坡-03 ·TG@kkovokk·1
+      - 🇭🇰香港-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-02 ·TG@kkovokk·1
       - 🇸🇬新加坡-08 ·TG@kkovokk·1
-      - 🇺🇸美国-01 ·TG@kkovokk·1
-      - 🇺🇸美国-02 ·TG@kkovokk·1
-      - 🇺🇸美国-03 ·TG@kkovokk·1
-      - 🇺🇸美国-06 ·TG@kkovokk·1
-      - 🇺🇸美国-07 ·TG@kkovokk·1
-      - 🇺🇸美国-08 ·TG@kkovokk·1
-      - 🇺🇸美国-11 ·TG@kkovokk·1
-      - 🇺🇸美国-12 ·TG@kkovokk·1
-      - 🇺🇸美国-13 ·TG@kkovokk·1
-      - 🇻🇳越南-01 ·TG@kkovokk·1
-      - 🇻🇳越南-02 ·TG@kkovokk·1
-      - 🇻🇳越南-03 ·TG@kkovokk·1
-      - 🇮🇳印度-01 ·TG@kkovokk·1
+      - 🇭🇰香港-15 ·TG@kkovokk·1
+      - 🇭🇰香港-14 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-02 ·TG@kkovokk·1
+      - 🇭🇰香港-03 ·TG@kkovokk·1
+      - 🇭🇰香港-19 ·TG@kkovokk·1
       - 🇮🇳印度-02 ·TG@kkovokk·1
+      - 🇲🇾马来西亚-01 ·TG@kkovokk·1
+      - 🇭🇰香港-09 ·TG@kkovokk·1
       - 🇮🇳印度-03 ·TG@kkovokk·1
-      - 🇦🇺澳大利亚-01 ·TG@kkovokk·1
+      - 🇭🇰香港-08 ·TG@kkovokk·1
+      - 🇭🇰香港-21 ·TG@kkovokk·1
+      - 🇮🇳印度-01 ·TG@kkovokk·1
       - 🇦🇺澳大利亚-02 ·TG@kkovokk·1
       - 🇦🇺澳大利亚-03 ·TG@kkovokk·1
-      - 🇹🇷土耳其-01 ·TG@kkovokk·1
+      - 🇦🇺澳大利亚-01 ·TG@kkovokk·1
+      - 🇯🇵日本-08 ·TG@kkovokk·1
+      - 🇯🇵日本-02 ·TG@kkovokk·1
+      - 🇻🇳越南-02 ·TG@kkovokk·1
+      - 🇩🇪德国-01 ·TG@kkovokk·1
+      - 🇯🇵日本-06 ·TG@kkovokk·1
+      - 🇩🇪德国-03 ·TG@kkovokk·1
+      - 🇯🇵日本-07 ·TG@kkovokk·1
+      - 🇺🇸美国-07 ·TG@kkovokk·1
+      - 🇺🇸美国-03 ·TG@kkovokk·1
+      - 🇺🇸美国-13 ·TG@kkovokk·1
+      - 🇺🇸美国-12 ·TG@kkovokk·1
+      - 🇺🇸美国-11 ·TG@kkovokk·1
       - 🇹🇷土耳其-02 ·TG@kkovokk·1
       - 🇹🇷土耳其-03 ·TG@kkovokk·1
-      - 🇩🇪德国-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-01 ·TG@kkovokk·1
+      - 🇺🇸美国-02 ·TG@kkovokk·1
       - 🇩🇪德国-02 ·TG@kkovokk·1
-      - 🇩🇪德国-03 ·TG@kkovokk·1
-      - 🇬🇧英国-01 ·TG@kkovokk·1
+      - 🇸🇬新加坡-06 ·TG@kkovokk·1
+      - 🇺🇸美国-01 ·TG@kkovokk·1
+      - 🇹🇷土耳其-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-06 ·TG@kkovokk·1
+      - 🇨🇳台湾-01 ·TG@kkovokk·1
+      - 🇻🇳越南-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-03 ·TG@kkovokk·1
+      - 🇨🇳台湾-02 ·TG@kkovokk·1
       - 🇬🇧英国-02 ·TG@kkovokk·1
+      - 🇭🇰香港-02 ·TG@kkovokk·1
+      - 🇻🇳越南-03 ·TG@kkovokk·1
+      - 🇯🇵日本-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-07 ·TG@kkovokk·1
       - 🇬🇧英国-03 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-01 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-02 ·TG@kkovokk·1
-      - 🇲🇾马来西亚-03 ·TG@kkovokk·1
+      - 🇺🇸美国-06 ·TG@kkovokk·1
+      - 🇺🇸美国-08 ·TG@kkovokk·1
+      - 🇬🇧英国-01 ·TG@kkovokk·1
+      - 🇨🇳台湾-08 ·TG@kkovokk·1
 
 rules:
 # 本地/局域网地址
