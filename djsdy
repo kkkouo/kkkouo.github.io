@@ -1,9 +1,9 @@
 ####################################
 # 创建者：TG@kkouokk
 # 客户端：Clash.Meta
-# 创建时间：2024-02-04 14:04:57
+# 创建时间：2024-02-06 16:25:14
 # 使用模版：TG@kkouokk 默认模版
-# 节点数量：65
+# 节点数量：60
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,494 +86,459 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇦🇱·阿尔巴尼亚·TG@kkouokk·1","type":"ss","server":"31.171.153.182","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇹🇷·土耳其·TG@kkouokk·2","type":"ss","server":"185.123.101.241","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·3","type":"ss","server":"7690-hk45.hmbcloud-client.com","port":42102,"password":"7522e2c27233459aab8d0f1d715828d0","cipher":"aes-128-gcm"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·4","type":"trojan","server":"183.179.168.53","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·5","type":"ss","server":"7690-hk45.hmbcloud-client.com","port":40086,"password":"7522e2c27233459aab8d0f1d715828d0","cipher":"aes-128-gcm"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·6","type":"trojan","server":"118.142.17.238","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·7","type":"trojan","server":"118.142.55.54","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·8","type":"trojan","server":"118.142.55.62","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·9","type":"trojan","server":"118.142.31.198","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·10","type":"trojan","server":"220.246.88.197","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·11","type":"ss","server":"any.hmbiplc-02.com","port":60283,"password":"7522e2c27233459aab8d0f1d715828d0","cipher":"aes-128-gcm"}
-  - {"name":"🇬🇧·英国·TG@kkouokk·12","type":"trojan","server":"185.151.146.211","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·13","type":"ss","server":"any.hmbiplc-02.com","port":38423,"password":"7522e2c27233459aab8d0f1d715828d0","cipher":"aes-128-gcm"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·14","type":"ss","server":"any.hmbiplc-02.com","port":49475,"password":"7522e2c27233459aab8d0f1d715828d0","cipher":"aes-128-gcm"}
-  - {"name":"🇺🇦·乌克兰·TG@kkouokk·15","type":"trojan","server":"130.0.233.48","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·16","type":"ss","server":"any.hmbiplc-02.com","port":30374,"password":"7522e2c27233459aab8d0f1d715828d0","cipher":"aes-128-gcm"}
-  - {"name":"🇷🇺·俄罗斯联邦·TG@kkouokk·17","type":"trojan","server":"185.4.64.225","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·18","type":"trojan","server":"38.126.44.99","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·19","type":"trojan","server":"38.180.16.151","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·20","type":"trojan","server":"38.180.105.115","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇪🇸·西班牙·TG@kkouokk·21","type":"trojan","server":"65.20.102.54","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·22","type":"trojan","server":"154.23.240.87","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·23","type":"trojan","server":"154.23.240.88","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·24","type":"trojan","server":"104.160.18.197","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·25","type":"trojan","server":"154.23.240.94","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·26","type":"trojan","server":"104.160.18.251","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·27","type":"trojan","server":"104.160.19.29","port":443,"udp":true,"password":"7522e2c27233459aab8d0f1d715828d0","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·28","type":"ss","server":"service.ouluyun9803.com","port":50005,"password":"f665c5d0-77c0-4196-bc8d-f0450e9c665b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·29","type":"vmess","server":"www.coldstone.club","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.coldstone.club"}}}
-  - {"name":"🇨🇳·中国·TG@kkouokk·30","type":"ss","server":"service.ouluyun9803.com","port":50003,"password":"f665c5d0-77c0-4196-bc8d-f0450e9c665b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·31","type":"ss","server":"service.ouluyun9803.com","port":26602,"password":"f665c5d0-77c0-4196-bc8d-f0450e9c665b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·32","type":"ss","server":"service.ouluyun9803.com","port":50001,"password":"f665c5d0-77c0-4196-bc8d-f0450e9c665b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬·新加坡·TG@kkouokk·33","type":"ss","server":"13.212.204.117","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·34","type":"ss","server":"service.ouluyun9803.com","port":21003,"password":"f665c5d0-77c0-4196-bc8d-f0450e9c665b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·35","type":"ss","server":"service.ouluyun9803.com","port":50002,"password":"f665c5d0-77c0-4196-bc8d-f0450e9c665b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·36","type":"ss","server":"service.ouluyun9803.com","port":20003,"password":"f665c5d0-77c0-4196-bc8d-f0450e9c665b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·37","type":"vmess","server":"www.crispyrainbow.online","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.online"}}}
-  - {"name":"🇰🇷·韩国·TG@kkouokk·38","type":"ss","server":"p227.panda004.net","port":2020,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"🇰🇷·韩国·TG@kkouokk·39","type":"vless","server":"129.154.209.138","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"baipiao461.stunning-bassoon.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"🇭🇰·香港·TG@kkouokk·40","type":"vless","server":"202.81.231.150","port":80,"uuid":"e28bb3f8-e64a-4419-9496-33c46220354b","tls":false,"servername":"sdgf.bdfstt.sbs","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @kkouokk /?ed=2048"}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·41","type":"vless","server":"104.19.102.72","port":443,"uuid":"ffffffff-17ad-45e7-aaa1-f2baaa08e930","tls":true,"servername":"watashi.free.jppublic.moh539.link","network":"ws","ws-opts":{"path":"Twitter苏小拧"}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·42","type":"vless","server":"xwm-us-v6-a.mouboss.pp.ua","port":2087,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小拧"}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·43","type":"vless","server":"w1.sylar8.eu.org","port":443,"uuid":"29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2","tls":true,"servername":"w1.sylar8.eu.org","network":"ws","ws-opts":{"path":"free0vpn"}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·44","type":"vless","server":"104.21.2.75","port":2053,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小拧"}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·45","type":"vless","server":"104.17.223.17","port":443,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"TG@kkouokk /?ed=2048"}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·46","type":"vless","server":"104.21.2.42","port":443,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"free_vpn"}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·47","type":"vless","server":"172.64.33.100","port":443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"fuck0yes"}}
-  - {"name":"🇨🇳·中国·TG@kkouokk·48","type":"trojan","server":"tiananmen.19890604.day","port":10809,"udp":true,"password":"8820f0fd-71db-4596-9126-6b816702dfd0","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·49","type":"vless","server":"198.41.220.8","port":2053,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"TG@kkouokk /?ed=2048"}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·50","type":"vless","server":"198.41.221.61","port":2083,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"TG@kkouokk /?ed=2048"}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·51","type":"vless","server":"198.41.221.62","port":2083,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"TG@kkouokk /?ed=2048"}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·52","type":"vless","server":"198.41.221.63","port":2083,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"TG@kkouokk /?ed=2048"}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·53","type":"vless","server":"198.41.221.64","port":2083,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"TG@kkouokk /?ed=2048"}}
-  - {"name":"🇨🇳·中国·TG@kkouokk·54","type":"trojan","server":"tiananmen.19890604.day","port":10808,"udp":true,"password":"16395874-7830-4f52-b2eb-ba58e631f457","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·55","type":"trojan","server":"tiananmen.19890604.day","port":10805,"udp":true,"password":"16395874-7830-4f52-b2eb-ba58e631f457","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·56","type":"trojan","server":"tiananmen.19890604.day","port":10810,"udp":true,"password":"8820f0fd-71db-4596-9126-6b816702dfd0","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·57","type":"trojan","server":"xijinping.19890604.day","port":10818,"udp":true,"password":"16395874-7830-4f52-b2eb-ba58e631f457","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·58","type":"trojan","server":"tiananmen.19890604.day","port":10809,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·59","type":"trojan","server":"tiananmen.19890604.day","port":10810,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·60","type":"trojan","server":"xijinping.19890604.day","port":10817,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·61","type":"trojan","server":"xibaozi.19890604.day","port":10835,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳·中国·TG@kkouokk·62","type":"trojan","server":"tiananmen.19890604.day","port":10806,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸·可自行优选域名ip节点","type":"vless","server":"104.21.1.1","port":443,"uuid":"ffffffff-17ad-45e7-aaa1-f2baaa08e930","tls":true,"servername":"watashi.free.jppublic.moh539.link","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @kkouokk /?ed=2048"}}
+  - {"name":"🇹🇼·台湾·TG@kkouokk·1","type":"vmess","server":"114.37.112.239","port":2024,"cipher":"auto","uuid":"08ee510e-68e6-4a71-8d3a-1c576ffa3cac","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·2","type":"ss","server":"service.ouluyun9803.com","port":20005,"password":"d6105bbd-be0d-45b2-82ad-31fd1071c1d2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼·台湾·TG@kkouokk·3","type":"vmess","server":"b23.ntbq.dynu.net","port":2024,"cipher":"auto","uuid":"9cc18dc9-993d-4d34-8638-904024f5efb5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·4","type":"ss","server":"service.ouluyun9803.com","port":20009,"password":"d6105bbd-be0d-45b2-82ad-31fd1071c1d2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·5","type":"ss","server":"service.ouluyun9803.com","port":26667,"password":"d6105bbd-be0d-45b2-82ad-31fd1071c1d2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·6","type":"ss","server":"service.ouluyun9803.com","port":20003,"password":"d6105bbd-be0d-45b2-82ad-31fd1071c1d2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸·美国·TG@kkouokk·7","type":"vmess","server":"www.coldstone.club","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.coldstone.club"}}}
+  - {"name":"🇺🇸·美国·TG@kkouokk·8","type":"vmess","server":"www.crispyrainbow.online","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.online"}}}
+  - {"name":"🇸🇬·新加坡·TG@kkouokk·9","type":"ss","server":"54.179.218.224","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·10","type":"vmess","server":"183.237.20.149","port":54002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·11","type":"vmess","server":"112.28.208.18","port":54137,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰·香港·TG@kkouokk·12","type":"trojan","server":"183.179.168.53","port":443,"udp":true,"password":"e097291a574b4e348596e6f6d76b8a7d","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰·香港·TG@kkouokk·13","type":"trojan","server":"118.142.17.238","port":443,"udp":true,"password":"e097291a574b4e348596e6f6d76b8a7d","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰·香港·TG@kkouokk·14","type":"trojan","server":"118.142.55.54","port":443,"udp":true,"password":"e097291a574b4e348596e6f6d76b8a7d","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰·香港·TG@kkouokk·15","type":"trojan","server":"118.142.55.62","port":443,"udp":true,"password":"e097291a574b4e348596e6f6d76b8a7d","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰·香港·TG@kkouokk·16","type":"trojan","server":"118.142.31.198","port":443,"udp":true,"password":"e097291a574b4e348596e6f6d76b8a7d","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰·香港·TG@kkouokk·17","type":"trojan","server":"202.64.1.167","port":443,"udp":true,"password":"e097291a574b4e348596e6f6d76b8a7d","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧·英国·TG@kkouokk·18","type":"trojan","server":"185.151.146.211","port":443,"udp":true,"password":"e097291a574b4e348596e6f6d76b8a7d","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇦·乌克兰·TG@kkouokk·19","type":"trojan","server":"130.0.233.48","port":443,"udp":true,"password":"e097291a574b4e348596e6f6d76b8a7d","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇪·瑞典·TG@kkouokk·20","type":"trojan","server":"70.34.210.81","port":443,"udp":true,"password":"e097291a574b4e348596e6f6d76b8a7d","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇷🇺·俄罗斯联邦·TG@kkouokk·21","type":"trojan","server":"185.4.64.225","port":443,"udp":true,"password":"e097291a574b4e348596e6f6d76b8a7d","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸·美国·TG@kkouokk·22","type":"trojan","server":"38.180.16.151","port":443,"udp":true,"password":"e097291a574b4e348596e6f6d76b8a7d","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸·美国·TG@kkouokk·23","type":"trojan","server":"38.180.105.115","port":443,"udp":true,"password":"e097291a574b4e348596e6f6d76b8a7d","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸·美国·TG@kkouokk·24","type":"trojan","server":"104.160.18.197","port":443,"udp":true,"password":"e097291a574b4e348596e6f6d76b8a7d","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸·美国·TG@kkouokk·25","type":"trojan","server":"104.160.18.251","port":443,"udp":true,"password":"e097291a574b4e348596e6f6d76b8a7d","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸·美国·TG@kkouokk·26","type":"trojan","server":"104.160.19.29","port":443,"udp":true,"password":"e097291a574b4e348596e6f6d76b8a7d","sni":"www.gpt123.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸·美国·TG@kkouokk·27","type":"vmess","server":"www.crispyrainbow.online","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.online"}}}
+  - {"name":"🇰🇷·韩国·TG@kkouokk·28","type":"ss","server":"p227.panda004.net","port":2020,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇷·韩国·TG@kkouokk·29","type":"vless","server":"129.154.209.138","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"baipiao461.stunning-bassoon.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"🇭🇰·香港·TG@kkouokk·30","type":"vless","server":"202.81.231.150","port":80,"uuid":"e28bb3f8-e64a-4419-9496-33c46220354b","tls":false,"servername":"sdgf.bdfstt.sbs","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @kkouokk /?ed=2048"}}
+  - {"name":"🇺🇸·美国·TG@kkouokk·31","type":"vless","server":"104.19.102.72","port":443,"uuid":"ffffffff-17ad-45e7-aaa1-f2baaa08e930","tls":true,"servername":"watashi.free.jppublic.moh539.link","network":"ws","ws-opts":{"path":"Twitter苏小拧"}}
+  - {"name":"🇺🇸·美国·TG@kkouokk·32","type":"vless","server":"xwm-us-v6-a.mouboss.pp.ua","port":2087,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"Twitter苏小拧"}}
+  - {"name":"🇺🇸·美国·TG@kkouokk·33","type":"vless","server":"w1.sylar8.eu.org","port":443,"uuid":"29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2","tls":true,"servername":"w1.sylar8.eu.org","network":"ws","ws-opts":{"path":"free0vpn"}}
+  - {"name":"🇺🇸·美国·TG@kkouokk·34","type":"vless","server":"104.21.2.75","port":2053,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"Twitter苏小拧"}}
+  - {"name":"🇺🇸·美国·TG@kkouokk·35","type":"vless","server":"104.17.223.17","port":443,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"TG@kkouokk /?ed=2048"}}
+  - {"name":"🇺🇸·美国·TG@kkouokk·36","type":"vless","server":"104.21.2.42","port":443,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"free_vpn"}}
+  - {"name":"🇺🇸·美国·TG@kkouokk·37","type":"vless","server":"172.64.33.100","port":443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"fuck0yes"}}
+  - {"name":"🇨🇳·中国·TG@kkouokk·38","type":"trojan","server":"tiananmen.19890604.day","port":10809,"udp":true,"password":"8820f0fd-71db-4596-9126-6b816702dfd0","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸·美国·TG@kkouokk·39","type":"vless","server":"198.41.220.8","port":2053,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"TG@kkouokk /?ed=2048"}}
+  - {"name":"🇺🇸·美国·TG@kkouokk·40","type":"vless","server":"198.41.221.61","port":2083,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"TG@kkouokk /?ed=2048"}}
+  - {"name":"🇺🇸·美国·TG@kkouokk·41","type":"vless","server":"198.41.221.62","port":2083,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"TG@kkouokk /?ed=2048"}}
+  - {"name":"🇺🇸·美国·TG@kkouokk·42","type":"vless","server":"198.41.221.63","port":2083,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"TG@kkouokk /?ed=2048"}}
+  - {"name":"🇺🇸·美国·TG@kkouokk·43","type":"vless","server":"198.41.221.64","port":2083,"uuid":"875e0c54-2690-4bfb-a4e5-d44bcf9d2a31","tls":true,"servername":"kyd.cloudns.org","network":"ws","ws-opts":{"path":"TG@kkouokk /?ed=2048"}}
+  - {"name":"🇨🇳·中国·TG@kkouokk·44","type":"trojan","server":"tiananmen.19890604.day","port":10810,"udp":true,"password":"8820f0fd-71db-4596-9126-6b816702dfd0","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·45","type":"trojan","server":"tiananmen.19890604.day","port":10809,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·46","type":"trojan","server":"tiananmen.19890604.day","port":10810,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·47","type":"trojan","server":"xijinping.19890604.day","port":10817,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·48","type":"trojan","server":"xibaozi.19890604.day","port":10835,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·49","type":"trojan","server":"tiananmen.19890604.day","port":10806,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·50","type":"trojan","server":"tiananmen.19890604.day","port":10803,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·51","type":"trojan","server":"tank.19890604.day","port":10832,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·52","type":"trojan","server":"tiananmen.19890604.day","port":10809,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·53","type":"trojan","server":"tank.19890604.day","port":10833,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·54","type":"trojan","server":"xijinping.19890604.day","port":10816,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·55","type":"trojan","server":"xibaozi.19890604.day","port":10841,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·56","type":"trojan","server":"xibaozi.19890604.day","port":10836,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳·中国·TG@kkouokk·57","type":"trojan","server":"falungong.19890604.day","port":10821,"udp":true,"password":"fd325b42-0d82-4bd5-85fd-ec0e455cbf57","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸·中国节点=中转节点","type":"vless","server":"104.21.2.61","port":8443,"uuid":"7fd7c15d-95cd-4f5c-bf59-f21e5eb27580","tls":true,"servername":"3k.dabee.top","network":"ws","ws-opts":{"path":"telegram🇨🇳 @kkouokk /?ed=2048"}}
-  - {"name":"🇺🇸·TG@kkouokk·2-4更新","type":"vless","server":"104.21.1.138","port":2087,"uuid":"ffffffff-17ad-45e7-aaa1-f2baaa08e930","tls":true,"servername":"watashi.free.jppublic.moh539.link","network":"ws","ws-opts":{"path":"telegram🇨🇳 @kkouokk /?ed=2048"}}
+  - {"name":"🇺🇸·可自行优选域名ip节点","type":"vless","server":"104.21.1.1","port":443,"uuid":"ffffffff-17ad-45e7-aaa1-f2baaa08e930","tls":true,"servername":"watashi.free.jppublic.moh539.link","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @kkouokk /?ed=2048"}}
+  - {"name":"🇺🇸·TG@kkouokk·2-6更新","type":"vless","server":"104.21.1.138","port":2087,"uuid":"ffffffff-17ad-45e7-aaa1-f2baaa08e930","tls":true,"servername":"watashi.free.jppublic.moh539.link","network":"ws","ws-opts":{"path":"telegram🇨🇳 @kkouokk /?ed=2048"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇦🇱·阿尔巴尼亚·TG@kkouokk·1
-      - 🇹🇷·土耳其·TG@kkouokk·2
-      - 🇨🇳·中国·TG@kkouokk·3
-      - 🇭🇰·香港·TG@kkouokk·4
+      - 🇹🇼·台湾·TG@kkouokk·1
+      - 🇨🇳·中国·TG@kkouokk·2
+      - 🇹🇼·台湾·TG@kkouokk·3
+      - 🇨🇳·中国·TG@kkouokk·4
       - 🇨🇳·中国·TG@kkouokk·5
-      - 🇭🇰·香港·TG@kkouokk·6
-      - 🇭🇰·香港·TG@kkouokk·7
-      - 🇭🇰·香港·TG@kkouokk·8
-      - 🇭🇰·香港·TG@kkouokk·9
-      - 🇭🇰·香港·TG@kkouokk·10
+      - 🇨🇳·中国·TG@kkouokk·6
+      - 🇺🇸·美国·TG@kkouokk·7
+      - 🇺🇸·美国·TG@kkouokk·8
+      - 🇸🇬·新加坡·TG@kkouokk·9
+      - 🇨🇳·中国·TG@kkouokk·10
       - 🇨🇳·中国·TG@kkouokk·11
-      - 🇬🇧·英国·TG@kkouokk·12
-      - 🇨🇳·中国·TG@kkouokk·13
-      - 🇨🇳·中国·TG@kkouokk·14
-      - 🇺🇦·乌克兰·TG@kkouokk·15
-      - 🇨🇳·中国·TG@kkouokk·16
-      - 🇷🇺·俄罗斯联邦·TG@kkouokk·17
-      - 🇺🇸·美国·TG@kkouokk·18
-      - 🇺🇸·美国·TG@kkouokk·19
-      - 🇺🇸·美国·TG@kkouokk·20
-      - 🇪🇸·西班牙·TG@kkouokk·21
+      - 🇭🇰·香港·TG@kkouokk·12
+      - 🇭🇰·香港·TG@kkouokk·13
+      - 🇭🇰·香港·TG@kkouokk·14
+      - 🇭🇰·香港·TG@kkouokk·15
+      - 🇭🇰·香港·TG@kkouokk·16
+      - 🇭🇰·香港·TG@kkouokk·17
+      - 🇬🇧·英国·TG@kkouokk·18
+      - 🇺🇦·乌克兰·TG@kkouokk·19
+      - 🇸🇪·瑞典·TG@kkouokk·20
+      - 🇷🇺·俄罗斯联邦·TG@kkouokk·21
       - 🇺🇸·美国·TG@kkouokk·22
       - 🇺🇸·美国·TG@kkouokk·23
       - 🇺🇸·美国·TG@kkouokk·24
       - 🇺🇸·美国·TG@kkouokk·25
       - 🇺🇸·美国·TG@kkouokk·26
       - 🇺🇸·美国·TG@kkouokk·27
-      - 🇨🇳·中国·TG@kkouokk·28
-      - 🇺🇸·美国·TG@kkouokk·29
-      - 🇨🇳·中国·TG@kkouokk·30
-      - 🇨🇳·中国·TG@kkouokk·31
-      - 🇨🇳·中国·TG@kkouokk·32
-      - 🇸🇬·新加坡·TG@kkouokk·33
-      - 🇨🇳·中国·TG@kkouokk·34
-      - 🇨🇳·中国·TG@kkouokk·35
-      - 🇨🇳·中国·TG@kkouokk·36
+      - 🇰🇷·韩国·TG@kkouokk·28
+      - 🇰🇷·韩国·TG@kkouokk·29
+      - 🇭🇰·香港·TG@kkouokk·30
+      - 🇺🇸·美国·TG@kkouokk·31
+      - 🇺🇸·美国·TG@kkouokk·32
+      - 🇺🇸·美国·TG@kkouokk·33
+      - 🇺🇸·美国·TG@kkouokk·34
+      - 🇺🇸·美国·TG@kkouokk·35
+      - 🇺🇸·美国·TG@kkouokk·36
       - 🇺🇸·美国·TG@kkouokk·37
-      - 🇰🇷·韩国·TG@kkouokk·38
-      - 🇰🇷·韩国·TG@kkouokk·39
-      - 🇭🇰·香港·TG@kkouokk·40
+      - 🇨🇳·中国·TG@kkouokk·38
+      - 🇺🇸·美国·TG@kkouokk·39
+      - 🇺🇸·美国·TG@kkouokk·40
       - 🇺🇸·美国·TG@kkouokk·41
       - 🇺🇸·美国·TG@kkouokk·42
       - 🇺🇸·美国·TG@kkouokk·43
-      - 🇺🇸·美国·TG@kkouokk·44
-      - 🇺🇸·美国·TG@kkouokk·45
-      - 🇺🇸·美国·TG@kkouokk·46
-      - 🇺🇸·美国·TG@kkouokk·47
+      - 🇨🇳·中国·TG@kkouokk·44
+      - 🇨🇳·中国·TG@kkouokk·45
+      - 🇨🇳·中国·TG@kkouokk·46
+      - 🇨🇳·中国·TG@kkouokk·47
       - 🇨🇳·中国·TG@kkouokk·48
-      - 🇺🇸·美国·TG@kkouokk·49
-      - 🇺🇸·美国·TG@kkouokk·50
-      - 🇺🇸·美国·TG@kkouokk·51
-      - 🇺🇸·美国·TG@kkouokk·52
-      - 🇺🇸·美国·TG@kkouokk·53
+      - 🇨🇳·中国·TG@kkouokk·49
+      - 🇨🇳·中国·TG@kkouokk·50
+      - 🇨🇳·中国·TG@kkouokk·51
+      - 🇨🇳·中国·TG@kkouokk·52
+      - 🇨🇳·中国·TG@kkouokk·53
       - 🇨🇳·中国·TG@kkouokk·54
       - 🇨🇳·中国·TG@kkouokk·55
       - 🇨🇳·中国·TG@kkouokk·56
       - 🇨🇳·中国·TG@kkouokk·57
-      - 🇨🇳·中国·TG@kkouokk·58
-      - 🇨🇳·中国·TG@kkouokk·59
-      - 🇨🇳·中国·TG@kkouokk·60
-      - 🇨🇳·中国·TG@kkouokk·61
-      - 🇨🇳·中国·TG@kkouokk·62
-      - 🇺🇸·可自行优选域名ip节点
       - 🇺🇸·中国节点=中转节点
-      - 🇺🇸·TG@kkouokk·2-4更新
+      - 🇺🇸·可自行优选域名ip节点
+      - 🇺🇸·TG@kkouokk·2-6更新
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇦🇱·阿尔巴尼亚·TG@kkouokk·1
-      - 🇹🇷·土耳其·TG@kkouokk·2
-      - 🇨🇳·中国·TG@kkouokk·3
-      - 🇭🇰·香港·TG@kkouokk·4
+      - 🇹🇼·台湾·TG@kkouokk·1
+      - 🇨🇳·中国·TG@kkouokk·2
+      - 🇹🇼·台湾·TG@kkouokk·3
+      - 🇨🇳·中国·TG@kkouokk·4
       - 🇨🇳·中国·TG@kkouokk·5
-      - 🇭🇰·香港·TG@kkouokk·6
-      - 🇭🇰·香港·TG@kkouokk·7
-      - 🇭🇰·香港·TG@kkouokk·8
-      - 🇭🇰·香港·TG@kkouokk·9
-      - 🇭🇰·香港·TG@kkouokk·10
+      - 🇨🇳·中国·TG@kkouokk·6
+      - 🇺🇸·美国·TG@kkouokk·7
+      - 🇺🇸·美国·TG@kkouokk·8
+      - 🇸🇬·新加坡·TG@kkouokk·9
+      - 🇨🇳·中国·TG@kkouokk·10
       - 🇨🇳·中国·TG@kkouokk·11
-      - 🇬🇧·英国·TG@kkouokk·12
-      - 🇨🇳·中国·TG@kkouokk·13
-      - 🇨🇳·中国·TG@kkouokk·14
-      - 🇺🇦·乌克兰·TG@kkouokk·15
-      - 🇨🇳·中国·TG@kkouokk·16
-      - 🇷🇺·俄罗斯联邦·TG@kkouokk·17
-      - 🇺🇸·美国·TG@kkouokk·18
-      - 🇺🇸·美国·TG@kkouokk·19
-      - 🇺🇸·美国·TG@kkouokk·20
-      - 🇪🇸·西班牙·TG@kkouokk·21
+      - 🇭🇰·香港·TG@kkouokk·12
+      - 🇭🇰·香港·TG@kkouokk·13
+      - 🇭🇰·香港·TG@kkouokk·14
+      - 🇭🇰·香港·TG@kkouokk·15
+      - 🇭🇰·香港·TG@kkouokk·16
+      - 🇭🇰·香港·TG@kkouokk·17
+      - 🇬🇧·英国·TG@kkouokk·18
+      - 🇺🇦·乌克兰·TG@kkouokk·19
+      - 🇸🇪·瑞典·TG@kkouokk·20
+      - 🇷🇺·俄罗斯联邦·TG@kkouokk·21
       - 🇺🇸·美国·TG@kkouokk·22
       - 🇺🇸·美国·TG@kkouokk·23
       - 🇺🇸·美国·TG@kkouokk·24
       - 🇺🇸·美国·TG@kkouokk·25
       - 🇺🇸·美国·TG@kkouokk·26
       - 🇺🇸·美国·TG@kkouokk·27
-      - 🇨🇳·中国·TG@kkouokk·28
-      - 🇺🇸·美国·TG@kkouokk·29
-      - 🇨🇳·中国·TG@kkouokk·30
-      - 🇨🇳·中国·TG@kkouokk·31
-      - 🇨🇳·中国·TG@kkouokk·32
-      - 🇸🇬·新加坡·TG@kkouokk·33
-      - 🇨🇳·中国·TG@kkouokk·34
-      - 🇨🇳·中国·TG@kkouokk·35
-      - 🇨🇳·中国·TG@kkouokk·36
+      - 🇰🇷·韩国·TG@kkouokk·28
+      - 🇰🇷·韩国·TG@kkouokk·29
+      - 🇭🇰·香港·TG@kkouokk·30
+      - 🇺🇸·美国·TG@kkouokk·31
+      - 🇺🇸·美国·TG@kkouokk·32
+      - 🇺🇸·美国·TG@kkouokk·33
+      - 🇺🇸·美国·TG@kkouokk·34
+      - 🇺🇸·美国·TG@kkouokk·35
+      - 🇺🇸·美国·TG@kkouokk·36
       - 🇺🇸·美国·TG@kkouokk·37
-      - 🇰🇷·韩国·TG@kkouokk·38
-      - 🇰🇷·韩国·TG@kkouokk·39
-      - 🇭🇰·香港·TG@kkouokk·40
+      - 🇨🇳·中国·TG@kkouokk·38
+      - 🇺🇸·美国·TG@kkouokk·39
+      - 🇺🇸·美国·TG@kkouokk·40
       - 🇺🇸·美国·TG@kkouokk·41
       - 🇺🇸·美国·TG@kkouokk·42
       - 🇺🇸·美国·TG@kkouokk·43
-      - 🇺🇸·美国·TG@kkouokk·44
-      - 🇺🇸·美国·TG@kkouokk·45
-      - 🇺🇸·美国·TG@kkouokk·46
-      - 🇺🇸·美国·TG@kkouokk·47
+      - 🇨🇳·中国·TG@kkouokk·44
+      - 🇨🇳·中国·TG@kkouokk·45
+      - 🇨🇳·中国·TG@kkouokk·46
+      - 🇨🇳·中国·TG@kkouokk·47
       - 🇨🇳·中国·TG@kkouokk·48
-      - 🇺🇸·美国·TG@kkouokk·49
-      - 🇺🇸·美国·TG@kkouokk·50
-      - 🇺🇸·美国·TG@kkouokk·51
-      - 🇺🇸·美国·TG@kkouokk·52
-      - 🇺🇸·美国·TG@kkouokk·53
+      - 🇨🇳·中国·TG@kkouokk·49
+      - 🇨🇳·中国·TG@kkouokk·50
+      - 🇨🇳·中国·TG@kkouokk·51
+      - 🇨🇳·中国·TG@kkouokk·52
+      - 🇨🇳·中国·TG@kkouokk·53
       - 🇨🇳·中国·TG@kkouokk·54
       - 🇨🇳·中国·TG@kkouokk·55
       - 🇨🇳·中国·TG@kkouokk·56
       - 🇨🇳·中国·TG@kkouokk·57
-      - 🇨🇳·中国·TG@kkouokk·58
-      - 🇨🇳·中国·TG@kkouokk·59
-      - 🇨🇳·中国·TG@kkouokk·60
-      - 🇨🇳·中国·TG@kkouokk·61
-      - 🇨🇳·中国·TG@kkouokk·62
-      - 🇺🇸·可自行优选域名ip节点
       - 🇺🇸·中国节点=中转节点
-      - 🇺🇸·TG@kkouokk·2-4更新
+      - 🇺🇸·可自行优选域名ip节点
+      - 🇺🇸·TG@kkouokk·2-6更新
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇦🇱·阿尔巴尼亚·TG@kkouokk·1
-      - 🇹🇷·土耳其·TG@kkouokk·2
-      - 🇨🇳·中国·TG@kkouokk·3
-      - 🇭🇰·香港·TG@kkouokk·4
+      - 🇹🇼·台湾·TG@kkouokk·1
+      - 🇨🇳·中国·TG@kkouokk·2
+      - 🇹🇼·台湾·TG@kkouokk·3
+      - 🇨🇳·中国·TG@kkouokk·4
       - 🇨🇳·中国·TG@kkouokk·5
-      - 🇭🇰·香港·TG@kkouokk·6
-      - 🇭🇰·香港·TG@kkouokk·7
-      - 🇭🇰·香港·TG@kkouokk·8
-      - 🇭🇰·香港·TG@kkouokk·9
-      - 🇭🇰·香港·TG@kkouokk·10
+      - 🇨🇳·中国·TG@kkouokk·6
+      - 🇺🇸·美国·TG@kkouokk·7
+      - 🇺🇸·美国·TG@kkouokk·8
+      - 🇸🇬·新加坡·TG@kkouokk·9
+      - 🇨🇳·中国·TG@kkouokk·10
       - 🇨🇳·中国·TG@kkouokk·11
-      - 🇬🇧·英国·TG@kkouokk·12
-      - 🇨🇳·中国·TG@kkouokk·13
-      - 🇨🇳·中国·TG@kkouokk·14
-      - 🇺🇦·乌克兰·TG@kkouokk·15
-      - 🇨🇳·中国·TG@kkouokk·16
-      - 🇷🇺·俄罗斯联邦·TG@kkouokk·17
-      - 🇺🇸·美国·TG@kkouokk·18
-      - 🇺🇸·美国·TG@kkouokk·19
-      - 🇺🇸·美国·TG@kkouokk·20
-      - 🇪🇸·西班牙·TG@kkouokk·21
+      - 🇭🇰·香港·TG@kkouokk·12
+      - 🇭🇰·香港·TG@kkouokk·13
+      - 🇭🇰·香港·TG@kkouokk·14
+      - 🇭🇰·香港·TG@kkouokk·15
+      - 🇭🇰·香港·TG@kkouokk·16
+      - 🇭🇰·香港·TG@kkouokk·17
+      - 🇬🇧·英国·TG@kkouokk·18
+      - 🇺🇦·乌克兰·TG@kkouokk·19
+      - 🇸🇪·瑞典·TG@kkouokk·20
+      - 🇷🇺·俄罗斯联邦·TG@kkouokk·21
       - 🇺🇸·美国·TG@kkouokk·22
       - 🇺🇸·美国·TG@kkouokk·23
       - 🇺🇸·美国·TG@kkouokk·24
       - 🇺🇸·美国·TG@kkouokk·25
       - 🇺🇸·美国·TG@kkouokk·26
       - 🇺🇸·美国·TG@kkouokk·27
-      - 🇨🇳·中国·TG@kkouokk·28
-      - 🇺🇸·美国·TG@kkouokk·29
-      - 🇨🇳·中国·TG@kkouokk·30
-      - 🇨🇳·中国·TG@kkouokk·31
-      - 🇨🇳·中国·TG@kkouokk·32
-      - 🇸🇬·新加坡·TG@kkouokk·33
-      - 🇨🇳·中国·TG@kkouokk·34
-      - 🇨🇳·中国·TG@kkouokk·35
-      - 🇨🇳·中国·TG@kkouokk·36
+      - 🇰🇷·韩国·TG@kkouokk·28
+      - 🇰🇷·韩国·TG@kkouokk·29
+      - 🇭🇰·香港·TG@kkouokk·30
+      - 🇺🇸·美国·TG@kkouokk·31
+      - 🇺🇸·美国·TG@kkouokk·32
+      - 🇺🇸·美国·TG@kkouokk·33
+      - 🇺🇸·美国·TG@kkouokk·34
+      - 🇺🇸·美国·TG@kkouokk·35
+      - 🇺🇸·美国·TG@kkouokk·36
       - 🇺🇸·美国·TG@kkouokk·37
-      - 🇰🇷·韩国·TG@kkouokk·38
-      - 🇰🇷·韩国·TG@kkouokk·39
-      - 🇭🇰·香港·TG@kkouokk·40
+      - 🇨🇳·中国·TG@kkouokk·38
+      - 🇺🇸·美国·TG@kkouokk·39
+      - 🇺🇸·美国·TG@kkouokk·40
       - 🇺🇸·美国·TG@kkouokk·41
       - 🇺🇸·美国·TG@kkouokk·42
       - 🇺🇸·美国·TG@kkouokk·43
-      - 🇺🇸·美国·TG@kkouokk·44
-      - 🇺🇸·美国·TG@kkouokk·45
-      - 🇺🇸·美国·TG@kkouokk·46
-      - 🇺🇸·美国·TG@kkouokk·47
+      - 🇨🇳·中国·TG@kkouokk·44
+      - 🇨🇳·中国·TG@kkouokk·45
+      - 🇨🇳·中国·TG@kkouokk·46
+      - 🇨🇳·中国·TG@kkouokk·47
       - 🇨🇳·中国·TG@kkouokk·48
-      - 🇺🇸·美国·TG@kkouokk·49
-      - 🇺🇸·美国·TG@kkouokk·50
-      - 🇺🇸·美国·TG@kkouokk·51
-      - 🇺🇸·美国·TG@kkouokk·52
-      - 🇺🇸·美国·TG@kkouokk·53
+      - 🇨🇳·中国·TG@kkouokk·49
+      - 🇨🇳·中国·TG@kkouokk·50
+      - 🇨🇳·中国·TG@kkouokk·51
+      - 🇨🇳·中国·TG@kkouokk·52
+      - 🇨🇳·中国·TG@kkouokk·53
       - 🇨🇳·中国·TG@kkouokk·54
       - 🇨🇳·中国·TG@kkouokk·55
       - 🇨🇳·中国·TG@kkouokk·56
       - 🇨🇳·中国·TG@kkouokk·57
-      - 🇨🇳·中国·TG@kkouokk·58
-      - 🇨🇳·中国·TG@kkouokk·59
-      - 🇨🇳·中国·TG@kkouokk·60
-      - 🇨🇳·中国·TG@kkouokk·61
-      - 🇨🇳·中国·TG@kkouokk·62
-      - 🇺🇸·可自行优选域名ip节点
       - 🇺🇸·中国节点=中转节点
-      - 🇺🇸·TG@kkouokk·2-4更新
+      - 🇺🇸·可自行优选域名ip节点
+      - 🇺🇸·TG@kkouokk·2-6更新
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇦🇱·阿尔巴尼亚·TG@kkouokk·1
-      - 🇹🇷·土耳其·TG@kkouokk·2
-      - 🇨🇳·中国·TG@kkouokk·3
-      - 🇭🇰·香港·TG@kkouokk·4
+      - 🇹🇼·台湾·TG@kkouokk·1
+      - 🇨🇳·中国·TG@kkouokk·2
+      - 🇹🇼·台湾·TG@kkouokk·3
+      - 🇨🇳·中国·TG@kkouokk·4
       - 🇨🇳·中国·TG@kkouokk·5
-      - 🇭🇰·香港·TG@kkouokk·6
-      - 🇭🇰·香港·TG@kkouokk·7
-      - 🇭🇰·香港·TG@kkouokk·8
-      - 🇭🇰·香港·TG@kkouokk·9
-      - 🇭🇰·香港·TG@kkouokk·10
+      - 🇨🇳·中国·TG@kkouokk·6
+      - 🇺🇸·美国·TG@kkouokk·7
+      - 🇺🇸·美国·TG@kkouokk·8
+      - 🇸🇬·新加坡·TG@kkouokk·9
+      - 🇨🇳·中国·TG@kkouokk·10
       - 🇨🇳·中国·TG@kkouokk·11
-      - 🇬🇧·英国·TG@kkouokk·12
-      - 🇨🇳·中国·TG@kkouokk·13
-      - 🇨🇳·中国·TG@kkouokk·14
-      - 🇺🇦·乌克兰·TG@kkouokk·15
-      - 🇨🇳·中国·TG@kkouokk·16
-      - 🇷🇺·俄罗斯联邦·TG@kkouokk·17
-      - 🇺🇸·美国·TG@kkouokk·18
-      - 🇺🇸·美国·TG@kkouokk·19
-      - 🇺🇸·美国·TG@kkouokk·20
-      - 🇪🇸·西班牙·TG@kkouokk·21
+      - 🇭🇰·香港·TG@kkouokk·12
+      - 🇭🇰·香港·TG@kkouokk·13
+      - 🇭🇰·香港·TG@kkouokk·14
+      - 🇭🇰·香港·TG@kkouokk·15
+      - 🇭🇰·香港·TG@kkouokk·16
+      - 🇭🇰·香港·TG@kkouokk·17
+      - 🇬🇧·英国·TG@kkouokk·18
+      - 🇺🇦·乌克兰·TG@kkouokk·19
+      - 🇸🇪·瑞典·TG@kkouokk·20
+      - 🇷🇺·俄罗斯联邦·TG@kkouokk·21
       - 🇺🇸·美国·TG@kkouokk·22
       - 🇺🇸·美国·TG@kkouokk·23
       - 🇺🇸·美国·TG@kkouokk·24
       - 🇺🇸·美国·TG@kkouokk·25
       - 🇺🇸·美国·TG@kkouokk·26
       - 🇺🇸·美国·TG@kkouokk·27
-      - 🇨🇳·中国·TG@kkouokk·28
-      - 🇺🇸·美国·TG@kkouokk·29
-      - 🇨🇳·中国·TG@kkouokk·30
-      - 🇨🇳·中国·TG@kkouokk·31
-      - 🇨🇳·中国·TG@kkouokk·32
-      - 🇸🇬·新加坡·TG@kkouokk·33
-      - 🇨🇳·中国·TG@kkouokk·34
-      - 🇨🇳·中国·TG@kkouokk·35
-      - 🇨🇳·中国·TG@kkouokk·36
+      - 🇰🇷·韩国·TG@kkouokk·28
+      - 🇰🇷·韩国·TG@kkouokk·29
+      - 🇭🇰·香港·TG@kkouokk·30
+      - 🇺🇸·美国·TG@kkouokk·31
+      - 🇺🇸·美国·TG@kkouokk·32
+      - 🇺🇸·美国·TG@kkouokk·33
+      - 🇺🇸·美国·TG@kkouokk·34
+      - 🇺🇸·美国·TG@kkouokk·35
+      - 🇺🇸·美国·TG@kkouokk·36
       - 🇺🇸·美国·TG@kkouokk·37
-      - 🇰🇷·韩国·TG@kkouokk·38
-      - 🇰🇷·韩国·TG@kkouokk·39
-      - 🇭🇰·香港·TG@kkouokk·40
+      - 🇨🇳·中国·TG@kkouokk·38
+      - 🇺🇸·美国·TG@kkouokk·39
+      - 🇺🇸·美国·TG@kkouokk·40
       - 🇺🇸·美国·TG@kkouokk·41
       - 🇺🇸·美国·TG@kkouokk·42
       - 🇺🇸·美国·TG@kkouokk·43
-      - 🇺🇸·美国·TG@kkouokk·44
-      - 🇺🇸·美国·TG@kkouokk·45
-      - 🇺🇸·美国·TG@kkouokk·46
-      - 🇺🇸·美国·TG@kkouokk·47
+      - 🇨🇳·中国·TG@kkouokk·44
+      - 🇨🇳·中国·TG@kkouokk·45
+      - 🇨🇳·中国·TG@kkouokk·46
+      - 🇨🇳·中国·TG@kkouokk·47
       - 🇨🇳·中国·TG@kkouokk·48
-      - 🇺🇸·美国·TG@kkouokk·49
-      - 🇺🇸·美国·TG@kkouokk·50
-      - 🇺🇸·美国·TG@kkouokk·51
-      - 🇺🇸·美国·TG@kkouokk·52
-      - 🇺🇸·美国·TG@kkouokk·53
+      - 🇨🇳·中国·TG@kkouokk·49
+      - 🇨🇳·中国·TG@kkouokk·50
+      - 🇨🇳·中国·TG@kkouokk·51
+      - 🇨🇳·中国·TG@kkouokk·52
+      - 🇨🇳·中国·TG@kkouokk·53
       - 🇨🇳·中国·TG@kkouokk·54
       - 🇨🇳·中国·TG@kkouokk·55
       - 🇨🇳·中国·TG@kkouokk·56
       - 🇨🇳·中国·TG@kkouokk·57
-      - 🇨🇳·中国·TG@kkouokk·58
-      - 🇨🇳·中国·TG@kkouokk·59
-      - 🇨🇳·中国·TG@kkouokk·60
-      - 🇨🇳·中国·TG@kkouokk·61
-      - 🇨🇳·中国·TG@kkouokk·62
-      - 🇺🇸·可自行优选域名ip节点
       - 🇺🇸·中国节点=中转节点
-      - 🇺🇸·TG@kkouokk·2-4更新
+      - 🇺🇸·可自行优选域名ip节点
+      - 🇺🇸·TG@kkouokk·2-6更新
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇦🇱·阿尔巴尼亚·TG@kkouokk·1
-      - 🇹🇷·土耳其·TG@kkouokk·2
-      - 🇨🇳·中国·TG@kkouokk·3
-      - 🇭🇰·香港·TG@kkouokk·4
+      - 🇹🇼·台湾·TG@kkouokk·1
+      - 🇨🇳·中国·TG@kkouokk·2
+      - 🇹🇼·台湾·TG@kkouokk·3
+      - 🇨🇳·中国·TG@kkouokk·4
       - 🇨🇳·中国·TG@kkouokk·5
-      - 🇭🇰·香港·TG@kkouokk·6
-      - 🇭🇰·香港·TG@kkouokk·7
-      - 🇭🇰·香港·TG@kkouokk·8
-      - 🇭🇰·香港·TG@kkouokk·9
-      - 🇭🇰·香港·TG@kkouokk·10
+      - 🇨🇳·中国·TG@kkouokk·6
+      - 🇺🇸·美国·TG@kkouokk·7
+      - 🇺🇸·美国·TG@kkouokk·8
+      - 🇸🇬·新加坡·TG@kkouokk·9
+      - 🇨🇳·中国·TG@kkouokk·10
       - 🇨🇳·中国·TG@kkouokk·11
-      - 🇬🇧·英国·TG@kkouokk·12
-      - 🇨🇳·中国·TG@kkouokk·13
-      - 🇨🇳·中国·TG@kkouokk·14
-      - 🇺🇦·乌克兰·TG@kkouokk·15
-      - 🇨🇳·中国·TG@kkouokk·16
-      - 🇷🇺·俄罗斯联邦·TG@kkouokk·17
-      - 🇺🇸·美国·TG@kkouokk·18
-      - 🇺🇸·美国·TG@kkouokk·19
-      - 🇺🇸·美国·TG@kkouokk·20
-      - 🇪🇸·西班牙·TG@kkouokk·21
+      - 🇭🇰·香港·TG@kkouokk·12
+      - 🇭🇰·香港·TG@kkouokk·13
+      - 🇭🇰·香港·TG@kkouokk·14
+      - 🇭🇰·香港·TG@kkouokk·15
+      - 🇭🇰·香港·TG@kkouokk·16
+      - 🇭🇰·香港·TG@kkouokk·17
+      - 🇬🇧·英国·TG@kkouokk·18
+      - 🇺🇦·乌克兰·TG@kkouokk·19
+      - 🇸🇪·瑞典·TG@kkouokk·20
+      - 🇷🇺·俄罗斯联邦·TG@kkouokk·21
       - 🇺🇸·美国·TG@kkouokk·22
       - 🇺🇸·美国·TG@kkouokk·23
       - 🇺🇸·美国·TG@kkouokk·24
       - 🇺🇸·美国·TG@kkouokk·25
       - 🇺🇸·美国·TG@kkouokk·26
       - 🇺🇸·美国·TG@kkouokk·27
-      - 🇨🇳·中国·TG@kkouokk·28
-      - 🇺🇸·美国·TG@kkouokk·29
-      - 🇨🇳·中国·TG@kkouokk·30
-      - 🇨🇳·中国·TG@kkouokk·31
-      - 🇨🇳·中国·TG@kkouokk·32
-      - 🇸🇬·新加坡·TG@kkouokk·33
-      - 🇨🇳·中国·TG@kkouokk·34
-      - 🇨🇳·中国·TG@kkouokk·35
-      - 🇨🇳·中国·TG@kkouokk·36
+      - 🇰🇷·韩国·TG@kkouokk·28
+      - 🇰🇷·韩国·TG@kkouokk·29
+      - 🇭🇰·香港·TG@kkouokk·30
+      - 🇺🇸·美国·TG@kkouokk·31
+      - 🇺🇸·美国·TG@kkouokk·32
+      - 🇺🇸·美国·TG@kkouokk·33
+      - 🇺🇸·美国·TG@kkouokk·34
+      - 🇺🇸·美国·TG@kkouokk·35
+      - 🇺🇸·美国·TG@kkouokk·36
       - 🇺🇸·美国·TG@kkouokk·37
-      - 🇰🇷·韩国·TG@kkouokk·38
-      - 🇰🇷·韩国·TG@kkouokk·39
-      - 🇭🇰·香港·TG@kkouokk·40
+      - 🇨🇳·中国·TG@kkouokk·38
+      - 🇺🇸·美国·TG@kkouokk·39
+      - 🇺🇸·美国·TG@kkouokk·40
       - 🇺🇸·美国·TG@kkouokk·41
       - 🇺🇸·美国·TG@kkouokk·42
       - 🇺🇸·美国·TG@kkouokk·43
-      - 🇺🇸·美国·TG@kkouokk·44
-      - 🇺🇸·美国·TG@kkouokk·45
-      - 🇺🇸·美国·TG@kkouokk·46
-      - 🇺🇸·美国·TG@kkouokk·47
+      - 🇨🇳·中国·TG@kkouokk·44
+      - 🇨🇳·中国·TG@kkouokk·45
+      - 🇨🇳·中国·TG@kkouokk·46
+      - 🇨🇳·中国·TG@kkouokk·47
       - 🇨🇳·中国·TG@kkouokk·48
-      - 🇺🇸·美国·TG@kkouokk·49
-      - 🇺🇸·美国·TG@kkouokk·50
-      - 🇺🇸·美国·TG@kkouokk·51
-      - 🇺🇸·美国·TG@kkouokk·52
-      - 🇺🇸·美国·TG@kkouokk·53
+      - 🇨🇳·中国·TG@kkouokk·49
+      - 🇨🇳·中国·TG@kkouokk·50
+      - 🇨🇳·中国·TG@kkouokk·51
+      - 🇨🇳·中国·TG@kkouokk·52
+      - 🇨🇳·中国·TG@kkouokk·53
       - 🇨🇳·中国·TG@kkouokk·54
       - 🇨🇳·中国·TG@kkouokk·55
       - 🇨🇳·中国·TG@kkouokk·56
       - 🇨🇳·中国·TG@kkouokk·57
-      - 🇨🇳·中国·TG@kkouokk·58
-      - 🇨🇳·中国·TG@kkouokk·59
-      - 🇨🇳·中国·TG@kkouokk·60
-      - 🇨🇳·中国·TG@kkouokk·61
-      - 🇨🇳·中国·TG@kkouokk·62
-      - 🇺🇸·可自行优选域名ip节点
       - 🇺🇸·中国节点=中转节点
-      - 🇺🇸·TG@kkouokk·2-4更新
+      - 🇺🇸·可自行优选域名ip节点
+      - 🇺🇸·TG@kkouokk·2-6更新
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇦🇱·阿尔巴尼亚·TG@kkouokk·1
-      - 🇹🇷·土耳其·TG@kkouokk·2
-      - 🇨🇳·中国·TG@kkouokk·3
-      - 🇭🇰·香港·TG@kkouokk·4
+      - 🇹🇼·台湾·TG@kkouokk·1
+      - 🇨🇳·中国·TG@kkouokk·2
+      - 🇹🇼·台湾·TG@kkouokk·3
+      - 🇨🇳·中国·TG@kkouokk·4
       - 🇨🇳·中国·TG@kkouokk·5
-      - 🇭🇰·香港·TG@kkouokk·6
-      - 🇭🇰·香港·TG@kkouokk·7
-      - 🇭🇰·香港·TG@kkouokk·8
-      - 🇭🇰·香港·TG@kkouokk·9
-      - 🇭🇰·香港·TG@kkouokk·10
+      - 🇨🇳·中国·TG@kkouokk·6
+      - 🇺🇸·美国·TG@kkouokk·7
+      - 🇺🇸·美国·TG@kkouokk·8
+      - 🇸🇬·新加坡·TG@kkouokk·9
+      - 🇨🇳·中国·TG@kkouokk·10
       - 🇨🇳·中国·TG@kkouokk·11
-      - 🇬🇧·英国·TG@kkouokk·12
-      - 🇨🇳·中国·TG@kkouokk·13
-      - 🇨🇳·中国·TG@kkouokk·14
-      - 🇺🇦·乌克兰·TG@kkouokk·15
-      - 🇨🇳·中国·TG@kkouokk·16
-      - 🇷🇺·俄罗斯联邦·TG@kkouokk·17
-      - 🇺🇸·美国·TG@kkouokk·18
-      - 🇺🇸·美国·TG@kkouokk·19
-      - 🇺🇸·美国·TG@kkouokk·20
-      - 🇪🇸·西班牙·TG@kkouokk·21
+      - 🇭🇰·香港·TG@kkouokk·12
+      - 🇭🇰·香港·TG@kkouokk·13
+      - 🇭🇰·香港·TG@kkouokk·14
+      - 🇭🇰·香港·TG@kkouokk·15
+      - 🇭🇰·香港·TG@kkouokk·16
+      - 🇭🇰·香港·TG@kkouokk·17
+      - 🇬🇧·英国·TG@kkouokk·18
+      - 🇺🇦·乌克兰·TG@kkouokk·19
+      - 🇸🇪·瑞典·TG@kkouokk·20
+      - 🇷🇺·俄罗斯联邦·TG@kkouokk·21
       - 🇺🇸·美国·TG@kkouokk·22
       - 🇺🇸·美国·TG@kkouokk·23
       - 🇺🇸·美国·TG@kkouokk·24
       - 🇺🇸·美国·TG@kkouokk·25
       - 🇺🇸·美国·TG@kkouokk·26
       - 🇺🇸·美国·TG@kkouokk·27
-      - 🇨🇳·中国·TG@kkouokk·28
-      - 🇺🇸·美国·TG@kkouokk·29
-      - 🇨🇳·中国·TG@kkouokk·30
-      - 🇨🇳·中国·TG@kkouokk·31
-      - 🇨🇳·中国·TG@kkouokk·32
-      - 🇸🇬·新加坡·TG@kkouokk·33
-      - 🇨🇳·中国·TG@kkouokk·34
-      - 🇨🇳·中国·TG@kkouokk·35
-      - 🇨🇳·中国·TG@kkouokk·36
+      - 🇰🇷·韩国·TG@kkouokk·28
+      - 🇰🇷·韩国·TG@kkouokk·29
+      - 🇭🇰·香港·TG@kkouokk·30
+      - 🇺🇸·美国·TG@kkouokk·31
+      - 🇺🇸·美国·TG@kkouokk·32
+      - 🇺🇸·美国·TG@kkouokk·33
+      - 🇺🇸·美国·TG@kkouokk·34
+      - 🇺🇸·美国·TG@kkouokk·35
+      - 🇺🇸·美国·TG@kkouokk·36
       - 🇺🇸·美国·TG@kkouokk·37
-      - 🇰🇷·韩国·TG@kkouokk·38
-      - 🇰🇷·韩国·TG@kkouokk·39
-      - 🇭🇰·香港·TG@kkouokk·40
+      - 🇨🇳·中国·TG@kkouokk·38
+      - 🇺🇸·美国·TG@kkouokk·39
+      - 🇺🇸·美国·TG@kkouokk·40
       - 🇺🇸·美国·TG@kkouokk·41
       - 🇺🇸·美国·TG@kkouokk·42
       - 🇺🇸·美国·TG@kkouokk·43
-      - 🇺🇸·美国·TG@kkouokk·44
-      - 🇺🇸·美国·TG@kkouokk·45
-      - 🇺🇸·美国·TG@kkouokk·46
-      - 🇺🇸·美国·TG@kkouokk·47
+      - 🇨🇳·中国·TG@kkouokk·44
+      - 🇨🇳·中国·TG@kkouokk·45
+      - 🇨🇳·中国·TG@kkouokk·46
+      - 🇨🇳·中国·TG@kkouokk·47
       - 🇨🇳·中国·TG@kkouokk·48
-      - 🇺🇸·美国·TG@kkouokk·49
-      - 🇺🇸·美国·TG@kkouokk·50
-      - 🇺🇸·美国·TG@kkouokk·51
-      - 🇺🇸·美国·TG@kkouokk·52
-      - 🇺🇸·美国·TG@kkouokk·53
+      - 🇨🇳·中国·TG@kkouokk·49
+      - 🇨🇳·中国·TG@kkouokk·50
+      - 🇨🇳·中国·TG@kkouokk·51
+      - 🇨🇳·中国·TG@kkouokk·52
+      - 🇨🇳·中国·TG@kkouokk·53
       - 🇨🇳·中国·TG@kkouokk·54
       - 🇨🇳·中国·TG@kkouokk·55
       - 🇨🇳·中国·TG@kkouokk·56
       - 🇨🇳·中国·TG@kkouokk·57
-      - 🇨🇳·中国·TG@kkouokk·58
-      - 🇨🇳·中国·TG@kkouokk·59
-      - 🇨🇳·中国·TG@kkouokk·60
-      - 🇨🇳·中国·TG@kkouokk·61
-      - 🇨🇳·中国·TG@kkouokk·62
-      - 🇺🇸·可自行优选域名ip节点
       - 🇺🇸·中国节点=中转节点
-      - 🇺🇸·TG@kkouokk·2-4更新
+      - 🇺🇸·可自行优选域名ip节点
+      - 🇺🇸·TG@kkouokk·2-6更新
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -596,71 +561,66 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇱·阿尔巴尼亚·TG@kkouokk·1
-      - 🇹🇷·土耳其·TG@kkouokk·2
-      - 🇨🇳·中国·TG@kkouokk·3
-      - 🇭🇰·香港·TG@kkouokk·4
+      - 🇹🇼·台湾·TG@kkouokk·1
+      - 🇨🇳·中国·TG@kkouokk·2
+      - 🇹🇼·台湾·TG@kkouokk·3
+      - 🇨🇳·中国·TG@kkouokk·4
       - 🇨🇳·中国·TG@kkouokk·5
-      - 🇭🇰·香港·TG@kkouokk·6
-      - 🇭🇰·香港·TG@kkouokk·7
-      - 🇭🇰·香港·TG@kkouokk·8
-      - 🇭🇰·香港·TG@kkouokk·9
-      - 🇭🇰·香港·TG@kkouokk·10
+      - 🇨🇳·中国·TG@kkouokk·6
+      - 🇺🇸·美国·TG@kkouokk·7
+      - 🇺🇸·美国·TG@kkouokk·8
+      - 🇸🇬·新加坡·TG@kkouokk·9
+      - 🇨🇳·中国·TG@kkouokk·10
       - 🇨🇳·中国·TG@kkouokk·11
-      - 🇬🇧·英国·TG@kkouokk·12
-      - 🇨🇳·中国·TG@kkouokk·13
-      - 🇨🇳·中国·TG@kkouokk·14
-      - 🇺🇦·乌克兰·TG@kkouokk·15
-      - 🇨🇳·中国·TG@kkouokk·16
-      - 🇷🇺·俄罗斯联邦·TG@kkouokk·17
-      - 🇺🇸·美国·TG@kkouokk·18
-      - 🇺🇸·美国·TG@kkouokk·19
-      - 🇺🇸·美国·TG@kkouokk·20
-      - 🇪🇸·西班牙·TG@kkouokk·21
+      - 🇭🇰·香港·TG@kkouokk·12
+      - 🇭🇰·香港·TG@kkouokk·13
+      - 🇭🇰·香港·TG@kkouokk·14
+      - 🇭🇰·香港·TG@kkouokk·15
+      - 🇭🇰·香港·TG@kkouokk·16
+      - 🇭🇰·香港·TG@kkouokk·17
+      - 🇬🇧·英国·TG@kkouokk·18
+      - 🇺🇦·乌克兰·TG@kkouokk·19
+      - 🇸🇪·瑞典·TG@kkouokk·20
+      - 🇷🇺·俄罗斯联邦·TG@kkouokk·21
       - 🇺🇸·美国·TG@kkouokk·22
       - 🇺🇸·美国·TG@kkouokk·23
       - 🇺🇸·美国·TG@kkouokk·24
       - 🇺🇸·美国·TG@kkouokk·25
       - 🇺🇸·美国·TG@kkouokk·26
       - 🇺🇸·美国·TG@kkouokk·27
-      - 🇨🇳·中国·TG@kkouokk·28
-      - 🇺🇸·美国·TG@kkouokk·29
-      - 🇨🇳·中国·TG@kkouokk·30
-      - 🇨🇳·中国·TG@kkouokk·31
-      - 🇨🇳·中国·TG@kkouokk·32
-      - 🇸🇬·新加坡·TG@kkouokk·33
-      - 🇨🇳·中国·TG@kkouokk·34
-      - 🇨🇳·中国·TG@kkouokk·35
-      - 🇨🇳·中国·TG@kkouokk·36
+      - 🇰🇷·韩国·TG@kkouokk·28
+      - 🇰🇷·韩国·TG@kkouokk·29
+      - 🇭🇰·香港·TG@kkouokk·30
+      - 🇺🇸·美国·TG@kkouokk·31
+      - 🇺🇸·美国·TG@kkouokk·32
+      - 🇺🇸·美国·TG@kkouokk·33
+      - 🇺🇸·美国·TG@kkouokk·34
+      - 🇺🇸·美国·TG@kkouokk·35
+      - 🇺🇸·美国·TG@kkouokk·36
       - 🇺🇸·美国·TG@kkouokk·37
-      - 🇰🇷·韩国·TG@kkouokk·38
-      - 🇰🇷·韩国·TG@kkouokk·39
-      - 🇭🇰·香港·TG@kkouokk·40
+      - 🇨🇳·中国·TG@kkouokk·38
+      - 🇺🇸·美国·TG@kkouokk·39
+      - 🇺🇸·美国·TG@kkouokk·40
       - 🇺🇸·美国·TG@kkouokk·41
       - 🇺🇸·美国·TG@kkouokk·42
       - 🇺🇸·美国·TG@kkouokk·43
-      - 🇺🇸·美国·TG@kkouokk·44
-      - 🇺🇸·美国·TG@kkouokk·45
-      - 🇺🇸·美国·TG@kkouokk·46
-      - 🇺🇸·美国·TG@kkouokk·47
+      - 🇨🇳·中国·TG@kkouokk·44
+      - 🇨🇳·中国·TG@kkouokk·45
+      - 🇨🇳·中国·TG@kkouokk·46
+      - 🇨🇳·中国·TG@kkouokk·47
       - 🇨🇳·中国·TG@kkouokk·48
-      - 🇺🇸·美国·TG@kkouokk·49
-      - 🇺🇸·美国·TG@kkouokk·50
-      - 🇺🇸·美国·TG@kkouokk·51
-      - 🇺🇸·美国·TG@kkouokk·52
-      - 🇺🇸·美国·TG@kkouokk·53
+      - 🇨🇳·中国·TG@kkouokk·49
+      - 🇨🇳·中国·TG@kkouokk·50
+      - 🇨🇳·中国·TG@kkouokk·51
+      - 🇨🇳·中国·TG@kkouokk·52
+      - 🇨🇳·中国·TG@kkouokk·53
       - 🇨🇳·中国·TG@kkouokk·54
       - 🇨🇳·中国·TG@kkouokk·55
       - 🇨🇳·中国·TG@kkouokk·56
       - 🇨🇳·中国·TG@kkouokk·57
-      - 🇨🇳·中国·TG@kkouokk·58
-      - 🇨🇳·中国·TG@kkouokk·59
-      - 🇨🇳·中国·TG@kkouokk·60
-      - 🇨🇳·中国·TG@kkouokk·61
-      - 🇨🇳·中国·TG@kkouokk·62
-      - 🇺🇸·可自行优选域名ip节点
       - 🇺🇸·中国节点=中转节点
-      - 🇺🇸·TG@kkouokk·2-4更新
+      - 🇺🇸·可自行优选域名ip节点
+      - 🇺🇸·TG@kkouokk·2-6更新
 
 rules:
 # 本地/局域网地址
