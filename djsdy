@@ -254,7 +254,7 @@ proxies:
   - {"name":"🇺🇸·美国·TG@kkouokk·166","type":"vless","server":"162.120.94.103","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
   - {"name":"🇷🇺·俄罗斯联邦·TG@kkouokk·167","type":"vless","server":"194.59.5.91","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
   - {"name":"🇺🇸·可自行优选域名ip节点","type":"vless","server":"www.visa.com.sg","port":80,"uuid":"7b0668fc-6e0c-4362-b2b0-64d5f7f4a1f8","tls":false,"servername":"kaka101.kkaa.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"🇺🇸·TG@kkouokk·4-3更新","type":"vless","server":"199.181.197.225","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"🇺🇸·TG@kkouokk·4-5更新","type":"vless","server":"199.181.197.225","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
   - {"name":"🇺🇸·中国节点=中转节点","type":"vless","server":"102.177.176.182","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
 proxy-groups:
   - name: 🚀 节点选择
@@ -430,7 +430,7 @@ proxy-groups:
       - 🇺🇸·美国·TG@kkouokk·166
       - 🇷🇺·俄罗斯联邦·TG@kkouokk·167
       - 🇺🇸·可自行优选域名ip节点
-      - 🇺🇸·TG@kkouokk·4-3更新
+      - 🇺🇸·TG@kkouokk·4-5更新
       - 🇺🇸·中国节点=中转节点
   - name: ♻️ 自动选择
     type: url-test
@@ -606,7 +606,7 @@ proxy-groups:
       - 🇺🇸·美国·TG@kkouokk·166
       - 🇷🇺·俄罗斯联邦·TG@kkouokk·167
       - 🇺🇸·可自行优选域名ip节点
-      - 🇺🇸·TG@kkouokk·4-3更新
+      - 🇺🇸·TG@kkouokk·4-5更新
       - 🇺🇸·中国节点=中转节点
   - name: 🌍 国外媒体
     type: select
@@ -782,7 +782,7 @@ proxy-groups:
       - 🇺🇸·美国·TG@kkouokk·166
       - 🇷🇺·俄罗斯联邦·TG@kkouokk·167
       - 🇺🇸·可自行优选域名ip节点
-      - 🇺🇸·TG@kkouokk·4-3更新
+      - 🇺🇸·TG@kkouokk·4-5更新
       - 🇺🇸·中国节点=中转节点
   - name: 📲 电报信息
     type: select
@@ -957,7 +957,7 @@ proxy-groups:
       - 🇺🇸·美国·TG@kkouokk·166
       - 🇷🇺·俄罗斯联邦·TG@kkouokk·167
       - 🇺🇸·可自行优选域名ip节点
-      - 🇺🇸·TG@kkouokk·4-3更新
+      - 🇺🇸·TG@kkouokk·4-5更新
       - 🇺🇸·中国节点=中转节点
   - name: Ⓜ️ 微软服务
     type: select
@@ -1132,7 +1132,7 @@ proxy-groups:
       - 🇺🇸·美国·TG@kkouokk·166
       - 🇷🇺·俄罗斯联邦·TG@kkouokk·167
       - 🇺🇸·可自行优选域名ip节点
-      - 🇺🇸·TG@kkouokk·4-3更新
+      - 🇺🇸·TG@kkouokk·4-5更新
       - 🇺🇸·中国节点=中转节点
   - name: 🍎 苹果服务
     type: select
@@ -1307,7 +1307,7 @@ proxy-groups:
       - 🇺🇸·美国·TG@kkouokk·166
       - 🇷🇺·俄罗斯联邦·TG@kkouokk·167
       - 🇺🇸·可自行优选域名ip节点
-      - 🇺🇸·TG@kkouokk·4-3更新
+      - 🇺🇸·TG@kkouokk·4-5更新
       - 🇺🇸·中国节点=中转节点
   - name: 🎯 全球直连
     type: select
@@ -1499,7 +1499,7 @@ proxy-groups:
       - 🇺🇸·美国·TG@kkouokk·166
       - 🇷🇺·俄罗斯联邦·TG@kkouokk·167
       - 🇺🇸·可自行优选域名ip节点
-      - 🇺🇸·TG@kkouokk·4-3更新
+      - 🇺🇸·TG@kkouokk·4-5更新
       - 🇺🇸·中国节点=中转节点
 
 rules:
