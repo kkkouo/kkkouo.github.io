@@ -1,831 +1,901 @@
-####################################
-# 创建者：TG@kkouokk
-# 客户端：Clash.Meta
-# 创建时间：2024-09-20 12:02:01
-# 使用模版：TG@kkouokk 默认模版
-# 节点数量：101
-####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
+# 生成地址：TG@kkouokk
+# 模版名称：defaultName
+# 生成时间：2024-10-25 14:07:02
+# 不要随意改变关键字，否则会导致出错
+# acl4SSR规则
+# 去广告：支持
+# 自动测速：支持
+# 微软分流：支持
+# 苹果分流：支持
+# 增强中国IP段：不支持
+# 增强国外GFW：不支持
+
 mixed-port: 7890
-allow-lan: true
+allow-lan: false
+mode: rule
+ipv6: false
 log-level: info
 external-controller: 0.0.0.0:9090
 dns:
-  enabled: true
-  listen: 0.0.0.0:1053
-  ipv6: true
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: false
   default-nameserver:
     - 223.5.5.5
     - 114.114.114.114
+  nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+    - 119.29.29.29
+    - 180.76.76.76
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    - '*.lan'
-    - '*.linksys.com'
-    - '*.linksyssmartwifi.com'
-    - swscan.apple.com
-    - mesu.apple.com
-    - '*.msftconnecttest.com'
-    - '*.msftncsi.com'
-    - time.*.com
-    - time.*.gov
-    - time.*.edu.cn
-    - time.*.apple.com
-    - time1.*.com
-    - time2.*.com
-    - time3.*.com
-    - time4.*.com
-    - time5.*.com
-    - time6.*.com
-    - time7.*.com
-    - ntp.*.com
-    - ntp.*.com
-    - ntp1.*.com
-    - ntp2.*.com
-    - ntp3.*.com
-    - ntp4.*.com
-    - ntp5.*.com
-    - ntp6.*.com
-    - ntp7.*.com
-    - '*.time.edu.cn'
-    - '*.ntp.org.cn'
-    - +.pool.ntp.org
-    - time1.cloud.tencent.com
-    - +.music.163.com
-    - '*.126.net'
-    - musicapi.taihe.com
-    - music.taihe.com
-    - songsearch.kugou.com
-    - trackercdn.kugou.com
-    - '*.kuwo.cn'
-    - api-jooxtt.sanook.com
-    - api.joox.com
-    - joox.com
-    - +.y.qq.com
-    - +.music.tc.qq.com
-    - aqqmusic.tc.qq.com
-    - +.stream.qqmusic.qq.com
-    - '*.xiami.com'
-    - +.music.migu.cn
-    - +.srv.nintendo.net
-    - +.stun.playstation.net
-    - xbox.*.microsoft.com
-    - +.xboxlive.com
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - router.asus.com
+    - localhost.sec.qq.com
     - localhost.ptlogin2.qq.com
-    - proxy.golang.org
-    - stun.*.*
-    - stun.*.*.*
-    - '*.mcdn.bilivideo.cn'
-  nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-  fallback-filter:
-    geoip: false
-    ipcidr:
-      - 240.0.0.0/4
-      - 0.0.0.0/32
-
+    - +.msftconnecttest.com
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - 114.114.114.114
+    - 180.76.76.76
+    - 119.29.29.29
+    - 223.5.5.5
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
 proxies:
-  - {"name":"🇭🇰·香港·TG@kkouokk·1","type":"ss","server":"183.240.188.34","port":8337,"password":"3fn3CH5Swh2N","cipher":"chacha20"}
-  - {"name":"🇰🇷·韩国·TG@kkouokk·2","type":"ss","server":"p239.panda004.net","port":37403,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"🇰🇷·韩国·TG@kkouokk·3","type":"ss","server":"p110.panda001.net","port":61080,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"🇰🇷·韩国·TG@kkouokk·4","type":"ss","server":"p220.panda001.net","port":19647,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"🇰🇷·韩国·TG@kkouokk·5","type":"ss","server":"p226.panda004.net","port":41715,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"🇰🇷·韩国·TG@kkouokk·6","type":"ss","server":"p227.panda004.net","port":38256,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"🇰🇷·韩国·TG@kkouokk·7","type":"ss","server":"p228.panda004.net","port":65025,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"🇰🇷·韩国·TG@kkouokk·8","type":"ss","server":"p229.panda004.net","port":53419,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"🇰🇷·韩国·TG@kkouokk·9","type":"ss","server":"p233.panda004.net","port":37907,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"🇰🇷·韩国·TG@kkouokk·10","type":"ss","server":"p235.panda004.net","port":34997,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"🏳️·未知·TG@kkouokk·11","type":"ss","server":"103.161.255.195","port":15084,"password":"hGkQ6915tD","cipher":"aes-256-cfb"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·12","type":"ss","server":"tw4.mhw7e2.online","port":20018,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·13","type":"ss","server":"14.215.169.69","port":20025,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·14","type":"ss","server":"hk5.mhw7e2.online","port":20025,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·15","type":"ss","server":"hk4.mhw7e2.online","port":20010,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·16","type":"ss","server":"tw5.mhw7e2.online","port":20010,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·17","type":"ss","server":"tw2.mhw7e2.online","port":20017,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·18","type":"ss","server":"sg5.mhw7e2.online","port":20021,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·19","type":"ss","server":"jp2.mhw7e2.online","port":20025,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·20","type":"vmess","server":"172.64.167.35","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·21","type":"vmess","server":"104.19.32.46","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip006.3196772.xyz"}}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·22","type":"vmess","server":"104.19.45.17","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·23","type":"vmess","server":"s1c.v2.v001sss.xyz","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·24","type":"vmess","server":"104.21.8.157","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
-  - {"name":"🇬🇧·英国·TG@kkouokk·25","type":"ss","server":"212.102.53.194","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
-  - {"name":"🇱🇹·立陶宛·TG@kkouokk·26","type":"vless","server":"185.148.104.135","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇳🇱·荷兰·TG@kkouokk·27","type":"vless","server":"45.133.247.151","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇷🇺·俄罗斯·TG@kkouokk·28","type":"vless","server":"94.247.142.245","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇨🇦·加拿大·TG@kkouokk·29","type":"vless","server":"205.233.181.0","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇧🇬·保加利亚·TG@kkouokk·30","type":"vless","server":"147.78.140.175","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇱🇹·立陶宛·TG@kkouokk·31","type":"vless","server":"185.148.106.60","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇱🇹·立陶宛·TG@kkouokk·32","type":"vless","server":"185.148.107.62","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇱🇺·卢森堡·TG@kkouokk·33","type":"vless","server":"188.42.88.130","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇳🇱·荷兰·TG@kkouokk·34","type":"vless","server":"45.159.218.181","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·35","type":"vless","server":"140.99.233.156","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·36","type":"vless","server":"174.136.206.95","port":57757,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇱🇹·立陶宛·TG@kkouokk·37","type":"vless","server":"185.176.24.186","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇬🇧·英国·TG@kkouokk·38","type":"vless","server":"194.36.55.36","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇬🇧·英国·TG@kkouokk·39","type":"vless","server":"188.244.122.58","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇫🇷·法国·TG@kkouokk·40","type":"vless","server":"45.80.111.229","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·41","type":"vless","server":"167.68.11.106","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇱🇹·立陶宛·TG@kkouokk·42","type":"vless","server":"185.148.107.47","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·43","type":"vless","server":"167.68.11.146","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇳🇱·荷兰·TG@kkouokk·44","type":"vless","server":"45.159.217.21","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·45","type":"vless","server":"104.254.140.145","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇱🇹·立陶宛·TG@kkouokk·46","type":"vless","server":"185.148.105.23","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·47","type":"vless","server":"104.254.140.155","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇫🇷·法国·TG@kkouokk·48","type":"vless","server":"45.80.110.200","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇬🇧·英国·TG@kkouokk·49","type":"vless","server":"188.244.122.57","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇪🇸·西班牙·TG@kkouokk·50","type":"vless","server":"185.18.250.131","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·51","type":"vless","server":"159.112.235.90","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·52","type":"vless","server":"170.114.45.25","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇫🇷·法国·TG@kkouokk·53","type":"vless","server":"94.140.0.157","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇳🇱·荷兰·TG@kkouokk·54","type":"vless","server":"188.42.145.159","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇬🇷·希腊·TG@kkouokk·55","type":"vless","server":"31.22.116.134","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·56","type":"vless","server":"199.181.197.39","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇧🇬·保加利亚·TG@kkouokk·57","type":"vless","server":"185.176.26.61","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·58","type":"vless","server":"198.62.62.52","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·59","type":"vless","server":"69.84.182.43","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·60","type":"vless","server":"198.62.62.44","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·61","type":"vless","server":"69.84.182.33","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·62","type":"vless","server":"198.62.62.114","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·63","type":"vless","server":"198.62.62.145","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·64","type":"vless","server":"69.84.182.131","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·65","type":"vless","server":"69.84.182.27","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·66","type":"vless","server":"69.84.182.110","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·67","type":"vless","server":"198.62.62.49","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·68","type":"vless","server":"198.62.62.203","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·69","type":"vless","server":"69.84.182.192","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·70","type":"vless","server":"69.84.182.59","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·71","type":"vless","server":"69.84.182.147","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.us.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·72","type":"vless","server":"219.76.13.169","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.aliyun.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·73","type":"vless","server":"61.239.234.5","port":35500,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.aliyun.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·74","type":"vless","server":"59.149.204.93","port":54321,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.aliyun.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇰🇷·韩国·TG@kkouokk·75","type":"vless","server":"121.155.14.99","port":31604,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.kr.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·76","type":"vless","server":"104.19.32.170","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.oracle.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇺🇸·美国·TG@kkouokk·77","type":"vless","server":"104.19.32.126","port":443,"uuid":"27b644d3-d9e8-45b2-96db-36ac1d00d50d","tls":true,"servername":"TG.CMLiussss.elementfx.com","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.oracle.fxxk.dedyn.io"},"client-fingerprint":"random"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·78","type":"vmess","server":"n1726709801.ryjml.cn","port":443,"cipher":"auto","uuid":"4bb95c0c-0bff-4f54-9d29-61c84e959505","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"n1726709801.ryjml.cn"}}}
-  - {"name":"🇭🇰·香港·TG@kkouokk·79","type":"vmess","server":"n1721189676.ryjml.cn","port":443,"cipher":"auto","uuid":"8238c168-a9dc-4f63-8086-9109768a20ab","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"n1721189676.ryjml.cn"}}}
-  - {"name":"🇭🇰·香港·TG@kkouokk·80","type":"vmess","server":"n1721189684.ryjml.cn","port":443,"cipher":"auto","uuid":"42fd8d4a-9a59-40da-8958-05a7fc04d916","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"n1721189684.ryjml.cn"}}}
-  - {"name":"🇭🇰·香港·TG@kkouokk·81","type":"vmess","server":"n1721189690.ryjml.cn","port":443,"cipher":"auto","uuid":"c4eb4393-02c4-4e89-af37-48467f777ac7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"n1721189690.ryjml.cn"}}}
-  - {"name":"🇭🇰·香港·TG@kkouokk·82","type":"vmess","server":"n1721189686.afjian.cn","port":443,"cipher":"auto","uuid":"c04ec998-b12c-4c9b-9d78-e116ae8b5be8","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"n1721189686.afjian.cn"}}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·83","type":"vmess","server":"n1721280112.ryjml.cn","port":443,"cipher":"auto","uuid":"6f654fe9-5cf8-4793-b244-458a6e9a5352","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"n1721280112.ryjml.cn"}}}
-  - {"name":"🇺🇸·美国·TG@kkouokk·84","type":"vmess","server":"n1721118448.ryjml.cn","port":443,"cipher":"auto","uuid":"690f0d7a-4050-4b2b-9e44-a12d67905274","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"n1721118448.ryjml.cn"}}}
-  - {"name":"🇭🇰·香港·TG@kkouokk·85","type":"ss","server":"183.240.188.34","port":8321,"password":"passLUsO2Ktuer77tu","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·86","type":"ss","server":"183.240.188.34","port":9001,"password":"nUthZ7z3VmyV","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·87","type":"ss","server":"183.240.188.34","port":9002,"password":"PTgFLLrT5pVg","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·88","type":"ss","server":"183.240.188.34","port":9003,"password":"v5aUUtme3jxs","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·89","type":"ss","server":"183.240.188.34","port":9004,"password":"s6Zau9ioic","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·90","type":"ss","server":"183.240.188.34","port":9005,"password":"sJMdcI7NPj","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·91","type":"ss","server":"183.240.188.34","port":8348,"password":"N9k4f2PORl14","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·92","type":"ss","server":"183.240.188.34","port":8339,"password":"ADZmRQUGHTwX","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·93","type":"ss","server":"183.240.188.34","port":8334,"password":"DvPfKa8vsV9K","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·94","type":"ss","server":"183.240.188.34","port":8332,"password":"8BZ5uBrPuUDY","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·95","type":"ss","server":"183.240.188.34","port":8342,"password":"r8jh6ZeykHvB","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·96","type":"ss","server":"183.240.188.34","port":8349,"password":"d3baK6NW2HEc","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·97","type":"ss","server":"183.240.188.34","port":8344,"password":"wDazHDu63gcg","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·98","type":"ss","server":"183.240.188.34","port":8341,"password":"zWyQvJbQRZaV","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·99","type":"ss","server":"183.240.188.34","port":8343,"password":"dkYsdgWqegNV","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·100","type":"ss","server":"183.240.188.34","port":8333,"password":"jrgc64sFSLQM","cipher":"chacha20"}
-  - {"name":"🇭🇰·香港·TG@kkouokk·101","type":"ss","server":"183.240.188.34","port":8347,"password":"q2kSGp4ayFKB","cipher":"chacha20"}
+  - name: 🇨🇳·中国·1·TG@kkouokk
+    port: 1172
+    server: yd-05.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·2·TG@kkouokk
+    port: 5983
+    server: yd-04.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·3·TG@kkouokk
+    port: 1171
+    server: yd-05.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·4·TG@kkouokk
+    port: 1195
+    server: yd-03.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·5·TG@kkouokk
+    port: 1173
+    server: yd-02.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·6·TG@kkouokk
+    port: 1194
+    server: yd-02.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·7·TG@kkouokk
+    port: 5989
+    server: yd-07.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·8·TG@kkouokk
+    port: 5988
+    server: yd-07.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·9·TG@kkouokk
+    port: 1196
+    server: yd-03.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·10·TG@kkouokk
+    port: 5984
+    server: yd-04.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·11·TG@kkouokk
+    port: 5981
+    server: yd-04.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·12·TG@kkouokk
+    port: 1183
+    server: yd-02.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·13·TG@kkouokk
+    port: 1190
+    server: yd-05.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·14·TG@kkouokk
+    port: 5981
+    server: yd-01.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·15·TG@kkouokk
+    port: 5989
+    server: yd-04.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·16·TG@kkouokk
+    port: 1150
+    server: yd-05.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·17·TG@kkouokk
+    port: 5987
+    server: yd-04.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·18·TG@kkouokk
+    port: 1177
+    server: yd-03.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·19·TG@kkouokk
+    port: 1192
+    server: yd-02.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·20·TG@kkouokk
+    port: 1151
+    server: yd-05.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·21·TG@kkouokk
+    port: 1187
+    server: yd-03.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·22·TG@kkouokk
+    port: 1184
+    server: yd-02.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·23·TG@kkouokk
+    port: 1176
+    server: yd-03.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·24·TG@kkouokk
+    port: 1182
+    server: yd-02.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·25·TG@kkouokk
+    port: 5982
+    server: yd-04.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·26·TG@kkouokk
+    port: 23382
+    server: 221.181.185.71
+    type: ss
+    udp: true
+    password: f52SZksXnGNfc72Q
+    cipher: aes-256-cfb
+  - name: 🇨🇳·中国·27·TG@kkouokk
+    port: 5987
+    server: yd-07.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🏳️·未知·28·TG@kkouokk
+    port: 9026
+    server: select-us.0000000000.download
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    cipher: auto
+    uuid: ac59a7cd-11af-3e35-a098-b785688ec627
+    alterId: 0
+  - name: 🇨🇳·中国·29·TG@kkouokk
+    port: 1191
+    server: yd-05.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·30·TG@kkouokk
+    port: 5982
+    server: yd-01.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·31·TG@kkouokk
+    port: 5984
+    server: yd-06.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·32·TG@kkouokk
+    port: 1170
+    server: yd-05.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·33·TG@kkouokk
+    port: 1186
+    server: yd-03.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·34·TG@kkouokk
+    port: 1198
+    server: yd-03.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·35·TG@kkouokk
+    port: 1197
+    server: yd-03.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·36·TG@kkouokk
+    port: 1156
+    server: yd-03.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·37·TG@kkouokk
+    port: 1185
+    server: yd-03.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·38·TG@kkouokk
+    port: 1152
+    server: yd-02.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·39·TG@kkouokk
+    port: 1174
+    server: yd-02.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·40·TG@kkouokk
+    port: 5986
+    server: yd-07.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·41·TG@kkouokk
+    port: 1154
+    server: yd-02.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·42·TG@kkouokk
+    port: 5980
+    server: yd-04.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·43·TG@kkouokk
+    port: 1157
+    server: yd-03.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·44·TG@kkouokk
+    port: 5986
+    server: yd-04.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·45·TG@kkouokk
+    port: 5980
+    server: yd-01.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇸🇬·新加坡·46·TG@kkouokk
+    port: 443
+    server: 13.229.212.209
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇨🇳·中国·47·TG@kkouokk
+    port: 21017
+    server: 120.232.217.96
+    type: trojan
+    udp: true
+    password: 0e6dc261-9a31-4b5b-9a22-6cad07050e8a
+    skip-cert-verify: true
+  - name: 🇨🇳·中国·48·TG@kkouokk
+    port: 1153
+    server: yd-02.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🏳️·未知·49·TG@kkouokk
+    port: 9022
+    server: select-us.0000000000.download
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    cipher: auto
+    uuid: ac59a7cd-11af-3e35-a098-b785688ec627
+    alterId: 0
+  - name: 🇨🇳·中国·50·TG@kkouokk
+    port: 20934
+    server: 221.181.185.71
+    type: ss
+    udp: true
+    password: bbO8KazkNBUGb7HP
+    cipher: aes-256-cfb
+  - name: 🇨🇳·中国·51·TG@kkouokk
+    port: 5985
+    server: yd-06.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·52·TG@kkouokk
+    port: 1181
+    server: yd-05.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·53·TG@kkouokk
+    port: 1178
+    server: yd-03.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·54·TG@kkouokk
+    port: 1193
+    server: yd-02.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·55·TG@kkouokk
+    port: 5988
+    server: yd-04.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·56·TG@kkouokk
+    port: 1155
+    server: yd-03.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·57·TG@kkouokk
+    port: 5985
+    server: yd-04.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·58·TG@kkouokk
+    port: 1158
+    server: yd-03.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·59·TG@kkouokk
+    port: 1175
+    server: yd-03.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·60·TG@kkouokk
+    port: 1180
+    server: yd-05.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
+  - name: 🇨🇳·中国·61·TG@kkouokk
+    port: 5983
+    server: yd-06.paofunlink.com
+    type: ss
+    udp: true
+    password: Paofu
+    cipher: rc4-md5
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰·香港·TG@kkouokk·1
-      - 🇰🇷·韩国·TG@kkouokk·2
-      - 🇰🇷·韩国·TG@kkouokk·3
-      - 🇰🇷·韩国·TG@kkouokk·4
-      - 🇰🇷·韩国·TG@kkouokk·5
-      - 🇰🇷·韩国·TG@kkouokk·6
-      - 🇰🇷·韩国·TG@kkouokk·7
-      - 🇰🇷·韩国·TG@kkouokk·8
-      - 🇰🇷·韩国·TG@kkouokk·9
-      - 🇰🇷·韩国·TG@kkouokk·10
-      - 🏳️·未知·TG@kkouokk·11
-      - 🇭🇰·香港·TG@kkouokk·12
-      - 🇭🇰·香港·TG@kkouokk·13
-      - 🇭🇰·香港·TG@kkouokk·14
-      - 🇭🇰·香港·TG@kkouokk·15
-      - 🇭🇰·香港·TG@kkouokk·16
-      - 🇭🇰·香港·TG@kkouokk·17
-      - 🇭🇰·香港·TG@kkouokk·18
-      - 🇭🇰·香港·TG@kkouokk·19
-      - 🇺🇸·美国·TG@kkouokk·20
-      - 🇺🇸·美国·TG@kkouokk·21
-      - 🇺🇸·美国·TG@kkouokk·22
-      - 🇺🇸·美国·TG@kkouokk·23
-      - 🇺🇸·美国·TG@kkouokk·24
-      - 🇬🇧·英国·TG@kkouokk·25
-      - 🇱🇹·立陶宛·TG@kkouokk·26
-      - 🇳🇱·荷兰·TG@kkouokk·27
-      - 🇷🇺·俄罗斯·TG@kkouokk·28
-      - 🇨🇦·加拿大·TG@kkouokk·29
-      - 🇧🇬·保加利亚·TG@kkouokk·30
-      - 🇱🇹·立陶宛·TG@kkouokk·31
-      - 🇱🇹·立陶宛·TG@kkouokk·32
-      - 🇱🇺·卢森堡·TG@kkouokk·33
-      - 🇳🇱·荷兰·TG@kkouokk·34
-      - 🇺🇸·美国·TG@kkouokk·35
-      - 🇺🇸·美国·TG@kkouokk·36
-      - 🇱🇹·立陶宛·TG@kkouokk·37
-      - 🇬🇧·英国·TG@kkouokk·38
-      - 🇬🇧·英国·TG@kkouokk·39
-      - 🇫🇷·法国·TG@kkouokk·40
-      - 🇺🇸·美国·TG@kkouokk·41
-      - 🇱🇹·立陶宛·TG@kkouokk·42
-      - 🇺🇸·美国·TG@kkouokk·43
-      - 🇳🇱·荷兰·TG@kkouokk·44
-      - 🇺🇸·美国·TG@kkouokk·45
-      - 🇱🇹·立陶宛·TG@kkouokk·46
-      - 🇺🇸·美国·TG@kkouokk·47
-      - 🇫🇷·法国·TG@kkouokk·48
-      - 🇬🇧·英国·TG@kkouokk·49
-      - 🇪🇸·西班牙·TG@kkouokk·50
-      - 🇺🇸·美国·TG@kkouokk·51
-      - 🇺🇸·美国·TG@kkouokk·52
-      - 🇫🇷·法国·TG@kkouokk·53
-      - 🇳🇱·荷兰·TG@kkouokk·54
-      - 🇬🇷·希腊·TG@kkouokk·55
-      - 🇺🇸·美国·TG@kkouokk·56
-      - 🇧🇬·保加利亚·TG@kkouokk·57
-      - 🇺🇸·美国·TG@kkouokk·58
-      - 🇺🇸·美国·TG@kkouokk·59
-      - 🇺🇸·美国·TG@kkouokk·60
-      - 🇺🇸·美国·TG@kkouokk·61
-      - 🇺🇸·美国·TG@kkouokk·62
-      - 🇺🇸·美国·TG@kkouokk·63
-      - 🇺🇸·美国·TG@kkouokk·64
-      - 🇺🇸·美国·TG@kkouokk·65
-      - 🇺🇸·美国·TG@kkouokk·66
-      - 🇺🇸·美国·TG@kkouokk·67
-      - 🇺🇸·美国·TG@kkouokk·68
-      - 🇺🇸·美国·TG@kkouokk·69
-      - 🇺🇸·美国·TG@kkouokk·70
-      - 🇺🇸·美国·TG@kkouokk·71
-      - 🇭🇰·香港·TG@kkouokk·72
-      - 🇭🇰·香港·TG@kkouokk·73
-      - 🇭🇰·香港·TG@kkouokk·74
-      - 🇰🇷·韩国·TG@kkouokk·75
-      - 🇺🇸·美国·TG@kkouokk·76
-      - 🇺🇸·美国·TG@kkouokk·77
-      - 🇭🇰·香港·TG@kkouokk·78
-      - 🇭🇰·香港·TG@kkouokk·79
-      - 🇭🇰·香港·TG@kkouokk·80
-      - 🇭🇰·香港·TG@kkouokk·81
-      - 🇭🇰·香港·TG@kkouokk·82
-      - 🇺🇸·美国·TG@kkouokk·83
-      - 🇺🇸·美国·TG@kkouokk·84
-      - 🇭🇰·香港·TG@kkouokk·85
-      - 🇭🇰·香港·TG@kkouokk·86
-      - 🇭🇰·香港·TG@kkouokk·87
-      - 🇭🇰·香港·TG@kkouokk·88
-      - 🇭🇰·香港·TG@kkouokk·89
-      - 🇭🇰·香港·TG@kkouokk·90
-      - 🇭🇰·香港·TG@kkouokk·91
-      - 🇭🇰·香港·TG@kkouokk·92
-      - 🇭🇰·香港·TG@kkouokk·93
-      - 🇭🇰·香港·TG@kkouokk·94
-      - 🇭🇰·香港·TG@kkouokk·95
-      - 🇭🇰·香港·TG@kkouokk·96
-      - 🇭🇰·香港·TG@kkouokk·97
-      - 🇭🇰·香港·TG@kkouokk·98
-      - 🇭🇰·香港·TG@kkouokk·99
-      - 🇭🇰·香港·TG@kkouokk·100
-      - 🇭🇰·香港·TG@kkouokk·101
+      - 🇨🇳·中国·1·TG@kkouokk
+      - 🇨🇳·中国·2·TG@kkouokk
+      - 🇨🇳·中国·3·TG@kkouokk
+      - 🇨🇳·中国·4·TG@kkouokk
+      - 🇨🇳·中国·5·TG@kkouokk
+      - 🇨🇳·中国·6·TG@kkouokk
+      - 🇨🇳·中国·7·TG@kkouokk
+      - 🇨🇳·中国·8·TG@kkouokk
+      - 🇨🇳·中国·9·TG@kkouokk
+      - 🇨🇳·中国·10·TG@kkouokk
+      - 🇨🇳·中国·11·TG@kkouokk
+      - 🇨🇳·中国·12·TG@kkouokk
+      - 🇨🇳·中国·13·TG@kkouokk
+      - 🇨🇳·中国·14·TG@kkouokk
+      - 🇨🇳·中国·15·TG@kkouokk
+      - 🇨🇳·中国·16·TG@kkouokk
+      - 🇨🇳·中国·17·TG@kkouokk
+      - 🇨🇳·中国·18·TG@kkouokk
+      - 🇨🇳·中国·19·TG@kkouokk
+      - 🇨🇳·中国·20·TG@kkouokk
+      - 🇨🇳·中国·21·TG@kkouokk
+      - 🇨🇳·中国·22·TG@kkouokk
+      - 🇨🇳·中国·23·TG@kkouokk
+      - 🇨🇳·中国·24·TG@kkouokk
+      - 🇨🇳·中国·25·TG@kkouokk
+      - 🇨🇳·中国·26·TG@kkouokk
+      - 🇨🇳·中国·27·TG@kkouokk
+      - 🏳️·未知·28·TG@kkouokk
+      - 🇨🇳·中国·29·TG@kkouokk
+      - 🇨🇳·中国·30·TG@kkouokk
+      - 🇨🇳·中国·31·TG@kkouokk
+      - 🇨🇳·中国·32·TG@kkouokk
+      - 🇨🇳·中国·33·TG@kkouokk
+      - 🇨🇳·中国·34·TG@kkouokk
+      - 🇨🇳·中国·35·TG@kkouokk
+      - 🇨🇳·中国·36·TG@kkouokk
+      - 🇨🇳·中国·37·TG@kkouokk
+      - 🇨🇳·中国·38·TG@kkouokk
+      - 🇨🇳·中国·39·TG@kkouokk
+      - 🇨🇳·中国·40·TG@kkouokk
+      - 🇨🇳·中国·41·TG@kkouokk
+      - 🇨🇳·中国·42·TG@kkouokk
+      - 🇨🇳·中国·43·TG@kkouokk
+      - 🇨🇳·中国·44·TG@kkouokk
+      - 🇨🇳·中国·45·TG@kkouokk
+      - 🇸🇬·新加坡·46·TG@kkouokk
+      - 🇨🇳·中国·47·TG@kkouokk
+      - 🇨🇳·中国·48·TG@kkouokk
+      - 🏳️·未知·49·TG@kkouokk
+      - 🇨🇳·中国·50·TG@kkouokk
+      - 🇨🇳·中国·51·TG@kkouokk
+      - 🇨🇳·中国·52·TG@kkouokk
+      - 🇨🇳·中国·53·TG@kkouokk
+      - 🇨🇳·中国·54·TG@kkouokk
+      - 🇨🇳·中国·55·TG@kkouokk
+      - 🇨🇳·中国·56·TG@kkouokk
+      - 🇨🇳·中国·57·TG@kkouokk
+      - 🇨🇳·中国·58·TG@kkouokk
+      - 🇨🇳·中国·59·TG@kkouokk
+      - 🇨🇳·中国·60·TG@kkouokk
+      - 🇨🇳·中国·61·TG@kkouokk
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰·香港·TG@kkouokk·1
-      - 🇰🇷·韩国·TG@kkouokk·2
-      - 🇰🇷·韩国·TG@kkouokk·3
-      - 🇰🇷·韩国·TG@kkouokk·4
-      - 🇰🇷·韩国·TG@kkouokk·5
-      - 🇰🇷·韩国·TG@kkouokk·6
-      - 🇰🇷·韩国·TG@kkouokk·7
-      - 🇰🇷·韩国·TG@kkouokk·8
-      - 🇰🇷·韩国·TG@kkouokk·9
-      - 🇰🇷·韩国·TG@kkouokk·10
-      - 🏳️·未知·TG@kkouokk·11
-      - 🇭🇰·香港·TG@kkouokk·12
-      - 🇭🇰·香港·TG@kkouokk·13
-      - 🇭🇰·香港·TG@kkouokk·14
-      - 🇭🇰·香港·TG@kkouokk·15
-      - 🇭🇰·香港·TG@kkouokk·16
-      - 🇭🇰·香港·TG@kkouokk·17
-      - 🇭🇰·香港·TG@kkouokk·18
-      - 🇭🇰·香港·TG@kkouokk·19
-      - 🇺🇸·美国·TG@kkouokk·20
-      - 🇺🇸·美国·TG@kkouokk·21
-      - 🇺🇸·美国·TG@kkouokk·22
-      - 🇺🇸·美国·TG@kkouokk·23
-      - 🇺🇸·美国·TG@kkouokk·24
-      - 🇬🇧·英国·TG@kkouokk·25
-      - 🇱🇹·立陶宛·TG@kkouokk·26
-      - 🇳🇱·荷兰·TG@kkouokk·27
-      - 🇷🇺·俄罗斯·TG@kkouokk·28
-      - 🇨🇦·加拿大·TG@kkouokk·29
-      - 🇧🇬·保加利亚·TG@kkouokk·30
-      - 🇱🇹·立陶宛·TG@kkouokk·31
-      - 🇱🇹·立陶宛·TG@kkouokk·32
-      - 🇱🇺·卢森堡·TG@kkouokk·33
-      - 🇳🇱·荷兰·TG@kkouokk·34
-      - 🇺🇸·美国·TG@kkouokk·35
-      - 🇺🇸·美国·TG@kkouokk·36
-      - 🇱🇹·立陶宛·TG@kkouokk·37
-      - 🇬🇧·英国·TG@kkouokk·38
-      - 🇬🇧·英国·TG@kkouokk·39
-      - 🇫🇷·法国·TG@kkouokk·40
-      - 🇺🇸·美国·TG@kkouokk·41
-      - 🇱🇹·立陶宛·TG@kkouokk·42
-      - 🇺🇸·美国·TG@kkouokk·43
-      - 🇳🇱·荷兰·TG@kkouokk·44
-      - 🇺🇸·美国·TG@kkouokk·45
-      - 🇱🇹·立陶宛·TG@kkouokk·46
-      - 🇺🇸·美国·TG@kkouokk·47
-      - 🇫🇷·法国·TG@kkouokk·48
-      - 🇬🇧·英国·TG@kkouokk·49
-      - 🇪🇸·西班牙·TG@kkouokk·50
-      - 🇺🇸·美国·TG@kkouokk·51
-      - 🇺🇸·美国·TG@kkouokk·52
-      - 🇫🇷·法国·TG@kkouokk·53
-      - 🇳🇱·荷兰·TG@kkouokk·54
-      - 🇬🇷·希腊·TG@kkouokk·55
-      - 🇺🇸·美国·TG@kkouokk·56
-      - 🇧🇬·保加利亚·TG@kkouokk·57
-      - 🇺🇸·美国·TG@kkouokk·58
-      - 🇺🇸·美国·TG@kkouokk·59
-      - 🇺🇸·美国·TG@kkouokk·60
-      - 🇺🇸·美国·TG@kkouokk·61
-      - 🇺🇸·美国·TG@kkouokk·62
-      - 🇺🇸·美国·TG@kkouokk·63
-      - 🇺🇸·美国·TG@kkouokk·64
-      - 🇺🇸·美国·TG@kkouokk·65
-      - 🇺🇸·美国·TG@kkouokk·66
-      - 🇺🇸·美国·TG@kkouokk·67
-      - 🇺🇸·美国·TG@kkouokk·68
-      - 🇺🇸·美国·TG@kkouokk·69
-      - 🇺🇸·美国·TG@kkouokk·70
-      - 🇺🇸·美国·TG@kkouokk·71
-      - 🇭🇰·香港·TG@kkouokk·72
-      - 🇭🇰·香港·TG@kkouokk·73
-      - 🇭🇰·香港·TG@kkouokk·74
-      - 🇰🇷·韩国·TG@kkouokk·75
-      - 🇺🇸·美国·TG@kkouokk·76
-      - 🇺🇸·美国·TG@kkouokk·77
-      - 🇭🇰·香港·TG@kkouokk·78
-      - 🇭🇰·香港·TG@kkouokk·79
-      - 🇭🇰·香港·TG@kkouokk·80
-      - 🇭🇰·香港·TG@kkouokk·81
-      - 🇭🇰·香港·TG@kkouokk·82
-      - 🇺🇸·美国·TG@kkouokk·83
-      - 🇺🇸·美国·TG@kkouokk·84
-      - 🇭🇰·香港·TG@kkouokk·85
-      - 🇭🇰·香港·TG@kkouokk·86
-      - 🇭🇰·香港·TG@kkouokk·87
-      - 🇭🇰·香港·TG@kkouokk·88
-      - 🇭🇰·香港·TG@kkouokk·89
-      - 🇭🇰·香港·TG@kkouokk·90
-      - 🇭🇰·香港·TG@kkouokk·91
-      - 🇭🇰·香港·TG@kkouokk·92
-      - 🇭🇰·香港·TG@kkouokk·93
-      - 🇭🇰·香港·TG@kkouokk·94
-      - 🇭🇰·香港·TG@kkouokk·95
-      - 🇭🇰·香港·TG@kkouokk·96
-      - 🇭🇰·香港·TG@kkouokk·97
-      - 🇭🇰·香港·TG@kkouokk·98
-      - 🇭🇰·香港·TG@kkouokk·99
-      - 🇭🇰·香港·TG@kkouokk·100
-      - 🇭🇰·香港·TG@kkouokk·101
+      - 🇨🇳·中国·1·TG@kkouokk
+      - 🇨🇳·中国·2·TG@kkouokk
+      - 🇨🇳·中国·3·TG@kkouokk
+      - 🇨🇳·中国·4·TG@kkouokk
+      - 🇨🇳·中国·5·TG@kkouokk
+      - 🇨🇳·中国·6·TG@kkouokk
+      - 🇨🇳·中国·7·TG@kkouokk
+      - 🇨🇳·中国·8·TG@kkouokk
+      - 🇨🇳·中国·9·TG@kkouokk
+      - 🇨🇳·中国·10·TG@kkouokk
+      - 🇨🇳·中国·11·TG@kkouokk
+      - 🇨🇳·中国·12·TG@kkouokk
+      - 🇨🇳·中国·13·TG@kkouokk
+      - 🇨🇳·中国·14·TG@kkouokk
+      - 🇨🇳·中国·15·TG@kkouokk
+      - 🇨🇳·中国·16·TG@kkouokk
+      - 🇨🇳·中国·17·TG@kkouokk
+      - 🇨🇳·中国·18·TG@kkouokk
+      - 🇨🇳·中国·19·TG@kkouokk
+      - 🇨🇳·中国·20·TG@kkouokk
+      - 🇨🇳·中国·21·TG@kkouokk
+      - 🇨🇳·中国·22·TG@kkouokk
+      - 🇨🇳·中国·23·TG@kkouokk
+      - 🇨🇳·中国·24·TG@kkouokk
+      - 🇨🇳·中国·25·TG@kkouokk
+      - 🇨🇳·中国·26·TG@kkouokk
+      - 🇨🇳·中国·27·TG@kkouokk
+      - 🏳️·未知·28·TG@kkouokk
+      - 🇨🇳·中国·29·TG@kkouokk
+      - 🇨🇳·中国·30·TG@kkouokk
+      - 🇨🇳·中国·31·TG@kkouokk
+      - 🇨🇳·中国·32·TG@kkouokk
+      - 🇨🇳·中国·33·TG@kkouokk
+      - 🇨🇳·中国·34·TG@kkouokk
+      - 🇨🇳·中国·35·TG@kkouokk
+      - 🇨🇳·中国·36·TG@kkouokk
+      - 🇨🇳·中国·37·TG@kkouokk
+      - 🇨🇳·中国·38·TG@kkouokk
+      - 🇨🇳·中国·39·TG@kkouokk
+      - 🇨🇳·中国·40·TG@kkouokk
+      - 🇨🇳·中国·41·TG@kkouokk
+      - 🇨🇳·中国·42·TG@kkouokk
+      - 🇨🇳·中国·43·TG@kkouokk
+      - 🇨🇳·中国·44·TG@kkouokk
+      - 🇨🇳·中国·45·TG@kkouokk
+      - 🇸🇬·新加坡·46·TG@kkouokk
+      - 🇨🇳·中国·47·TG@kkouokk
+      - 🇨🇳·中国·48·TG@kkouokk
+      - 🏳️·未知·49·TG@kkouokk
+      - 🇨🇳·中国·50·TG@kkouokk
+      - 🇨🇳·中国·51·TG@kkouokk
+      - 🇨🇳·中国·52·TG@kkouokk
+      - 🇨🇳·中国·53·TG@kkouokk
+      - 🇨🇳·中国·54·TG@kkouokk
+      - 🇨🇳·中国·55·TG@kkouokk
+      - 🇨🇳·中国·56·TG@kkouokk
+      - 🇨🇳·中国·57·TG@kkouokk
+      - 🇨🇳·中国·58·TG@kkouokk
+      - 🇨🇳·中国·59·TG@kkouokk
+      - 🇨🇳·中国·60·TG@kkouokk
+      - 🇨🇳·中国·61·TG@kkouokk
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰·香港·TG@kkouokk·1
-      - 🇰🇷·韩国·TG@kkouokk·2
-      - 🇰🇷·韩国·TG@kkouokk·3
-      - 🇰🇷·韩国·TG@kkouokk·4
-      - 🇰🇷·韩国·TG@kkouokk·5
-      - 🇰🇷·韩国·TG@kkouokk·6
-      - 🇰🇷·韩国·TG@kkouokk·7
-      - 🇰🇷·韩国·TG@kkouokk·8
-      - 🇰🇷·韩国·TG@kkouokk·9
-      - 🇰🇷·韩国·TG@kkouokk·10
-      - 🏳️·未知·TG@kkouokk·11
-      - 🇭🇰·香港·TG@kkouokk·12
-      - 🇭🇰·香港·TG@kkouokk·13
-      - 🇭🇰·香港·TG@kkouokk·14
-      - 🇭🇰·香港·TG@kkouokk·15
-      - 🇭🇰·香港·TG@kkouokk·16
-      - 🇭🇰·香港·TG@kkouokk·17
-      - 🇭🇰·香港·TG@kkouokk·18
-      - 🇭🇰·香港·TG@kkouokk·19
-      - 🇺🇸·美国·TG@kkouokk·20
-      - 🇺🇸·美国·TG@kkouokk·21
-      - 🇺🇸·美国·TG@kkouokk·22
-      - 🇺🇸·美国·TG@kkouokk·23
-      - 🇺🇸·美国·TG@kkouokk·24
-      - 🇬🇧·英国·TG@kkouokk·25
-      - 🇱🇹·立陶宛·TG@kkouokk·26
-      - 🇳🇱·荷兰·TG@kkouokk·27
-      - 🇷🇺·俄罗斯·TG@kkouokk·28
-      - 🇨🇦·加拿大·TG@kkouokk·29
-      - 🇧🇬·保加利亚·TG@kkouokk·30
-      - 🇱🇹·立陶宛·TG@kkouokk·31
-      - 🇱🇹·立陶宛·TG@kkouokk·32
-      - 🇱🇺·卢森堡·TG@kkouokk·33
-      - 🇳🇱·荷兰·TG@kkouokk·34
-      - 🇺🇸·美国·TG@kkouokk·35
-      - 🇺🇸·美国·TG@kkouokk·36
-      - 🇱🇹·立陶宛·TG@kkouokk·37
-      - 🇬🇧·英国·TG@kkouokk·38
-      - 🇬🇧·英国·TG@kkouokk·39
-      - 🇫🇷·法国·TG@kkouokk·40
-      - 🇺🇸·美国·TG@kkouokk·41
-      - 🇱🇹·立陶宛·TG@kkouokk·42
-      - 🇺🇸·美国·TG@kkouokk·43
-      - 🇳🇱·荷兰·TG@kkouokk·44
-      - 🇺🇸·美国·TG@kkouokk·45
-      - 🇱🇹·立陶宛·TG@kkouokk·46
-      - 🇺🇸·美国·TG@kkouokk·47
-      - 🇫🇷·法国·TG@kkouokk·48
-      - 🇬🇧·英国·TG@kkouokk·49
-      - 🇪🇸·西班牙·TG@kkouokk·50
-      - 🇺🇸·美国·TG@kkouokk·51
-      - 🇺🇸·美国·TG@kkouokk·52
-      - 🇫🇷·法国·TG@kkouokk·53
-      - 🇳🇱·荷兰·TG@kkouokk·54
-      - 🇬🇷·希腊·TG@kkouokk·55
-      - 🇺🇸·美国·TG@kkouokk·56
-      - 🇧🇬·保加利亚·TG@kkouokk·57
-      - 🇺🇸·美国·TG@kkouokk·58
-      - 🇺🇸·美国·TG@kkouokk·59
-      - 🇺🇸·美国·TG@kkouokk·60
-      - 🇺🇸·美国·TG@kkouokk·61
-      - 🇺🇸·美国·TG@kkouokk·62
-      - 🇺🇸·美国·TG@kkouokk·63
-      - 🇺🇸·美国·TG@kkouokk·64
-      - 🇺🇸·美国·TG@kkouokk·65
-      - 🇺🇸·美国·TG@kkouokk·66
-      - 🇺🇸·美国·TG@kkouokk·67
-      - 🇺🇸·美国·TG@kkouokk·68
-      - 🇺🇸·美国·TG@kkouokk·69
-      - 🇺🇸·美国·TG@kkouokk·70
-      - 🇺🇸·美国·TG@kkouokk·71
-      - 🇭🇰·香港·TG@kkouokk·72
-      - 🇭🇰·香港·TG@kkouokk·73
-      - 🇭🇰·香港·TG@kkouokk·74
-      - 🇰🇷·韩国·TG@kkouokk·75
-      - 🇺🇸·美国·TG@kkouokk·76
-      - 🇺🇸·美国·TG@kkouokk·77
-      - 🇭🇰·香港·TG@kkouokk·78
-      - 🇭🇰·香港·TG@kkouokk·79
-      - 🇭🇰·香港·TG@kkouokk·80
-      - 🇭🇰·香港·TG@kkouokk·81
-      - 🇭🇰·香港·TG@kkouokk·82
-      - 🇺🇸·美国·TG@kkouokk·83
-      - 🇺🇸·美国·TG@kkouokk·84
-      - 🇭🇰·香港·TG@kkouokk·85
-      - 🇭🇰·香港·TG@kkouokk·86
-      - 🇭🇰·香港·TG@kkouokk·87
-      - 🇭🇰·香港·TG@kkouokk·88
-      - 🇭🇰·香港·TG@kkouokk·89
-      - 🇭🇰·香港·TG@kkouokk·90
-      - 🇭🇰·香港·TG@kkouokk·91
-      - 🇭🇰·香港·TG@kkouokk·92
-      - 🇭🇰·香港·TG@kkouokk·93
-      - 🇭🇰·香港·TG@kkouokk·94
-      - 🇭🇰·香港·TG@kkouokk·95
-      - 🇭🇰·香港·TG@kkouokk·96
-      - 🇭🇰·香港·TG@kkouokk·97
-      - 🇭🇰·香港·TG@kkouokk·98
-      - 🇭🇰·香港·TG@kkouokk·99
-      - 🇭🇰·香港·TG@kkouokk·100
-      - 🇭🇰·香港·TG@kkouokk·101
+      - 🇨🇳·中国·1·TG@kkouokk
+      - 🇨🇳·中国·2·TG@kkouokk
+      - 🇨🇳·中国·3·TG@kkouokk
+      - 🇨🇳·中国·4·TG@kkouokk
+      - 🇨🇳·中国·5·TG@kkouokk
+      - 🇨🇳·中国·6·TG@kkouokk
+      - 🇨🇳·中国·7·TG@kkouokk
+      - 🇨🇳·中国·8·TG@kkouokk
+      - 🇨🇳·中国·9·TG@kkouokk
+      - 🇨🇳·中国·10·TG@kkouokk
+      - 🇨🇳·中国·11·TG@kkouokk
+      - 🇨🇳·中国·12·TG@kkouokk
+      - 🇨🇳·中国·13·TG@kkouokk
+      - 🇨🇳·中国·14·TG@kkouokk
+      - 🇨🇳·中国·15·TG@kkouokk
+      - 🇨🇳·中国·16·TG@kkouokk
+      - 🇨🇳·中国·17·TG@kkouokk
+      - 🇨🇳·中国·18·TG@kkouokk
+      - 🇨🇳·中国·19·TG@kkouokk
+      - 🇨🇳·中国·20·TG@kkouokk
+      - 🇨🇳·中国·21·TG@kkouokk
+      - 🇨🇳·中国·22·TG@kkouokk
+      - 🇨🇳·中国·23·TG@kkouokk
+      - 🇨🇳·中国·24·TG@kkouokk
+      - 🇨🇳·中国·25·TG@kkouokk
+      - 🇨🇳·中国·26·TG@kkouokk
+      - 🇨🇳·中国·27·TG@kkouokk
+      - 🏳️·未知·28·TG@kkouokk
+      - 🇨🇳·中国·29·TG@kkouokk
+      - 🇨🇳·中国·30·TG@kkouokk
+      - 🇨🇳·中国·31·TG@kkouokk
+      - 🇨🇳·中国·32·TG@kkouokk
+      - 🇨🇳·中国·33·TG@kkouokk
+      - 🇨🇳·中国·34·TG@kkouokk
+      - 🇨🇳·中国·35·TG@kkouokk
+      - 🇨🇳·中国·36·TG@kkouokk
+      - 🇨🇳·中国·37·TG@kkouokk
+      - 🇨🇳·中国·38·TG@kkouokk
+      - 🇨🇳·中国·39·TG@kkouokk
+      - 🇨🇳·中国·40·TG@kkouokk
+      - 🇨🇳·中国·41·TG@kkouokk
+      - 🇨🇳·中国·42·TG@kkouokk
+      - 🇨🇳·中国·43·TG@kkouokk
+      - 🇨🇳·中国·44·TG@kkouokk
+      - 🇨🇳·中国·45·TG@kkouokk
+      - 🇸🇬·新加坡·46·TG@kkouokk
+      - 🇨🇳·中国·47·TG@kkouokk
+      - 🇨🇳·中国·48·TG@kkouokk
+      - 🏳️·未知·49·TG@kkouokk
+      - 🇨🇳·中国·50·TG@kkouokk
+      - 🇨🇳·中国·51·TG@kkouokk
+      - 🇨🇳·中国·52·TG@kkouokk
+      - 🇨🇳·中国·53·TG@kkouokk
+      - 🇨🇳·中国·54·TG@kkouokk
+      - 🇨🇳·中国·55·TG@kkouokk
+      - 🇨🇳·中国·56·TG@kkouokk
+      - 🇨🇳·中国·57·TG@kkouokk
+      - 🇨🇳·中国·58·TG@kkouokk
+      - 🇨🇳·中国·59·TG@kkouokk
+      - 🇨🇳·中国·60·TG@kkouokk
+      - 🇨🇳·中国·61·TG@kkouokk
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰·香港·TG@kkouokk·1
-      - 🇰🇷·韩国·TG@kkouokk·2
-      - 🇰🇷·韩国·TG@kkouokk·3
-      - 🇰🇷·韩国·TG@kkouokk·4
-      - 🇰🇷·韩国·TG@kkouokk·5
-      - 🇰🇷·韩国·TG@kkouokk·6
-      - 🇰🇷·韩国·TG@kkouokk·7
-      - 🇰🇷·韩国·TG@kkouokk·8
-      - 🇰🇷·韩国·TG@kkouokk·9
-      - 🇰🇷·韩国·TG@kkouokk·10
-      - 🏳️·未知·TG@kkouokk·11
-      - 🇭🇰·香港·TG@kkouokk·12
-      - 🇭🇰·香港·TG@kkouokk·13
-      - 🇭🇰·香港·TG@kkouokk·14
-      - 🇭🇰·香港·TG@kkouokk·15
-      - 🇭🇰·香港·TG@kkouokk·16
-      - 🇭🇰·香港·TG@kkouokk·17
-      - 🇭🇰·香港·TG@kkouokk·18
-      - 🇭🇰·香港·TG@kkouokk·19
-      - 🇺🇸·美国·TG@kkouokk·20
-      - 🇺🇸·美国·TG@kkouokk·21
-      - 🇺🇸·美国·TG@kkouokk·22
-      - 🇺🇸·美国·TG@kkouokk·23
-      - 🇺🇸·美国·TG@kkouokk·24
-      - 🇬🇧·英国·TG@kkouokk·25
-      - 🇱🇹·立陶宛·TG@kkouokk·26
-      - 🇳🇱·荷兰·TG@kkouokk·27
-      - 🇷🇺·俄罗斯·TG@kkouokk·28
-      - 🇨🇦·加拿大·TG@kkouokk·29
-      - 🇧🇬·保加利亚·TG@kkouokk·30
-      - 🇱🇹·立陶宛·TG@kkouokk·31
-      - 🇱🇹·立陶宛·TG@kkouokk·32
-      - 🇱🇺·卢森堡·TG@kkouokk·33
-      - 🇳🇱·荷兰·TG@kkouokk·34
-      - 🇺🇸·美国·TG@kkouokk·35
-      - 🇺🇸·美国·TG@kkouokk·36
-      - 🇱🇹·立陶宛·TG@kkouokk·37
-      - 🇬🇧·英国·TG@kkouokk·38
-      - 🇬🇧·英国·TG@kkouokk·39
-      - 🇫🇷·法国·TG@kkouokk·40
-      - 🇺🇸·美国·TG@kkouokk·41
-      - 🇱🇹·立陶宛·TG@kkouokk·42
-      - 🇺🇸·美国·TG@kkouokk·43
-      - 🇳🇱·荷兰·TG@kkouokk·44
-      - 🇺🇸·美国·TG@kkouokk·45
-      - 🇱🇹·立陶宛·TG@kkouokk·46
-      - 🇺🇸·美国·TG@kkouokk·47
-      - 🇫🇷·法国·TG@kkouokk·48
-      - 🇬🇧·英国·TG@kkouokk·49
-      - 🇪🇸·西班牙·TG@kkouokk·50
-      - 🇺🇸·美国·TG@kkouokk·51
-      - 🇺🇸·美国·TG@kkouokk·52
-      - 🇫🇷·法国·TG@kkouokk·53
-      - 🇳🇱·荷兰·TG@kkouokk·54
-      - 🇬🇷·希腊·TG@kkouokk·55
-      - 🇺🇸·美国·TG@kkouokk·56
-      - 🇧🇬·保加利亚·TG@kkouokk·57
-      - 🇺🇸·美国·TG@kkouokk·58
-      - 🇺🇸·美国·TG@kkouokk·59
-      - 🇺🇸·美国·TG@kkouokk·60
-      - 🇺🇸·美国·TG@kkouokk·61
-      - 🇺🇸·美国·TG@kkouokk·62
-      - 🇺🇸·美国·TG@kkouokk·63
-      - 🇺🇸·美国·TG@kkouokk·64
-      - 🇺🇸·美国·TG@kkouokk·65
-      - 🇺🇸·美国·TG@kkouokk·66
-      - 🇺🇸·美国·TG@kkouokk·67
-      - 🇺🇸·美国·TG@kkouokk·68
-      - 🇺🇸·美国·TG@kkouokk·69
-      - 🇺🇸·美国·TG@kkouokk·70
-      - 🇺🇸·美国·TG@kkouokk·71
-      - 🇭🇰·香港·TG@kkouokk·72
-      - 🇭🇰·香港·TG@kkouokk·73
-      - 🇭🇰·香港·TG@kkouokk·74
-      - 🇰🇷·韩国·TG@kkouokk·75
-      - 🇺🇸·美国·TG@kkouokk·76
-      - 🇺🇸·美国·TG@kkouokk·77
-      - 🇭🇰·香港·TG@kkouokk·78
-      - 🇭🇰·香港·TG@kkouokk·79
-      - 🇭🇰·香港·TG@kkouokk·80
-      - 🇭🇰·香港·TG@kkouokk·81
-      - 🇭🇰·香港·TG@kkouokk·82
-      - 🇺🇸·美国·TG@kkouokk·83
-      - 🇺🇸·美国·TG@kkouokk·84
-      - 🇭🇰·香港·TG@kkouokk·85
-      - 🇭🇰·香港·TG@kkouokk·86
-      - 🇭🇰·香港·TG@kkouokk·87
-      - 🇭🇰·香港·TG@kkouokk·88
-      - 🇭🇰·香港·TG@kkouokk·89
-      - 🇭🇰·香港·TG@kkouokk·90
-      - 🇭🇰·香港·TG@kkouokk·91
-      - 🇭🇰·香港·TG@kkouokk·92
-      - 🇭🇰·香港·TG@kkouokk·93
-      - 🇭🇰·香港·TG@kkouokk·94
-      - 🇭🇰·香港·TG@kkouokk·95
-      - 🇭🇰·香港·TG@kkouokk·96
-      - 🇭🇰·香港·TG@kkouokk·97
-      - 🇭🇰·香港·TG@kkouokk·98
-      - 🇭🇰·香港·TG@kkouokk·99
-      - 🇭🇰·香港·TG@kkouokk·100
-      - 🇭🇰·香港·TG@kkouokk·101
+      - 🇨🇳·中国·1·TG@kkouokk
+      - 🇨🇳·中国·2·TG@kkouokk
+      - 🇨🇳·中国·3·TG@kkouokk
+      - 🇨🇳·中国·4·TG@kkouokk
+      - 🇨🇳·中国·5·TG@kkouokk
+      - 🇨🇳·中国·6·TG@kkouokk
+      - 🇨🇳·中国·7·TG@kkouokk
+      - 🇨🇳·中国·8·TG@kkouokk
+      - 🇨🇳·中国·9·TG@kkouokk
+      - 🇨🇳·中国·10·TG@kkouokk
+      - 🇨🇳·中国·11·TG@kkouokk
+      - 🇨🇳·中国·12·TG@kkouokk
+      - 🇨🇳·中国·13·TG@kkouokk
+      - 🇨🇳·中国·14·TG@kkouokk
+      - 🇨🇳·中国·15·TG@kkouokk
+      - 🇨🇳·中国·16·TG@kkouokk
+      - 🇨🇳·中国·17·TG@kkouokk
+      - 🇨🇳·中国·18·TG@kkouokk
+      - 🇨🇳·中国·19·TG@kkouokk
+      - 🇨🇳·中国·20·TG@kkouokk
+      - 🇨🇳·中国·21·TG@kkouokk
+      - 🇨🇳·中国·22·TG@kkouokk
+      - 🇨🇳·中国·23·TG@kkouokk
+      - 🇨🇳·中国·24·TG@kkouokk
+      - 🇨🇳·中国·25·TG@kkouokk
+      - 🇨🇳·中国·26·TG@kkouokk
+      - 🇨🇳·中国·27·TG@kkouokk
+      - 🏳️·未知·28·TG@kkouokk
+      - 🇨🇳·中国·29·TG@kkouokk
+      - 🇨🇳·中国·30·TG@kkouokk
+      - 🇨🇳·中国·31·TG@kkouokk
+      - 🇨🇳·中国·32·TG@kkouokk
+      - 🇨🇳·中国·33·TG@kkouokk
+      - 🇨🇳·中国·34·TG@kkouokk
+      - 🇨🇳·中国·35·TG@kkouokk
+      - 🇨🇳·中国·36·TG@kkouokk
+      - 🇨🇳·中国·37·TG@kkouokk
+      - 🇨🇳·中国·38·TG@kkouokk
+      - 🇨🇳·中国·39·TG@kkouokk
+      - 🇨🇳·中国·40·TG@kkouokk
+      - 🇨🇳·中国·41·TG@kkouokk
+      - 🇨🇳·中国·42·TG@kkouokk
+      - 🇨🇳·中国·43·TG@kkouokk
+      - 🇨🇳·中国·44·TG@kkouokk
+      - 🇨🇳·中国·45·TG@kkouokk
+      - 🇸🇬·新加坡·46·TG@kkouokk
+      - 🇨🇳·中国·47·TG@kkouokk
+      - 🇨🇳·中国·48·TG@kkouokk
+      - 🏳️·未知·49·TG@kkouokk
+      - 🇨🇳·中国·50·TG@kkouokk
+      - 🇨🇳·中国·51·TG@kkouokk
+      - 🇨🇳·中国·52·TG@kkouokk
+      - 🇨🇳·中国·53·TG@kkouokk
+      - 🇨🇳·中国·54·TG@kkouokk
+      - 🇨🇳·中国·55·TG@kkouokk
+      - 🇨🇳·中国·56·TG@kkouokk
+      - 🇨🇳·中国·57·TG@kkouokk
+      - 🇨🇳·中国·58·TG@kkouokk
+      - 🇨🇳·中国·59·TG@kkouokk
+      - 🇨🇳·中国·60·TG@kkouokk
+      - 🇨🇳·中国·61·TG@kkouokk
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰·香港·TG@kkouokk·1
-      - 🇰🇷·韩国·TG@kkouokk·2
-      - 🇰🇷·韩国·TG@kkouokk·3
-      - 🇰🇷·韩国·TG@kkouokk·4
-      - 🇰🇷·韩国·TG@kkouokk·5
-      - 🇰🇷·韩国·TG@kkouokk·6
-      - 🇰🇷·韩国·TG@kkouokk·7
-      - 🇰🇷·韩国·TG@kkouokk·8
-      - 🇰🇷·韩国·TG@kkouokk·9
-      - 🇰🇷·韩国·TG@kkouokk·10
-      - 🏳️·未知·TG@kkouokk·11
-      - 🇭🇰·香港·TG@kkouokk·12
-      - 🇭🇰·香港·TG@kkouokk·13
-      - 🇭🇰·香港·TG@kkouokk·14
-      - 🇭🇰·香港·TG@kkouokk·15
-      - 🇭🇰·香港·TG@kkouokk·16
-      - 🇭🇰·香港·TG@kkouokk·17
-      - 🇭🇰·香港·TG@kkouokk·18
-      - 🇭🇰·香港·TG@kkouokk·19
-      - 🇺🇸·美国·TG@kkouokk·20
-      - 🇺🇸·美国·TG@kkouokk·21
-      - 🇺🇸·美国·TG@kkouokk·22
-      - 🇺🇸·美国·TG@kkouokk·23
-      - 🇺🇸·美国·TG@kkouokk·24
-      - 🇬🇧·英国·TG@kkouokk·25
-      - 🇱🇹·立陶宛·TG@kkouokk·26
-      - 🇳🇱·荷兰·TG@kkouokk·27
-      - 🇷🇺·俄罗斯·TG@kkouokk·28
-      - 🇨🇦·加拿大·TG@kkouokk·29
-      - 🇧🇬·保加利亚·TG@kkouokk·30
-      - 🇱🇹·立陶宛·TG@kkouokk·31
-      - 🇱🇹·立陶宛·TG@kkouokk·32
-      - 🇱🇺·卢森堡·TG@kkouokk·33
-      - 🇳🇱·荷兰·TG@kkouokk·34
-      - 🇺🇸·美国·TG@kkouokk·35
-      - 🇺🇸·美国·TG@kkouokk·36
-      - 🇱🇹·立陶宛·TG@kkouokk·37
-      - 🇬🇧·英国·TG@kkouokk·38
-      - 🇬🇧·英国·TG@kkouokk·39
-      - 🇫🇷·法国·TG@kkouokk·40
-      - 🇺🇸·美国·TG@kkouokk·41
-      - 🇱🇹·立陶宛·TG@kkouokk·42
-      - 🇺🇸·美国·TG@kkouokk·43
-      - 🇳🇱·荷兰·TG@kkouokk·44
-      - 🇺🇸·美国·TG@kkouokk·45
-      - 🇱🇹·立陶宛·TG@kkouokk·46
-      - 🇺🇸·美国·TG@kkouokk·47
-      - 🇫🇷·法国·TG@kkouokk·48
-      - 🇬🇧·英国·TG@kkouokk·49
-      - 🇪🇸·西班牙·TG@kkouokk·50
-      - 🇺🇸·美国·TG@kkouokk·51
-      - 🇺🇸·美国·TG@kkouokk·52
-      - 🇫🇷·法国·TG@kkouokk·53
-      - 🇳🇱·荷兰·TG@kkouokk·54
-      - 🇬🇷·希腊·TG@kkouokk·55
-      - 🇺🇸·美国·TG@kkouokk·56
-      - 🇧🇬·保加利亚·TG@kkouokk·57
-      - 🇺🇸·美国·TG@kkouokk·58
-      - 🇺🇸·美国·TG@kkouokk·59
-      - 🇺🇸·美国·TG@kkouokk·60
-      - 🇺🇸·美国·TG@kkouokk·61
-      - 🇺🇸·美国·TG@kkouokk·62
-      - 🇺🇸·美国·TG@kkouokk·63
-      - 🇺🇸·美国·TG@kkouokk·64
-      - 🇺🇸·美国·TG@kkouokk·65
-      - 🇺🇸·美国·TG@kkouokk·66
-      - 🇺🇸·美国·TG@kkouokk·67
-      - 🇺🇸·美国·TG@kkouokk·68
-      - 🇺🇸·美国·TG@kkouokk·69
-      - 🇺🇸·美国·TG@kkouokk·70
-      - 🇺🇸·美国·TG@kkouokk·71
-      - 🇭🇰·香港·TG@kkouokk·72
-      - 🇭🇰·香港·TG@kkouokk·73
-      - 🇭🇰·香港·TG@kkouokk·74
-      - 🇰🇷·韩国·TG@kkouokk·75
-      - 🇺🇸·美国·TG@kkouokk·76
-      - 🇺🇸·美国·TG@kkouokk·77
-      - 🇭🇰·香港·TG@kkouokk·78
-      - 🇭🇰·香港·TG@kkouokk·79
-      - 🇭🇰·香港·TG@kkouokk·80
-      - 🇭🇰·香港·TG@kkouokk·81
-      - 🇭🇰·香港·TG@kkouokk·82
-      - 🇺🇸·美国·TG@kkouokk·83
-      - 🇺🇸·美国·TG@kkouokk·84
-      - 🇭🇰·香港·TG@kkouokk·85
-      - 🇭🇰·香港·TG@kkouokk·86
-      - 🇭🇰·香港·TG@kkouokk·87
-      - 🇭🇰·香港·TG@kkouokk·88
-      - 🇭🇰·香港·TG@kkouokk·89
-      - 🇭🇰·香港·TG@kkouokk·90
-      - 🇭🇰·香港·TG@kkouokk·91
-      - 🇭🇰·香港·TG@kkouokk·92
-      - 🇭🇰·香港·TG@kkouokk·93
-      - 🇭🇰·香港·TG@kkouokk·94
-      - 🇭🇰·香港·TG@kkouokk·95
-      - 🇭🇰·香港·TG@kkouokk·96
-      - 🇭🇰·香港·TG@kkouokk·97
-      - 🇭🇰·香港·TG@kkouokk·98
-      - 🇭🇰·香港·TG@kkouokk·99
-      - 🇭🇰·香港·TG@kkouokk·100
-      - 🇭🇰·香港·TG@kkouokk·101
+      - 🇨🇳·中国·1·TG@kkouokk
+      - 🇨🇳·中国·2·TG@kkouokk
+      - 🇨🇳·中国·3·TG@kkouokk
+      - 🇨🇳·中国·4·TG@kkouokk
+      - 🇨🇳·中国·5·TG@kkouokk
+      - 🇨🇳·中国·6·TG@kkouokk
+      - 🇨🇳·中国·7·TG@kkouokk
+      - 🇨🇳·中国·8·TG@kkouokk
+      - 🇨🇳·中国·9·TG@kkouokk
+      - 🇨🇳·中国·10·TG@kkouokk
+      - 🇨🇳·中国·11·TG@kkouokk
+      - 🇨🇳·中国·12·TG@kkouokk
+      - 🇨🇳·中国·13·TG@kkouokk
+      - 🇨🇳·中国·14·TG@kkouokk
+      - 🇨🇳·中国·15·TG@kkouokk
+      - 🇨🇳·中国·16·TG@kkouokk
+      - 🇨🇳·中国·17·TG@kkouokk
+      - 🇨🇳·中国·18·TG@kkouokk
+      - 🇨🇳·中国·19·TG@kkouokk
+      - 🇨🇳·中国·20·TG@kkouokk
+      - 🇨🇳·中国·21·TG@kkouokk
+      - 🇨🇳·中国·22·TG@kkouokk
+      - 🇨🇳·中国·23·TG@kkouokk
+      - 🇨🇳·中国·24·TG@kkouokk
+      - 🇨🇳·中国·25·TG@kkouokk
+      - 🇨🇳·中国·26·TG@kkouokk
+      - 🇨🇳·中国·27·TG@kkouokk
+      - 🏳️·未知·28·TG@kkouokk
+      - 🇨🇳·中国·29·TG@kkouokk
+      - 🇨🇳·中国·30·TG@kkouokk
+      - 🇨🇳·中国·31·TG@kkouokk
+      - 🇨🇳·中国·32·TG@kkouokk
+      - 🇨🇳·中国·33·TG@kkouokk
+      - 🇨🇳·中国·34·TG@kkouokk
+      - 🇨🇳·中国·35·TG@kkouokk
+      - 🇨🇳·中国·36·TG@kkouokk
+      - 🇨🇳·中国·37·TG@kkouokk
+      - 🇨🇳·中国·38·TG@kkouokk
+      - 🇨🇳·中国·39·TG@kkouokk
+      - 🇨🇳·中国·40·TG@kkouokk
+      - 🇨🇳·中国·41·TG@kkouokk
+      - 🇨🇳·中国·42·TG@kkouokk
+      - 🇨🇳·中国·43·TG@kkouokk
+      - 🇨🇳·中国·44·TG@kkouokk
+      - 🇨🇳·中国·45·TG@kkouokk
+      - 🇸🇬·新加坡·46·TG@kkouokk
+      - 🇨🇳·中国·47·TG@kkouokk
+      - 🇨🇳·中国·48·TG@kkouokk
+      - 🏳️·未知·49·TG@kkouokk
+      - 🇨🇳·中国·50·TG@kkouokk
+      - 🇨🇳·中国·51·TG@kkouokk
+      - 🇨🇳·中国·52·TG@kkouokk
+      - 🇨🇳·中国·53·TG@kkouokk
+      - 🇨🇳·中国·54·TG@kkouokk
+      - 🇨🇳·中国·55·TG@kkouokk
+      - 🇨🇳·中国·56·TG@kkouokk
+      - 🇨🇳·中国·57·TG@kkouokk
+      - 🇨🇳·中国·58·TG@kkouokk
+      - 🇨🇳·中国·59·TG@kkouokk
+      - 🇨🇳·中国·60·TG@kkouokk
+      - 🇨🇳·中国·61·TG@kkouokk
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰·香港·TG@kkouokk·1
-      - 🇰🇷·韩国·TG@kkouokk·2
-      - 🇰🇷·韩国·TG@kkouokk·3
-      - 🇰🇷·韩国·TG@kkouokk·4
-      - 🇰🇷·韩国·TG@kkouokk·5
-      - 🇰🇷·韩国·TG@kkouokk·6
-      - 🇰🇷·韩国·TG@kkouokk·7
-      - 🇰🇷·韩国·TG@kkouokk·8
-      - 🇰🇷·韩国·TG@kkouokk·9
-      - 🇰🇷·韩国·TG@kkouokk·10
-      - 🏳️·未知·TG@kkouokk·11
-      - 🇭🇰·香港·TG@kkouokk·12
-      - 🇭🇰·香港·TG@kkouokk·13
-      - 🇭🇰·香港·TG@kkouokk·14
-      - 🇭🇰·香港·TG@kkouokk·15
-      - 🇭🇰·香港·TG@kkouokk·16
-      - 🇭🇰·香港·TG@kkouokk·17
-      - 🇭🇰·香港·TG@kkouokk·18
-      - 🇭🇰·香港·TG@kkouokk·19
-      - 🇺🇸·美国·TG@kkouokk·20
-      - 🇺🇸·美国·TG@kkouokk·21
-      - 🇺🇸·美国·TG@kkouokk·22
-      - 🇺🇸·美国·TG@kkouokk·23
-      - 🇺🇸·美国·TG@kkouokk·24
-      - 🇬🇧·英国·TG@kkouokk·25
-      - 🇱🇹·立陶宛·TG@kkouokk·26
-      - 🇳🇱·荷兰·TG@kkouokk·27
-      - 🇷🇺·俄罗斯·TG@kkouokk·28
-      - 🇨🇦·加拿大·TG@kkouokk·29
-      - 🇧🇬·保加利亚·TG@kkouokk·30
-      - 🇱🇹·立陶宛·TG@kkouokk·31
-      - 🇱🇹·立陶宛·TG@kkouokk·32
-      - 🇱🇺·卢森堡·TG@kkouokk·33
-      - 🇳🇱·荷兰·TG@kkouokk·34
-      - 🇺🇸·美国·TG@kkouokk·35
-      - 🇺🇸·美国·TG@kkouokk·36
-      - 🇱🇹·立陶宛·TG@kkouokk·37
-      - 🇬🇧·英国·TG@kkouokk·38
-      - 🇬🇧·英国·TG@kkouokk·39
-      - 🇫🇷·法国·TG@kkouokk·40
-      - 🇺🇸·美国·TG@kkouokk·41
-      - 🇱🇹·立陶宛·TG@kkouokk·42
-      - 🇺🇸·美国·TG@kkouokk·43
-      - 🇳🇱·荷兰·TG@kkouokk·44
-      - 🇺🇸·美国·TG@kkouokk·45
-      - 🇱🇹·立陶宛·TG@kkouokk·46
-      - 🇺🇸·美国·TG@kkouokk·47
-      - 🇫🇷·法国·TG@kkouokk·48
-      - 🇬🇧·英国·TG@kkouokk·49
-      - 🇪🇸·西班牙·TG@kkouokk·50
-      - 🇺🇸·美国·TG@kkouokk·51
-      - 🇺🇸·美国·TG@kkouokk·52
-      - 🇫🇷·法国·TG@kkouokk·53
-      - 🇳🇱·荷兰·TG@kkouokk·54
-      - 🇬🇷·希腊·TG@kkouokk·55
-      - 🇺🇸·美国·TG@kkouokk·56
-      - 🇧🇬·保加利亚·TG@kkouokk·57
-      - 🇺🇸·美国·TG@kkouokk·58
-      - 🇺🇸·美国·TG@kkouokk·59
-      - 🇺🇸·美国·TG@kkouokk·60
-      - 🇺🇸·美国·TG@kkouokk·61
-      - 🇺🇸·美国·TG@kkouokk·62
-      - 🇺🇸·美国·TG@kkouokk·63
-      - 🇺🇸·美国·TG@kkouokk·64
-      - 🇺🇸·美国·TG@kkouokk·65
-      - 🇺🇸·美国·TG@kkouokk·66
-      - 🇺🇸·美国·TG@kkouokk·67
-      - 🇺🇸·美国·TG@kkouokk·68
-      - 🇺🇸·美国·TG@kkouokk·69
-      - 🇺🇸·美国·TG@kkouokk·70
-      - 🇺🇸·美国·TG@kkouokk·71
-      - 🇭🇰·香港·TG@kkouokk·72
-      - 🇭🇰·香港·TG@kkouokk·73
-      - 🇭🇰·香港·TG@kkouokk·74
-      - 🇰🇷·韩国·TG@kkouokk·75
-      - 🇺🇸·美国·TG@kkouokk·76
-      - 🇺🇸·美国·TG@kkouokk·77
-      - 🇭🇰·香港·TG@kkouokk·78
-      - 🇭🇰·香港·TG@kkouokk·79
-      - 🇭🇰·香港·TG@kkouokk·80
-      - 🇭🇰·香港·TG@kkouokk·81
-      - 🇭🇰·香港·TG@kkouokk·82
-      - 🇺🇸·美国·TG@kkouokk·83
-      - 🇺🇸·美国·TG@kkouokk·84
-      - 🇭🇰·香港·TG@kkouokk·85
-      - 🇭🇰·香港·TG@kkouokk·86
-      - 🇭🇰·香港·TG@kkouokk·87
-      - 🇭🇰·香港·TG@kkouokk·88
-      - 🇭🇰·香港·TG@kkouokk·89
-      - 🇭🇰·香港·TG@kkouokk·90
-      - 🇭🇰·香港·TG@kkouokk·91
-      - 🇭🇰·香港·TG@kkouokk·92
-      - 🇭🇰·香港·TG@kkouokk·93
-      - 🇭🇰·香港·TG@kkouokk·94
-      - 🇭🇰·香港·TG@kkouokk·95
-      - 🇭🇰·香港·TG@kkouokk·96
-      - 🇭🇰·香港·TG@kkouokk·97
-      - 🇭🇰·香港·TG@kkouokk·98
-      - 🇭🇰·香港·TG@kkouokk·99
-      - 🇭🇰·香港·TG@kkouokk·100
-      - 🇭🇰·香港·TG@kkouokk·101
+      - 🇨🇳·中国·1·TG@kkouokk
+      - 🇨🇳·中国·2·TG@kkouokk
+      - 🇨🇳·中国·3·TG@kkouokk
+      - 🇨🇳·中国·4·TG@kkouokk
+      - 🇨🇳·中国·5·TG@kkouokk
+      - 🇨🇳·中国·6·TG@kkouokk
+      - 🇨🇳·中国·7·TG@kkouokk
+      - 🇨🇳·中国·8·TG@kkouokk
+      - 🇨🇳·中国·9·TG@kkouokk
+      - 🇨🇳·中国·10·TG@kkouokk
+      - 🇨🇳·中国·11·TG@kkouokk
+      - 🇨🇳·中国·12·TG@kkouokk
+      - 🇨🇳·中国·13·TG@kkouokk
+      - 🇨🇳·中国·14·TG@kkouokk
+      - 🇨🇳·中国·15·TG@kkouokk
+      - 🇨🇳·中国·16·TG@kkouokk
+      - 🇨🇳·中国·17·TG@kkouokk
+      - 🇨🇳·中国·18·TG@kkouokk
+      - 🇨🇳·中国·19·TG@kkouokk
+      - 🇨🇳·中国·20·TG@kkouokk
+      - 🇨🇳·中国·21·TG@kkouokk
+      - 🇨🇳·中国·22·TG@kkouokk
+      - 🇨🇳·中国·23·TG@kkouokk
+      - 🇨🇳·中国·24·TG@kkouokk
+      - 🇨🇳·中国·25·TG@kkouokk
+      - 🇨🇳·中国·26·TG@kkouokk
+      - 🇨🇳·中国·27·TG@kkouokk
+      - 🏳️·未知·28·TG@kkouokk
+      - 🇨🇳·中国·29·TG@kkouokk
+      - 🇨🇳·中国·30·TG@kkouokk
+      - 🇨🇳·中国·31·TG@kkouokk
+      - 🇨🇳·中国·32·TG@kkouokk
+      - 🇨🇳·中国·33·TG@kkouokk
+      - 🇨🇳·中国·34·TG@kkouokk
+      - 🇨🇳·中国·35·TG@kkouokk
+      - 🇨🇳·中国·36·TG@kkouokk
+      - 🇨🇳·中国·37·TG@kkouokk
+      - 🇨🇳·中国·38·TG@kkouokk
+      - 🇨🇳·中国·39·TG@kkouokk
+      - 🇨🇳·中国·40·TG@kkouokk
+      - 🇨🇳·中国·41·TG@kkouokk
+      - 🇨🇳·中国·42·TG@kkouokk
+      - 🇨🇳·中国·43·TG@kkouokk
+      - 🇨🇳·中国·44·TG@kkouokk
+      - 🇨🇳·中国·45·TG@kkouokk
+      - 🇸🇬·新加坡·46·TG@kkouokk
+      - 🇨🇳·中国·47·TG@kkouokk
+      - 🇨🇳·中国·48·TG@kkouokk
+      - 🏳️·未知·49·TG@kkouokk
+      - 🇨🇳·中国·50·TG@kkouokk
+      - 🇨🇳·中国·51·TG@kkouokk
+      - 🇨🇳·中国·52·TG@kkouokk
+      - 🇨🇳·中国·53·TG@kkouokk
+      - 🇨🇳·中国·54·TG@kkouokk
+      - 🇨🇳·中国·55·TG@kkouokk
+      - 🇨🇳·中国·56·TG@kkouokk
+      - 🇨🇳·中国·57·TG@kkouokk
+      - 🇨🇳·中国·58·TG@kkouokk
+      - 🇨🇳·中国·59·TG@kkouokk
+      - 🇨🇳·中国·60·TG@kkouokk
+      - 🇨🇳·中国·61·TG@kkouokk
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -848,120 +918,75 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰·香港·TG@kkouokk·1
-      - 🇰🇷·韩国·TG@kkouokk·2
-      - 🇰🇷·韩国·TG@kkouokk·3
-      - 🇰🇷·韩国·TG@kkouokk·4
-      - 🇰🇷·韩国·TG@kkouokk·5
-      - 🇰🇷·韩国·TG@kkouokk·6
-      - 🇰🇷·韩国·TG@kkouokk·7
-      - 🇰🇷·韩国·TG@kkouokk·8
-      - 🇰🇷·韩国·TG@kkouokk·9
-      - 🇰🇷·韩国·TG@kkouokk·10
-      - 🏳️·未知·TG@kkouokk·11
-      - 🇭🇰·香港·TG@kkouokk·12
-      - 🇭🇰·香港·TG@kkouokk·13
-      - 🇭🇰·香港·TG@kkouokk·14
-      - 🇭🇰·香港·TG@kkouokk·15
-      - 🇭🇰·香港·TG@kkouokk·16
-      - 🇭🇰·香港·TG@kkouokk·17
-      - 🇭🇰·香港·TG@kkouokk·18
-      - 🇭🇰·香港·TG@kkouokk·19
-      - 🇺🇸·美国·TG@kkouokk·20
-      - 🇺🇸·美国·TG@kkouokk·21
-      - 🇺🇸·美国·TG@kkouokk·22
-      - 🇺🇸·美国·TG@kkouokk·23
-      - 🇺🇸·美国·TG@kkouokk·24
-      - 🇬🇧·英国·TG@kkouokk·25
-      - 🇱🇹·立陶宛·TG@kkouokk·26
-      - 🇳🇱·荷兰·TG@kkouokk·27
-      - 🇷🇺·俄罗斯·TG@kkouokk·28
-      - 🇨🇦·加拿大·TG@kkouokk·29
-      - 🇧🇬·保加利亚·TG@kkouokk·30
-      - 🇱🇹·立陶宛·TG@kkouokk·31
-      - 🇱🇹·立陶宛·TG@kkouokk·32
-      - 🇱🇺·卢森堡·TG@kkouokk·33
-      - 🇳🇱·荷兰·TG@kkouokk·34
-      - 🇺🇸·美国·TG@kkouokk·35
-      - 🇺🇸·美国·TG@kkouokk·36
-      - 🇱🇹·立陶宛·TG@kkouokk·37
-      - 🇬🇧·英国·TG@kkouokk·38
-      - 🇬🇧·英国·TG@kkouokk·39
-      - 🇫🇷·法国·TG@kkouokk·40
-      - 🇺🇸·美国·TG@kkouokk·41
-      - 🇱🇹·立陶宛·TG@kkouokk·42
-      - 🇺🇸·美国·TG@kkouokk·43
-      - 🇳🇱·荷兰·TG@kkouokk·44
-      - 🇺🇸·美国·TG@kkouokk·45
-      - 🇱🇹·立陶宛·TG@kkouokk·46
-      - 🇺🇸·美国·TG@kkouokk·47
-      - 🇫🇷·法国·TG@kkouokk·48
-      - 🇬🇧·英国·TG@kkouokk·49
-      - 🇪🇸·西班牙·TG@kkouokk·50
-      - 🇺🇸·美国·TG@kkouokk·51
-      - 🇺🇸·美国·TG@kkouokk·52
-      - 🇫🇷·法国·TG@kkouokk·53
-      - 🇳🇱·荷兰·TG@kkouokk·54
-      - 🇬🇷·希腊·TG@kkouokk·55
-      - 🇺🇸·美国·TG@kkouokk·56
-      - 🇧🇬·保加利亚·TG@kkouokk·57
-      - 🇺🇸·美国·TG@kkouokk·58
-      - 🇺🇸·美国·TG@kkouokk·59
-      - 🇺🇸·美国·TG@kkouokk·60
-      - 🇺🇸·美国·TG@kkouokk·61
-      - 🇺🇸·美国·TG@kkouokk·62
-      - 🇺🇸·美国·TG@kkouokk·63
-      - 🇺🇸·美国·TG@kkouokk·64
-      - 🇺🇸·美国·TG@kkouokk·65
-      - 🇺🇸·美国·TG@kkouokk·66
-      - 🇺🇸·美国·TG@kkouokk·67
-      - 🇺🇸·美国·TG@kkouokk·68
-      - 🇺🇸·美国·TG@kkouokk·69
-      - 🇺🇸·美国·TG@kkouokk·70
-      - 🇺🇸·美国·TG@kkouokk·71
-      - 🇭🇰·香港·TG@kkouokk·72
-      - 🇭🇰·香港·TG@kkouokk·73
-      - 🇭🇰·香港·TG@kkouokk·74
-      - 🇰🇷·韩国·TG@kkouokk·75
-      - 🇺🇸·美国·TG@kkouokk·76
-      - 🇺🇸·美国·TG@kkouokk·77
-      - 🇭🇰·香港·TG@kkouokk·78
-      - 🇭🇰·香港·TG@kkouokk·79
-      - 🇭🇰·香港·TG@kkouokk·80
-      - 🇭🇰·香港·TG@kkouokk·81
-      - 🇭🇰·香港·TG@kkouokk·82
-      - 🇺🇸·美国·TG@kkouokk·83
-      - 🇺🇸·美国·TG@kkouokk·84
-      - 🇭🇰·香港·TG@kkouokk·85
-      - 🇭🇰·香港·TG@kkouokk·86
-      - 🇭🇰·香港·TG@kkouokk·87
-      - 🇭🇰·香港·TG@kkouokk·88
-      - 🇭🇰·香港·TG@kkouokk·89
-      - 🇭🇰·香港·TG@kkouokk·90
-      - 🇭🇰·香港·TG@kkouokk·91
-      - 🇭🇰·香港·TG@kkouokk·92
-      - 🇭🇰·香港·TG@kkouokk·93
-      - 🇭🇰·香港·TG@kkouokk·94
-      - 🇭🇰·香港·TG@kkouokk·95
-      - 🇭🇰·香港·TG@kkouokk·96
-      - 🇭🇰·香港·TG@kkouokk·97
-      - 🇭🇰·香港·TG@kkouokk·98
-      - 🇭🇰·香港·TG@kkouokk·99
-      - 🇭🇰·香港·TG@kkouokk·100
-      - 🇭🇰·香港·TG@kkouokk·101
-
+      - 🇨🇳·中国·1·TG@kkouokk
+      - 🇨🇳·中国·2·TG@kkouokk
+      - 🇨🇳·中国·3·TG@kkouokk
+      - 🇨🇳·中国·4·TG@kkouokk
+      - 🇨🇳·中国·5·TG@kkouokk
+      - 🇨🇳·中国·6·TG@kkouokk
+      - 🇨🇳·中国·7·TG@kkouokk
+      - 🇨🇳·中国·8·TG@kkouokk
+      - 🇨🇳·中国·9·TG@kkouokk
+      - 🇨🇳·中国·10·TG@kkouokk
+      - 🇨🇳·中国·11·TG@kkouokk
+      - 🇨🇳·中国·12·TG@kkouokk
+      - 🇨🇳·中国·13·TG@kkouokk
+      - 🇨🇳·中国·14·TG@kkouokk
+      - 🇨🇳·中国·15·TG@kkouokk
+      - 🇨🇳·中国·16·TG@kkouokk
+      - 🇨🇳·中国·17·TG@kkouokk
+      - 🇨🇳·中国·18·TG@kkouokk
+      - 🇨🇳·中国·19·TG@kkouokk
+      - 🇨🇳·中国·20·TG@kkouokk
+      - 🇨🇳·中国·21·TG@kkouokk
+      - 🇨🇳·中国·22·TG@kkouokk
+      - 🇨🇳·中国·23·TG@kkouokk
+      - 🇨🇳·中国·24·TG@kkouokk
+      - 🇨🇳·中国·25·TG@kkouokk
+      - 🇨🇳·中国·26·TG@kkouokk
+      - 🇨🇳·中国·27·TG@kkouokk
+      - 🏳️·未知·28·TG@kkouokk
+      - 🇨🇳·中国·29·TG@kkouokk
+      - 🇨🇳·中国·30·TG@kkouokk
+      - 🇨🇳·中国·31·TG@kkouokk
+      - 🇨🇳·中国·32·TG@kkouokk
+      - 🇨🇳·中国·33·TG@kkouokk
+      - 🇨🇳·中国·34·TG@kkouokk
+      - 🇨🇳·中国·35·TG@kkouokk
+      - 🇨🇳·中国·36·TG@kkouokk
+      - 🇨🇳·中国·37·TG@kkouokk
+      - 🇨🇳·中国·38·TG@kkouokk
+      - 🇨🇳·中国·39·TG@kkouokk
+      - 🇨🇳·中国·40·TG@kkouokk
+      - 🇨🇳·中国·41·TG@kkouokk
+      - 🇨🇳·中国·42·TG@kkouokk
+      - 🇨🇳·中国·43·TG@kkouokk
+      - 🇨🇳·中国·44·TG@kkouokk
+      - 🇨🇳·中国·45·TG@kkouokk
+      - 🇸🇬·新加坡·46·TG@kkouokk
+      - 🇨🇳·中国·47·TG@kkouokk
+      - 🇨🇳·中国·48·TG@kkouokk
+      - 🏳️·未知·49·TG@kkouokk
+      - 🇨🇳·中国·50·TG@kkouokk
+      - 🇨🇳·中国·51·TG@kkouokk
+      - 🇨🇳·中国·52·TG@kkouokk
+      - 🇨🇳·中国·53·TG@kkouokk
+      - 🇨🇳·中国·54·TG@kkouokk
+      - 🇨🇳·中国·55·TG@kkouokk
+      - 🇨🇳·中国·56·TG@kkouokk
+      - 🇨🇳·中国·57·TG@kkouokk
+      - 🇨🇳·中国·58·TG@kkouokk
+      - 🇨🇳·中国·59·TG@kkouokk
+      - 🇨🇳·中国·60·TG@kkouokk
+      - 🇨🇳·中国·61·TG@kkouokk
 rules:
-# 本地/局域网地址
-# 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
-# ACL4SSR标志 如没有，代表不是用ACL4SSR规则
-# 本地/局域网地址
-# Router managed 路由器管理域名
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
   - DOMAIN-SUFFIX,lan,🎯 全球直连
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - DOMAIN-SUFFIX,localhost,🎯 全球直连
+  - IP-CIDR,0.0.0.0/8,🎯 全球直连,no-resolve
   - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
   - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
   - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
@@ -976,6 +1001,7 @@ rules:
   - DOMAIN,instant.arubanetworks.com,🎯 全球直连
   - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
   - DOMAIN,router.asus.com,🎯 全球直连
+  - DOMAIN,www.asusrouter.com,🎯 全球直连
   - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
   - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
@@ -988,23 +1014,16 @@ rules:
   - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zte.home,🎯 全球直连
   - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
-# 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
-# 广告关键词
-# 广告联盟-国内****************
-# 广告联盟-国外****************
-# 垃圾站点****************
-# 运营商广告****************
+  - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,admaster,🛑 全球拦截
   - DOMAIN-KEYWORD,adsage,🛑 全球拦截
   - DOMAIN-KEYWORD,adsensor,🛑 全球拦截
-  - DOMAIN-KEYWORD,adservice,🛑 全球拦截
   - DOMAIN-KEYWORD,adsmogo,🛑 全球拦截
   - DOMAIN-KEYWORD,adsrvmedia,🛑 全球拦截
   - DOMAIN-KEYWORD,adsserving,🛑 全球拦截
   - DOMAIN-KEYWORD,adsystem,🛑 全球拦截
   - DOMAIN-KEYWORD,adwords,🛑 全球拦截
-  - DOMAIN-KEYWORD,analysis,🛑 全球拦截
   - DOMAIN-KEYWORD,applovin,🛑 全球拦截
   - DOMAIN-KEYWORD,appsflyer,🛑 全球拦截
   - DOMAIN-KEYWORD,domob,🛑 全球拦截
@@ -1018,7 +1037,6 @@ rules:
   - DOMAIN-KEYWORD,pingfore,🛑 全球拦截
   - DOMAIN-KEYWORD,socdm,🛑 全球拦截
   - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
-  - DOMAIN-KEYWORD,usage,🛑 全球拦截
   - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
   - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
   - DOMAIN-SUFFIX,09mk.cn,🛑 全球拦截
@@ -1415,6 +1433,7 @@ rules:
   - DOMAIN-SUFFIX,zhjfad.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zqzxz.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zzsx8.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,wwads.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,acuityplatform.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-stir.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-survey.com,🛑 全球拦截
@@ -1588,66 +1607,6 @@ rules:
   - DOMAIN-SUFFIX,go.10086.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,hivedata.cc,🛑 全球拦截
   - DOMAIN-SUFFIX,navi.gd.chinamobile.com,🛑 全球拦截
-# 包含常用应用的各种去广告规则。
-# 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
-# 163
-# 17173
-# 178
-# 2345
-# 360
-# 58
-# Alibaba
-# Adobe
-# Apple
-# AutoHome
-# Baidu
-# Book-app 起点 掌阅 书旗 宜搜
-# ByteDance 头条抖音
-# Dangdang
-# Duomi
-# Facebook
-# Fang
-# Google
-# JD
-# Kugou
-# Kuwo
-# Meizu flyme 魅族
-# Meitu
-# Miui 小米
-# Moji
-# Qingting.fm
-# QQ
-# RenRen
-# Sina
-# Sougou
-# Teleplus
-# Twitter
-# UC ali
-# Weifeng
-# WPS Office
-# Wi-Fi key
-# Ximalaya 喜马拉雅
-# Xunlei 迅雷app&看看
-# Yahoo
-# Zhihu
-# Ads in Video apps 下面都是 ********************
-# 6间房
-# Baofeng 暴风影音
-# Douyu
-# Fenghuang 凤凰TV
-# Funshion 风行
-# iqiyi PPS 爱奇艺
-# Ku6 酷6
-# LeTV 乐视
-# MGTV 芒果TV
-# Sohu 搜狐
-# PPTV、PPLive
-# QQ Live
-# Youku & Tudou
-# Youtube
-# Others ads in Video apps
-# Ads in Video apps end 上面都是 ********************
-# 常用网站广告
   - DOMAIN-SUFFIX,a.youdao.com,🍃 应用净化
   - DOMAIN-SUFFIX,adgeo.corp.163.com,🍃 应用净化
   - DOMAIN-SUFFIX,analytics.126.net,🍃 应用净化
@@ -1812,7 +1771,6 @@ rules:
   - DOMAIN-SUFFIX,baidu9635.com,🍃 应用净化
   - DOMAIN-SUFFIX,baidustatic.com,🍃 应用净化
   - DOMAIN-SUFFIX,baidutv.baidu.com,🍃 应用净化
-  - DOMAIN-SUFFIX,baikebcs.bdimg.com,🍃 应用净化
   - DOMAIN-SUFFIX,banlv.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,bar.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,bdplus.baidu.com,🍃 应用净化
@@ -2170,7 +2128,6 @@ rules:
   - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,🍃 应用净化
   - DOMAIN-SUFFIX,union.mi.com,🍃 应用净化
   - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,🍃 应用净化
-  - DOMAIN-SUFFIX,xmpush.xiaomi.com,🍃 应用净化
   - DOMAIN-SUFFIX,ad.api.moji.com,🍃 应用净化
   - DOMAIN-SUFFIX,app.moji001.com,🍃 应用净化
   - DOMAIN-SUFFIX,cdn.moji002.com,🍃 应用净化
@@ -2365,7 +2322,6 @@ rules:
   - DOMAIN-SUFFIX,ws.progrss.yahoo.com,🍃 应用净化
   - DOMAIN-SUFFIX,yads.yahoo.co.jp,🍃 应用净化
   - DOMAIN-SUFFIX,ybp.yahoo.com,🍃 应用净化
-  - DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,🍃 应用净化
   - DOMAIN-SUFFIX,shrek.6.cn,🍃 应用净化
   - DOMAIN-SUFFIX,simba.6.cn,🍃 应用净化
   - DOMAIN-SUFFIX,union.6.cn,🍃 应用净化
@@ -2674,8 +2630,6 @@ rules:
   - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
   - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
   - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
-# Google China
-#DOMAIN-SUFFIX,translate.googleapis.com
   - DOMAIN-SUFFIX,265.com,🎯 全球直连
   - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
   - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
@@ -2687,34 +2641,24 @@ rules:
   - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,app-measurement.com,🎯 全球直连
-  - DOMAIN-SUFFIX,c.android.clients.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,cache.pack.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 全球直连
-  - DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,crl.pki.goog,🎯 全球直连
   - DOMAIN-SUFFIX,dl.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,dl.l.google.com,🎯 全球直连
-  - DOMAIN-SUFFIX,fonts.googleapis.com,🎯 全球直连
-  - DOMAIN-SUFFIX,fonts.gstatic.com,🎯 全球直连
   - DOMAIN-SUFFIX,googletagmanager.com,🎯 全球直连
   - DOMAIN-SUFFIX,googletagservices.com,🎯 全球直连
   - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 全球直连
-  - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
   - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
   - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
-  - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
   - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
-  - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
-  - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
-# 内容：SteamCN
-# 数量：15条
   - DOMAIN,csgo.wmsj.cn,🎯 全球直连
   - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
   - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
@@ -2726,13 +2670,11 @@ rules:
   - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
   - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
   - DOMAIN,wmsjsteam.com,🎯 全球直连
+  - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
   - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
-# Microsoft Services
-# optimized from https://gist.github.com/TTTPOB/ce93fb3b04ba2f21880b09427442d831
-# source: https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
   - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
@@ -2745,8 +2687,11 @@ rules:
   - DOMAIN-SUFFIX,azure.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,azure.net,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,azureiotcentral.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,bing.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,bingapis.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ 微软服务
@@ -2809,12 +2754,11 @@ rules:
   - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
-# Apple
-# 一般国内Apple肯定正常,不需要开代理
   - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
   - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
   - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
   - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
   - DOMAIN-SUFFIX,apple-mapkit.com,🍎 苹果服务
   - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
   - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
@@ -2839,64 +2783,13 @@ rules:
   - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
   - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
   - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
-# 内容：国外媒体列表
-# 更新：2023-01-15 22:06:33
-# 数量：330条
-# ABC
-# AbemaTV
-# All4
-# Amazon
-# AppleNews
-# AppleTV
-# BBCiPlayer
-# Bahamut
-# DAZN
-# Deezer
-# DiscoveryPlus
-# DisneyPlus
-# EncoreTVB
-# FoxNow
-# HBO
-# HBO_GO_HKG
-# HWTV
-# Hulu
-# HuluJapan
-# ITV
-# JOOX
-# Japonx
-# KKBOX
-# KKTV
-# LiTV
-# LineTV
-# My5
-# MyTVSuper
-# Netflix
-# Niconico
-# PBS
-# Pandora
-# Pornhub
-# Qobuz
-# SoundCloud
-# Spotify
-# TIDAL
-# TaiWanGood 台湾好
-# TikTok
-# Twitch
-# ViuTV
-# YouTube
-# YouTubeMusic
   - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,go.com,🌍 国外媒体
-#   - USER-AGENT,AbemaTV*,🌍 国外媒体
   - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
-  - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
-  - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
-  - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
-#   - USER-AGENT,All4*,🌍 国外媒体
   - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
   - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
   - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -2914,18 +2807,17 @@ rules:
   - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
   - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
   - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
+  - DOMAIN-SUFFIX,amazontools.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,amazontours.com,🌍 国外媒体
   - DOMAIN-SUFFIX,amazonuniversity.jobs,🌍 国外媒体
   - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
-#   - URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
-#   - USER-AGENT,AppleNews*,🌍 国外媒体
-#   - USER-AGENT,com.apple.news*,🌍 国外媒体
+  - DOMAIN-SUFFIX,seattlespheres.com,🌍 国外媒体
   - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
   - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tv.apple.com,🌍 国外媒体
-#   - USER-AGENT,BBCiPlayer*,🌍 国外媒体
   - DOMAIN-KEYWORD,bbcfmt,🌍 国外媒体
   - DOMAIN-KEYWORD,uk-live,🌍 国外媒体
   - DOMAIN,aod-dash-uk-live.akamaized.net,🌍 国外媒体
@@ -2940,13 +2832,11 @@ rules:
   - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
   - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
   - DOMAIN-SUFFIX,bidi.net.uk,🌍 国外媒体
-#   - USER-AGENT,Anime*,🌍 国外媒体
   - DOMAIN,bahamut.akamaized.net,🌍 国外媒体
   - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
-#   - USER-AGENT,DAZN*,🌍 国外媒体
   - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
@@ -2958,14 +2848,11 @@ rules:
   - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
   - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
-#   - USER-AGENT,Deezer*,🌍 国外媒体
   - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
   - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
   - DOMAIN-SUFFIX,disco-api.com,🌍 国外媒体
   - DOMAIN-SUFFIX,discovery.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
-#   - USER-AGENT,Disney*,🌍 国外媒体
-#   - USER-AGENT,Disney+*,🌍 国外媒体
   - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
   - DOMAIN-SUFFIX,adobedtm.com,🌍 国外媒体
   - DOMAIN-SUFFIX,bam.nr-data.net,🌍 国外媒体
@@ -2986,25 +2873,19 @@ rules:
   - DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,js-agent.newrelic.com,🌍 国外媒体
-#   - USER-AGENT,encoreTVB*,🌍 国外媒体
   - DOMAIN,bcbolt446c5271-a.akamaihd.net,🌍 国外媒体
   - DOMAIN,content.jwplatform.com,🌍 国外媒体
   - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
   - DOMAIN,videos-f.jwpsrv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
-#   - USER-AGENT,FOX%20NOW*,🌍 国外媒体
   - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
-#   - USER-AGENT,HBO%20NOW*,🌍 国外媒体
-#   - USER-AGENT,HBOMAX*,🌍 国外媒体
   - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
-#   - USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
-  - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
   - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
   - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
@@ -3024,7 +2905,6 @@ rules:
   - DOMAIN-SUFFIX,hboasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
-#   - USER-AGENT,HWTVMobile*,🌍 国外媒体
   - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ocnttv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,cws-hulu.conviva.com,🌍 国外媒体
@@ -3040,12 +2920,9 @@ rules:
   - DOMAIN-SUFFIX,prod.hjholdings.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,streaks.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,yb.uncn.jp,🌍 国外媒体
-#   - USER-AGENT,ITV_Player*,🌍 国外媒体
   - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
   - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
-#   - USER-AGENT,JOOX*,🌍 国外媒体
-#   - USER-AGENT,WeMusic*,🌍 国外媒体
   - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
   - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
   - DOMAIN-KEYWORD,japonx,🌍 国外媒体
@@ -3061,32 +2938,25 @@ rules:
   - DOMAIN-SUFFIX,kfs.io,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com.tw,🌍 国外媒体
-#   - USER-AGENT,KKTV*,🌍 国外媒体
-#   - USER-AGENT,com.kktv.ios.kktv*,🌍 国外媒体
   - DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
   - DOMAIN,theater-kktv.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,litv.tv,🌍 国外媒体
-#   - USER-AGENT,LINE%20TV*,🌍 国外媒体
-#   - USER-AGENT,LINE*,🌍 国外媒体
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,linetv.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,profile.line-scdn.net,🌍 国外媒体
-#   - USER-AGENT,My5*,🌍 国外媒体
   - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
   - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
-#   - USER-AGENT,mytv*,🌍 国外媒体
   - DOMAIN-KEYWORD,nowtv100,🌍 国外媒体
   - DOMAIN-KEYWORD,rthklive,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
   - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
-#   - USER-AGENT,Argo*,🌍 国外媒体
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
   - DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体
@@ -3124,27 +2994,60 @@ rules:
   - IP-CIDR,192.173.64.0/18,🌍 国外媒体,no-resolve
   - IP-CIDR,198.38.96.0/19,🌍 国外媒体,no-resolve
   - IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
+  - IP-CIDR,203.75.84.0/24,🌍 国外媒体,no-resolve
   - IP-CIDR,207.45.72.0/22,🌍 国外媒体,no-resolve
   - IP-CIDR,208.75.76.0/22,🌍 国外媒体,no-resolve
-#   - USER-AGENT,Niconico*,🌍 国外媒体
   - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
   - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
-#   - USER-AGENT,PBS*,🌍 国外媒体
+  - DOMAIN-KEYWORD,nivod,🌍 国外媒体
+  - DOMAIN-SUFFIX,biggggg.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,mudvod.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,nbys.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,nbys1.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,nbyy.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,newpppp.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,nivod.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,nivodi.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,nivodz.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,vod360.net,🌍 国外媒体
+  - DOMAIN-KEYWORD,olevod,🌍 国外媒体
+  - DOMAIN-SUFFIX,haiwaikan.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,iole.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,olehd.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,olelive.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,olevod.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,olevod.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,olevod.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,olevodtv.com,🌍 国外媒体
+  - DOMAIN-KEYWORD,openai,🌍 国外媒体
+  - DOMAIN,gemini.google.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,auth0.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,chatgpt.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,events.statsigapi.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,featuregates.org,🌍 国外媒体
+  - DOMAIN-SUFFIX,identrust.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,intercomcdn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,oaistatic.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,oaiusercontent.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,stripe.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
-#   - USER-AGENT,Pandora*,🌍 国外媒体
   - DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phprcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhub.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhubpremium.com,🌍 国外媒体
   - DOMAIN-SUFFIX,qobuz.com,🌍 国外媒体
-#   - USER-AGENT,SoundCloud*,🌍 国外媒体
   - DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
   - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
-#   - USER-AGENT,Spotify*,🌍 国外媒体
-  - DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
+  - DOMAIN-KEYWORD,-spotify-,🌍 国外媒体
   - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
   - DOMAIN-SUFFIX,scdn.co,🌍 国外媒体
@@ -3152,15 +3055,12 @@ rules:
   - DOMAIN-SUFFIX,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.net,🌍 国外媒体
-#   - USER-AGENT,TIDAL*,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
-#   - USER-AGENT,TaiwanGood*,🌍 国外媒体
   - DOMAIN,hamifans.emome.net,🌍 国外媒体
   - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
-#   - USER-AGENT,TikTok*,🌍 国外媒体
-  - DOMAIN-KEYWORD,tiktokcdn-,🌍 国外媒体
+  - DOMAIN-KEYWORD,tiktokcdn,🌍 国外媒体
   - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ipstatp.com,🌍 国外媒体
@@ -3177,7 +3077,6 @@ rules:
   - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
   - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
-#   - USER-AGENT,Viu*,🌍 国外媒体
   - PROCESS-NAME,com.viu.pad,🌍 国外媒体
   - PROCESS-NAME,com.viu.phone,🌍 国外媒体
   - PROCESS-NAME,com.vuclip.viu,🌍 国外媒体
@@ -3193,9 +3092,6 @@ rules:
   - DOMAIN-SUFFIX,viu.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.now.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
-#   - USER-AGENT,*youtube*,🌍 国外媒体
-#   - USER-AGENT,YouTube*,🌍 国外媒体
-#   - USER-AGENT,com.google.ios.youtube*,🌍 国外媒体
   - DOMAIN-KEYWORD,youtube,🌍 国外媒体
   - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
   - DOMAIN,yt3.ggpht.com,🌍 国外媒体
@@ -3210,14 +3106,7 @@ rules:
   - DOMAIN-SUFFIX,youtubekids.com,🌍 国外媒体
   - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
   - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
-#   - USER-AGENT,*YouTubeMusic*,🌍 国外媒体
-#   - USER-AGENT,*com.google.ios.youtubemusic*,🌍 国外媒体
-#   - USER-AGENT,YouTubeMusic*,🌍 国外媒体
-#   - USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
   - DOMAIN,music.youtube.com,🌍 国外媒体
-# Telegram
-#PROCESS-NAME,Telegram.exe
-#PROCESS-NAME,org.telegram.messenger
   - DOMAIN-SUFFIX,t.me,📲 电报信息
   - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
   - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
@@ -3230,48 +3119,10 @@ rules:
   - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
-# 长风网站，自动注入
-  - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
-  - DOMAIN-SUFFIX,cff.pw,🚀 节点选择
-  - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
-  - DOMAIN-SUFFIX,cfmem.com,🚀 节点选择
-# 代理列表
-# MyList && Other
-# 国外域名
-# 国外域名关键字
-# Top Blocked Sites
-# Amazon
-# BBC
-# Developer 开发者常用国外网站、镜像和论坛
-# Discord
-# Facebook
-# Github
-# Google
-# GoogleCNProxyIP 谷歌中国服务 services.googleapis.cn
-# Instagram
-# Kakao Talk
-# Line
-# OneDrive
-#DOMAIN-SUFFIX,aria.microsoft.com
-# Porn
-# Pixiv
-# Spark
-# Steam
-# TapTap
-# Twitch
-# Twitter
-# Telegram
-# TeraBox
-# Whatsapp
-# Wikipedia 维基相关域名
-#飞流直播
-#华文电视
-# VikACG
   - DOMAIN-SUFFIX,1password.com,🚀 节点选择
   - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
   - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
   - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
-  - DOMAIN-SUFFIX,chat.openai.com,🚀 节点选择
   - DOMAIN-SUFFIX,cloudcone.com,🚀 节点选择
   - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
   - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
@@ -3282,13 +3133,13 @@ rules:
   - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
   - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
   - DOMAIN-SUFFIX,notion.so,🚀 节点选择
-  - DOMAIN-SUFFIX,openai.com,🚀 节点选择
   - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
   - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
   - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
   - DOMAIN-SUFFIX,tumbex.com,🚀 节点选择
   - DOMAIN-SUFFIX,twdvd.com,🚀 节点选择
   - DOMAIN-SUFFIX,unsplash.com,🚀 节点选择
+  - DOMAIN-SUFFIX,buzzsprout.com,🚀 节点选择
   - DOMAIN-SUFFIX,eu,🚀 节点选择
   - DOMAIN-SUFFIX,hk,🚀 节点选择
   - DOMAIN-SUFFIX,jp,🚀 节点选择
@@ -3296,7 +3147,6 @@ rules:
   - DOMAIN-SUFFIX,sg,🚀 节点选择
   - DOMAIN-SUFFIX,tw,🚀 节点选择
   - DOMAIN-SUFFIX,uk,🚀 节点选择
-  - DOMAIN-SUFFIX,us,🚀 节点选择
   - DOMAIN-KEYWORD,1e100,🚀 节点选择
   - DOMAIN-KEYWORD,abema,🚀 节点选择
   - DOMAIN-KEYWORD,appledaily,🚀 节点选择
@@ -3447,8 +3297,11 @@ rules:
   - DOMAIN-KEYWORD,uk-live,🚀 节点选择
   - DOMAIN-SUFFIX,bbc.co,🚀 节点选择
   - DOMAIN-SUFFIX,bbc.com,🚀 节点选择
+  - DOMAIN-SUFFIX,claude.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
   - DOMAIN-SUFFIX,apache.org,🚀 节点选择
   - DOMAIN-SUFFIX,docker.com,🚀 节点选择
+  - DOMAIN-SUFFIX,docker.io,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.co,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.com,🚀 节点选择
   - DOMAIN-SUFFIX,gcr.io,🚀 节点选择
@@ -3563,6 +3416,8 @@ rules:
   - IP-CIDR,119.235.236.0/23,🚀 节点选择,no-resolve
   - IP-CIDR,147.92.128.0/17,🚀 节点选择,no-resolve
   - IP-CIDR,203.104.128.0/19,🚀 节点选择,no-resolve
+  - DOMAIN-SUFFIX,openai.com,🚀 节点选择
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
   - DOMAIN-KEYWORD,1drv,🚀 节点选择
   - DOMAIN-KEYWORD,onedrive,🚀 节点选择
   - DOMAIN-KEYWORD,skydrive,🚀 节点选择
@@ -3600,6 +3455,7 @@ rules:
   - DOMAIN-SUFFIX,ypncdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,pixiv.net,🚀 节点选择
   - DOMAIN-SUFFIX,pximg.net,🚀 节点选择
+  - DOMAIN-SUFFIX,fanbox.cc,🚀 节点选择
   - DOMAIN-SUFFIX,amplitude.com,🚀 节点选择
   - DOMAIN-SUFFIX,firebaseio.com,🚀 节点选择
   - DOMAIN-SUFFIX,hockeyapp.net,🚀 节点选择
@@ -3618,7 +3474,6 @@ rules:
   - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
   - DOMAIN-SUFFIX,steamstat.us,🚀 节点选择
   - DOMAIN,steambroadcast.akamaized.net,🚀 节点选择
-  - DOMAIN,steamcdn-a.akamaihd.net,🚀 节点选择
   - DOMAIN,steamcommunity-a.akamaihd.net,🚀 节点选择
   - DOMAIN,steamstore-a.akamaihd.net,🚀 节点选择
   - DOMAIN,steamusercontent-a.akamaihd.net,🚀 节点选择
@@ -3675,59 +3530,14 @@ rules:
   - DOMAIN-SUFFIX,wikiversity.org,🚀 节点选择
   - DOMAIN-SUFFIX,wikivoyage.org,🚀 节点选择
   - DOMAIN-SUFFIX,wiktionary.org,🚀 节点选择
+  - DOMAIN-SUFFIX,zoom.us,🚀 节点选择
+  - DOMAIN-SUFFIX,zoomgov.com,🚀 节点选择
   - DOMAIN-SUFFIX,neulion.com,🚀 节点选择
   - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
   - DOMAIN-SUFFIX,vikacg.com,🚀 节点选择
   - DOMAIN-SUFFIX,picjs.xyz,🚀 节点选择
-# 直连列表
-# MyList
-# CN域名直连(中国|公司|网络)
-# 中国国内常见域名关键词直连
-# 360
-# 4399
-# 58
-# Alibaba
-# Baidu
-# Bilibili
-# Blizzard
-# ByteDance
-# CCTV
-# ChinaNet
-# DiDi
-# Douyu 斗鱼
-# Epic
-# HuaWei
-# Iflytek 科大讯飞
-# Iqiyi
-# JD
-# Kingsoft
-# Kuaishou 快手
-# Meitu
-# LeTV 乐视
-# MGTV 芒果TV
-# MI
-# NetEase
-# PPTV、PPLive
-# PDD 拼多多
-# Sina
-# Sohu Sogo
-# Sony
-# SteamCN
-# Tencent
-# Vip 唯品会
-# Ximalaya 喜马拉雅
-# Xunlei 迅雷
-# YYeTs 人人影视
-# Private Tracker
-# TeamViewer
-# Public Direct CDN 公共直连
-#DOMAIN-SUFFIX,ajax.aspnetcdn.com
-#DOMAIN-SUFFIX,ajax.cloudflare.com
-#DOMAIN-SUFFIX,cdnjs.cloudflare.com
-#DOMAIN-SUFFIX,code.jquery.com
-# AccelerateDirectSites
   - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
   - DOMAIN-SUFFIX,423down.com,🎯 全球直连
   - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
@@ -3743,11 +3553,12 @@ rules:
   - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
   - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
+  - DOMAIN-SUFFIX,tebex.io,🎯 全球直连
   - DOMAIN-SUFFIX,cn,🎯 全球直连
   - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
   - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
   - DOMAIN-SUFFIX,xn--io0a7i,🎯 全球直连
-  - DOMAIN-KEYWORD,-cn,🎯 全球直连
   - DOMAIN-KEYWORD,360buy,🎯 全球直连
   - DOMAIN-KEYWORD,alicdn,🎯 全球直连
   - DOMAIN-KEYWORD,alimama,🎯 全球直连
@@ -3794,6 +3605,7 @@ rules:
   - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
   - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliyundrive.net,🎯 全球直连
   - DOMAIN-SUFFIX,amap.com,🎯 全球直连
   - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
   - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
@@ -3833,6 +3645,8 @@ rules:
   - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bilibili.co,🎯 全球直连
+  - DOMAIN-SUFFIX,biliintl.co,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
@@ -3840,9 +3654,6 @@ rules:
   - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
   - DOMAIN-SUFFIX,im9.com,🎯 全球直连
   - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
-  - DOMAIN-SUFFIX,battle.net,🎯 全球直连
-  - DOMAIN-SUFFIX,battlenet.com,🎯 全球直连
-  - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
   - DOMAIN-SUFFIX,amemv.com,🎯 全球直连
   - DOMAIN-SUFFIX,bdxiguaimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,bdxiguastatic.com,🎯 全球直连
@@ -3857,6 +3668,7 @@ rules:
   - DOMAIN-SUFFIX,bytetos.com,🎯 全球直连
   - DOMAIN-SUFFIX,bytexservice.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyincdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyinpic.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyinstatic.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyinvod.com,🎯 全球直连
@@ -3905,12 +3717,25 @@ rules:
   - DOMAIN-SUFFIX,dbankcdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,hc-cdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,hicloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hihonor.com,🎯 全球直连
   - DOMAIN-SUFFIX,huawei.com,🎯 全球直连
   - DOMAIN-SUFFIX,huaweicloud.com,🎯 全球直连
   - DOMAIN-SUFFIX,huaweishop.net,🎯 全球直连
   - DOMAIN-SUFFIX,hwccpc.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmall.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmallres.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawnfs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawno.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawntech.com,🎯 全球直连
+  - DOMAIN-SUFFIX,coloros.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytap.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapcs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapdownload.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapimage.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapmobi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oppoer.me,🎯 全球直连
+  - DOMAIN-SUFFIX,oppomobile.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyink.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyrec.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflytek.com,🎯 全球直连
@@ -4010,6 +3835,7 @@ rules:
   - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
   - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
   - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+  - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
   - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
   - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
   - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
@@ -4061,46 +3887,7 @@ rules:
   - DOMAIN-SUFFIX,zmzapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zmzapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,zmzfile.com,🎯 全球直连
-  - DOMAIN-KEYWORD,announce,🎯 全球直连
-  - DOMAIN-KEYWORD,torrent,🎯 全球直连
-  - DOMAIN-KEYWORD,tracker,🎯 全球直连
-  - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
-  - DOMAIN-SUFFIX,animetorrents.me,🎯 全球直连
-  - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
-  - DOMAIN-SUFFIX,beitai.pt,🎯 全球直连
-  - DOMAIN-SUFFIX,bittorrent.com,🎯 全球直连
-  - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
-  - DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
-  - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
-  - DOMAIN-SUFFIX,empornium.me,🎯 全球直连
-  - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
-  - DOMAIN-SUFFIX,hd4fans.org,🎯 全球直连
-  - DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
-  - DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
-  - DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
-  - DOMAIN-SUFFIX,hdtime.org,🎯 全球直连
-  - DOMAIN-SUFFIX,hdzone.me,🎯 全球直连
-  - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
-  - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
-  - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
-  - DOMAIN-SUFFIX,leaguehd.com,🎯 全球直连
-  - DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
-  - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
-  - DOMAIN-SUFFIX,msg.vg,🎯 全球直连
-  - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
-  - DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
-  - DOMAIN-SUFFIX,open.cd,🎯 全球直连
-  - DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
-  - DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
-  - DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
-  - DOMAIN-SUFFIX,pthome.net,🎯 全球直连
-  - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
-  - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
-  - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
-  - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
-  - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
   - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
-  - IP-CIDR,109.239.140.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
   - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
   - IP-CIDR,185.188.32.1/28,🎯 全球直连,no-resolve
@@ -4114,6 +3901,10 @@ rules:
   - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
   - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
   - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,doh.pub,🎯 全球直连
+  - DOMAIN-SUFFIX,dns.alidns.com,🎯 全球直连
+  - DOMAIN-SUFFIX,doh.360.cn,🎯 全球直连
+  - IP-CIDR,1.12.12.12/32,🎯 全球直连,no-resolve
   - DOMAIN-SUFFIX,10010.com,🎯 全球直连
   - DOMAIN-SUFFIX,115.com,🎯 全球直连
   - DOMAIN-SUFFIX,12306.com,🎯 全球直连
@@ -4143,6 +3934,7 @@ rules:
   - DOMAIN-SUFFIX,biqudu.com,🎯 全球直连
   - DOMAIN-SUFFIX,biquge.com,🎯 全球直连
   - DOMAIN-SUFFIX,bitauto.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bosszhipin.com,🎯 全球直连
   - DOMAIN-SUFFIX,c-ctrip.com,🎯 全球直连
   - DOMAIN-SUFFIX,camera360.com,🎯 全球直连
   - DOMAIN-SUFFIX,cdnmama.com,🎯 全球直连
@@ -4178,6 +3970,7 @@ rules:
   - DOMAIN-SUFFIX,eastday.com,🎯 全球直连
   - DOMAIN-SUFFIX,eastmoney.com,🎯 全球直连
   - DOMAIN-SUFFIX,ecitic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,element-plus.org,🎯 全球直连
   - DOMAIN-SUFFIX,ewqcxz.com,🎯 全球直连
   - DOMAIN-SUFFIX,fang.com,🎯 全球直连
   - DOMAIN-SUFFIX,fantasy.tv,🎯 全球直连
@@ -4256,6 +4049,7 @@ rules:
   - DOMAIN-SUFFIX,nruan.com,🎯 全球直连
   - DOMAIN-SUFFIX,nuomi.com,🎯 全球直连
   - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
+  - DOMAIN-SUFFIX,oneplus.com,🎯 全球直连
   - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
   - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
   - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
@@ -4278,6 +4072,7 @@ rules:
   - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
   - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
   - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
+  - DOMAIN-SUFFIX,realme.com,🎯 全球直连
   - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
   - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
   - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
@@ -4311,6 +4106,7 @@ rules:
   - DOMAIN-SUFFIX,upyun.com,🎯 全球直连
   - DOMAIN-SUFFIX,uxengine.net,🎯 全球直连
   - DOMAIN-SUFFIX,videocc.net,🎯 全球直连
+  - DOMAIN-SUFFIX,vivo.com,🎯 全球直连
   - DOMAIN-SUFFIX,wandoujia.com,🎯 全球直连
   - DOMAIN-SUFFIX,weather.com,🎯 全球直连
   - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
@@ -4347,15 +4143,9 @@ rules:
   - DOMAIN-SUFFIX,zhaopin.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhihu.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhipin.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhongsou.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
-# 中国云服务商ip端
-# 阿里
-# 腾讯 qq
-# 百度 Baidu
-# 华为 huwei
-# 网易 NetEase
-# 360
   - IP-CIDR,8.128.0.0/10,🎯 全球直连,no-resolve
   - IP-CIDR,8.208.0.0/12,🎯 全球直连,no-resolve
   - IP-CIDR,14.1.112.0/22,🎯 全球直连,no-resolve
