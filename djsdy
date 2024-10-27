@@ -1,6 +1,6 @@
 # 生成地址：TG@kkouokk
 # 模版名称：TG@kkouokk订阅
-# 生成时间：2024-10-27 13:16:18
+# 生成时间：2024-10-27 14:38:29
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,6 +58,2358 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
+  - name: "🇺🇸·美国·1·TG@kkouokk"
+    port: 443
+    server: 192.200.160.193
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·2·TG@kkouokk"
+    port: 443
+    server: 192.0.54.28
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·3·TG@kkouokk"
+    port: 443
+    server: 198.62.62.208
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·4·TG@kkouokk"
+    port: 443
+    server: 192.0.63.8
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇳🇴·挪威·5·TG@kkouokk"
+    port: 443
+    server: 141.145.217.226
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·6·TG@kkouokk"
+    port: 8443
+    server: lx.ylks.xyz
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: Lx.YlKs.xYZ
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  - name: "🇺🇸·美国·7·TG@kkouokk"
+    port: 443
+    server: 216.24.57.167
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·8·TG@kkouokk"
+    port: 443
+    server: 216.24.57.57
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·9·TG@kkouokk"
+    port: 443
+    server: 192.0.54.28
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·10·TG@kkouokk"
+    port: 443
+    server: 192.9.157.76
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·11·TG@kkouokk"
+    port: 443
+    server: 69.84.182.247
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·12·TG@kkouokk"
+    port: 443
+    server: 216.24.57.250
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·13·TG@kkouokk"
+    port: 443
+    server: 192.0.63.8
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·14·TG@kkouokk"
+    port: 443
+    server: 216.24.57.111
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·15·TG@kkouokk"
+    port: 443
+    server: 192.0.63.8
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·16·TG@kkouokk"
+    port: 443
+    server: 34.175.202.195
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·17·TG@kkouokk"
+    port: 443
+    server: 192.236.249.109
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·18·TG@kkouokk"
+    port: 2083
+    server: lx.ylks.xyz
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: Lx.ylkS.xyZ
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  - name: "🇺🇸·美国·19·TG@kkouokk"
+    port: 443
+    server: 192.200.160.63
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·20·TG@kkouokk"
+    port: 443
+    server: 192.200.160.33
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·21·TG@kkouokk"
+    port: 2096
+    server: lx.ylks.xyz
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.Ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  - name: "🇺🇸·美国·22·TG@kkouokk"
+    port: 443
+    server: 192.236.249.109
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇳🇴·挪威·23·TG@kkouokk"
+    port: 443
+    server: 141.145.217.226
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·24·TG@kkouokk"
+    port: 443
+    server: 216.24.57.91
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·25·TG@kkouokk"
+    port: 443
+    server: 192.200.160.2
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·26·TG@kkouokk"
+    port: 443
+    server: 192.200.160.197
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·27·TG@kkouokk"
+    port: 443
+    server: 216.24.57.111
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·28·TG@kkouokk"
+    port: 443
+    server: 69.84.182.44
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·29·TG@kkouokk"
+    port: 443
+    server: 216.24.57.167
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·30·TG@kkouokk"
+    port: 443
+    server: 216.221.213.172
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·31·TG@kkouokk"
+    port: 443
+    server: 198.62.62.208
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·32·TG@kkouokk"
+    port: 443
+    server: 192.0.63.109
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·33·TG@kkouokk"
+    port: 443
+    server: lx.ylks.xyz
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.YLKs.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  - name: "🇺🇸·美国·34·TG@kkouokk"
+    port: 443
+    server: 192.0.54.172
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·35·TG@kkouokk"
+    port: 443
+    server: 160.79.105.106
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·36·TG@kkouokk"
+    port: 443
+    server: 216.24.57.92
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·37·TG@kkouokk"
+    port: 443
+    server: 216.24.57.35
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·38·TG@kkouokk"
+    port: 443
+    server: 216.24.57.91
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·39·TG@kkouokk"
+    port: 443
+    server: icook.hk
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·40·TG@kkouokk"
+    port: 443
+    server: 216.24.57.29
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·41·TG@kkouokk"
+    port: 443
+    server: 34.147.231.33
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·42·TG@kkouokk"
+    port: 443
+    server: icook.hk
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·43·TG@kkouokk"
+    port: 443
+    server: 150.230.34.116
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ay.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·44·TG@kkouokk"
+    port: 443
+    server: 216.24.57.68
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·45·TG@kkouokk"
+    port: 443
+    server: 160.79.105.118
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·46·TG@kkouokk"
+    port: 443
+    server: 69.84.182.44
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·47·TG@kkouokk"
+    port: 443
+    server: 34.22.142.117
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·48·TG@kkouokk"
+    port: 443
+    server: 34.22.142.117
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·49·TG@kkouokk"
+    port: 443
+    server: 192.200.160.214
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ay.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·50·TG@kkouokk"
+    port: 443
+    server: 216.24.57.48
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·51·TG@kkouokk"
+    port: 443
+    server: 216.24.57.68
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·52·TG@kkouokk"
+    port: 443
+    server: 20.246.127.166
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·53·TG@kkouokk"
+    port: 443
+    server: 206.238.237.182
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇳🇴·挪威·54·TG@kkouokk"
+    port: 443
+    server: 141.145.217.226
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·55·TG@kkouokk"
+    port: 443
+    server: 192.200.160.168
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·56·TG@kkouokk"
+    port: 443
+    server: 192.0.63.109
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·57·TG@kkouokk"
+    port: 443
+    server: 34.22.142.117
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·58·TG@kkouokk"
+    port: 443
+    server: 34.175.202.195
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·59·TG@kkouokk"
+    port: 443
+    server: 192.0.54.172
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇳🇴·挪威·60·TG@kkouokk"
+    port: 443
+    server: 141.145.217.226
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·61·TG@kkouokk"
+    port: 443
+    server: 160.79.105.106
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·62·TG@kkouokk"
+    port: 443
+    server: 192.200.160.211
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·63·TG@kkouokk"
+    port: 443
+    server: 192.0.63.109
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·64·TG@kkouokk"
+    port: 443
+    server: 192.200.160.155
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·65·TG@kkouokk"
+    port: 443
+    server: 216.24.57.59
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·66·TG@kkouokk"
+    port: 443
+    server: 20.246.127.166
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·67·TG@kkouokk"
+    port: 443
+    server: 216.24.57.68
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·68·TG@kkouokk"
+    port: 443
+    server: 216.24.57.48
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ay.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·69·TG@kkouokk"
+    port: 443
+    server: 34.147.231.33
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·70·TG@kkouokk"
+    port: 443
+    server: 34.147.231.33
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·71·TG@kkouokk"
+    port: 443
+    server: 216.24.57.36
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·72·TG@kkouokk"
+    port: 443
+    server: 206.238.237.182
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·73·TG@kkouokk"
+    port: 443
+    server: 216.24.57.111
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·74·TG@kkouokk"
+    port: 443
+    server: 216.24.57.68
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇳🇴·挪威·75·TG@kkouokk"
+    port: 443
+    server: 141.145.217.226
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·76·TG@kkouokk"
+    port: 443
+    server: 34.22.142.117
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·77·TG@kkouokk"
+    port: 443
+    server: 34.175.202.195
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·78·TG@kkouokk"
+    port: 443
+    server: 192.200.160.33
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·79·TG@kkouokk"
+    port: 443
+    server: 206.238.237.60
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·80·TG@kkouokk"
+    port: 443
+    server: 216.24.57.24
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·81·TG@kkouokk"
+    port: 443
+    server: 160.79.105.118
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·82·TG@kkouokk"
+    port: 443
+    server: 192.200.160.19
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·83·TG@kkouokk"
+    port: 443
+    server: 34.175.202.195
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·84·TG@kkouokk"
+    port: 443
+    server: 192.200.160.90
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·85·TG@kkouokk"
+    port: 443
+    server: 192.200.160.44
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·86·TG@kkouokk"
+    port: 443
+    server: 206.238.236.83
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·87·TG@kkouokk"
+    port: 443
+    server: 216.221.213.172
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇯🇵·日本·88·TG@kkouokk"
+    port: 443
+    server: 160.16.79.228
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇯🇵·日本·89·TG@kkouokk"
+    port: 443
+    server: 146.56.101.141
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇯🇵·日本·90·TG@kkouokk"
+    port: 443
+    server: 160.16.79.228
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ay.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇯🇵·日本·91·TG@kkouokk"
+    port: 443
+    server: 168.138.50.249
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇯🇵·日本·92·TG@kkouokk"
+    port: 443
+    server: 160.16.79.228
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇯🇵·日本·93·TG@kkouokk"
+    port: 443
+    server: 160.16.79.228
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇯🇵·日本·94·TG@kkouokk"
+    port: 443
+    server: 160.16.79.228
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇯🇵·日本·95·TG@kkouokk"
+    port: 443
+    server: 160.16.79.228
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇧🇷·巴西·96·TG@kkouokk"
+    port: 443
+    server: 168.138.215.251
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ay.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇯🇵·日本·97·TG@kkouokk"
+    port: 443
+    server: 160.16.79.228
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·98·TG@kkouokk"
+    port: 12345
+    server: 42.98.167.229
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·99·TG@kkouokk"
+    port: 1520
+    server: 203.184.132.238
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·100·TG@kkouokk"
+    port: 12345
+    server: 42.98.167.229
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·101·TG@kkouokk"
+    port: 12345
+    server: 42.98.167.229
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·102·TG@kkouokk"
+    port: 12345
+    server: 42.98.167.229
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·103·TG@kkouokk"
+    port: 1520
+    server: 203.184.132.238
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·104·TG@kkouokk"
+    port: 12345
+    server: 42.98.167.229
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·105·TG@kkouokk"
+    port: 1520
+    server: 203.184.132.238
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇨🇳·中国·106·TG@kkouokk"
+    port: 12345
+    server: 42.98.167.229
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ay.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇰🇷·韩国·107·TG@kkouokk"
+    port: 30012
+    server: 221.140.109.7
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇰🇷·韩国·108·TG@kkouokk"
+    port: 50000
+    server: 14.39.254.65
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇰🇷·韩国·109·TG@kkouokk"
+    port: 50000
+    server: 14.39.254.65
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇰🇷·韩国·110·TG@kkouokk"
+    port: 30012
+    server: 221.140.109.7
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇰🇷·韩国·111·TG@kkouokk"
+    port: 30012
+    server: 221.140.109.7
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇰🇷·韩国·112·TG@kkouokk"
+    port: 50000
+    server: 14.39.254.65
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇰🇷·韩国·113·TG@kkouokk"
+    port: 30012
+    server: 221.140.109.7
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇰🇷·韩国·114·TG@kkouokk"
+    port: 50000
+    server: 14.39.254.65
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇰🇷·韩国·115·TG@kkouokk"
+    port: 12272
+    server: 119.203.175.63
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇰🇷·韩国·116·TG@kkouokk"
+    port: 10201
+    server: 121.145.59.207
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇰🇷·韩国·117·TG@kkouokk"
+    port: 50000
+    server: 14.39.254.65
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ay.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇰🇷·韩国·118·TG@kkouokk"
+    port: 30012
+    server: 221.140.109.7
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇰🇷·韩国·119·TG@kkouokk"
+    port: 50000
+    server: 14.39.254.65
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·120·TG@kkouokk"
+    port: 12224
+    server: 59.127.80.162
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·121·TG@kkouokk"
+    port: 81
+    server: 210.61.97.241
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇨🇳·中国·122·TG@kkouokk"
+    port: 81
+    server: 210.61.97.241
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·123·TG@kkouokk"
+    port: 81
+    server: 210.61.97.241
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·124·TG@kkouokk"
+    port: 81
+    server: 210.61.97.241
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·125·TG@kkouokk"
+    port: 12224
+    server: 59.127.80.162
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·126·TG@kkouokk"
+    port: 12224
+    server: 59.127.80.162
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·127·TG@kkouokk"
+    port: 12224
+    server: 59.127.80.162
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇨🇳·中国·128·TG@kkouokk"
+    port: 81
+    server: 210.61.97.241
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·129·TG@kkouokk"
+    port: 81
+    server: 210.61.97.241
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇳·中国·130·TG@kkouokk"
+    port: 12224
+    server: 59.127.80.162
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·131·TG@kkouokk"
+    port: 443
+    server: 217.163.76.114
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·132·TG@kkouokk"
+    port: 443
+    server: 217.163.76.114
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·133·TG@kkouokk"
+    port: 443
+    server: 89.168.17.228
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·134·TG@kkouokk"
+    port: 443
+    server: 34.105.189.25
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·135·TG@kkouokk"
+    port: 443
+    server: 217.163.76.203
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·136·TG@kkouokk"
+    port: 443
+    server: 217.163.76.114
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ay.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇬🇧·英国·137·TG@kkouokk"
+    port: 443
+    server: 217.163.76.63
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·138·TG@kkouokk"
+    port: 443
+    server: 217.163.76.114
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇬🇧·英国·139·TG@kkouokk"
+    port: 443
+    server: 194.35.119.193
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·140·TG@kkouokk"
+    port: 443
+    server: 89.168.43.28
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·141·TG@kkouokk"
+    port: 443
+    server: 89.168.43.28
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·142·TG@kkouokk"
+    port: 443
+    server: 89.168.112.118
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·143·TG@kkouokk"
+    port: 443
+    server: 217.163.76.63
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·144·TG@kkouokk"
+    port: 443
+    server: 158.178.238.239
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·145·TG@kkouokk"
+    port: 443
+    server: 158.178.192.221
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇬🇧·英国·146·TG@kkouokk"
+    port: 443
+    server: 89.168.112.118
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·147·TG@kkouokk"
+    port: 443
+    server: 158.178.238.239
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·148·TG@kkouokk"
+    port: 443
+    server: 158.178.192.221
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ay.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·149·TG@kkouokk"
+    port: 443
+    server: 34.105.189.25
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·150·TG@kkouokk"
+    port: 443
+    server: 194.35.119.193
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·151·TG@kkouokk"
+    port: 443
+    server: 89.168.112.118
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·152·TG@kkouokk"
+    port: 443
+    server: 89.168.43.28
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·153·TG@kkouokk"
+    port: 443
+    server: 217.163.76.63
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·154·TG@kkouokk"
+    port: 443
+    server: 217.163.76.65
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·155·TG@kkouokk"
+    port: 443
+    server: 89.168.43.28
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·156·TG@kkouokk"
+    port: 443
+    server: 89.168.112.118
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇬🇧·英国·157·TG@kkouokk"
+    port: 443
+    server: 217.163.76.116
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·158·TG@kkouokk"
+    port: 443
+    server: 80.76.34.13
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇩🇪·德国·159·TG@kkouokk"
+    port: 443
+    server: 18.196.70.197
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ay.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇦🇹·奥地利·160·TG@kkouokk"
+    port: 443
+    server: 212.183.88.242
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇦🇹·奥地利·161·TG@kkouokk"
+    port: 443
+    server: 212.183.88.242
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇦🇹·奥地利·162·TG@kkouokk"
+    port: 443
+    server: 212.183.88.77
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇦🇺·澳大利亚·163·TG@kkouokk"
+    port: 443
+    server: 202.61.193.248
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇦🇹·奥地利·164·TG@kkouokk"
+    port: 443
+    server: 212.183.88.189
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇦🇹·奥地利·165·TG@kkouokk"
+    port: 443
+    server: 212.183.88.77
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇦🇹·奥地利·166·TG@kkouokk"
+    port: 443
+    server: 212.183.88.24
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇳🇱·荷兰·167·TG@kkouokk"
+    port: 443
+    server: 185.133.35.144
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇳🇱·荷兰·168·TG@kkouokk"
+    port: 443
+    server: 130.162.250.180
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇳🇱·荷兰·169·TG@kkouokk"
+    port: 443
+    server: 185.133.35.144
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇸🇪·瑞典·170·TG@kkouokk"
+    port: 443
+    server: 217.142.128.169
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇸🇪·瑞典·171·TG@kkouokk"
+    port: 443
+    server: 217.142.128.169
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇸🇪·瑞典·172·TG@kkouokk"
+    port: 443
+    server: 217.142.128.169
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇦·乌克兰·173·TG@kkouokk"
+    port: 443
+    server: 45.67.215.95
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇦·乌克兰·174·TG@kkouokk"
+    port: 443
+    server: 45.67.215.42
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇦·乌克兰·175·TG@kkouokk"
+    port: 443
+    server: 45.67.215.42
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇦·乌克兰·176·TG@kkouokk"
+    port: 443
+    server: 45.67.215.42
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇦·乌克兰·177·TG@kkouokk"
+    port: 443
+    server: 45.67.215.218
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇦🇺·澳大利亚·178·TG@kkouokk"
+    port: 443
+    server: 140.83.61.244
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇦🇺·澳大利亚·179·TG@kkouokk"
+    port: 443
+    server: 140.83.61.244
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇷🇺·俄罗斯·180·TG@kkouokk"
+    port: 443
+    server: 194.76.18.129
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇷🇺·俄罗斯·181·TG@kkouokk"
+    port: 443
+    server: 195.58.50.194
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇷🇺·俄罗斯·182·TG@kkouokk"
+    port: 443
+    server: 194.76.18.113
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇰🇼·科威特·183·TG@kkouokk"
+    port: 443
+    server: 91.230.213.70
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇷🇺·俄罗斯·184·TG@kkouokk"
+    port: 443
+    server: 194.76.18.50
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·185·TG@kkouokk"
+    port: 443
+    server: 129.151.254.48
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇺🇸·美国·186·TG@kkouokk"
+    port: 443
+    server: 129.151.254.48
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇨🇭·瑞士·187·TG@kkouokk"
+    port: 443
+    server: 140.238.214.247
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·188·TG@kkouokk"
+    port: 443
+    server: 129.151.254.48
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.ylks01.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇷🇺·俄罗斯·189·TG@kkouokk"
+    port: 443
+    server: 195.58.50.194
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ly.ylka.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·190·TG@kkouokk"
+    port: 443
+    server: 129.151.254.48
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇷🇺·俄罗斯·191·TG@kkouokk"
+    port: 443
+    server: 194.76.18.243
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ay.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇨🇭·瑞士·192·TG@kkouokk"
+    port: 443
+    server: 140.238.214.247
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇷🇺·俄罗斯·193·TG@kkouokk"
+    port: 443
+    server: 194.76.18.50
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇷🇺·俄罗斯·194·TG@kkouokk"
+    port: 443
+    server: 194.76.18.130
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: lx.kpcloud.eu.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇷🇺·俄罗斯·195·TG@kkouokk"
+    port: 443
+    server: 194.76.18.243
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ax.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇷🇺·俄罗斯·196·TG@kkouokk"
+    port: 443
+    server: 194.76.18.113
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: cx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   - name: "🇺🇸·美国·197·TG@kkouokk"
     port: 2082
     server: icook.tw
@@ -74,45 +2426,2952 @@ proxies:
     cipher: auto
     uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
+  - name: "🇺🇸·美国·198·TG@kkouokk"
+    port: 443
+    server: 129.151.254.48
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ay.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+    uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  - name: "🇨🇭·瑞士·199·TG@kkouokk"
+    port: 443
+    server: 140.238.214.247
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇫🇷·法国·200·TG@kkouokk"
+    port: 443
+    server: 51.38.44.17
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dx.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇫🇷·法国·201·TG@kkouokk"
+    port: 443
+    server: 51.38.44.17
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dy.ylks.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: /freecodes
+    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  - name: "🇺🇸·美国·202·TG@kkouokk"
+    port: 443
+    server: 216.24.57.111
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇬🇧·英国·203·TG@kkouokk"
+    port: 443
+    server: 194.35.119.193
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇦🇹·奥地利·204·TG@kkouokk"
+    port: 443
+    server: 212.183.88.189
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·205·TG@kkouokk"
+    port: 443
+    server: 69.84.182.234
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·206·TG@kkouokk"
+    port: 443
+    server: 192.200.160.214
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·207·TG@kkouokk"
+    port: 443
+    server: 160.79.105.133
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇦🇹·奥地利·208·TG@kkouokk"
+    port: 443
+    server: 212.183.88.81
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇩🇪·德国·209·TG@kkouokk"
+    port: 443
+    server: 18.196.70.197
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇬🇧·英国·210·TG@kkouokk"
+    port: 443
+    server: 217.163.76.203
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·211·TG@kkouokk"
+    port: 443
+    server: 192.200.160.168
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·212·TG@kkouokk"
+    port: 443
+    server: 216.24.57.30
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇧🇷·巴西·213·TG@kkouokk"
+    port: 47977
+    server: 168.138.194.22
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇦🇺·澳大利亚·214·TG@kkouokk"
+    port: 12999
+    server: 103.20.199.118
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·215·TG@kkouokk"
+    port: 9000
+    server: 47.245.91.197
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇦🇺·澳大利亚·216·TG@kkouokk"
+    port: 18067
+    server: 43.134.111.233
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇨🇳·中国·217·TG@kkouokk"
+    port: 12457
+    server: 223.16.138.113
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇦🇺·澳大利亚·218·TG@kkouokk"
+    port: 30002
+    server: 43.135.44.101
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇰🇷·韩国·219·TG@kkouokk"
+    port: 30012
+    server: 211.204.15.233
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇰🇷·韩国·220·TG@kkouokk"
+    port: 50000
+    server: 222.107.168.179
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇰🇷·韩国·221·TG@kkouokk"
+    port: 30012
+    server: 121.187.30.193
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇰🇷·韩国·222·TG@kkouokk"
+    port: 33890
+    server: 39.123.159.34
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·223·TG@kkouokk"
+    port: 22857
+    server: 65.75.192.35
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·224·TG@kkouokk"
+    port: 24863
+    server: 198.12.121.169
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇨🇳·中国·225·TG@kkouokk"
+    port: 16118
+    server: 103.103.245.51
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·226·TG@kkouokk"
+    port: 25277
+    server: 20.37.125.225
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇦🇺·澳大利亚·227·TG@kkouokk"
+    port: 1935
+    server: 43.154.34.74
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·228·TG@kkouokk"
+    port: 443
+    server: 47.76.218.163
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇨🇳·中国·229·TG@kkouokk"
+    port: 26832
+    server: 61.220.65.189
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·230·TG@kkouokk"
+    port: 443
+    server: 162.159.152.35
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·231·TG@kkouokk"
+    port: 443
+    server: 162.159.152.91
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·232·TG@kkouokk"
+    port: 443
+    server: 162.159.152.188
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·233·TG@kkouokk"
+    port: 443
+    server: 162.159.152.27
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·234·TG@kkouokk"
+    port: 443
+    server: 162.159.152.8
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·235·TG@kkouokk"
+    port: 443
+    server: 104.19.34.54
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·236·TG@kkouokk"
+    port: 443
+    server: 104.19.39.46
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·237·TG@kkouokk"
+    port: 443
+    server: 104.19.40.134
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.dns.army
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇦🇹·奥地利·238·TG@kkouokk"
+    port: 443
+    server: 212.183.88.29
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·239·TG@kkouokk"
+    port: 443
+    server: 69.84.182.93
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇳🇱·荷兰·240·TG@kkouokk"
+    port: 443
+    server: 185.103.253.35
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·241·TG@kkouokk"
+    port: 443
+    server: 192.200.160.63
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·242·TG@kkouokk"
+    port: 443
+    server: 192.200.160.33
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·243·TG@kkouokk"
+    port: 443
+    server: 192.200.160.90
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·244·TG@kkouokk"
+    port: 443
+    server: 216.24.57.59
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·245·TG@kkouokk"
+    port: 443
+    server: 192.236.249.103
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇦🇺·澳大利亚·246·TG@kkouokk"
+    port: 443
+    server: 202.61.193.248
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·247·TG@kkouokk"
+    port: 443
+    server: 192.0.54.28
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·248·TG@kkouokk"
+    port: 443
+    server: 192.236.249.109
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇷🇺·俄罗斯·249·TG@kkouokk"
+    port: 443
+    server: 194.76.18.62
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇨🇳·中国·250·TG@kkouokk"
+    port: 443
+    server: 219.76.13.164
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇦🇺·澳大利亚·251·TG@kkouokk"
+    port: 12999
+    server: 103.20.199.118
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇦🇺·澳大利亚·252·TG@kkouokk"
+    port: 18067
+    server: 43.134.111.233
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇦🇺·澳大利亚·253·TG@kkouokk"
+    port: 30002
+    server: 43.135.44.101
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇰🇷·韩国·254·TG@kkouokk"
+    port: 30012
+    server: 211.204.15.233
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇰🇷·韩国·255·TG@kkouokk"
+    port: 50000
+    server: 222.107.168.179
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇰🇷·韩国·256·TG@kkouokk"
+    port: 30012
+    server: 121.187.30.193
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇰🇷·韩国·257·TG@kkouokk"
+    port: 33890
+    server: 39.123.159.34
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·258·TG@kkouokk"
+    port: 22857
+    server: 65.75.192.35
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·259·TG@kkouokk"
+    port: 24863
+    server: 198.12.121.169
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇨🇳·中国·260·TG@kkouokk"
+    port: 16118
+    server: 103.103.245.51
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·261·TG@kkouokk"
+    port: 56010
+    server: 173.242.114.185
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·262·TG@kkouokk"
+    port: 25277
+    server: 20.37.125.225
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇨🇳·中国·263·TG@kkouokk"
+    port: 443
+    server: 35.201.203.106
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇦🇺·澳大利亚·264·TG@kkouokk"
+    port: 1935
+    server: 43.154.34.74
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇨🇳·中国·265·TG@kkouokk"
+    port: 9443
+    server: 47.244.161.227
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇨🇳·中国·266·TG@kkouokk"
+    port: 9443
+    server: 47.56.196.176
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·267·TG@kkouokk"
+    port: 443
+    server: 47.76.218.163
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇨🇳·中国·268·TG@kkouokk"
+    port: 26832
+    server: 61.220.65.189
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·269·TG@kkouokk"
+    port: 443
+    server: 162.159.153.253
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·270·TG@kkouokk"
+    port: 443
+    server: 162.159.153.227
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·271·TG@kkouokk"
+    port: 443
+    server: 162.159.153.4
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·272·TG@kkouokk"
+    port: 443
+    server: 162.159.152.35
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·273·TG@kkouokk"
+    port: 443
+    server: 162.159.152.27
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·274·TG@kkouokk"
+    port: 443
+    server: 162.159.153.68
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·275·TG@kkouokk"
+    port: 443
+    server: 104.19.32.12
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·276·TG@kkouokk"
+    port: 443
+    server: 104.19.35.123
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·美国·277·TG@kkouokk"
+    port: 443
+    server: 104.19.49.117
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·TG@kkouokk·10-27更新"
+    port: 443
+    server: 104.19.40.144
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·延迟不代表速度自测"
+    port: 443
+    server: 104.19.51.231
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
+  - name: "🇺🇸·更多关注TG@kkouokk"
+    port: 443
+    server: 104.19.39.46
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: TG.CMLiussss.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+    alpn:
+      - h3
+    uuid: e07de07a-8810-42d1-8dc0-d64f633e0e45
+    client-fingerprint: random
 proxy-groups:
   - name: "🚀 节点选择"
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - "🇺🇸·美国·1·TG@kkouokk"
+      - "🇺🇸·美国·2·TG@kkouokk"
+      - "🇺🇸·美国·3·TG@kkouokk"
+      - "🇺🇸·美国·4·TG@kkouokk"
+      - "🇳🇴·挪威·5·TG@kkouokk"
+      - "🇺🇸·美国·6·TG@kkouokk"
+      - "🇺🇸·美国·7·TG@kkouokk"
+      - "🇺🇸·美国·8·TG@kkouokk"
+      - "🇺🇸·美国·9·TG@kkouokk"
+      - "🇺🇸·美国·10·TG@kkouokk"
+      - "🇺🇸·美国·11·TG@kkouokk"
+      - "🇺🇸·美国·12·TG@kkouokk"
+      - "🇺🇸·美国·13·TG@kkouokk"
+      - "🇺🇸·美国·14·TG@kkouokk"
+      - "🇺🇸·美国·15·TG@kkouokk"
+      - "🇺🇸·美国·16·TG@kkouokk"
+      - "🇺🇸·美国·17·TG@kkouokk"
+      - "🇺🇸·美国·18·TG@kkouokk"
+      - "🇺🇸·美国·19·TG@kkouokk"
+      - "🇺🇸·美国·20·TG@kkouokk"
+      - "🇺🇸·美国·21·TG@kkouokk"
+      - "🇺🇸·美国·22·TG@kkouokk"
+      - "🇳🇴·挪威·23·TG@kkouokk"
+      - "🇺🇸·美国·24·TG@kkouokk"
+      - "🇺🇸·美国·25·TG@kkouokk"
+      - "🇺🇸·美国·26·TG@kkouokk"
+      - "🇺🇸·美国·27·TG@kkouokk"
+      - "🇺🇸·美国·28·TG@kkouokk"
+      - "🇺🇸·美国·29·TG@kkouokk"
+      - "🇺🇸·美国·30·TG@kkouokk"
+      - "🇺🇸·美国·31·TG@kkouokk"
+      - "🇺🇸·美国·32·TG@kkouokk"
+      - "🇺🇸·美国·33·TG@kkouokk"
+      - "🇺🇸·美国·34·TG@kkouokk"
+      - "🇺🇸·美国·35·TG@kkouokk"
+      - "🇺🇸·美国·36·TG@kkouokk"
+      - "🇺🇸·美国·37·TG@kkouokk"
+      - "🇺🇸·美国·38·TG@kkouokk"
+      - "🇺🇸·美国·39·TG@kkouokk"
+      - "🇺🇸·美国·40·TG@kkouokk"
+      - "🇺🇸·美国·41·TG@kkouokk"
+      - "🇺🇸·美国·42·TG@kkouokk"
+      - "🇺🇸·美国·43·TG@kkouokk"
+      - "🇺🇸·美国·44·TG@kkouokk"
+      - "🇺🇸·美国·45·TG@kkouokk"
+      - "🇺🇸·美国·46·TG@kkouokk"
+      - "🇺🇸·美国·47·TG@kkouokk"
+      - "🇺🇸·美国·48·TG@kkouokk"
+      - "🇺🇸·美国·49·TG@kkouokk"
+      - "🇺🇸·美国·50·TG@kkouokk"
+      - "🇺🇸·美国·51·TG@kkouokk"
+      - "🇺🇸·美国·52·TG@kkouokk"
+      - "🇺🇸·美国·53·TG@kkouokk"
+      - "🇳🇴·挪威·54·TG@kkouokk"
+      - "🇺🇸·美国·55·TG@kkouokk"
+      - "🇺🇸·美国·56·TG@kkouokk"
+      - "🇺🇸·美国·57·TG@kkouokk"
+      - "🇺🇸·美国·58·TG@kkouokk"
+      - "🇺🇸·美国·59·TG@kkouokk"
+      - "🇳🇴·挪威·60·TG@kkouokk"
+      - "🇺🇸·美国·61·TG@kkouokk"
+      - "🇺🇸·美国·62·TG@kkouokk"
+      - "🇺🇸·美国·63·TG@kkouokk"
+      - "🇺🇸·美国·64·TG@kkouokk"
+      - "🇺🇸·美国·65·TG@kkouokk"
+      - "🇺🇸·美国·66·TG@kkouokk"
+      - "🇺🇸·美国·67·TG@kkouokk"
+      - "🇺🇸·美国·68·TG@kkouokk"
+      - "🇺🇸·美国·69·TG@kkouokk"
+      - "🇺🇸·美国·70·TG@kkouokk"
+      - "🇺🇸·美国·71·TG@kkouokk"
+      - "🇺🇸·美国·72·TG@kkouokk"
+      - "🇺🇸·美国·73·TG@kkouokk"
+      - "🇺🇸·美国·74·TG@kkouokk"
+      - "🇳🇴·挪威·75·TG@kkouokk"
+      - "🇺🇸·美国·76·TG@kkouokk"
+      - "🇺🇸·美国·77·TG@kkouokk"
+      - "🇺🇸·美国·78·TG@kkouokk"
+      - "🇺🇸·美国·79·TG@kkouokk"
+      - "🇺🇸·美国·80·TG@kkouokk"
+      - "🇺🇸·美国·81·TG@kkouokk"
+      - "🇺🇸·美国·82·TG@kkouokk"
+      - "🇺🇸·美国·83·TG@kkouokk"
+      - "🇺🇸·美国·84·TG@kkouokk"
+      - "🇺🇸·美国·85·TG@kkouokk"
+      - "🇺🇸·美国·86·TG@kkouokk"
+      - "🇺🇸·美国·87·TG@kkouokk"
+      - "🇯🇵·日本·88·TG@kkouokk"
+      - "🇯🇵·日本·89·TG@kkouokk"
+      - "🇯🇵·日本·90·TG@kkouokk"
+      - "🇯🇵·日本·91·TG@kkouokk"
+      - "🇯🇵·日本·92·TG@kkouokk"
+      - "🇯🇵·日本·93·TG@kkouokk"
+      - "🇯🇵·日本·94·TG@kkouokk"
+      - "🇯🇵·日本·95·TG@kkouokk"
+      - "🇧🇷·巴西·96·TG@kkouokk"
+      - "🇯🇵·日本·97·TG@kkouokk"
+      - "🇨🇳·中国·98·TG@kkouokk"
+      - "🇨🇳·中国·99·TG@kkouokk"
+      - "🇨🇳·中国·100·TG@kkouokk"
+      - "🇨🇳·中国·101·TG@kkouokk"
+      - "🇨🇳·中国·102·TG@kkouokk"
+      - "🇨🇳·中国·103·TG@kkouokk"
+      - "🇨🇳·中国·104·TG@kkouokk"
+      - "🇨🇳·中国·105·TG@kkouokk"
+      - "🇨🇳·中国·106·TG@kkouokk"
+      - "🇰🇷·韩国·107·TG@kkouokk"
+      - "🇰🇷·韩国·108·TG@kkouokk"
+      - "🇰🇷·韩国·109·TG@kkouokk"
+      - "🇰🇷·韩国·110·TG@kkouokk"
+      - "🇰🇷·韩国·111·TG@kkouokk"
+      - "🇰🇷·韩国·112·TG@kkouokk"
+      - "🇰🇷·韩国·113·TG@kkouokk"
+      - "🇰🇷·韩国·114·TG@kkouokk"
+      - "🇰🇷·韩国·115·TG@kkouokk"
+      - "🇰🇷·韩国·116·TG@kkouokk"
+      - "🇰🇷·韩国·117·TG@kkouokk"
+      - "🇰🇷·韩国·118·TG@kkouokk"
+      - "🇰🇷·韩国·119·TG@kkouokk"
+      - "🇨🇳·中国·120·TG@kkouokk"
+      - "🇨🇳·中国·121·TG@kkouokk"
+      - "🇨🇳·中国·122·TG@kkouokk"
+      - "🇨🇳·中国·123·TG@kkouokk"
+      - "🇨🇳·中国·124·TG@kkouokk"
+      - "🇨🇳·中国·125·TG@kkouokk"
+      - "🇨🇳·中国·126·TG@kkouokk"
+      - "🇨🇳·中国·127·TG@kkouokk"
+      - "🇨🇳·中国·128·TG@kkouokk"
+      - "🇨🇳·中国·129·TG@kkouokk"
+      - "🇨🇳·中国·130·TG@kkouokk"
+      - "🇬🇧·英国·131·TG@kkouokk"
+      - "🇬🇧·英国·132·TG@kkouokk"
+      - "🇬🇧·英国·133·TG@kkouokk"
+      - "🇺🇸·美国·134·TG@kkouokk"
+      - "🇬🇧·英国·135·TG@kkouokk"
+      - "🇬🇧·英国·136·TG@kkouokk"
+      - "🇬🇧·英国·137·TG@kkouokk"
+      - "🇬🇧·英国·138·TG@kkouokk"
+      - "🇬🇧·英国·139·TG@kkouokk"
+      - "🇬🇧·英国·140·TG@kkouokk"
+      - "🇬🇧·英国·141·TG@kkouokk"
+      - "🇬🇧·英国·142·TG@kkouokk"
+      - "🇬🇧·英国·143·TG@kkouokk"
+      - "🇺🇸·美国·144·TG@kkouokk"
+      - "🇺🇸·美国·145·TG@kkouokk"
+      - "🇬🇧·英国·146·TG@kkouokk"
+      - "🇺🇸·美国·147·TG@kkouokk"
+      - "🇺🇸·美国·148·TG@kkouokk"
+      - "🇺🇸·美国·149·TG@kkouokk"
+      - "🇬🇧·英国·150·TG@kkouokk"
+      - "🇬🇧·英国·151·TG@kkouokk"
+      - "🇬🇧·英国·152·TG@kkouokk"
+      - "🇬🇧·英国·153·TG@kkouokk"
+      - "🇬🇧·英国·154·TG@kkouokk"
+      - "🇬🇧·英国·155·TG@kkouokk"
+      - "🇬🇧·英国·156·TG@kkouokk"
+      - "🇬🇧·英国·157·TG@kkouokk"
+      - "🇺🇸·美国·158·TG@kkouokk"
+      - "🇩🇪·德国·159·TG@kkouokk"
+      - "🇦🇹·奥地利·160·TG@kkouokk"
+      - "🇦🇹·奥地利·161·TG@kkouokk"
+      - "🇦🇹·奥地利·162·TG@kkouokk"
+      - "🇦🇺·澳大利亚·163·TG@kkouokk"
+      - "🇦🇹·奥地利·164·TG@kkouokk"
+      - "🇦🇹·奥地利·165·TG@kkouokk"
+      - "🇦🇹·奥地利·166·TG@kkouokk"
+      - "🇳🇱·荷兰·167·TG@kkouokk"
+      - "🇳🇱·荷兰·168·TG@kkouokk"
+      - "🇳🇱·荷兰·169·TG@kkouokk"
+      - "🇸🇪·瑞典·170·TG@kkouokk"
+      - "🇸🇪·瑞典·171·TG@kkouokk"
+      - "🇸🇪·瑞典·172·TG@kkouokk"
+      - "🇺🇦·乌克兰·173·TG@kkouokk"
+      - "🇺🇦·乌克兰·174·TG@kkouokk"
+      - "🇺🇦·乌克兰·175·TG@kkouokk"
+      - "🇺🇦·乌克兰·176·TG@kkouokk"
+      - "🇺🇦·乌克兰·177·TG@kkouokk"
+      - "🇦🇺·澳大利亚·178·TG@kkouokk"
+      - "🇦🇺·澳大利亚·179·TG@kkouokk"
+      - "🇷🇺·俄罗斯·180·TG@kkouokk"
+      - "🇷🇺·俄罗斯·181·TG@kkouokk"
+      - "🇷🇺·俄罗斯·182·TG@kkouokk"
+      - "🇰🇼·科威特·183·TG@kkouokk"
+      - "🇷🇺·俄罗斯·184·TG@kkouokk"
+      - "🇺🇸·美国·185·TG@kkouokk"
+      - "🇺🇸·美国·186·TG@kkouokk"
+      - "🇨🇭·瑞士·187·TG@kkouokk"
+      - "🇺🇸·美国·188·TG@kkouokk"
+      - "🇷🇺·俄罗斯·189·TG@kkouokk"
+      - "🇺🇸·美国·190·TG@kkouokk"
+      - "🇷🇺·俄罗斯·191·TG@kkouokk"
+      - "🇨🇭·瑞士·192·TG@kkouokk"
+      - "🇷🇺·俄罗斯·193·TG@kkouokk"
+      - "🇷🇺·俄罗斯·194·TG@kkouokk"
+      - "🇷🇺·俄罗斯·195·TG@kkouokk"
+      - "🇷🇺·俄罗斯·196·TG@kkouokk"
       - "🇺🇸·美国·197·TG@kkouokk"
+      - "🇺🇸·美国·198·TG@kkouokk"
+      - "🇨🇭·瑞士·199·TG@kkouokk"
+      - "🇫🇷·法国·200·TG@kkouokk"
+      - "🇫🇷·法国·201·TG@kkouokk"
+      - "🇺🇸·美国·202·TG@kkouokk"
+      - "🇬🇧·英国·203·TG@kkouokk"
+      - "🇦🇹·奥地利·204·TG@kkouokk"
+      - "🇺🇸·美国·205·TG@kkouokk"
+      - "🇺🇸·美国·206·TG@kkouokk"
+      - "🇺🇸·美国·207·TG@kkouokk"
+      - "🇦🇹·奥地利·208·TG@kkouokk"
+      - "🇩🇪·德国·209·TG@kkouokk"
+      - "🇬🇧·英国·210·TG@kkouokk"
+      - "🇺🇸·美国·211·TG@kkouokk"
+      - "🇺🇸·美国·212·TG@kkouokk"
+      - "🇧🇷·巴西·213·TG@kkouokk"
+      - "🇦🇺·澳大利亚·214·TG@kkouokk"
+      - "🇺🇸·美国·215·TG@kkouokk"
+      - "🇦🇺·澳大利亚·216·TG@kkouokk"
+      - "🇨🇳·中国·217·TG@kkouokk"
+      - "🇦🇺·澳大利亚·218·TG@kkouokk"
+      - "🇰🇷·韩国·219·TG@kkouokk"
+      - "🇰🇷·韩国·220·TG@kkouokk"
+      - "🇰🇷·韩国·221·TG@kkouokk"
+      - "🇰🇷·韩国·222·TG@kkouokk"
+      - "🇺🇸·美国·223·TG@kkouokk"
+      - "🇺🇸·美国·224·TG@kkouokk"
+      - "🇨🇳·中国·225·TG@kkouokk"
+      - "🇺🇸·美国·226·TG@kkouokk"
+      - "🇦🇺·澳大利亚·227·TG@kkouokk"
+      - "🇺🇸·美国·228·TG@kkouokk"
+      - "🇨🇳·中国·229·TG@kkouokk"
+      - "🇺🇸·美国·230·TG@kkouokk"
+      - "🇺🇸·美国·231·TG@kkouokk"
+      - "🇺🇸·美国·232·TG@kkouokk"
+      - "🇺🇸·美国·233·TG@kkouokk"
+      - "🇺🇸·美国·234·TG@kkouokk"
+      - "🇺🇸·美国·235·TG@kkouokk"
+      - "🇺🇸·美国·236·TG@kkouokk"
+      - "🇺🇸·美国·237·TG@kkouokk"
+      - "🇦🇹·奥地利·238·TG@kkouokk"
+      - "🇺🇸·美国·239·TG@kkouokk"
+      - "🇳🇱·荷兰·240·TG@kkouokk"
+      - "🇺🇸·美国·241·TG@kkouokk"
+      - "🇺🇸·美国·242·TG@kkouokk"
+      - "🇺🇸·美国·243·TG@kkouokk"
+      - "🇺🇸·美国·244·TG@kkouokk"
+      - "🇺🇸·美国·245·TG@kkouokk"
+      - "🇦🇺·澳大利亚·246·TG@kkouokk"
+      - "🇺🇸·美国·247·TG@kkouokk"
+      - "🇺🇸·美国·248·TG@kkouokk"
+      - "🇷🇺·俄罗斯·249·TG@kkouokk"
+      - "🇨🇳·中国·250·TG@kkouokk"
+      - "🇦🇺·澳大利亚·251·TG@kkouokk"
+      - "🇦🇺·澳大利亚·252·TG@kkouokk"
+      - "🇦🇺·澳大利亚·253·TG@kkouokk"
+      - "🇰🇷·韩国·254·TG@kkouokk"
+      - "🇰🇷·韩国·255·TG@kkouokk"
+      - "🇰🇷·韩国·256·TG@kkouokk"
+      - "🇰🇷·韩国·257·TG@kkouokk"
+      - "🇺🇸·美国·258·TG@kkouokk"
+      - "🇺🇸·美国·259·TG@kkouokk"
+      - "🇨🇳·中国·260·TG@kkouokk"
+      - "🇺🇸·美国·261·TG@kkouokk"
+      - "🇺🇸·美国·262·TG@kkouokk"
+      - "🇨🇳·中国·263·TG@kkouokk"
+      - "🇦🇺·澳大利亚·264·TG@kkouokk"
+      - "🇨🇳·中国·265·TG@kkouokk"
+      - "🇨🇳·中国·266·TG@kkouokk"
+      - "🇺🇸·美国·267·TG@kkouokk"
+      - "🇨🇳·中国·268·TG@kkouokk"
+      - "🇺🇸·美国·269·TG@kkouokk"
+      - "🇺🇸·美国·270·TG@kkouokk"
+      - "🇺🇸·美国·271·TG@kkouokk"
+      - "🇺🇸·美国·272·TG@kkouokk"
+      - "🇺🇸·美国·273·TG@kkouokk"
+      - "🇺🇸·美国·274·TG@kkouokk"
+      - "🇺🇸·美国·275·TG@kkouokk"
+      - "🇺🇸·美国·276·TG@kkouokk"
+      - "🇺🇸·美国·277·TG@kkouokk"
+      - "🇺🇸·TG@kkouokk·10-27更新"
+      - "🇺🇸·延迟不代表速度自测"
+      - "🇺🇸·更多关注TG@kkouokk"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - "🇺🇸·美国·1·TG@kkouokk"
+      - "🇺🇸·美国·2·TG@kkouokk"
+      - "🇺🇸·美国·3·TG@kkouokk"
+      - "🇺🇸·美国·4·TG@kkouokk"
+      - "🇳🇴·挪威·5·TG@kkouokk"
+      - "🇺🇸·美国·6·TG@kkouokk"
+      - "🇺🇸·美国·7·TG@kkouokk"
+      - "🇺🇸·美国·8·TG@kkouokk"
+      - "🇺🇸·美国·9·TG@kkouokk"
+      - "🇺🇸·美国·10·TG@kkouokk"
+      - "🇺🇸·美国·11·TG@kkouokk"
+      - "🇺🇸·美国·12·TG@kkouokk"
+      - "🇺🇸·美国·13·TG@kkouokk"
+      - "🇺🇸·美国·14·TG@kkouokk"
+      - "🇺🇸·美国·15·TG@kkouokk"
+      - "🇺🇸·美国·16·TG@kkouokk"
+      - "🇺🇸·美国·17·TG@kkouokk"
+      - "🇺🇸·美国·18·TG@kkouokk"
+      - "🇺🇸·美国·19·TG@kkouokk"
+      - "🇺🇸·美国·20·TG@kkouokk"
+      - "🇺🇸·美国·21·TG@kkouokk"
+      - "🇺🇸·美国·22·TG@kkouokk"
+      - "🇳🇴·挪威·23·TG@kkouokk"
+      - "🇺🇸·美国·24·TG@kkouokk"
+      - "🇺🇸·美国·25·TG@kkouokk"
+      - "🇺🇸·美国·26·TG@kkouokk"
+      - "🇺🇸·美国·27·TG@kkouokk"
+      - "🇺🇸·美国·28·TG@kkouokk"
+      - "🇺🇸·美国·29·TG@kkouokk"
+      - "🇺🇸·美国·30·TG@kkouokk"
+      - "🇺🇸·美国·31·TG@kkouokk"
+      - "🇺🇸·美国·32·TG@kkouokk"
+      - "🇺🇸·美国·33·TG@kkouokk"
+      - "🇺🇸·美国·34·TG@kkouokk"
+      - "🇺🇸·美国·35·TG@kkouokk"
+      - "🇺🇸·美国·36·TG@kkouokk"
+      - "🇺🇸·美国·37·TG@kkouokk"
+      - "🇺🇸·美国·38·TG@kkouokk"
+      - "🇺🇸·美国·39·TG@kkouokk"
+      - "🇺🇸·美国·40·TG@kkouokk"
+      - "🇺🇸·美国·41·TG@kkouokk"
+      - "🇺🇸·美国·42·TG@kkouokk"
+      - "🇺🇸·美国·43·TG@kkouokk"
+      - "🇺🇸·美国·44·TG@kkouokk"
+      - "🇺🇸·美国·45·TG@kkouokk"
+      - "🇺🇸·美国·46·TG@kkouokk"
+      - "🇺🇸·美国·47·TG@kkouokk"
+      - "🇺🇸·美国·48·TG@kkouokk"
+      - "🇺🇸·美国·49·TG@kkouokk"
+      - "🇺🇸·美国·50·TG@kkouokk"
+      - "🇺🇸·美国·51·TG@kkouokk"
+      - "🇺🇸·美国·52·TG@kkouokk"
+      - "🇺🇸·美国·53·TG@kkouokk"
+      - "🇳🇴·挪威·54·TG@kkouokk"
+      - "🇺🇸·美国·55·TG@kkouokk"
+      - "🇺🇸·美国·56·TG@kkouokk"
+      - "🇺🇸·美国·57·TG@kkouokk"
+      - "🇺🇸·美国·58·TG@kkouokk"
+      - "🇺🇸·美国·59·TG@kkouokk"
+      - "🇳🇴·挪威·60·TG@kkouokk"
+      - "🇺🇸·美国·61·TG@kkouokk"
+      - "🇺🇸·美国·62·TG@kkouokk"
+      - "🇺🇸·美国·63·TG@kkouokk"
+      - "🇺🇸·美国·64·TG@kkouokk"
+      - "🇺🇸·美国·65·TG@kkouokk"
+      - "🇺🇸·美国·66·TG@kkouokk"
+      - "🇺🇸·美国·67·TG@kkouokk"
+      - "🇺🇸·美国·68·TG@kkouokk"
+      - "🇺🇸·美国·69·TG@kkouokk"
+      - "🇺🇸·美国·70·TG@kkouokk"
+      - "🇺🇸·美国·71·TG@kkouokk"
+      - "🇺🇸·美国·72·TG@kkouokk"
+      - "🇺🇸·美国·73·TG@kkouokk"
+      - "🇺🇸·美国·74·TG@kkouokk"
+      - "🇳🇴·挪威·75·TG@kkouokk"
+      - "🇺🇸·美国·76·TG@kkouokk"
+      - "🇺🇸·美国·77·TG@kkouokk"
+      - "🇺🇸·美国·78·TG@kkouokk"
+      - "🇺🇸·美国·79·TG@kkouokk"
+      - "🇺🇸·美国·80·TG@kkouokk"
+      - "🇺🇸·美国·81·TG@kkouokk"
+      - "🇺🇸·美国·82·TG@kkouokk"
+      - "🇺🇸·美国·83·TG@kkouokk"
+      - "🇺🇸·美国·84·TG@kkouokk"
+      - "🇺🇸·美国·85·TG@kkouokk"
+      - "🇺🇸·美国·86·TG@kkouokk"
+      - "🇺🇸·美国·87·TG@kkouokk"
+      - "🇯🇵·日本·88·TG@kkouokk"
+      - "🇯🇵·日本·89·TG@kkouokk"
+      - "🇯🇵·日本·90·TG@kkouokk"
+      - "🇯🇵·日本·91·TG@kkouokk"
+      - "🇯🇵·日本·92·TG@kkouokk"
+      - "🇯🇵·日本·93·TG@kkouokk"
+      - "🇯🇵·日本·94·TG@kkouokk"
+      - "🇯🇵·日本·95·TG@kkouokk"
+      - "🇧🇷·巴西·96·TG@kkouokk"
+      - "🇯🇵·日本·97·TG@kkouokk"
+      - "🇨🇳·中国·98·TG@kkouokk"
+      - "🇨🇳·中国·99·TG@kkouokk"
+      - "🇨🇳·中国·100·TG@kkouokk"
+      - "🇨🇳·中国·101·TG@kkouokk"
+      - "🇨🇳·中国·102·TG@kkouokk"
+      - "🇨🇳·中国·103·TG@kkouokk"
+      - "🇨🇳·中国·104·TG@kkouokk"
+      - "🇨🇳·中国·105·TG@kkouokk"
+      - "🇨🇳·中国·106·TG@kkouokk"
+      - "🇰🇷·韩国·107·TG@kkouokk"
+      - "🇰🇷·韩国·108·TG@kkouokk"
+      - "🇰🇷·韩国·109·TG@kkouokk"
+      - "🇰🇷·韩国·110·TG@kkouokk"
+      - "🇰🇷·韩国·111·TG@kkouokk"
+      - "🇰🇷·韩国·112·TG@kkouokk"
+      - "🇰🇷·韩国·113·TG@kkouokk"
+      - "🇰🇷·韩国·114·TG@kkouokk"
+      - "🇰🇷·韩国·115·TG@kkouokk"
+      - "🇰🇷·韩国·116·TG@kkouokk"
+      - "🇰🇷·韩国·117·TG@kkouokk"
+      - "🇰🇷·韩国·118·TG@kkouokk"
+      - "🇰🇷·韩国·119·TG@kkouokk"
+      - "🇨🇳·中国·120·TG@kkouokk"
+      - "🇨🇳·中国·121·TG@kkouokk"
+      - "🇨🇳·中国·122·TG@kkouokk"
+      - "🇨🇳·中国·123·TG@kkouokk"
+      - "🇨🇳·中国·124·TG@kkouokk"
+      - "🇨🇳·中国·125·TG@kkouokk"
+      - "🇨🇳·中国·126·TG@kkouokk"
+      - "🇨🇳·中国·127·TG@kkouokk"
+      - "🇨🇳·中国·128·TG@kkouokk"
+      - "🇨🇳·中国·129·TG@kkouokk"
+      - "🇨🇳·中国·130·TG@kkouokk"
+      - "🇬🇧·英国·131·TG@kkouokk"
+      - "🇬🇧·英国·132·TG@kkouokk"
+      - "🇬🇧·英国·133·TG@kkouokk"
+      - "🇺🇸·美国·134·TG@kkouokk"
+      - "🇬🇧·英国·135·TG@kkouokk"
+      - "🇬🇧·英国·136·TG@kkouokk"
+      - "🇬🇧·英国·137·TG@kkouokk"
+      - "🇬🇧·英国·138·TG@kkouokk"
+      - "🇬🇧·英国·139·TG@kkouokk"
+      - "🇬🇧·英国·140·TG@kkouokk"
+      - "🇬🇧·英国·141·TG@kkouokk"
+      - "🇬🇧·英国·142·TG@kkouokk"
+      - "🇬🇧·英国·143·TG@kkouokk"
+      - "🇺🇸·美国·144·TG@kkouokk"
+      - "🇺🇸·美国·145·TG@kkouokk"
+      - "🇬🇧·英国·146·TG@kkouokk"
+      - "🇺🇸·美国·147·TG@kkouokk"
+      - "🇺🇸·美国·148·TG@kkouokk"
+      - "🇺🇸·美国·149·TG@kkouokk"
+      - "🇬🇧·英国·150·TG@kkouokk"
+      - "🇬🇧·英国·151·TG@kkouokk"
+      - "🇬🇧·英国·152·TG@kkouokk"
+      - "🇬🇧·英国·153·TG@kkouokk"
+      - "🇬🇧·英国·154·TG@kkouokk"
+      - "🇬🇧·英国·155·TG@kkouokk"
+      - "🇬🇧·英国·156·TG@kkouokk"
+      - "🇬🇧·英国·157·TG@kkouokk"
+      - "🇺🇸·美国·158·TG@kkouokk"
+      - "🇩🇪·德国·159·TG@kkouokk"
+      - "🇦🇹·奥地利·160·TG@kkouokk"
+      - "🇦🇹·奥地利·161·TG@kkouokk"
+      - "🇦🇹·奥地利·162·TG@kkouokk"
+      - "🇦🇺·澳大利亚·163·TG@kkouokk"
+      - "🇦🇹·奥地利·164·TG@kkouokk"
+      - "🇦🇹·奥地利·165·TG@kkouokk"
+      - "🇦🇹·奥地利·166·TG@kkouokk"
+      - "🇳🇱·荷兰·167·TG@kkouokk"
+      - "🇳🇱·荷兰·168·TG@kkouokk"
+      - "🇳🇱·荷兰·169·TG@kkouokk"
+      - "🇸🇪·瑞典·170·TG@kkouokk"
+      - "🇸🇪·瑞典·171·TG@kkouokk"
+      - "🇸🇪·瑞典·172·TG@kkouokk"
+      - "🇺🇦·乌克兰·173·TG@kkouokk"
+      - "🇺🇦·乌克兰·174·TG@kkouokk"
+      - "🇺🇦·乌克兰·175·TG@kkouokk"
+      - "🇺🇦·乌克兰·176·TG@kkouokk"
+      - "🇺🇦·乌克兰·177·TG@kkouokk"
+      - "🇦🇺·澳大利亚·178·TG@kkouokk"
+      - "🇦🇺·澳大利亚·179·TG@kkouokk"
+      - "🇷🇺·俄罗斯·180·TG@kkouokk"
+      - "🇷🇺·俄罗斯·181·TG@kkouokk"
+      - "🇷🇺·俄罗斯·182·TG@kkouokk"
+      - "🇰🇼·科威特·183·TG@kkouokk"
+      - "🇷🇺·俄罗斯·184·TG@kkouokk"
+      - "🇺🇸·美国·185·TG@kkouokk"
+      - "🇺🇸·美国·186·TG@kkouokk"
+      - "🇨🇭·瑞士·187·TG@kkouokk"
+      - "🇺🇸·美国·188·TG@kkouokk"
+      - "🇷🇺·俄罗斯·189·TG@kkouokk"
+      - "🇺🇸·美国·190·TG@kkouokk"
+      - "🇷🇺·俄罗斯·191·TG@kkouokk"
+      - "🇨🇭·瑞士·192·TG@kkouokk"
+      - "🇷🇺·俄罗斯·193·TG@kkouokk"
+      - "🇷🇺·俄罗斯·194·TG@kkouokk"
+      - "🇷🇺·俄罗斯·195·TG@kkouokk"
+      - "🇷🇺·俄罗斯·196·TG@kkouokk"
       - "🇺🇸·美国·197·TG@kkouokk"
+      - "🇺🇸·美国·198·TG@kkouokk"
+      - "🇨🇭·瑞士·199·TG@kkouokk"
+      - "🇫🇷·法国·200·TG@kkouokk"
+      - "🇫🇷·法国·201·TG@kkouokk"
+      - "🇺🇸·美国·202·TG@kkouokk"
+      - "🇬🇧·英国·203·TG@kkouokk"
+      - "🇦🇹·奥地利·204·TG@kkouokk"
+      - "🇺🇸·美国·205·TG@kkouokk"
+      - "🇺🇸·美国·206·TG@kkouokk"
+      - "🇺🇸·美国·207·TG@kkouokk"
+      - "🇦🇹·奥地利·208·TG@kkouokk"
+      - "🇩🇪·德国·209·TG@kkouokk"
+      - "🇬🇧·英国·210·TG@kkouokk"
+      - "🇺🇸·美国·211·TG@kkouokk"
+      - "🇺🇸·美国·212·TG@kkouokk"
+      - "🇧🇷·巴西·213·TG@kkouokk"
+      - "🇦🇺·澳大利亚·214·TG@kkouokk"
+      - "🇺🇸·美国·215·TG@kkouokk"
+      - "🇦🇺·澳大利亚·216·TG@kkouokk"
+      - "🇨🇳·中国·217·TG@kkouokk"
+      - "🇦🇺·澳大利亚·218·TG@kkouokk"
+      - "🇰🇷·韩国·219·TG@kkouokk"
+      - "🇰🇷·韩国·220·TG@kkouokk"
+      - "🇰🇷·韩国·221·TG@kkouokk"
+      - "🇰🇷·韩国·222·TG@kkouokk"
+      - "🇺🇸·美国·223·TG@kkouokk"
+      - "🇺🇸·美国·224·TG@kkouokk"
+      - "🇨🇳·中国·225·TG@kkouokk"
+      - "🇺🇸·美国·226·TG@kkouokk"
+      - "🇦🇺·澳大利亚·227·TG@kkouokk"
+      - "🇺🇸·美国·228·TG@kkouokk"
+      - "🇨🇳·中国·229·TG@kkouokk"
+      - "🇺🇸·美国·230·TG@kkouokk"
+      - "🇺🇸·美国·231·TG@kkouokk"
+      - "🇺🇸·美国·232·TG@kkouokk"
+      - "🇺🇸·美国·233·TG@kkouokk"
+      - "🇺🇸·美国·234·TG@kkouokk"
+      - "🇺🇸·美国·235·TG@kkouokk"
+      - "🇺🇸·美国·236·TG@kkouokk"
+      - "🇺🇸·美国·237·TG@kkouokk"
+      - "🇦🇹·奥地利·238·TG@kkouokk"
+      - "🇺🇸·美国·239·TG@kkouokk"
+      - "🇳🇱·荷兰·240·TG@kkouokk"
+      - "🇺🇸·美国·241·TG@kkouokk"
+      - "🇺🇸·美国·242·TG@kkouokk"
+      - "🇺🇸·美国·243·TG@kkouokk"
+      - "🇺🇸·美国·244·TG@kkouokk"
+      - "🇺🇸·美国·245·TG@kkouokk"
+      - "🇦🇺·澳大利亚·246·TG@kkouokk"
+      - "🇺🇸·美国·247·TG@kkouokk"
+      - "🇺🇸·美国·248·TG@kkouokk"
+      - "🇷🇺·俄罗斯·249·TG@kkouokk"
+      - "🇨🇳·中国·250·TG@kkouokk"
+      - "🇦🇺·澳大利亚·251·TG@kkouokk"
+      - "🇦🇺·澳大利亚·252·TG@kkouokk"
+      - "🇦🇺·澳大利亚·253·TG@kkouokk"
+      - "🇰🇷·韩国·254·TG@kkouokk"
+      - "🇰🇷·韩国·255·TG@kkouokk"
+      - "🇰🇷·韩国·256·TG@kkouokk"
+      - "🇰🇷·韩国·257·TG@kkouokk"
+      - "🇺🇸·美国·258·TG@kkouokk"
+      - "🇺🇸·美国·259·TG@kkouokk"
+      - "🇨🇳·中国·260·TG@kkouokk"
+      - "🇺🇸·美国·261·TG@kkouokk"
+      - "🇺🇸·美国·262·TG@kkouokk"
+      - "🇨🇳·中国·263·TG@kkouokk"
+      - "🇦🇺·澳大利亚·264·TG@kkouokk"
+      - "🇨🇳·中国·265·TG@kkouokk"
+      - "🇨🇳·中国·266·TG@kkouokk"
+      - "🇺🇸·美国·267·TG@kkouokk"
+      - "🇨🇳·中国·268·TG@kkouokk"
+      - "🇺🇸·美国·269·TG@kkouokk"
+      - "🇺🇸·美国·270·TG@kkouokk"
+      - "🇺🇸·美国·271·TG@kkouokk"
+      - "🇺🇸·美国·272·TG@kkouokk"
+      - "🇺🇸·美国·273·TG@kkouokk"
+      - "🇺🇸·美国·274·TG@kkouokk"
+      - "🇺🇸·美国·275·TG@kkouokk"
+      - "🇺🇸·美国·276·TG@kkouokk"
+      - "🇺🇸·美国·277·TG@kkouokk"
+      - "🇺🇸·TG@kkouokk·10-27更新"
+      - "🇺🇸·延迟不代表速度自测"
+      - "🇺🇸·更多关注TG@kkouokk"
   - name: "🌍 国外媒体"
     type: select
     proxies:
       - "🚀 节点选择"
       - ♻️ 自动选择
       - "🎯 全球直连"
+      - "🇺🇸·美国·1·TG@kkouokk"
+      - "🇺🇸·美国·2·TG@kkouokk"
+      - "🇺🇸·美国·3·TG@kkouokk"
+      - "🇺🇸·美国·4·TG@kkouokk"
+      - "🇳🇴·挪威·5·TG@kkouokk"
+      - "🇺🇸·美国·6·TG@kkouokk"
+      - "🇺🇸·美国·7·TG@kkouokk"
+      - "🇺🇸·美国·8·TG@kkouokk"
+      - "🇺🇸·美国·9·TG@kkouokk"
+      - "🇺🇸·美国·10·TG@kkouokk"
+      - "🇺🇸·美国·11·TG@kkouokk"
+      - "🇺🇸·美国·12·TG@kkouokk"
+      - "🇺🇸·美国·13·TG@kkouokk"
+      - "🇺🇸·美国·14·TG@kkouokk"
+      - "🇺🇸·美国·15·TG@kkouokk"
+      - "🇺🇸·美国·16·TG@kkouokk"
+      - "🇺🇸·美国·17·TG@kkouokk"
+      - "🇺🇸·美国·18·TG@kkouokk"
+      - "🇺🇸·美国·19·TG@kkouokk"
+      - "🇺🇸·美国·20·TG@kkouokk"
+      - "🇺🇸·美国·21·TG@kkouokk"
+      - "🇺🇸·美国·22·TG@kkouokk"
+      - "🇳🇴·挪威·23·TG@kkouokk"
+      - "🇺🇸·美国·24·TG@kkouokk"
+      - "🇺🇸·美国·25·TG@kkouokk"
+      - "🇺🇸·美国·26·TG@kkouokk"
+      - "🇺🇸·美国·27·TG@kkouokk"
+      - "🇺🇸·美国·28·TG@kkouokk"
+      - "🇺🇸·美国·29·TG@kkouokk"
+      - "🇺🇸·美国·30·TG@kkouokk"
+      - "🇺🇸·美国·31·TG@kkouokk"
+      - "🇺🇸·美国·32·TG@kkouokk"
+      - "🇺🇸·美国·33·TG@kkouokk"
+      - "🇺🇸·美国·34·TG@kkouokk"
+      - "🇺🇸·美国·35·TG@kkouokk"
+      - "🇺🇸·美国·36·TG@kkouokk"
+      - "🇺🇸·美国·37·TG@kkouokk"
+      - "🇺🇸·美国·38·TG@kkouokk"
+      - "🇺🇸·美国·39·TG@kkouokk"
+      - "🇺🇸·美国·40·TG@kkouokk"
+      - "🇺🇸·美国·41·TG@kkouokk"
+      - "🇺🇸·美国·42·TG@kkouokk"
+      - "🇺🇸·美国·43·TG@kkouokk"
+      - "🇺🇸·美国·44·TG@kkouokk"
+      - "🇺🇸·美国·45·TG@kkouokk"
+      - "🇺🇸·美国·46·TG@kkouokk"
+      - "🇺🇸·美国·47·TG@kkouokk"
+      - "🇺🇸·美国·48·TG@kkouokk"
+      - "🇺🇸·美国·49·TG@kkouokk"
+      - "🇺🇸·美国·50·TG@kkouokk"
+      - "🇺🇸·美国·51·TG@kkouokk"
+      - "🇺🇸·美国·52·TG@kkouokk"
+      - "🇺🇸·美国·53·TG@kkouokk"
+      - "🇳🇴·挪威·54·TG@kkouokk"
+      - "🇺🇸·美国·55·TG@kkouokk"
+      - "🇺🇸·美国·56·TG@kkouokk"
+      - "🇺🇸·美国·57·TG@kkouokk"
+      - "🇺🇸·美国·58·TG@kkouokk"
+      - "🇺🇸·美国·59·TG@kkouokk"
+      - "🇳🇴·挪威·60·TG@kkouokk"
+      - "🇺🇸·美国·61·TG@kkouokk"
+      - "🇺🇸·美国·62·TG@kkouokk"
+      - "🇺🇸·美国·63·TG@kkouokk"
+      - "🇺🇸·美国·64·TG@kkouokk"
+      - "🇺🇸·美国·65·TG@kkouokk"
+      - "🇺🇸·美国·66·TG@kkouokk"
+      - "🇺🇸·美国·67·TG@kkouokk"
+      - "🇺🇸·美国·68·TG@kkouokk"
+      - "🇺🇸·美国·69·TG@kkouokk"
+      - "🇺🇸·美国·70·TG@kkouokk"
+      - "🇺🇸·美国·71·TG@kkouokk"
+      - "🇺🇸·美国·72·TG@kkouokk"
+      - "🇺🇸·美国·73·TG@kkouokk"
+      - "🇺🇸·美国·74·TG@kkouokk"
+      - "🇳🇴·挪威·75·TG@kkouokk"
+      - "🇺🇸·美国·76·TG@kkouokk"
+      - "🇺🇸·美国·77·TG@kkouokk"
+      - "🇺🇸·美国·78·TG@kkouokk"
+      - "🇺🇸·美国·79·TG@kkouokk"
+      - "🇺🇸·美国·80·TG@kkouokk"
+      - "🇺🇸·美国·81·TG@kkouokk"
+      - "🇺🇸·美国·82·TG@kkouokk"
+      - "🇺🇸·美国·83·TG@kkouokk"
+      - "🇺🇸·美国·84·TG@kkouokk"
+      - "🇺🇸·美国·85·TG@kkouokk"
+      - "🇺🇸·美国·86·TG@kkouokk"
+      - "🇺🇸·美国·87·TG@kkouokk"
+      - "🇯🇵·日本·88·TG@kkouokk"
+      - "🇯🇵·日本·89·TG@kkouokk"
+      - "🇯🇵·日本·90·TG@kkouokk"
+      - "🇯🇵·日本·91·TG@kkouokk"
+      - "🇯🇵·日本·92·TG@kkouokk"
+      - "🇯🇵·日本·93·TG@kkouokk"
+      - "🇯🇵·日本·94·TG@kkouokk"
+      - "🇯🇵·日本·95·TG@kkouokk"
+      - "🇧🇷·巴西·96·TG@kkouokk"
+      - "🇯🇵·日本·97·TG@kkouokk"
+      - "🇨🇳·中国·98·TG@kkouokk"
+      - "🇨🇳·中国·99·TG@kkouokk"
+      - "🇨🇳·中国·100·TG@kkouokk"
+      - "🇨🇳·中国·101·TG@kkouokk"
+      - "🇨🇳·中国·102·TG@kkouokk"
+      - "🇨🇳·中国·103·TG@kkouokk"
+      - "🇨🇳·中国·104·TG@kkouokk"
+      - "🇨🇳·中国·105·TG@kkouokk"
+      - "🇨🇳·中国·106·TG@kkouokk"
+      - "🇰🇷·韩国·107·TG@kkouokk"
+      - "🇰🇷·韩国·108·TG@kkouokk"
+      - "🇰🇷·韩国·109·TG@kkouokk"
+      - "🇰🇷·韩国·110·TG@kkouokk"
+      - "🇰🇷·韩国·111·TG@kkouokk"
+      - "🇰🇷·韩国·112·TG@kkouokk"
+      - "🇰🇷·韩国·113·TG@kkouokk"
+      - "🇰🇷·韩国·114·TG@kkouokk"
+      - "🇰🇷·韩国·115·TG@kkouokk"
+      - "🇰🇷·韩国·116·TG@kkouokk"
+      - "🇰🇷·韩国·117·TG@kkouokk"
+      - "🇰🇷·韩国·118·TG@kkouokk"
+      - "🇰🇷·韩国·119·TG@kkouokk"
+      - "🇨🇳·中国·120·TG@kkouokk"
+      - "🇨🇳·中国·121·TG@kkouokk"
+      - "🇨🇳·中国·122·TG@kkouokk"
+      - "🇨🇳·中国·123·TG@kkouokk"
+      - "🇨🇳·中国·124·TG@kkouokk"
+      - "🇨🇳·中国·125·TG@kkouokk"
+      - "🇨🇳·中国·126·TG@kkouokk"
+      - "🇨🇳·中国·127·TG@kkouokk"
+      - "🇨🇳·中国·128·TG@kkouokk"
+      - "🇨🇳·中国·129·TG@kkouokk"
+      - "🇨🇳·中国·130·TG@kkouokk"
+      - "🇬🇧·英国·131·TG@kkouokk"
+      - "🇬🇧·英国·132·TG@kkouokk"
+      - "🇬🇧·英国·133·TG@kkouokk"
+      - "🇺🇸·美国·134·TG@kkouokk"
+      - "🇬🇧·英国·135·TG@kkouokk"
+      - "🇬🇧·英国·136·TG@kkouokk"
+      - "🇬🇧·英国·137·TG@kkouokk"
+      - "🇬🇧·英国·138·TG@kkouokk"
+      - "🇬🇧·英国·139·TG@kkouokk"
+      - "🇬🇧·英国·140·TG@kkouokk"
+      - "🇬🇧·英国·141·TG@kkouokk"
+      - "🇬🇧·英国·142·TG@kkouokk"
+      - "🇬🇧·英国·143·TG@kkouokk"
+      - "🇺🇸·美国·144·TG@kkouokk"
+      - "🇺🇸·美国·145·TG@kkouokk"
+      - "🇬🇧·英国·146·TG@kkouokk"
+      - "🇺🇸·美国·147·TG@kkouokk"
+      - "🇺🇸·美国·148·TG@kkouokk"
+      - "🇺🇸·美国·149·TG@kkouokk"
+      - "🇬🇧·英国·150·TG@kkouokk"
+      - "🇬🇧·英国·151·TG@kkouokk"
+      - "🇬🇧·英国·152·TG@kkouokk"
+      - "🇬🇧·英国·153·TG@kkouokk"
+      - "🇬🇧·英国·154·TG@kkouokk"
+      - "🇬🇧·英国·155·TG@kkouokk"
+      - "🇬🇧·英国·156·TG@kkouokk"
+      - "🇬🇧·英国·157·TG@kkouokk"
+      - "🇺🇸·美国·158·TG@kkouokk"
+      - "🇩🇪·德国·159·TG@kkouokk"
+      - "🇦🇹·奥地利·160·TG@kkouokk"
+      - "🇦🇹·奥地利·161·TG@kkouokk"
+      - "🇦🇹·奥地利·162·TG@kkouokk"
+      - "🇦🇺·澳大利亚·163·TG@kkouokk"
+      - "🇦🇹·奥地利·164·TG@kkouokk"
+      - "🇦🇹·奥地利·165·TG@kkouokk"
+      - "🇦🇹·奥地利·166·TG@kkouokk"
+      - "🇳🇱·荷兰·167·TG@kkouokk"
+      - "🇳🇱·荷兰·168·TG@kkouokk"
+      - "🇳🇱·荷兰·169·TG@kkouokk"
+      - "🇸🇪·瑞典·170·TG@kkouokk"
+      - "🇸🇪·瑞典·171·TG@kkouokk"
+      - "🇸🇪·瑞典·172·TG@kkouokk"
+      - "🇺🇦·乌克兰·173·TG@kkouokk"
+      - "🇺🇦·乌克兰·174·TG@kkouokk"
+      - "🇺🇦·乌克兰·175·TG@kkouokk"
+      - "🇺🇦·乌克兰·176·TG@kkouokk"
+      - "🇺🇦·乌克兰·177·TG@kkouokk"
+      - "🇦🇺·澳大利亚·178·TG@kkouokk"
+      - "🇦🇺·澳大利亚·179·TG@kkouokk"
+      - "🇷🇺·俄罗斯·180·TG@kkouokk"
+      - "🇷🇺·俄罗斯·181·TG@kkouokk"
+      - "🇷🇺·俄罗斯·182·TG@kkouokk"
+      - "🇰🇼·科威特·183·TG@kkouokk"
+      - "🇷🇺·俄罗斯·184·TG@kkouokk"
+      - "🇺🇸·美国·185·TG@kkouokk"
+      - "🇺🇸·美国·186·TG@kkouokk"
+      - "🇨🇭·瑞士·187·TG@kkouokk"
+      - "🇺🇸·美国·188·TG@kkouokk"
+      - "🇷🇺·俄罗斯·189·TG@kkouokk"
+      - "🇺🇸·美国·190·TG@kkouokk"
+      - "🇷🇺·俄罗斯·191·TG@kkouokk"
+      - "🇨🇭·瑞士·192·TG@kkouokk"
+      - "🇷🇺·俄罗斯·193·TG@kkouokk"
+      - "🇷🇺·俄罗斯·194·TG@kkouokk"
+      - "🇷🇺·俄罗斯·195·TG@kkouokk"
+      - "🇷🇺·俄罗斯·196·TG@kkouokk"
       - "🇺🇸·美国·197·TG@kkouokk"
+      - "🇺🇸·美国·198·TG@kkouokk"
+      - "🇨🇭·瑞士·199·TG@kkouokk"
+      - "🇫🇷·法国·200·TG@kkouokk"
+      - "🇫🇷·法国·201·TG@kkouokk"
+      - "🇺🇸·美国·202·TG@kkouokk"
+      - "🇬🇧·英国·203·TG@kkouokk"
+      - "🇦🇹·奥地利·204·TG@kkouokk"
+      - "🇺🇸·美国·205·TG@kkouokk"
+      - "🇺🇸·美国·206·TG@kkouokk"
+      - "🇺🇸·美国·207·TG@kkouokk"
+      - "🇦🇹·奥地利·208·TG@kkouokk"
+      - "🇩🇪·德国·209·TG@kkouokk"
+      - "🇬🇧·英国·210·TG@kkouokk"
+      - "🇺🇸·美国·211·TG@kkouokk"
+      - "🇺🇸·美国·212·TG@kkouokk"
+      - "🇧🇷·巴西·213·TG@kkouokk"
+      - "🇦🇺·澳大利亚·214·TG@kkouokk"
+      - "🇺🇸·美国·215·TG@kkouokk"
+      - "🇦🇺·澳大利亚·216·TG@kkouokk"
+      - "🇨🇳·中国·217·TG@kkouokk"
+      - "🇦🇺·澳大利亚·218·TG@kkouokk"
+      - "🇰🇷·韩国·219·TG@kkouokk"
+      - "🇰🇷·韩国·220·TG@kkouokk"
+      - "🇰🇷·韩国·221·TG@kkouokk"
+      - "🇰🇷·韩国·222·TG@kkouokk"
+      - "🇺🇸·美国·223·TG@kkouokk"
+      - "🇺🇸·美国·224·TG@kkouokk"
+      - "🇨🇳·中国·225·TG@kkouokk"
+      - "🇺🇸·美国·226·TG@kkouokk"
+      - "🇦🇺·澳大利亚·227·TG@kkouokk"
+      - "🇺🇸·美国·228·TG@kkouokk"
+      - "🇨🇳·中国·229·TG@kkouokk"
+      - "🇺🇸·美国·230·TG@kkouokk"
+      - "🇺🇸·美国·231·TG@kkouokk"
+      - "🇺🇸·美国·232·TG@kkouokk"
+      - "🇺🇸·美国·233·TG@kkouokk"
+      - "🇺🇸·美国·234·TG@kkouokk"
+      - "🇺🇸·美国·235·TG@kkouokk"
+      - "🇺🇸·美国·236·TG@kkouokk"
+      - "🇺🇸·美国·237·TG@kkouokk"
+      - "🇦🇹·奥地利·238·TG@kkouokk"
+      - "🇺🇸·美国·239·TG@kkouokk"
+      - "🇳🇱·荷兰·240·TG@kkouokk"
+      - "🇺🇸·美国·241·TG@kkouokk"
+      - "🇺🇸·美国·242·TG@kkouokk"
+      - "🇺🇸·美国·243·TG@kkouokk"
+      - "🇺🇸·美国·244·TG@kkouokk"
+      - "🇺🇸·美国·245·TG@kkouokk"
+      - "🇦🇺·澳大利亚·246·TG@kkouokk"
+      - "🇺🇸·美国·247·TG@kkouokk"
+      - "🇺🇸·美国·248·TG@kkouokk"
+      - "🇷🇺·俄罗斯·249·TG@kkouokk"
+      - "🇨🇳·中国·250·TG@kkouokk"
+      - "🇦🇺·澳大利亚·251·TG@kkouokk"
+      - "🇦🇺·澳大利亚·252·TG@kkouokk"
+      - "🇦🇺·澳大利亚·253·TG@kkouokk"
+      - "🇰🇷·韩国·254·TG@kkouokk"
+      - "🇰🇷·韩国·255·TG@kkouokk"
+      - "🇰🇷·韩国·256·TG@kkouokk"
+      - "🇰🇷·韩国·257·TG@kkouokk"
+      - "🇺🇸·美国·258·TG@kkouokk"
+      - "🇺🇸·美国·259·TG@kkouokk"
+      - "🇨🇳·中国·260·TG@kkouokk"
+      - "🇺🇸·美国·261·TG@kkouokk"
+      - "🇺🇸·美国·262·TG@kkouokk"
+      - "🇨🇳·中国·263·TG@kkouokk"
+      - "🇦🇺·澳大利亚·264·TG@kkouokk"
+      - "🇨🇳·中国·265·TG@kkouokk"
+      - "🇨🇳·中国·266·TG@kkouokk"
+      - "🇺🇸·美国·267·TG@kkouokk"
+      - "🇨🇳·中国·268·TG@kkouokk"
+      - "🇺🇸·美国·269·TG@kkouokk"
+      - "🇺🇸·美国·270·TG@kkouokk"
+      - "🇺🇸·美国·271·TG@kkouokk"
+      - "🇺🇸·美国·272·TG@kkouokk"
+      - "🇺🇸·美国·273·TG@kkouokk"
+      - "🇺🇸·美国·274·TG@kkouokk"
+      - "🇺🇸·美国·275·TG@kkouokk"
+      - "🇺🇸·美国·276·TG@kkouokk"
+      - "🇺🇸·美国·277·TG@kkouokk"
+      - "🇺🇸·TG@kkouokk·10-27更新"
+      - "🇺🇸·延迟不代表速度自测"
+      - "🇺🇸·更多关注TG@kkouokk"
   - name: "📲 电报信息"
     type: select
     proxies:
       - "🚀 节点选择"
       - "🎯 全球直连"
+      - "🇺🇸·美国·1·TG@kkouokk"
+      - "🇺🇸·美国·2·TG@kkouokk"
+      - "🇺🇸·美国·3·TG@kkouokk"
+      - "🇺🇸·美国·4·TG@kkouokk"
+      - "🇳🇴·挪威·5·TG@kkouokk"
+      - "🇺🇸·美国·6·TG@kkouokk"
+      - "🇺🇸·美国·7·TG@kkouokk"
+      - "🇺🇸·美国·8·TG@kkouokk"
+      - "🇺🇸·美国·9·TG@kkouokk"
+      - "🇺🇸·美国·10·TG@kkouokk"
+      - "🇺🇸·美国·11·TG@kkouokk"
+      - "🇺🇸·美国·12·TG@kkouokk"
+      - "🇺🇸·美国·13·TG@kkouokk"
+      - "🇺🇸·美国·14·TG@kkouokk"
+      - "🇺🇸·美国·15·TG@kkouokk"
+      - "🇺🇸·美国·16·TG@kkouokk"
+      - "🇺🇸·美国·17·TG@kkouokk"
+      - "🇺🇸·美国·18·TG@kkouokk"
+      - "🇺🇸·美国·19·TG@kkouokk"
+      - "🇺🇸·美国·20·TG@kkouokk"
+      - "🇺🇸·美国·21·TG@kkouokk"
+      - "🇺🇸·美国·22·TG@kkouokk"
+      - "🇳🇴·挪威·23·TG@kkouokk"
+      - "🇺🇸·美国·24·TG@kkouokk"
+      - "🇺🇸·美国·25·TG@kkouokk"
+      - "🇺🇸·美国·26·TG@kkouokk"
+      - "🇺🇸·美国·27·TG@kkouokk"
+      - "🇺🇸·美国·28·TG@kkouokk"
+      - "🇺🇸·美国·29·TG@kkouokk"
+      - "🇺🇸·美国·30·TG@kkouokk"
+      - "🇺🇸·美国·31·TG@kkouokk"
+      - "🇺🇸·美国·32·TG@kkouokk"
+      - "🇺🇸·美国·33·TG@kkouokk"
+      - "🇺🇸·美国·34·TG@kkouokk"
+      - "🇺🇸·美国·35·TG@kkouokk"
+      - "🇺🇸·美国·36·TG@kkouokk"
+      - "🇺🇸·美国·37·TG@kkouokk"
+      - "🇺🇸·美国·38·TG@kkouokk"
+      - "🇺🇸·美国·39·TG@kkouokk"
+      - "🇺🇸·美国·40·TG@kkouokk"
+      - "🇺🇸·美国·41·TG@kkouokk"
+      - "🇺🇸·美国·42·TG@kkouokk"
+      - "🇺🇸·美国·43·TG@kkouokk"
+      - "🇺🇸·美国·44·TG@kkouokk"
+      - "🇺🇸·美国·45·TG@kkouokk"
+      - "🇺🇸·美国·46·TG@kkouokk"
+      - "🇺🇸·美国·47·TG@kkouokk"
+      - "🇺🇸·美国·48·TG@kkouokk"
+      - "🇺🇸·美国·49·TG@kkouokk"
+      - "🇺🇸·美国·50·TG@kkouokk"
+      - "🇺🇸·美国·51·TG@kkouokk"
+      - "🇺🇸·美国·52·TG@kkouokk"
+      - "🇺🇸·美国·53·TG@kkouokk"
+      - "🇳🇴·挪威·54·TG@kkouokk"
+      - "🇺🇸·美国·55·TG@kkouokk"
+      - "🇺🇸·美国·56·TG@kkouokk"
+      - "🇺🇸·美国·57·TG@kkouokk"
+      - "🇺🇸·美国·58·TG@kkouokk"
+      - "🇺🇸·美国·59·TG@kkouokk"
+      - "🇳🇴·挪威·60·TG@kkouokk"
+      - "🇺🇸·美国·61·TG@kkouokk"
+      - "🇺🇸·美国·62·TG@kkouokk"
+      - "🇺🇸·美国·63·TG@kkouokk"
+      - "🇺🇸·美国·64·TG@kkouokk"
+      - "🇺🇸·美国·65·TG@kkouokk"
+      - "🇺🇸·美国·66·TG@kkouokk"
+      - "🇺🇸·美国·67·TG@kkouokk"
+      - "🇺🇸·美国·68·TG@kkouokk"
+      - "🇺🇸·美国·69·TG@kkouokk"
+      - "🇺🇸·美国·70·TG@kkouokk"
+      - "🇺🇸·美国·71·TG@kkouokk"
+      - "🇺🇸·美国·72·TG@kkouokk"
+      - "🇺🇸·美国·73·TG@kkouokk"
+      - "🇺🇸·美国·74·TG@kkouokk"
+      - "🇳🇴·挪威·75·TG@kkouokk"
+      - "🇺🇸·美国·76·TG@kkouokk"
+      - "🇺🇸·美国·77·TG@kkouokk"
+      - "🇺🇸·美国·78·TG@kkouokk"
+      - "🇺🇸·美国·79·TG@kkouokk"
+      - "🇺🇸·美国·80·TG@kkouokk"
+      - "🇺🇸·美国·81·TG@kkouokk"
+      - "🇺🇸·美国·82·TG@kkouokk"
+      - "🇺🇸·美国·83·TG@kkouokk"
+      - "🇺🇸·美国·84·TG@kkouokk"
+      - "🇺🇸·美国·85·TG@kkouokk"
+      - "🇺🇸·美国·86·TG@kkouokk"
+      - "🇺🇸·美国·87·TG@kkouokk"
+      - "🇯🇵·日本·88·TG@kkouokk"
+      - "🇯🇵·日本·89·TG@kkouokk"
+      - "🇯🇵·日本·90·TG@kkouokk"
+      - "🇯🇵·日本·91·TG@kkouokk"
+      - "🇯🇵·日本·92·TG@kkouokk"
+      - "🇯🇵·日本·93·TG@kkouokk"
+      - "🇯🇵·日本·94·TG@kkouokk"
+      - "🇯🇵·日本·95·TG@kkouokk"
+      - "🇧🇷·巴西·96·TG@kkouokk"
+      - "🇯🇵·日本·97·TG@kkouokk"
+      - "🇨🇳·中国·98·TG@kkouokk"
+      - "🇨🇳·中国·99·TG@kkouokk"
+      - "🇨🇳·中国·100·TG@kkouokk"
+      - "🇨🇳·中国·101·TG@kkouokk"
+      - "🇨🇳·中国·102·TG@kkouokk"
+      - "🇨🇳·中国·103·TG@kkouokk"
+      - "🇨🇳·中国·104·TG@kkouokk"
+      - "🇨🇳·中国·105·TG@kkouokk"
+      - "🇨🇳·中国·106·TG@kkouokk"
+      - "🇰🇷·韩国·107·TG@kkouokk"
+      - "🇰🇷·韩国·108·TG@kkouokk"
+      - "🇰🇷·韩国·109·TG@kkouokk"
+      - "🇰🇷·韩国·110·TG@kkouokk"
+      - "🇰🇷·韩国·111·TG@kkouokk"
+      - "🇰🇷·韩国·112·TG@kkouokk"
+      - "🇰🇷·韩国·113·TG@kkouokk"
+      - "🇰🇷·韩国·114·TG@kkouokk"
+      - "🇰🇷·韩国·115·TG@kkouokk"
+      - "🇰🇷·韩国·116·TG@kkouokk"
+      - "🇰🇷·韩国·117·TG@kkouokk"
+      - "🇰🇷·韩国·118·TG@kkouokk"
+      - "🇰🇷·韩国·119·TG@kkouokk"
+      - "🇨🇳·中国·120·TG@kkouokk"
+      - "🇨🇳·中国·121·TG@kkouokk"
+      - "🇨🇳·中国·122·TG@kkouokk"
+      - "🇨🇳·中国·123·TG@kkouokk"
+      - "🇨🇳·中国·124·TG@kkouokk"
+      - "🇨🇳·中国·125·TG@kkouokk"
+      - "🇨🇳·中国·126·TG@kkouokk"
+      - "🇨🇳·中国·127·TG@kkouokk"
+      - "🇨🇳·中国·128·TG@kkouokk"
+      - "🇨🇳·中国·129·TG@kkouokk"
+      - "🇨🇳·中国·130·TG@kkouokk"
+      - "🇬🇧·英国·131·TG@kkouokk"
+      - "🇬🇧·英国·132·TG@kkouokk"
+      - "🇬🇧·英国·133·TG@kkouokk"
+      - "🇺🇸·美国·134·TG@kkouokk"
+      - "🇬🇧·英国·135·TG@kkouokk"
+      - "🇬🇧·英国·136·TG@kkouokk"
+      - "🇬🇧·英国·137·TG@kkouokk"
+      - "🇬🇧·英国·138·TG@kkouokk"
+      - "🇬🇧·英国·139·TG@kkouokk"
+      - "🇬🇧·英国·140·TG@kkouokk"
+      - "🇬🇧·英国·141·TG@kkouokk"
+      - "🇬🇧·英国·142·TG@kkouokk"
+      - "🇬🇧·英国·143·TG@kkouokk"
+      - "🇺🇸·美国·144·TG@kkouokk"
+      - "🇺🇸·美国·145·TG@kkouokk"
+      - "🇬🇧·英国·146·TG@kkouokk"
+      - "🇺🇸·美国·147·TG@kkouokk"
+      - "🇺🇸·美国·148·TG@kkouokk"
+      - "🇺🇸·美国·149·TG@kkouokk"
+      - "🇬🇧·英国·150·TG@kkouokk"
+      - "🇬🇧·英国·151·TG@kkouokk"
+      - "🇬🇧·英国·152·TG@kkouokk"
+      - "🇬🇧·英国·153·TG@kkouokk"
+      - "🇬🇧·英国·154·TG@kkouokk"
+      - "🇬🇧·英国·155·TG@kkouokk"
+      - "🇬🇧·英国·156·TG@kkouokk"
+      - "🇬🇧·英国·157·TG@kkouokk"
+      - "🇺🇸·美国·158·TG@kkouokk"
+      - "🇩🇪·德国·159·TG@kkouokk"
+      - "🇦🇹·奥地利·160·TG@kkouokk"
+      - "🇦🇹·奥地利·161·TG@kkouokk"
+      - "🇦🇹·奥地利·162·TG@kkouokk"
+      - "🇦🇺·澳大利亚·163·TG@kkouokk"
+      - "🇦🇹·奥地利·164·TG@kkouokk"
+      - "🇦🇹·奥地利·165·TG@kkouokk"
+      - "🇦🇹·奥地利·166·TG@kkouokk"
+      - "🇳🇱·荷兰·167·TG@kkouokk"
+      - "🇳🇱·荷兰·168·TG@kkouokk"
+      - "🇳🇱·荷兰·169·TG@kkouokk"
+      - "🇸🇪·瑞典·170·TG@kkouokk"
+      - "🇸🇪·瑞典·171·TG@kkouokk"
+      - "🇸🇪·瑞典·172·TG@kkouokk"
+      - "🇺🇦·乌克兰·173·TG@kkouokk"
+      - "🇺🇦·乌克兰·174·TG@kkouokk"
+      - "🇺🇦·乌克兰·175·TG@kkouokk"
+      - "🇺🇦·乌克兰·176·TG@kkouokk"
+      - "🇺🇦·乌克兰·177·TG@kkouokk"
+      - "🇦🇺·澳大利亚·178·TG@kkouokk"
+      - "🇦🇺·澳大利亚·179·TG@kkouokk"
+      - "🇷🇺·俄罗斯·180·TG@kkouokk"
+      - "🇷🇺·俄罗斯·181·TG@kkouokk"
+      - "🇷🇺·俄罗斯·182·TG@kkouokk"
+      - "🇰🇼·科威特·183·TG@kkouokk"
+      - "🇷🇺·俄罗斯·184·TG@kkouokk"
+      - "🇺🇸·美国·185·TG@kkouokk"
+      - "🇺🇸·美国·186·TG@kkouokk"
+      - "🇨🇭·瑞士·187·TG@kkouokk"
+      - "🇺🇸·美国·188·TG@kkouokk"
+      - "🇷🇺·俄罗斯·189·TG@kkouokk"
+      - "🇺🇸·美国·190·TG@kkouokk"
+      - "🇷🇺·俄罗斯·191·TG@kkouokk"
+      - "🇨🇭·瑞士·192·TG@kkouokk"
+      - "🇷🇺·俄罗斯·193·TG@kkouokk"
+      - "🇷🇺·俄罗斯·194·TG@kkouokk"
+      - "🇷🇺·俄罗斯·195·TG@kkouokk"
+      - "🇷🇺·俄罗斯·196·TG@kkouokk"
       - "🇺🇸·美国·197·TG@kkouokk"
+      - "🇺🇸·美国·198·TG@kkouokk"
+      - "🇨🇭·瑞士·199·TG@kkouokk"
+      - "🇫🇷·法国·200·TG@kkouokk"
+      - "🇫🇷·法国·201·TG@kkouokk"
+      - "🇺🇸·美国·202·TG@kkouokk"
+      - "🇬🇧·英国·203·TG@kkouokk"
+      - "🇦🇹·奥地利·204·TG@kkouokk"
+      - "🇺🇸·美国·205·TG@kkouokk"
+      - "🇺🇸·美国·206·TG@kkouokk"
+      - "🇺🇸·美国·207·TG@kkouokk"
+      - "🇦🇹·奥地利·208·TG@kkouokk"
+      - "🇩🇪·德国·209·TG@kkouokk"
+      - "🇬🇧·英国·210·TG@kkouokk"
+      - "🇺🇸·美国·211·TG@kkouokk"
+      - "🇺🇸·美国·212·TG@kkouokk"
+      - "🇧🇷·巴西·213·TG@kkouokk"
+      - "🇦🇺·澳大利亚·214·TG@kkouokk"
+      - "🇺🇸·美国·215·TG@kkouokk"
+      - "🇦🇺·澳大利亚·216·TG@kkouokk"
+      - "🇨🇳·中国·217·TG@kkouokk"
+      - "🇦🇺·澳大利亚·218·TG@kkouokk"
+      - "🇰🇷·韩国·219·TG@kkouokk"
+      - "🇰🇷·韩国·220·TG@kkouokk"
+      - "🇰🇷·韩国·221·TG@kkouokk"
+      - "🇰🇷·韩国·222·TG@kkouokk"
+      - "🇺🇸·美国·223·TG@kkouokk"
+      - "🇺🇸·美国·224·TG@kkouokk"
+      - "🇨🇳·中国·225·TG@kkouokk"
+      - "🇺🇸·美国·226·TG@kkouokk"
+      - "🇦🇺·澳大利亚·227·TG@kkouokk"
+      - "🇺🇸·美国·228·TG@kkouokk"
+      - "🇨🇳·中国·229·TG@kkouokk"
+      - "🇺🇸·美国·230·TG@kkouokk"
+      - "🇺🇸·美国·231·TG@kkouokk"
+      - "🇺🇸·美国·232·TG@kkouokk"
+      - "🇺🇸·美国·233·TG@kkouokk"
+      - "🇺🇸·美国·234·TG@kkouokk"
+      - "🇺🇸·美国·235·TG@kkouokk"
+      - "🇺🇸·美国·236·TG@kkouokk"
+      - "🇺🇸·美国·237·TG@kkouokk"
+      - "🇦🇹·奥地利·238·TG@kkouokk"
+      - "🇺🇸·美国·239·TG@kkouokk"
+      - "🇳🇱·荷兰·240·TG@kkouokk"
+      - "🇺🇸·美国·241·TG@kkouokk"
+      - "🇺🇸·美国·242·TG@kkouokk"
+      - "🇺🇸·美国·243·TG@kkouokk"
+      - "🇺🇸·美国·244·TG@kkouokk"
+      - "🇺🇸·美国·245·TG@kkouokk"
+      - "🇦🇺·澳大利亚·246·TG@kkouokk"
+      - "🇺🇸·美国·247·TG@kkouokk"
+      - "🇺🇸·美国·248·TG@kkouokk"
+      - "🇷🇺·俄罗斯·249·TG@kkouokk"
+      - "🇨🇳·中国·250·TG@kkouokk"
+      - "🇦🇺·澳大利亚·251·TG@kkouokk"
+      - "🇦🇺·澳大利亚·252·TG@kkouokk"
+      - "🇦🇺·澳大利亚·253·TG@kkouokk"
+      - "🇰🇷·韩国·254·TG@kkouokk"
+      - "🇰🇷·韩国·255·TG@kkouokk"
+      - "🇰🇷·韩国·256·TG@kkouokk"
+      - "🇰🇷·韩国·257·TG@kkouokk"
+      - "🇺🇸·美国·258·TG@kkouokk"
+      - "🇺🇸·美国·259·TG@kkouokk"
+      - "🇨🇳·中国·260·TG@kkouokk"
+      - "🇺🇸·美国·261·TG@kkouokk"
+      - "🇺🇸·美国·262·TG@kkouokk"
+      - "🇨🇳·中国·263·TG@kkouokk"
+      - "🇦🇺·澳大利亚·264·TG@kkouokk"
+      - "🇨🇳·中国·265·TG@kkouokk"
+      - "🇨🇳·中国·266·TG@kkouokk"
+      - "🇺🇸·美国·267·TG@kkouokk"
+      - "🇨🇳·中国·268·TG@kkouokk"
+      - "🇺🇸·美国·269·TG@kkouokk"
+      - "🇺🇸·美国·270·TG@kkouokk"
+      - "🇺🇸·美国·271·TG@kkouokk"
+      - "🇺🇸·美国·272·TG@kkouokk"
+      - "🇺🇸·美国·273·TG@kkouokk"
+      - "🇺🇸·美国·274·TG@kkouokk"
+      - "🇺🇸·美国·275·TG@kkouokk"
+      - "🇺🇸·美国·276·TG@kkouokk"
+      - "🇺🇸·美国·277·TG@kkouokk"
+      - "🇺🇸·TG@kkouokk·10-27更新"
+      - "🇺🇸·延迟不代表速度自测"
+      - "🇺🇸·更多关注TG@kkouokk"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - "🎯 全球直连"
       - "🚀 节点选择"
+      - "🇺🇸·美国·1·TG@kkouokk"
+      - "🇺🇸·美国·2·TG@kkouokk"
+      - "🇺🇸·美国·3·TG@kkouokk"
+      - "🇺🇸·美国·4·TG@kkouokk"
+      - "🇳🇴·挪威·5·TG@kkouokk"
+      - "🇺🇸·美国·6·TG@kkouokk"
+      - "🇺🇸·美国·7·TG@kkouokk"
+      - "🇺🇸·美国·8·TG@kkouokk"
+      - "🇺🇸·美国·9·TG@kkouokk"
+      - "🇺🇸·美国·10·TG@kkouokk"
+      - "🇺🇸·美国·11·TG@kkouokk"
+      - "🇺🇸·美国·12·TG@kkouokk"
+      - "🇺🇸·美国·13·TG@kkouokk"
+      - "🇺🇸·美国·14·TG@kkouokk"
+      - "🇺🇸·美国·15·TG@kkouokk"
+      - "🇺🇸·美国·16·TG@kkouokk"
+      - "🇺🇸·美国·17·TG@kkouokk"
+      - "🇺🇸·美国·18·TG@kkouokk"
+      - "🇺🇸·美国·19·TG@kkouokk"
+      - "🇺🇸·美国·20·TG@kkouokk"
+      - "🇺🇸·美国·21·TG@kkouokk"
+      - "🇺🇸·美国·22·TG@kkouokk"
+      - "🇳🇴·挪威·23·TG@kkouokk"
+      - "🇺🇸·美国·24·TG@kkouokk"
+      - "🇺🇸·美国·25·TG@kkouokk"
+      - "🇺🇸·美国·26·TG@kkouokk"
+      - "🇺🇸·美国·27·TG@kkouokk"
+      - "🇺🇸·美国·28·TG@kkouokk"
+      - "🇺🇸·美国·29·TG@kkouokk"
+      - "🇺🇸·美国·30·TG@kkouokk"
+      - "🇺🇸·美国·31·TG@kkouokk"
+      - "🇺🇸·美国·32·TG@kkouokk"
+      - "🇺🇸·美国·33·TG@kkouokk"
+      - "🇺🇸·美国·34·TG@kkouokk"
+      - "🇺🇸·美国·35·TG@kkouokk"
+      - "🇺🇸·美国·36·TG@kkouokk"
+      - "🇺🇸·美国·37·TG@kkouokk"
+      - "🇺🇸·美国·38·TG@kkouokk"
+      - "🇺🇸·美国·39·TG@kkouokk"
+      - "🇺🇸·美国·40·TG@kkouokk"
+      - "🇺🇸·美国·41·TG@kkouokk"
+      - "🇺🇸·美国·42·TG@kkouokk"
+      - "🇺🇸·美国·43·TG@kkouokk"
+      - "🇺🇸·美国·44·TG@kkouokk"
+      - "🇺🇸·美国·45·TG@kkouokk"
+      - "🇺🇸·美国·46·TG@kkouokk"
+      - "🇺🇸·美国·47·TG@kkouokk"
+      - "🇺🇸·美国·48·TG@kkouokk"
+      - "🇺🇸·美国·49·TG@kkouokk"
+      - "🇺🇸·美国·50·TG@kkouokk"
+      - "🇺🇸·美国·51·TG@kkouokk"
+      - "🇺🇸·美国·52·TG@kkouokk"
+      - "🇺🇸·美国·53·TG@kkouokk"
+      - "🇳🇴·挪威·54·TG@kkouokk"
+      - "🇺🇸·美国·55·TG@kkouokk"
+      - "🇺🇸·美国·56·TG@kkouokk"
+      - "🇺🇸·美国·57·TG@kkouokk"
+      - "🇺🇸·美国·58·TG@kkouokk"
+      - "🇺🇸·美国·59·TG@kkouokk"
+      - "🇳🇴·挪威·60·TG@kkouokk"
+      - "🇺🇸·美国·61·TG@kkouokk"
+      - "🇺🇸·美国·62·TG@kkouokk"
+      - "🇺🇸·美国·63·TG@kkouokk"
+      - "🇺🇸·美国·64·TG@kkouokk"
+      - "🇺🇸·美国·65·TG@kkouokk"
+      - "🇺🇸·美国·66·TG@kkouokk"
+      - "🇺🇸·美国·67·TG@kkouokk"
+      - "🇺🇸·美国·68·TG@kkouokk"
+      - "🇺🇸·美国·69·TG@kkouokk"
+      - "🇺🇸·美国·70·TG@kkouokk"
+      - "🇺🇸·美国·71·TG@kkouokk"
+      - "🇺🇸·美国·72·TG@kkouokk"
+      - "🇺🇸·美国·73·TG@kkouokk"
+      - "🇺🇸·美国·74·TG@kkouokk"
+      - "🇳🇴·挪威·75·TG@kkouokk"
+      - "🇺🇸·美国·76·TG@kkouokk"
+      - "🇺🇸·美国·77·TG@kkouokk"
+      - "🇺🇸·美国·78·TG@kkouokk"
+      - "🇺🇸·美国·79·TG@kkouokk"
+      - "🇺🇸·美国·80·TG@kkouokk"
+      - "🇺🇸·美国·81·TG@kkouokk"
+      - "🇺🇸·美国·82·TG@kkouokk"
+      - "🇺🇸·美国·83·TG@kkouokk"
+      - "🇺🇸·美国·84·TG@kkouokk"
+      - "🇺🇸·美国·85·TG@kkouokk"
+      - "🇺🇸·美国·86·TG@kkouokk"
+      - "🇺🇸·美国·87·TG@kkouokk"
+      - "🇯🇵·日本·88·TG@kkouokk"
+      - "🇯🇵·日本·89·TG@kkouokk"
+      - "🇯🇵·日本·90·TG@kkouokk"
+      - "🇯🇵·日本·91·TG@kkouokk"
+      - "🇯🇵·日本·92·TG@kkouokk"
+      - "🇯🇵·日本·93·TG@kkouokk"
+      - "🇯🇵·日本·94·TG@kkouokk"
+      - "🇯🇵·日本·95·TG@kkouokk"
+      - "🇧🇷·巴西·96·TG@kkouokk"
+      - "🇯🇵·日本·97·TG@kkouokk"
+      - "🇨🇳·中国·98·TG@kkouokk"
+      - "🇨🇳·中国·99·TG@kkouokk"
+      - "🇨🇳·中国·100·TG@kkouokk"
+      - "🇨🇳·中国·101·TG@kkouokk"
+      - "🇨🇳·中国·102·TG@kkouokk"
+      - "🇨🇳·中国·103·TG@kkouokk"
+      - "🇨🇳·中国·104·TG@kkouokk"
+      - "🇨🇳·中国·105·TG@kkouokk"
+      - "🇨🇳·中国·106·TG@kkouokk"
+      - "🇰🇷·韩国·107·TG@kkouokk"
+      - "🇰🇷·韩国·108·TG@kkouokk"
+      - "🇰🇷·韩国·109·TG@kkouokk"
+      - "🇰🇷·韩国·110·TG@kkouokk"
+      - "🇰🇷·韩国·111·TG@kkouokk"
+      - "🇰🇷·韩国·112·TG@kkouokk"
+      - "🇰🇷·韩国·113·TG@kkouokk"
+      - "🇰🇷·韩国·114·TG@kkouokk"
+      - "🇰🇷·韩国·115·TG@kkouokk"
+      - "🇰🇷·韩国·116·TG@kkouokk"
+      - "🇰🇷·韩国·117·TG@kkouokk"
+      - "🇰🇷·韩国·118·TG@kkouokk"
+      - "🇰🇷·韩国·119·TG@kkouokk"
+      - "🇨🇳·中国·120·TG@kkouokk"
+      - "🇨🇳·中国·121·TG@kkouokk"
+      - "🇨🇳·中国·122·TG@kkouokk"
+      - "🇨🇳·中国·123·TG@kkouokk"
+      - "🇨🇳·中国·124·TG@kkouokk"
+      - "🇨🇳·中国·125·TG@kkouokk"
+      - "🇨🇳·中国·126·TG@kkouokk"
+      - "🇨🇳·中国·127·TG@kkouokk"
+      - "🇨🇳·中国·128·TG@kkouokk"
+      - "🇨🇳·中国·129·TG@kkouokk"
+      - "🇨🇳·中国·130·TG@kkouokk"
+      - "🇬🇧·英国·131·TG@kkouokk"
+      - "🇬🇧·英国·132·TG@kkouokk"
+      - "🇬🇧·英国·133·TG@kkouokk"
+      - "🇺🇸·美国·134·TG@kkouokk"
+      - "🇬🇧·英国·135·TG@kkouokk"
+      - "🇬🇧·英国·136·TG@kkouokk"
+      - "🇬🇧·英国·137·TG@kkouokk"
+      - "🇬🇧·英国·138·TG@kkouokk"
+      - "🇬🇧·英国·139·TG@kkouokk"
+      - "🇬🇧·英国·140·TG@kkouokk"
+      - "🇬🇧·英国·141·TG@kkouokk"
+      - "🇬🇧·英国·142·TG@kkouokk"
+      - "🇬🇧·英国·143·TG@kkouokk"
+      - "🇺🇸·美国·144·TG@kkouokk"
+      - "🇺🇸·美国·145·TG@kkouokk"
+      - "🇬🇧·英国·146·TG@kkouokk"
+      - "🇺🇸·美国·147·TG@kkouokk"
+      - "🇺🇸·美国·148·TG@kkouokk"
+      - "🇺🇸·美国·149·TG@kkouokk"
+      - "🇬🇧·英国·150·TG@kkouokk"
+      - "🇬🇧·英国·151·TG@kkouokk"
+      - "🇬🇧·英国·152·TG@kkouokk"
+      - "🇬🇧·英国·153·TG@kkouokk"
+      - "🇬🇧·英国·154·TG@kkouokk"
+      - "🇬🇧·英国·155·TG@kkouokk"
+      - "🇬🇧·英国·156·TG@kkouokk"
+      - "🇬🇧·英国·157·TG@kkouokk"
+      - "🇺🇸·美国·158·TG@kkouokk"
+      - "🇩🇪·德国·159·TG@kkouokk"
+      - "🇦🇹·奥地利·160·TG@kkouokk"
+      - "🇦🇹·奥地利·161·TG@kkouokk"
+      - "🇦🇹·奥地利·162·TG@kkouokk"
+      - "🇦🇺·澳大利亚·163·TG@kkouokk"
+      - "🇦🇹·奥地利·164·TG@kkouokk"
+      - "🇦🇹·奥地利·165·TG@kkouokk"
+      - "🇦🇹·奥地利·166·TG@kkouokk"
+      - "🇳🇱·荷兰·167·TG@kkouokk"
+      - "🇳🇱·荷兰·168·TG@kkouokk"
+      - "🇳🇱·荷兰·169·TG@kkouokk"
+      - "🇸🇪·瑞典·170·TG@kkouokk"
+      - "🇸🇪·瑞典·171·TG@kkouokk"
+      - "🇸🇪·瑞典·172·TG@kkouokk"
+      - "🇺🇦·乌克兰·173·TG@kkouokk"
+      - "🇺🇦·乌克兰·174·TG@kkouokk"
+      - "🇺🇦·乌克兰·175·TG@kkouokk"
+      - "🇺🇦·乌克兰·176·TG@kkouokk"
+      - "🇺🇦·乌克兰·177·TG@kkouokk"
+      - "🇦🇺·澳大利亚·178·TG@kkouokk"
+      - "🇦🇺·澳大利亚·179·TG@kkouokk"
+      - "🇷🇺·俄罗斯·180·TG@kkouokk"
+      - "🇷🇺·俄罗斯·181·TG@kkouokk"
+      - "🇷🇺·俄罗斯·182·TG@kkouokk"
+      - "🇰🇼·科威特·183·TG@kkouokk"
+      - "🇷🇺·俄罗斯·184·TG@kkouokk"
+      - "🇺🇸·美国·185·TG@kkouokk"
+      - "🇺🇸·美国·186·TG@kkouokk"
+      - "🇨🇭·瑞士·187·TG@kkouokk"
+      - "🇺🇸·美国·188·TG@kkouokk"
+      - "🇷🇺·俄罗斯·189·TG@kkouokk"
+      - "🇺🇸·美国·190·TG@kkouokk"
+      - "🇷🇺·俄罗斯·191·TG@kkouokk"
+      - "🇨🇭·瑞士·192·TG@kkouokk"
+      - "🇷🇺·俄罗斯·193·TG@kkouokk"
+      - "🇷🇺·俄罗斯·194·TG@kkouokk"
+      - "🇷🇺·俄罗斯·195·TG@kkouokk"
+      - "🇷🇺·俄罗斯·196·TG@kkouokk"
       - "🇺🇸·美国·197·TG@kkouokk"
+      - "🇺🇸·美国·198·TG@kkouokk"
+      - "🇨🇭·瑞士·199·TG@kkouokk"
+      - "🇫🇷·法国·200·TG@kkouokk"
+      - "🇫🇷·法国·201·TG@kkouokk"
+      - "🇺🇸·美国·202·TG@kkouokk"
+      - "🇬🇧·英国·203·TG@kkouokk"
+      - "🇦🇹·奥地利·204·TG@kkouokk"
+      - "🇺🇸·美国·205·TG@kkouokk"
+      - "🇺🇸·美国·206·TG@kkouokk"
+      - "🇺🇸·美国·207·TG@kkouokk"
+      - "🇦🇹·奥地利·208·TG@kkouokk"
+      - "🇩🇪·德国·209·TG@kkouokk"
+      - "🇬🇧·英国·210·TG@kkouokk"
+      - "🇺🇸·美国·211·TG@kkouokk"
+      - "🇺🇸·美国·212·TG@kkouokk"
+      - "🇧🇷·巴西·213·TG@kkouokk"
+      - "🇦🇺·澳大利亚·214·TG@kkouokk"
+      - "🇺🇸·美国·215·TG@kkouokk"
+      - "🇦🇺·澳大利亚·216·TG@kkouokk"
+      - "🇨🇳·中国·217·TG@kkouokk"
+      - "🇦🇺·澳大利亚·218·TG@kkouokk"
+      - "🇰🇷·韩国·219·TG@kkouokk"
+      - "🇰🇷·韩国·220·TG@kkouokk"
+      - "🇰🇷·韩国·221·TG@kkouokk"
+      - "🇰🇷·韩国·222·TG@kkouokk"
+      - "🇺🇸·美国·223·TG@kkouokk"
+      - "🇺🇸·美国·224·TG@kkouokk"
+      - "🇨🇳·中国·225·TG@kkouokk"
+      - "🇺🇸·美国·226·TG@kkouokk"
+      - "🇦🇺·澳大利亚·227·TG@kkouokk"
+      - "🇺🇸·美国·228·TG@kkouokk"
+      - "🇨🇳·中国·229·TG@kkouokk"
+      - "🇺🇸·美国·230·TG@kkouokk"
+      - "🇺🇸·美国·231·TG@kkouokk"
+      - "🇺🇸·美国·232·TG@kkouokk"
+      - "🇺🇸·美国·233·TG@kkouokk"
+      - "🇺🇸·美国·234·TG@kkouokk"
+      - "🇺🇸·美国·235·TG@kkouokk"
+      - "🇺🇸·美国·236·TG@kkouokk"
+      - "🇺🇸·美国·237·TG@kkouokk"
+      - "🇦🇹·奥地利·238·TG@kkouokk"
+      - "🇺🇸·美国·239·TG@kkouokk"
+      - "🇳🇱·荷兰·240·TG@kkouokk"
+      - "🇺🇸·美国·241·TG@kkouokk"
+      - "🇺🇸·美国·242·TG@kkouokk"
+      - "🇺🇸·美国·243·TG@kkouokk"
+      - "🇺🇸·美国·244·TG@kkouokk"
+      - "🇺🇸·美国·245·TG@kkouokk"
+      - "🇦🇺·澳大利亚·246·TG@kkouokk"
+      - "🇺🇸·美国·247·TG@kkouokk"
+      - "🇺🇸·美国·248·TG@kkouokk"
+      - "🇷🇺·俄罗斯·249·TG@kkouokk"
+      - "🇨🇳·中国·250·TG@kkouokk"
+      - "🇦🇺·澳大利亚·251·TG@kkouokk"
+      - "🇦🇺·澳大利亚·252·TG@kkouokk"
+      - "🇦🇺·澳大利亚·253·TG@kkouokk"
+      - "🇰🇷·韩国·254·TG@kkouokk"
+      - "🇰🇷·韩国·255·TG@kkouokk"
+      - "🇰🇷·韩国·256·TG@kkouokk"
+      - "🇰🇷·韩国·257·TG@kkouokk"
+      - "🇺🇸·美国·258·TG@kkouokk"
+      - "🇺🇸·美国·259·TG@kkouokk"
+      - "🇨🇳·中国·260·TG@kkouokk"
+      - "🇺🇸·美国·261·TG@kkouokk"
+      - "🇺🇸·美国·262·TG@kkouokk"
+      - "🇨🇳·中国·263·TG@kkouokk"
+      - "🇦🇺·澳大利亚·264·TG@kkouokk"
+      - "🇨🇳·中国·265·TG@kkouokk"
+      - "🇨🇳·中国·266·TG@kkouokk"
+      - "🇺🇸·美国·267·TG@kkouokk"
+      - "🇨🇳·中国·268·TG@kkouokk"
+      - "🇺🇸·美国·269·TG@kkouokk"
+      - "🇺🇸·美国·270·TG@kkouokk"
+      - "🇺🇸·美国·271·TG@kkouokk"
+      - "🇺🇸·美国·272·TG@kkouokk"
+      - "🇺🇸·美国·273·TG@kkouokk"
+      - "🇺🇸·美国·274·TG@kkouokk"
+      - "🇺🇸·美国·275·TG@kkouokk"
+      - "🇺🇸·美国·276·TG@kkouokk"
+      - "🇺🇸·美国·277·TG@kkouokk"
+      - "🇺🇸·TG@kkouokk·10-27更新"
+      - "🇺🇸·延迟不代表速度自测"
+      - "🇺🇸·更多关注TG@kkouokk"
   - name: "🍎 苹果服务"
     type: select
     proxies:
       - "🚀 节点选择"
       - "🎯 全球直连"
+      - "🇺🇸·美国·1·TG@kkouokk"
+      - "🇺🇸·美国·2·TG@kkouokk"
+      - "🇺🇸·美国·3·TG@kkouokk"
+      - "🇺🇸·美国·4·TG@kkouokk"
+      - "🇳🇴·挪威·5·TG@kkouokk"
+      - "🇺🇸·美国·6·TG@kkouokk"
+      - "🇺🇸·美国·7·TG@kkouokk"
+      - "🇺🇸·美国·8·TG@kkouokk"
+      - "🇺🇸·美国·9·TG@kkouokk"
+      - "🇺🇸·美国·10·TG@kkouokk"
+      - "🇺🇸·美国·11·TG@kkouokk"
+      - "🇺🇸·美国·12·TG@kkouokk"
+      - "🇺🇸·美国·13·TG@kkouokk"
+      - "🇺🇸·美国·14·TG@kkouokk"
+      - "🇺🇸·美国·15·TG@kkouokk"
+      - "🇺🇸·美国·16·TG@kkouokk"
+      - "🇺🇸·美国·17·TG@kkouokk"
+      - "🇺🇸·美国·18·TG@kkouokk"
+      - "🇺🇸·美国·19·TG@kkouokk"
+      - "🇺🇸·美国·20·TG@kkouokk"
+      - "🇺🇸·美国·21·TG@kkouokk"
+      - "🇺🇸·美国·22·TG@kkouokk"
+      - "🇳🇴·挪威·23·TG@kkouokk"
+      - "🇺🇸·美国·24·TG@kkouokk"
+      - "🇺🇸·美国·25·TG@kkouokk"
+      - "🇺🇸·美国·26·TG@kkouokk"
+      - "🇺🇸·美国·27·TG@kkouokk"
+      - "🇺🇸·美国·28·TG@kkouokk"
+      - "🇺🇸·美国·29·TG@kkouokk"
+      - "🇺🇸·美国·30·TG@kkouokk"
+      - "🇺🇸·美国·31·TG@kkouokk"
+      - "🇺🇸·美国·32·TG@kkouokk"
+      - "🇺🇸·美国·33·TG@kkouokk"
+      - "🇺🇸·美国·34·TG@kkouokk"
+      - "🇺🇸·美国·35·TG@kkouokk"
+      - "🇺🇸·美国·36·TG@kkouokk"
+      - "🇺🇸·美国·37·TG@kkouokk"
+      - "🇺🇸·美国·38·TG@kkouokk"
+      - "🇺🇸·美国·39·TG@kkouokk"
+      - "🇺🇸·美国·40·TG@kkouokk"
+      - "🇺🇸·美国·41·TG@kkouokk"
+      - "🇺🇸·美国·42·TG@kkouokk"
+      - "🇺🇸·美国·43·TG@kkouokk"
+      - "🇺🇸·美国·44·TG@kkouokk"
+      - "🇺🇸·美国·45·TG@kkouokk"
+      - "🇺🇸·美国·46·TG@kkouokk"
+      - "🇺🇸·美国·47·TG@kkouokk"
+      - "🇺🇸·美国·48·TG@kkouokk"
+      - "🇺🇸·美国·49·TG@kkouokk"
+      - "🇺🇸·美国·50·TG@kkouokk"
+      - "🇺🇸·美国·51·TG@kkouokk"
+      - "🇺🇸·美国·52·TG@kkouokk"
+      - "🇺🇸·美国·53·TG@kkouokk"
+      - "🇳🇴·挪威·54·TG@kkouokk"
+      - "🇺🇸·美国·55·TG@kkouokk"
+      - "🇺🇸·美国·56·TG@kkouokk"
+      - "🇺🇸·美国·57·TG@kkouokk"
+      - "🇺🇸·美国·58·TG@kkouokk"
+      - "🇺🇸·美国·59·TG@kkouokk"
+      - "🇳🇴·挪威·60·TG@kkouokk"
+      - "🇺🇸·美国·61·TG@kkouokk"
+      - "🇺🇸·美国·62·TG@kkouokk"
+      - "🇺🇸·美国·63·TG@kkouokk"
+      - "🇺🇸·美国·64·TG@kkouokk"
+      - "🇺🇸·美国·65·TG@kkouokk"
+      - "🇺🇸·美国·66·TG@kkouokk"
+      - "🇺🇸·美国·67·TG@kkouokk"
+      - "🇺🇸·美国·68·TG@kkouokk"
+      - "🇺🇸·美国·69·TG@kkouokk"
+      - "🇺🇸·美国·70·TG@kkouokk"
+      - "🇺🇸·美国·71·TG@kkouokk"
+      - "🇺🇸·美国·72·TG@kkouokk"
+      - "🇺🇸·美国·73·TG@kkouokk"
+      - "🇺🇸·美国·74·TG@kkouokk"
+      - "🇳🇴·挪威·75·TG@kkouokk"
+      - "🇺🇸·美国·76·TG@kkouokk"
+      - "🇺🇸·美国·77·TG@kkouokk"
+      - "🇺🇸·美国·78·TG@kkouokk"
+      - "🇺🇸·美国·79·TG@kkouokk"
+      - "🇺🇸·美国·80·TG@kkouokk"
+      - "🇺🇸·美国·81·TG@kkouokk"
+      - "🇺🇸·美国·82·TG@kkouokk"
+      - "🇺🇸·美国·83·TG@kkouokk"
+      - "🇺🇸·美国·84·TG@kkouokk"
+      - "🇺🇸·美国·85·TG@kkouokk"
+      - "🇺🇸·美国·86·TG@kkouokk"
+      - "🇺🇸·美国·87·TG@kkouokk"
+      - "🇯🇵·日本·88·TG@kkouokk"
+      - "🇯🇵·日本·89·TG@kkouokk"
+      - "🇯🇵·日本·90·TG@kkouokk"
+      - "🇯🇵·日本·91·TG@kkouokk"
+      - "🇯🇵·日本·92·TG@kkouokk"
+      - "🇯🇵·日本·93·TG@kkouokk"
+      - "🇯🇵·日本·94·TG@kkouokk"
+      - "🇯🇵·日本·95·TG@kkouokk"
+      - "🇧🇷·巴西·96·TG@kkouokk"
+      - "🇯🇵·日本·97·TG@kkouokk"
+      - "🇨🇳·中国·98·TG@kkouokk"
+      - "🇨🇳·中国·99·TG@kkouokk"
+      - "🇨🇳·中国·100·TG@kkouokk"
+      - "🇨🇳·中国·101·TG@kkouokk"
+      - "🇨🇳·中国·102·TG@kkouokk"
+      - "🇨🇳·中国·103·TG@kkouokk"
+      - "🇨🇳·中国·104·TG@kkouokk"
+      - "🇨🇳·中国·105·TG@kkouokk"
+      - "🇨🇳·中国·106·TG@kkouokk"
+      - "🇰🇷·韩国·107·TG@kkouokk"
+      - "🇰🇷·韩国·108·TG@kkouokk"
+      - "🇰🇷·韩国·109·TG@kkouokk"
+      - "🇰🇷·韩国·110·TG@kkouokk"
+      - "🇰🇷·韩国·111·TG@kkouokk"
+      - "🇰🇷·韩国·112·TG@kkouokk"
+      - "🇰🇷·韩国·113·TG@kkouokk"
+      - "🇰🇷·韩国·114·TG@kkouokk"
+      - "🇰🇷·韩国·115·TG@kkouokk"
+      - "🇰🇷·韩国·116·TG@kkouokk"
+      - "🇰🇷·韩国·117·TG@kkouokk"
+      - "🇰🇷·韩国·118·TG@kkouokk"
+      - "🇰🇷·韩国·119·TG@kkouokk"
+      - "🇨🇳·中国·120·TG@kkouokk"
+      - "🇨🇳·中国·121·TG@kkouokk"
+      - "🇨🇳·中国·122·TG@kkouokk"
+      - "🇨🇳·中国·123·TG@kkouokk"
+      - "🇨🇳·中国·124·TG@kkouokk"
+      - "🇨🇳·中国·125·TG@kkouokk"
+      - "🇨🇳·中国·126·TG@kkouokk"
+      - "🇨🇳·中国·127·TG@kkouokk"
+      - "🇨🇳·中国·128·TG@kkouokk"
+      - "🇨🇳·中国·129·TG@kkouokk"
+      - "🇨🇳·中国·130·TG@kkouokk"
+      - "🇬🇧·英国·131·TG@kkouokk"
+      - "🇬🇧·英国·132·TG@kkouokk"
+      - "🇬🇧·英国·133·TG@kkouokk"
+      - "🇺🇸·美国·134·TG@kkouokk"
+      - "🇬🇧·英国·135·TG@kkouokk"
+      - "🇬🇧·英国·136·TG@kkouokk"
+      - "🇬🇧·英国·137·TG@kkouokk"
+      - "🇬🇧·英国·138·TG@kkouokk"
+      - "🇬🇧·英国·139·TG@kkouokk"
+      - "🇬🇧·英国·140·TG@kkouokk"
+      - "🇬🇧·英国·141·TG@kkouokk"
+      - "🇬🇧·英国·142·TG@kkouokk"
+      - "🇬🇧·英国·143·TG@kkouokk"
+      - "🇺🇸·美国·144·TG@kkouokk"
+      - "🇺🇸·美国·145·TG@kkouokk"
+      - "🇬🇧·英国·146·TG@kkouokk"
+      - "🇺🇸·美国·147·TG@kkouokk"
+      - "🇺🇸·美国·148·TG@kkouokk"
+      - "🇺🇸·美国·149·TG@kkouokk"
+      - "🇬🇧·英国·150·TG@kkouokk"
+      - "🇬🇧·英国·151·TG@kkouokk"
+      - "🇬🇧·英国·152·TG@kkouokk"
+      - "🇬🇧·英国·153·TG@kkouokk"
+      - "🇬🇧·英国·154·TG@kkouokk"
+      - "🇬🇧·英国·155·TG@kkouokk"
+      - "🇬🇧·英国·156·TG@kkouokk"
+      - "🇬🇧·英国·157·TG@kkouokk"
+      - "🇺🇸·美国·158·TG@kkouokk"
+      - "🇩🇪·德国·159·TG@kkouokk"
+      - "🇦🇹·奥地利·160·TG@kkouokk"
+      - "🇦🇹·奥地利·161·TG@kkouokk"
+      - "🇦🇹·奥地利·162·TG@kkouokk"
+      - "🇦🇺·澳大利亚·163·TG@kkouokk"
+      - "🇦🇹·奥地利·164·TG@kkouokk"
+      - "🇦🇹·奥地利·165·TG@kkouokk"
+      - "🇦🇹·奥地利·166·TG@kkouokk"
+      - "🇳🇱·荷兰·167·TG@kkouokk"
+      - "🇳🇱·荷兰·168·TG@kkouokk"
+      - "🇳🇱·荷兰·169·TG@kkouokk"
+      - "🇸🇪·瑞典·170·TG@kkouokk"
+      - "🇸🇪·瑞典·171·TG@kkouokk"
+      - "🇸🇪·瑞典·172·TG@kkouokk"
+      - "🇺🇦·乌克兰·173·TG@kkouokk"
+      - "🇺🇦·乌克兰·174·TG@kkouokk"
+      - "🇺🇦·乌克兰·175·TG@kkouokk"
+      - "🇺🇦·乌克兰·176·TG@kkouokk"
+      - "🇺🇦·乌克兰·177·TG@kkouokk"
+      - "🇦🇺·澳大利亚·178·TG@kkouokk"
+      - "🇦🇺·澳大利亚·179·TG@kkouokk"
+      - "🇷🇺·俄罗斯·180·TG@kkouokk"
+      - "🇷🇺·俄罗斯·181·TG@kkouokk"
+      - "🇷🇺·俄罗斯·182·TG@kkouokk"
+      - "🇰🇼·科威特·183·TG@kkouokk"
+      - "🇷🇺·俄罗斯·184·TG@kkouokk"
+      - "🇺🇸·美国·185·TG@kkouokk"
+      - "🇺🇸·美国·186·TG@kkouokk"
+      - "🇨🇭·瑞士·187·TG@kkouokk"
+      - "🇺🇸·美国·188·TG@kkouokk"
+      - "🇷🇺·俄罗斯·189·TG@kkouokk"
+      - "🇺🇸·美国·190·TG@kkouokk"
+      - "🇷🇺·俄罗斯·191·TG@kkouokk"
+      - "🇨🇭·瑞士·192·TG@kkouokk"
+      - "🇷🇺·俄罗斯·193·TG@kkouokk"
+      - "🇷🇺·俄罗斯·194·TG@kkouokk"
+      - "🇷🇺·俄罗斯·195·TG@kkouokk"
+      - "🇷🇺·俄罗斯·196·TG@kkouokk"
       - "🇺🇸·美国·197·TG@kkouokk"
+      - "🇺🇸·美国·198·TG@kkouokk"
+      - "🇨🇭·瑞士·199·TG@kkouokk"
+      - "🇫🇷·法国·200·TG@kkouokk"
+      - "🇫🇷·法国·201·TG@kkouokk"
+      - "🇺🇸·美国·202·TG@kkouokk"
+      - "🇬🇧·英国·203·TG@kkouokk"
+      - "🇦🇹·奥地利·204·TG@kkouokk"
+      - "🇺🇸·美国·205·TG@kkouokk"
+      - "🇺🇸·美国·206·TG@kkouokk"
+      - "🇺🇸·美国·207·TG@kkouokk"
+      - "🇦🇹·奥地利·208·TG@kkouokk"
+      - "🇩🇪·德国·209·TG@kkouokk"
+      - "🇬🇧·英国·210·TG@kkouokk"
+      - "🇺🇸·美国·211·TG@kkouokk"
+      - "🇺🇸·美国·212·TG@kkouokk"
+      - "🇧🇷·巴西·213·TG@kkouokk"
+      - "🇦🇺·澳大利亚·214·TG@kkouokk"
+      - "🇺🇸·美国·215·TG@kkouokk"
+      - "🇦🇺·澳大利亚·216·TG@kkouokk"
+      - "🇨🇳·中国·217·TG@kkouokk"
+      - "🇦🇺·澳大利亚·218·TG@kkouokk"
+      - "🇰🇷·韩国·219·TG@kkouokk"
+      - "🇰🇷·韩国·220·TG@kkouokk"
+      - "🇰🇷·韩国·221·TG@kkouokk"
+      - "🇰🇷·韩国·222·TG@kkouokk"
+      - "🇺🇸·美国·223·TG@kkouokk"
+      - "🇺🇸·美国·224·TG@kkouokk"
+      - "🇨🇳·中国·225·TG@kkouokk"
+      - "🇺🇸·美国·226·TG@kkouokk"
+      - "🇦🇺·澳大利亚·227·TG@kkouokk"
+      - "🇺🇸·美国·228·TG@kkouokk"
+      - "🇨🇳·中国·229·TG@kkouokk"
+      - "🇺🇸·美国·230·TG@kkouokk"
+      - "🇺🇸·美国·231·TG@kkouokk"
+      - "🇺🇸·美国·232·TG@kkouokk"
+      - "🇺🇸·美国·233·TG@kkouokk"
+      - "🇺🇸·美国·234·TG@kkouokk"
+      - "🇺🇸·美国·235·TG@kkouokk"
+      - "🇺🇸·美国·236·TG@kkouokk"
+      - "🇺🇸·美国·237·TG@kkouokk"
+      - "🇦🇹·奥地利·238·TG@kkouokk"
+      - "🇺🇸·美国·239·TG@kkouokk"
+      - "🇳🇱·荷兰·240·TG@kkouokk"
+      - "🇺🇸·美国·241·TG@kkouokk"
+      - "🇺🇸·美国·242·TG@kkouokk"
+      - "🇺🇸·美国·243·TG@kkouokk"
+      - "🇺🇸·美国·244·TG@kkouokk"
+      - "🇺🇸·美国·245·TG@kkouokk"
+      - "🇦🇺·澳大利亚·246·TG@kkouokk"
+      - "🇺🇸·美国·247·TG@kkouokk"
+      - "🇺🇸·美国·248·TG@kkouokk"
+      - "🇷🇺·俄罗斯·249·TG@kkouokk"
+      - "🇨🇳·中国·250·TG@kkouokk"
+      - "🇦🇺·澳大利亚·251·TG@kkouokk"
+      - "🇦🇺·澳大利亚·252·TG@kkouokk"
+      - "🇦🇺·澳大利亚·253·TG@kkouokk"
+      - "🇰🇷·韩国·254·TG@kkouokk"
+      - "🇰🇷·韩国·255·TG@kkouokk"
+      - "🇰🇷·韩国·256·TG@kkouokk"
+      - "🇰🇷·韩国·257·TG@kkouokk"
+      - "🇺🇸·美国·258·TG@kkouokk"
+      - "🇺🇸·美国·259·TG@kkouokk"
+      - "🇨🇳·中国·260·TG@kkouokk"
+      - "🇺🇸·美国·261·TG@kkouokk"
+      - "🇺🇸·美国·262·TG@kkouokk"
+      - "🇨🇳·中国·263·TG@kkouokk"
+      - "🇦🇺·澳大利亚·264·TG@kkouokk"
+      - "🇨🇳·中国·265·TG@kkouokk"
+      - "🇨🇳·中国·266·TG@kkouokk"
+      - "🇺🇸·美国·267·TG@kkouokk"
+      - "🇨🇳·中国·268·TG@kkouokk"
+      - "🇺🇸·美国·269·TG@kkouokk"
+      - "🇺🇸·美国·270·TG@kkouokk"
+      - "🇺🇸·美国·271·TG@kkouokk"
+      - "🇺🇸·美国·272·TG@kkouokk"
+      - "🇺🇸·美国·273·TG@kkouokk"
+      - "🇺🇸·美国·274·TG@kkouokk"
+      - "🇺🇸·美国·275·TG@kkouokk"
+      - "🇺🇸·美国·276·TG@kkouokk"
+      - "🇺🇸·美国·277·TG@kkouokk"
+      - "🇺🇸·TG@kkouokk·10-27更新"
+      - "🇺🇸·延迟不代表速度自测"
+      - "🇺🇸·更多关注TG@kkouokk"
   - name: "🎯 全球直连"
     type: select
     proxies:
@@ -135,7 +5394,286 @@ proxy-groups:
       - "🚀 节点选择"
       - "🎯 全球直连"
       - ♻️ 自动选择
+      - "🇺🇸·美国·1·TG@kkouokk"
+      - "🇺🇸·美国·2·TG@kkouokk"
+      - "🇺🇸·美国·3·TG@kkouokk"
+      - "🇺🇸·美国·4·TG@kkouokk"
+      - "🇳🇴·挪威·5·TG@kkouokk"
+      - "🇺🇸·美国·6·TG@kkouokk"
+      - "🇺🇸·美国·7·TG@kkouokk"
+      - "🇺🇸·美国·8·TG@kkouokk"
+      - "🇺🇸·美国·9·TG@kkouokk"
+      - "🇺🇸·美国·10·TG@kkouokk"
+      - "🇺🇸·美国·11·TG@kkouokk"
+      - "🇺🇸·美国·12·TG@kkouokk"
+      - "🇺🇸·美国·13·TG@kkouokk"
+      - "🇺🇸·美国·14·TG@kkouokk"
+      - "🇺🇸·美国·15·TG@kkouokk"
+      - "🇺🇸·美国·16·TG@kkouokk"
+      - "🇺🇸·美国·17·TG@kkouokk"
+      - "🇺🇸·美国·18·TG@kkouokk"
+      - "🇺🇸·美国·19·TG@kkouokk"
+      - "🇺🇸·美国·20·TG@kkouokk"
+      - "🇺🇸·美国·21·TG@kkouokk"
+      - "🇺🇸·美国·22·TG@kkouokk"
+      - "🇳🇴·挪威·23·TG@kkouokk"
+      - "🇺🇸·美国·24·TG@kkouokk"
+      - "🇺🇸·美国·25·TG@kkouokk"
+      - "🇺🇸·美国·26·TG@kkouokk"
+      - "🇺🇸·美国·27·TG@kkouokk"
+      - "🇺🇸·美国·28·TG@kkouokk"
+      - "🇺🇸·美国·29·TG@kkouokk"
+      - "🇺🇸·美国·30·TG@kkouokk"
+      - "🇺🇸·美国·31·TG@kkouokk"
+      - "🇺🇸·美国·32·TG@kkouokk"
+      - "🇺🇸·美国·33·TG@kkouokk"
+      - "🇺🇸·美国·34·TG@kkouokk"
+      - "🇺🇸·美国·35·TG@kkouokk"
+      - "🇺🇸·美国·36·TG@kkouokk"
+      - "🇺🇸·美国·37·TG@kkouokk"
+      - "🇺🇸·美国·38·TG@kkouokk"
+      - "🇺🇸·美国·39·TG@kkouokk"
+      - "🇺🇸·美国·40·TG@kkouokk"
+      - "🇺🇸·美国·41·TG@kkouokk"
+      - "🇺🇸·美国·42·TG@kkouokk"
+      - "🇺🇸·美国·43·TG@kkouokk"
+      - "🇺🇸·美国·44·TG@kkouokk"
+      - "🇺🇸·美国·45·TG@kkouokk"
+      - "🇺🇸·美国·46·TG@kkouokk"
+      - "🇺🇸·美国·47·TG@kkouokk"
+      - "🇺🇸·美国·48·TG@kkouokk"
+      - "🇺🇸·美国·49·TG@kkouokk"
+      - "🇺🇸·美国·50·TG@kkouokk"
+      - "🇺🇸·美国·51·TG@kkouokk"
+      - "🇺🇸·美国·52·TG@kkouokk"
+      - "🇺🇸·美国·53·TG@kkouokk"
+      - "🇳🇴·挪威·54·TG@kkouokk"
+      - "🇺🇸·美国·55·TG@kkouokk"
+      - "🇺🇸·美国·56·TG@kkouokk"
+      - "🇺🇸·美国·57·TG@kkouokk"
+      - "🇺🇸·美国·58·TG@kkouokk"
+      - "🇺🇸·美国·59·TG@kkouokk"
+      - "🇳🇴·挪威·60·TG@kkouokk"
+      - "🇺🇸·美国·61·TG@kkouokk"
+      - "🇺🇸·美国·62·TG@kkouokk"
+      - "🇺🇸·美国·63·TG@kkouokk"
+      - "🇺🇸·美国·64·TG@kkouokk"
+      - "🇺🇸·美国·65·TG@kkouokk"
+      - "🇺🇸·美国·66·TG@kkouokk"
+      - "🇺🇸·美国·67·TG@kkouokk"
+      - "🇺🇸·美国·68·TG@kkouokk"
+      - "🇺🇸·美国·69·TG@kkouokk"
+      - "🇺🇸·美国·70·TG@kkouokk"
+      - "🇺🇸·美国·71·TG@kkouokk"
+      - "🇺🇸·美国·72·TG@kkouokk"
+      - "🇺🇸·美国·73·TG@kkouokk"
+      - "🇺🇸·美国·74·TG@kkouokk"
+      - "🇳🇴·挪威·75·TG@kkouokk"
+      - "🇺🇸·美国·76·TG@kkouokk"
+      - "🇺🇸·美国·77·TG@kkouokk"
+      - "🇺🇸·美国·78·TG@kkouokk"
+      - "🇺🇸·美国·79·TG@kkouokk"
+      - "🇺🇸·美国·80·TG@kkouokk"
+      - "🇺🇸·美国·81·TG@kkouokk"
+      - "🇺🇸·美国·82·TG@kkouokk"
+      - "🇺🇸·美国·83·TG@kkouokk"
+      - "🇺🇸·美国·84·TG@kkouokk"
+      - "🇺🇸·美国·85·TG@kkouokk"
+      - "🇺🇸·美国·86·TG@kkouokk"
+      - "🇺🇸·美国·87·TG@kkouokk"
+      - "🇯🇵·日本·88·TG@kkouokk"
+      - "🇯🇵·日本·89·TG@kkouokk"
+      - "🇯🇵·日本·90·TG@kkouokk"
+      - "🇯🇵·日本·91·TG@kkouokk"
+      - "🇯🇵·日本·92·TG@kkouokk"
+      - "🇯🇵·日本·93·TG@kkouokk"
+      - "🇯🇵·日本·94·TG@kkouokk"
+      - "🇯🇵·日本·95·TG@kkouokk"
+      - "🇧🇷·巴西·96·TG@kkouokk"
+      - "🇯🇵·日本·97·TG@kkouokk"
+      - "🇨🇳·中国·98·TG@kkouokk"
+      - "🇨🇳·中国·99·TG@kkouokk"
+      - "🇨🇳·中国·100·TG@kkouokk"
+      - "🇨🇳·中国·101·TG@kkouokk"
+      - "🇨🇳·中国·102·TG@kkouokk"
+      - "🇨🇳·中国·103·TG@kkouokk"
+      - "🇨🇳·中国·104·TG@kkouokk"
+      - "🇨🇳·中国·105·TG@kkouokk"
+      - "🇨🇳·中国·106·TG@kkouokk"
+      - "🇰🇷·韩国·107·TG@kkouokk"
+      - "🇰🇷·韩国·108·TG@kkouokk"
+      - "🇰🇷·韩国·109·TG@kkouokk"
+      - "🇰🇷·韩国·110·TG@kkouokk"
+      - "🇰🇷·韩国·111·TG@kkouokk"
+      - "🇰🇷·韩国·112·TG@kkouokk"
+      - "🇰🇷·韩国·113·TG@kkouokk"
+      - "🇰🇷·韩国·114·TG@kkouokk"
+      - "🇰🇷·韩国·115·TG@kkouokk"
+      - "🇰🇷·韩国·116·TG@kkouokk"
+      - "🇰🇷·韩国·117·TG@kkouokk"
+      - "🇰🇷·韩国·118·TG@kkouokk"
+      - "🇰🇷·韩国·119·TG@kkouokk"
+      - "🇨🇳·中国·120·TG@kkouokk"
+      - "🇨🇳·中国·121·TG@kkouokk"
+      - "🇨🇳·中国·122·TG@kkouokk"
+      - "🇨🇳·中国·123·TG@kkouokk"
+      - "🇨🇳·中国·124·TG@kkouokk"
+      - "🇨🇳·中国·125·TG@kkouokk"
+      - "🇨🇳·中国·126·TG@kkouokk"
+      - "🇨🇳·中国·127·TG@kkouokk"
+      - "🇨🇳·中国·128·TG@kkouokk"
+      - "🇨🇳·中国·129·TG@kkouokk"
+      - "🇨🇳·中国·130·TG@kkouokk"
+      - "🇬🇧·英国·131·TG@kkouokk"
+      - "🇬🇧·英国·132·TG@kkouokk"
+      - "🇬🇧·英国·133·TG@kkouokk"
+      - "🇺🇸·美国·134·TG@kkouokk"
+      - "🇬🇧·英国·135·TG@kkouokk"
+      - "🇬🇧·英国·136·TG@kkouokk"
+      - "🇬🇧·英国·137·TG@kkouokk"
+      - "🇬🇧·英国·138·TG@kkouokk"
+      - "🇬🇧·英国·139·TG@kkouokk"
+      - "🇬🇧·英国·140·TG@kkouokk"
+      - "🇬🇧·英国·141·TG@kkouokk"
+      - "🇬🇧·英国·142·TG@kkouokk"
+      - "🇬🇧·英国·143·TG@kkouokk"
+      - "🇺🇸·美国·144·TG@kkouokk"
+      - "🇺🇸·美国·145·TG@kkouokk"
+      - "🇬🇧·英国·146·TG@kkouokk"
+      - "🇺🇸·美国·147·TG@kkouokk"
+      - "🇺🇸·美国·148·TG@kkouokk"
+      - "🇺🇸·美国·149·TG@kkouokk"
+      - "🇬🇧·英国·150·TG@kkouokk"
+      - "🇬🇧·英国·151·TG@kkouokk"
+      - "🇬🇧·英国·152·TG@kkouokk"
+      - "🇬🇧·英国·153·TG@kkouokk"
+      - "🇬🇧·英国·154·TG@kkouokk"
+      - "🇬🇧·英国·155·TG@kkouokk"
+      - "🇬🇧·英国·156·TG@kkouokk"
+      - "🇬🇧·英国·157·TG@kkouokk"
+      - "🇺🇸·美国·158·TG@kkouokk"
+      - "🇩🇪·德国·159·TG@kkouokk"
+      - "🇦🇹·奥地利·160·TG@kkouokk"
+      - "🇦🇹·奥地利·161·TG@kkouokk"
+      - "🇦🇹·奥地利·162·TG@kkouokk"
+      - "🇦🇺·澳大利亚·163·TG@kkouokk"
+      - "🇦🇹·奥地利·164·TG@kkouokk"
+      - "🇦🇹·奥地利·165·TG@kkouokk"
+      - "🇦🇹·奥地利·166·TG@kkouokk"
+      - "🇳🇱·荷兰·167·TG@kkouokk"
+      - "🇳🇱·荷兰·168·TG@kkouokk"
+      - "🇳🇱·荷兰·169·TG@kkouokk"
+      - "🇸🇪·瑞典·170·TG@kkouokk"
+      - "🇸🇪·瑞典·171·TG@kkouokk"
+      - "🇸🇪·瑞典·172·TG@kkouokk"
+      - "🇺🇦·乌克兰·173·TG@kkouokk"
+      - "🇺🇦·乌克兰·174·TG@kkouokk"
+      - "🇺🇦·乌克兰·175·TG@kkouokk"
+      - "🇺🇦·乌克兰·176·TG@kkouokk"
+      - "🇺🇦·乌克兰·177·TG@kkouokk"
+      - "🇦🇺·澳大利亚·178·TG@kkouokk"
+      - "🇦🇺·澳大利亚·179·TG@kkouokk"
+      - "🇷🇺·俄罗斯·180·TG@kkouokk"
+      - "🇷🇺·俄罗斯·181·TG@kkouokk"
+      - "🇷🇺·俄罗斯·182·TG@kkouokk"
+      - "🇰🇼·科威特·183·TG@kkouokk"
+      - "🇷🇺·俄罗斯·184·TG@kkouokk"
+      - "🇺🇸·美国·185·TG@kkouokk"
+      - "🇺🇸·美国·186·TG@kkouokk"
+      - "🇨🇭·瑞士·187·TG@kkouokk"
+      - "🇺🇸·美国·188·TG@kkouokk"
+      - "🇷🇺·俄罗斯·189·TG@kkouokk"
+      - "🇺🇸·美国·190·TG@kkouokk"
+      - "🇷🇺·俄罗斯·191·TG@kkouokk"
+      - "🇨🇭·瑞士·192·TG@kkouokk"
+      - "🇷🇺·俄罗斯·193·TG@kkouokk"
+      - "🇷🇺·俄罗斯·194·TG@kkouokk"
+      - "🇷🇺·俄罗斯·195·TG@kkouokk"
+      - "🇷🇺·俄罗斯·196·TG@kkouokk"
       - "🇺🇸·美国·197·TG@kkouokk"
+      - "🇺🇸·美国·198·TG@kkouokk"
+      - "🇨🇭·瑞士·199·TG@kkouokk"
+      - "🇫🇷·法国·200·TG@kkouokk"
+      - "🇫🇷·法国·201·TG@kkouokk"
+      - "🇺🇸·美国·202·TG@kkouokk"
+      - "🇬🇧·英国·203·TG@kkouokk"
+      - "🇦🇹·奥地利·204·TG@kkouokk"
+      - "🇺🇸·美国·205·TG@kkouokk"
+      - "🇺🇸·美国·206·TG@kkouokk"
+      - "🇺🇸·美国·207·TG@kkouokk"
+      - "🇦🇹·奥地利·208·TG@kkouokk"
+      - "🇩🇪·德国·209·TG@kkouokk"
+      - "🇬🇧·英国·210·TG@kkouokk"
+      - "🇺🇸·美国·211·TG@kkouokk"
+      - "🇺🇸·美国·212·TG@kkouokk"
+      - "🇧🇷·巴西·213·TG@kkouokk"
+      - "🇦🇺·澳大利亚·214·TG@kkouokk"
+      - "🇺🇸·美国·215·TG@kkouokk"
+      - "🇦🇺·澳大利亚·216·TG@kkouokk"
+      - "🇨🇳·中国·217·TG@kkouokk"
+      - "🇦🇺·澳大利亚·218·TG@kkouokk"
+      - "🇰🇷·韩国·219·TG@kkouokk"
+      - "🇰🇷·韩国·220·TG@kkouokk"
+      - "🇰🇷·韩国·221·TG@kkouokk"
+      - "🇰🇷·韩国·222·TG@kkouokk"
+      - "🇺🇸·美国·223·TG@kkouokk"
+      - "🇺🇸·美国·224·TG@kkouokk"
+      - "🇨🇳·中国·225·TG@kkouokk"
+      - "🇺🇸·美国·226·TG@kkouokk"
+      - "🇦🇺·澳大利亚·227·TG@kkouokk"
+      - "🇺🇸·美国·228·TG@kkouokk"
+      - "🇨🇳·中国·229·TG@kkouokk"
+      - "🇺🇸·美国·230·TG@kkouokk"
+      - "🇺🇸·美国·231·TG@kkouokk"
+      - "🇺🇸·美国·232·TG@kkouokk"
+      - "🇺🇸·美国·233·TG@kkouokk"
+      - "🇺🇸·美国·234·TG@kkouokk"
+      - "🇺🇸·美国·235·TG@kkouokk"
+      - "🇺🇸·美国·236·TG@kkouokk"
+      - "🇺🇸·美国·237·TG@kkouokk"
+      - "🇦🇹·奥地利·238·TG@kkouokk"
+      - "🇺🇸·美国·239·TG@kkouokk"
+      - "🇳🇱·荷兰·240·TG@kkouokk"
+      - "🇺🇸·美国·241·TG@kkouokk"
+      - "🇺🇸·美国·242·TG@kkouokk"
+      - "🇺🇸·美国·243·TG@kkouokk"
+      - "🇺🇸·美国·244·TG@kkouokk"
+      - "🇺🇸·美国·245·TG@kkouokk"
+      - "🇦🇺·澳大利亚·246·TG@kkouokk"
+      - "🇺🇸·美国·247·TG@kkouokk"
+      - "🇺🇸·美国·248·TG@kkouokk"
+      - "🇷🇺·俄罗斯·249·TG@kkouokk"
+      - "🇨🇳·中国·250·TG@kkouokk"
+      - "🇦🇺·澳大利亚·251·TG@kkouokk"
+      - "🇦🇺·澳大利亚·252·TG@kkouokk"
+      - "🇦🇺·澳大利亚·253·TG@kkouokk"
+      - "🇰🇷·韩国·254·TG@kkouokk"
+      - "🇰🇷·韩国·255·TG@kkouokk"
+      - "🇰🇷·韩国·256·TG@kkouokk"
+      - "🇰🇷·韩国·257·TG@kkouokk"
+      - "🇺🇸·美国·258·TG@kkouokk"
+      - "🇺🇸·美国·259·TG@kkouokk"
+      - "🇨🇳·中国·260·TG@kkouokk"
+      - "🇺🇸·美国·261·TG@kkouokk"
+      - "🇺🇸·美国·262·TG@kkouokk"
+      - "🇨🇳·中国·263·TG@kkouokk"
+      - "🇦🇺·澳大利亚·264·TG@kkouokk"
+      - "🇨🇳·中国·265·TG@kkouokk"
+      - "🇨🇳·中国·266·TG@kkouokk"
+      - "🇺🇸·美国·267·TG@kkouokk"
+      - "🇨🇳·中国·268·TG@kkouokk"
+      - "🇺🇸·美国·269·TG@kkouokk"
+      - "🇺🇸·美国·270·TG@kkouokk"
+      - "🇺🇸·美国·271·TG@kkouokk"
+      - "🇺🇸·美国·272·TG@kkouokk"
+      - "🇺🇸·美国·273·TG@kkouokk"
+      - "🇺🇸·美国·274·TG@kkouokk"
+      - "🇺🇸·美国·275·TG@kkouokk"
+      - "🇺🇸·美国·276·TG@kkouokk"
+      - "🇺🇸·美国·277·TG@kkouokk"
+      - "🇺🇸·TG@kkouokk·10-27更新"
+      - "🇺🇸·延迟不代表速度自测"
+      - "🇺🇸·更多关注TG@kkouokk"
 rules:
   - "DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连"
   - "DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连"
